@@ -1,0 +1,10 @@
+{
+  "name": "caicp-academy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js && python3 tests/verify_examples.py",
+    "serve": "python3 -m http.server 4173 --bind 127.0.0.1"
+  }
+}

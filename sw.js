@@ -1,0 +1,6 @@
+const CACHE='caicp-core-v1.0.3';
+const CORE=['./','./index.html','./styles.css','./manifest.webmanifest','./assets/favicon.svg','./js/app.js','./js/core.js','./js/store.js','./js/labs.js','./js/python.js','./js/python-worker.js','./data/curriculum.json','./data/exams.json','./LICENSE','./CONTENT-LICENSE.md','./THIRD-PARTY-NOTICES.md'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE))));
+self.addEventListener('activate',e=>e.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('caicp-core-')&&k!==CACHE).map(k=>caches.delete(k)))),self.clients.claim()])));
+self.addEventListener('message',e=>{if(e.data==='ACTIVATE')self.skipWaiting();});
+self.addEventListener('fetch',e=>{const url=new URL(e.request.url);if(e.request.method!=='GET'||url.origin!==self.location.origin||!url.href.startsWith(self.registration.scope))return;e.respondWith(caches.open(CACHE).then(async cache=>{const cached=await cache.match(e.request,{ignoreSearch:true});if(cached)return cached;try{return await fetch(e.request);}catch{if(e.request.mode==='navigate')return cache.match('./index.html');throw Error('Offline');}}));});

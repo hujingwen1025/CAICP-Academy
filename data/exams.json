@@ -1,0 +1,3846 @@
+{
+  "papers": [
+    {
+      "id": "E",
+      "title": {
+        "en": "E · Book practice paper",
+        "zh": "E · 教材模拟卷"
+      },
+      "minutes": 90,
+      "totalPoints": 100,
+      "questionIds": [
+        "book-E-01",
+        "book-E-02",
+        "book-E-03",
+        "book-E-04",
+        "book-E-05",
+        "book-E-06",
+        "book-E-07",
+        "book-E-08",
+        "book-E-09",
+        "book-E-10",
+        "book-E-11",
+        "book-E-12",
+        "book-E-13",
+        "book-E-14",
+        "book-E-15",
+        "book-E-16",
+        "book-E-17",
+        "book-E-18",
+        "book-E-19",
+        "book-E-20",
+        "book-E-21",
+        "book-E-22",
+        "book-E-23",
+        "book-E-24",
+        "book-E-25",
+        "book-E-26"
+      ],
+      "source": "CAICP_Book-v0.9, appendices D–G",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "J",
+      "title": {
+        "en": "J · Book practice paper",
+        "zh": "J · 教材模拟卷"
+      },
+      "minutes": 90,
+      "totalPoints": 100,
+      "questionIds": [
+        "book-J-01",
+        "book-J-02",
+        "book-J-03",
+        "book-J-04",
+        "book-J-05",
+        "book-J-06",
+        "book-J-07",
+        "book-J-08",
+        "book-J-09",
+        "book-J-10",
+        "book-J-11",
+        "book-J-12",
+        "book-J-13",
+        "book-J-14",
+        "book-J-15",
+        "book-J-16",
+        "book-J-17",
+        "book-J-18",
+        "book-J-19",
+        "book-J-20",
+        "book-J-21",
+        "book-J-22",
+        "book-J-23",
+        "book-J-24",
+        "book-J-25",
+        "book-J-26"
+      ],
+      "source": "CAICP_Book-v0.9, appendices D–G",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "S",
+      "title": {
+        "en": "S · Book practice paper",
+        "zh": "S · 教材模拟卷"
+      },
+      "minutes": 90,
+      "totalPoints": 100,
+      "questionIds": [
+        "book-S-01",
+        "book-S-02",
+        "book-S-03",
+        "book-S-04",
+        "book-S-05",
+        "book-S-06",
+        "book-S-07",
+        "book-S-08",
+        "book-S-09",
+        "book-S-10",
+        "book-S-11",
+        "book-S-12",
+        "book-S-13",
+        "book-S-14",
+        "book-S-15",
+        "book-S-16",
+        "book-S-17",
+        "book-S-18",
+        "book-S-19",
+        "book-S-20",
+        "book-S-21",
+        "book-S-22",
+        "book-S-23",
+        "book-S-24",
+        "book-S-25",
+        "book-S-26"
+      ],
+      "source": "CAICP_Book-v0.9, appendices D–G",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "questions": [
+    {
+      "id": "book-E-01",
+      "paper": "E",
+      "number": 1,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "A school radio station converts interview recordings into written text. Which technology is most directly involved?",
+        "zh": "校园广播站使用一种软件，把采访录音中的说话内容转成文字，供编辑\n整理。与这项功能最直接相关的人工智能技术是（　）。"
+      },
+      "options": [
+        {
+          "en": "Speech recognition",
+          "zh": "语音识别"
+        },
+        {
+          "en": "Image recognition",
+          "zh": "图像识别"
+        },
+        {
+          "en": "Text-to-speech synthesis",
+          "zh": "把文字转换成语音的语音合成"
+        },
+        {
+          "en": "Copying the recording file",
+          "zh": "把录音文件复制到另一个文件夹"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Audio is the input and text is the output: speech recognition. Synthesis reverses that direction; file copying does not interpret speech.",
+        "zh": "A。 输入是说话的声音，输出是相应文字，这是语音识别。语音合\n成的方向相反，是由文字生成声音；复制文件只是移动或增加一份已有文件，\n不需要识别其中的说话内容。复习 1.1。"
+      },
+      "lessonIds": [
+        "1.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 250,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-02",
+      "paper": "E",
+      "number": 2,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "What does this Python 3 program print?\ncount = 4\ncount = count + 3\ntotal = count * 2\nprint(count, total)",
+        "zh": "运行下面的程序，输出结果是（　）。\ncount = 4\ncount = count + 3\ntotal = count * 2\nprint(count, total)"
+      },
+      "options": [
+        {
+          "en": "4 8",
+          "zh": "4 8"
+        },
+        {
+          "en": "4 14",
+          "zh": "4 14"
+        },
+        {
+          "en": "7 14",
+          "zh": "7 14"
+        },
+        {
+          "en": "7 8",
+          "zh": "7 8"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Assignment first computes the right side. count becomes 7, then total uses 7×2=14.",
+        "zh": "C。 第一行使 count 为 4，第二行先计算右边的 4 +3，再使 count \n为 7。计算 total 时用的是更新后的 7，所以得到 14。复习 2.1。"
+      },
+      "lessonIds": [
+        "2.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 250,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-03",
+      "paper": "E",
+      "number": 3,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "Enter 8 and then 3, each on its own line. What is printed?\na = input()\nb = int(input())\nprint(a * 2, b + 2)",
+        "zh": "运行下面的程序，依次输入 8 和 3，每输入一个数按一次回车。输出结\n果是（　）。\na = input()\nb = int(input())\nprint(a * 2, b + 2)"
+      },
+      "options": [
+        {
+          "en": "16 5",
+          "zh": "16 5"
+        },
+        {
+          "en": "88 5",
+          "zh": "88 5"
+        },
+        {
+          "en": "88 32",
+          "zh": "88 32"
+        },
+        {
+          "en": "An error on the final line",
+          "zh": "程序在最后一行报错"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "a is the string \"8\", so a*2 repeats it as \"88\". b is integer 3, so b+2 is 5.",
+        "zh": "B。 a 保存字符串 \"8\"，字符串乘以整数 2 表示重复两次 ，得到  \n\"88\"。第二次输入经过 int() 转换，b 是整数 3，与 2 相加得到 5。复习 2.1\n—2.2。"
+      },
+      "lessonIds": [
+        "2.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 251,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-04",
+      "paper": "E",
+      "number": 4,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "What is the value of 18 - 8 / 2 + 3 * 2?",
+        "zh": "表达式 18 - 8 / 2 + 3 * 2 的计算结果是（　）。"
+      },
+      "options": [
+        {
+          "en": "11.0",
+          "zh": "11.0"
+        },
+        {
+          "en": "13.0",
+          "zh": "13.0"
+        },
+        {
+          "en": "16.0",
+          "zh": "16.0"
+        },
+        {
+          "en": "20.0",
+          "zh": "20.0"
+        }
+      ],
+      "answer": [
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Multiplication and division precede addition and subtraction: 18-4.0+6=20.0.",
+        "zh": "D。 先算除法和乘法，得到 18− 4.0+6，再计算为 20.0。乘除的优\n先级高于加减；同级运算通常按从左到右的顺序处理。复习 2.1。"
+      },
+      "lessonIds": [
+        "2.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 251,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-05",
+      "paper": "E",
+      "number": 5,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "replace(a,b) returns a new string with every a replaced by b. What is printed?\ns = \"ab-ba\"\nt = s.replace(\"a\", \"xy\")\nprint(t[1:4])",
+        "zh": "字符串方法 replace(a, b) 返回把原字符串中所有 a 替换为 b 后的新字\n符串。运行下面的代码，输出结果是（　）。\ns = \"ab-ba\"\nt = s.replace(\"a\", \"xy\")\nprint(t[1:4])"
+      },
+      "options": [
+        {
+          "en": "yb-",
+          "zh": "yb-"
+        },
+        {
+          "en": "xyb",
+          "zh": "xyb"
+        },
+        {
+          "en": "yb-b",
+          "zh": "yb-b"
+        },
+        {
+          "en": "b-b",
+          "zh": "b-b"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "t is \"xyb-bxy\". Indices 1,2,3 give \"yb-\"; the slice excludes index 4.",
+        "zh": "A。 替换后 t 为 \"xyb-bxy\"。索引 1、2、3 处依次是 y、b、-，切片 \n[1:4] 不包含索引 4，因此得到 \"yb-\"。复习 2.2。"
+      },
+      "lessonIds": [
+        "2.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 251,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-06",
+      "paper": "E",
+      "number": 6,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "What is printed?\nvalues = [8, 3, 6]\nvalues[1] = values[0] - values[2]\nvalues.append(5)\nprint(values[-2])",
+        "zh": "运行下面的程序，输出结果是（　）。\nvalues = [8, 3, 6]\nvalues[1] = values[0] - values[2]\nvalues.append(5)\nprint(values[-2])"
+      },
+      "options": [
+        {
+          "en": "2",
+          "zh": "2"
+        },
+        {
+          "en": "5",
+          "zh": "5"
+        },
+        {
+          "en": "6",
+          "zh": "6"
+        },
+        {
+          "en": "8",
+          "zh": "8"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "The list becomes [8,2,6,5]. Index -2 is the second element from the end: 6.",
+        "zh": "C。 修改第二个元素后，列表为 [8, 2, 6]；追加 5 后成为 [8, 2, \n6, 5]。索引 -2 表示从末尾向前数第二个元素，即 6。复习 2.2。"
+      },
+      "lessonIds": [
+        "2.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 252,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-07",
+      "paper": "E",
+      "number": 7,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "Both if statements have the same indentation. What is printed?\nx = 4\nif x < 5:\n    x = x + 3\nif x > 6:\n    x = x - 2\nelse:\n    x = x + 10\nprint(x)",
+        "zh": "运行下面的程序，输出结果是（　）。注意两个 if 的缩进相同。\nx = 4\nif x < 5:\n    x = x + 3\nif x > 6:\n    x = x - 2\nelse:\n    x = x + 10\nprint(x)"
+      },
+      "options": [
+        {
+          "en": "4",
+          "zh": "4"
+        },
+        {
+          "en": "5",
+          "zh": "5"
+        },
+        {
+          "en": "7",
+          "zh": "7"
+        },
+        {
+          "en": "17",
+          "zh": "17"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "The first if changes 4 to 7. The second if independently tests 7>6 and changes x to 5. Its else is skipped.",
+        "zh": "B。 第一个条件成立，x 从 4 变为 7。第二个 if 是新的判断， 此时\n条件 x > 6 也成立，x 又变为 5。else 与第二个 if 配对，这次不会执行。\n复习 2.1。"
+      },
+      "lessonIds": [
+        "2.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 252,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-08",
+      "paper": "E",
+      "number": 8,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "What is printed?\ntotal = 0\nfor n in range(1, 7):\n    if n % 3 == 0:\n        continue\n    total = total + n\nprint(total)",
+        "zh": "运行下面的程序，输出结果是（　）。\ntotal = 0\nfor n in range(1, 7):\n    if n % 3 == 0:\n        continue\n    total = total + n\nprint(total)"
+      },
+      "options": [
+        {
+          "en": "9",
+          "zh": "9"
+        },
+        {
+          "en": "15",
+          "zh": "15"
+        },
+        {
+          "en": "21",
+          "zh": "21"
+        },
+        {
+          "en": "12",
+          "zh": "12"
+        }
+      ],
+      "answer": [
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "The values are 1..6. Skip 3 and 6; sum 1+2+4+5=12.",
+        "zh": "D。 range(1, 7) 依次给出 1 至 6。3 和 6 满足整除条件， 被 \ncontinue 跳过；其余数相加得到 1+2+ 4 +5=12。复习 2.1。"
+      },
+      "lessonIds": [
+        "2.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 253,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-09",
+      "paper": "E",
+      "number": 9,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "Use row-column codes in this table. B is 12. Decode 23 11 22 in the given order.\n       column 1  2  3\nrow 1         A  B  C\nrow 2         D  E  F",
+        "zh": "一张编码表如下。每个字母用两位数字表示：第一位是行号，第二位是\n列号。例如，B 编为 12。把 231122 解码后，得到的字母序列是（　）。\n行号与列号第 1 列第 2 列第 3 列\n第 1 行 A B C\n第 2 行 D E F"
+      },
+      "options": [
+        {
+          "en": "FAD",
+          "zh": "FAD"
+        },
+        {
+          "en": "CBE",
+          "zh": "CBE"
+        },
+        {
+          "en": "FAE",
+          "zh": "FAE"
+        },
+        {
+          "en": "EAF",
+          "zh": "EAF"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "23→F, 11→A, 22→E. Preserve the original order.",
+        "zh": "C。 23 是第 2 行第 3 列，对应 F；11 对应 A；22 对应 E。按原顺序\n拼起来是 FAE，不需要再按字母顺序排列。复习 4.1。"
+      },
+      "lessonIds": [
+        "4.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 253,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-10",
+      "paper": "E",
+      "number": 10,
+      "level": "E",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "An image recognizer processes four batches of five pictures. It gets 4, 3, 5 and 4 correct. What are the mean correct count per batch and overall accuracy?",
+        "zh": "某图像识别程序分四批处理图片，每批都是 5 张。四批分别正确识别了 \n4、3、5、4 张。本题把“正确识别的图片数占全部图片数的比例”称为正确\n率。平均每批正确识别的张数和这 20 张图片的总体正确率分别为（　）。"
+      },
+      "options": [
+        {
+          "en": "4 pictures; 80%",
+          "zh": "4 张，80%"
+        },
+        {
+          "en": "4 pictures; 75%",
+          "zh": "4 张，75%"
+        },
+        {
+          "en": "5 pictures; 80%",
+          "zh": "5 张，80%"
+        },
+        {
+          "en": "16 pictures; 80%",
+          "zh": "16 张，80%"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "16 correct in total. Mean per batch=16/4=4; accuracy=16/20=80%.",
+        "zh": "A。 共正确识别 4 +3+5+ 4 =16 张，平均每批 16 / 4 = 4 张；总体正\n确率的分母是全部 20 张图片，所以是 16 / 20=80 %。复习 3.2。"
+      },
+      "lessonIds": [
+        "3.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 254,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-11",
+      "paper": "E",
+      "number": 11,
+      "level": "E",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Speech transcription works well in a quiet classroom but makes more errors on a noisy playground. Select all reasonable conclusions.",
+        "zh": "同一款语音转文字软件，在安静教室中使用时效果较好，在嘈杂操场上\n使用时错字明显增多。下列判断合理的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Check the transcription against the original recording.",
+          "zh": "转写结果需要结合原录音核对，不能把软件 输出直接当成完全正确的文\n字"
+        },
+        {
+          "en": "Recording conditions may affect recognition.",
+          "zh": "录音环境可能影响识别效果"
+        },
+        {
+          "en": "Using AI makes equipment and noise irrelevant.",
+          "zh": "既然使用了人工智能，录音设备和背景声音就不会再影响结果"
+        },
+        {
+          "en": "Record errors in both settings to identify failure conditions.",
+          "zh": "分别记录安静环境和嘈杂环境中的错误，有助于发现问题出现的条件"
+        },
+        {
+          "en": "Repeating one quiet recording guarantees performance in all noisy settings.",
+          "zh": "把同一段安静环境的录音反复识别，就能保证软件适应所有嘈杂环境"
+        }
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Input conditions affect recognition. Checking and comparing errors helps; quiet repetition does not test all noisy cases.",
+        "zh": "ABD。 识别结果受输入条件影响。同一个软件在不同环境中的表现\n不同，并不矛盾。分别记录错误，可以帮助检查背景声等因素；只重复同一\n段安静录音，不能检验它对其他录音条件的适应情况。复习 1.1、1.5。"
+      },
+      "lessonIds": [
+        "1.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 254,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-12",
+      "paper": "E",
+      "number": 12,
+      "level": "E",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "has_card, has_ticket and closed are Boolean. A card OR ticket permits entry, but nobody may enter when closed. Select every expression that works for all inputs.",
+        "zh": "has_card、has_ticket 和 closed 均为布尔变量。入场规则是：持有\n卡片或持有门票即可，但场馆关闭时任何人都不能进入。对这三个变量的所\n有取值，下列表达式中始终符合规则的有（　）。"
+      },
+      "options": [
+        {
+          "en": "(has_card or has_ticket) and not closed",
+          "zh": "(has_card or has_ticket) and not closed"
+        },
+        {
+          "en": "not closed and (has_card or has_ticket)",
+          "zh": "not closed and (has_card or has_ticket)"
+        },
+        {
+          "en": "has_card and has_ticket and not closed",
+          "zh": "has_card and has_ticket and not closed"
+        },
+        {
+          "en": "has_card or (has_ticket and not closed)",
+          "zh": "has_card or (has_ticket and not closed)"
+        },
+        {
+          "en": "has_card or has_ticket or not closed",
+          "zh": "has_card or has_ticket or not closed"
+        }
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "A and B enforce both openness and at least one credential. C requires both credentials; D admits cardholders when closed; E admits people without credentials when open.",
+        "zh": "AB。 入场要同时满足“没有关闭”和“卡片、门票至少有一个” 。\nA、B 只是交换了两个条件的前后顺序。C 错把“至少一种”改为“两种都\n有”；D 会让持卡者在关闭时仍能进入；E 则会让没有卡片也没有门票的人\n在开馆时进入。复习 2.1、3.1。"
+      },
+      "lessonIds": [
+        "3.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 255,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-13",
+      "paper": "E",
+      "number": 13,
+      "level": "E",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Start again from values=[10,20,30] for each option. insert(i,x) inserts at index i; pop() removes and returns the last item. Select all correct statements.",
+        "zh": "对每个选项， 都从列表 values = [10, 20, 30]  重新开始判断。\ninsert(i, x) 在索引 i 处插入 x；不带参数的 pop() 删除并返回最后一个\n元素。下列说法正确的有（　）。"
+      },
+      "options": [
+        {
+          "en": "After values.insert(1,15), the second item is 15.",
+          "zh": "执行 values.insert(1, 15) 后，列表的第二个元素是 15"
+        },
+        {
+          "en": "values.pop() removes 10.",
+          "zh": "执行 values.pop() 时，删除的是 10"
+        },
+        {
+          "en": "values[:2] is [10,20].",
+          "zh": "values[:2] 的结果是 [10, 20]"
+        },
+        {
+          "en": "values[0:3:2] is [10,30].",
+          "zh": "values[0:3:2] 的结果是 [10, 30]"
+        },
+        {
+          "en": "values[3] is 30.",
+          "zh": "values[3] 的值是 30"
+        }
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Indices start at zero. pop removes 30; slices exclude stop; index 3 is out of range.",
+        "zh": "ACD。 插入位置按从 0 开始的索引计算，所以 insert(1, 15) 把 \n15 放在第二位。pop() 删除的是最后的 30。两个切片分别取索引 0、1，以\n及索引 0、2；长度为 3 的列表没有索引 3，E 会引发越界错误。复习 2.2。"
+      },
+      "lessonIds": [
+        "2.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 255,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-14",
+      "paper": "E",
+      "number": 14,
+      "level": "E",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "The program should count values greater than 4. Select all correct analyses.\ndata = [2, 7, 5]\ncount = 0\nfor value in data:\n    if value > 4:\n        count = 1\nprint(count)",
+        "zh": "下面的程序原本用于统计列表中大于 4 的数有多少个，但结果不符合预\n期。下列分析正确的有（　）。\ndata = [2, 7, 5]\ncount = 0\nfor value in data:\n    if value > 4:\n        count = 1\nprint(count)"
+      },
+      "options": [
+        {
+          "en": "The original prints 1.",
+          "zh": "原程序输出 1"
+        },
+        {
+          "en": "Replacing count=1 inside the loop with count=count+1 gives 2.",
+          "zh": "把循环中的 count = 1 改为 count = count + 1，可以得到正确结果 2"
+        },
+        {
+          "en": "Only changing the initial count to 1 gives the correct 2.",
+          "zh": "只把循环前的 count = 0 改为 count = 1，就能得到正确结果 2"
+        },
+        {
+          "en": "Only changing >4 to >=4 fixes the counting error.",
+          "zh": "只把条件改为 value >= 4，就能修复这里的计数错误"
+        },
+        {
+          "en": "Tracing count reveals repeated assignment to 1 instead of accumulation.",
+          "zh": "逐次记录 count 的值，可以发现它被重复设为 1，而没有累加"
+        }
+      ],
+      "answer": [
+        0,
+        1,
+        4
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Both matches reset count to 1. Incrementing fixes it. There is no 4 in the data, so changing the boundary has no effect.",
+        "zh": "ABE。 处理 7 时，count 被设为 1；处理 5 时，它又被设为 1，因此\n最终仍为 1。计数需要在原值上加 1。列表里没有 4，改变比较边界也不会解\n决重复赋值的问题。复习 2.1、2.4。"
+      },
+      "lessonIds": [
+        "2.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 256,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-15",
+      "paper": "E",
+      "number": 15,
+      "level": "E",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Select all correct statements about this program.\nfor row in range(2):\n    for col in range(3):\n        if row == col:\n            continue\n        print(row, col)",
+        "zh": "运行下面的程序。关于执行过程和输出，下列说法正确的有（　）。\nfor row in range(2):\n    for col in range(3):\n        if row == col:\n            continue\n        print(row, col)"
+      },
+      "options": [
+        {
+          "en": "It prints four lines.",
+          "zh": "共输出 4 行"
+        },
+        {
+          "en": "It includes the line 1 1.",
+          "zh": "输出中包含一行 1 1"
+        },
+        {
+          "en": "continue also ends the outer loop.",
+          "zh": "执行一次 continue 后，外层循环也随之结束"
+        },
+        {
+          "en": "The first output line is 0 1.",
+          "zh": "输出的第一行是 0 1"
+        },
+        {
+          "en": "row takes the values 0 and 1.",
+          "zh": "外层循环中，row 依次取 0 和 1"
+        }
+      ],
+      "answer": [
+        0,
+        3,
+        4
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "The six pairs exclude (0,0) and (1,1). Output is (0,1),(0,2),(1,0),(1,2). continue affects only the current inner iteration.",
+        "zh": "ADE。共有2×3=6对行列值，跳过(0,0)与(1,1)，实际输出依次为(0,1)、(0,2)、(1,0)、(1,2)。continue仅跳过内层循环本次剩余步骤，row仍依次取0、1。复习2.1。"
+      },
+      "lessonIds": [
+        "2.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 256,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-16",
+      "paper": "E",
+      "number": 16,
+      "level": "E",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "A librarian represents books in a table. Select all reasonable statements.",
+        "zh": "图书管理员准备把图书信息整理成表格，以便比较不同图书。下列关于\n信息表示和比较的说法合理的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Page count can numerically compare length.",
+          "zh": "页数可以用数字表示，用于比较图书的篇幅"
+        },
+        {
+          "en": "A larger book ID necessarily means harder content.",
+          "zh": "图书编号越大，书中的内容就一定越难"
+        },
+        {
+          "en": "Borrowing count describes use but alone does not establish content quality.",
+          "zh": "借阅次数可以反映借阅情况，但不能单凭它判断一本书的内容质量"
+        },
+        {
+          "en": "Genres such as science and literature can be text fields.",
+          "zh": "“科普”“文学”等题材可以用文字表示"
+        },
+        {
+          "en": "Cover color can be a feature, but the same color does not imply the same content.",
+          "zh": "封面的主要颜色可以作为一种特征记录，但相同颜色不表示内容相同"
+        }
+      ],
+      "answer": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "These fields describe different properties. IDs identify books; colors do not determine content, and borrowing is not a full quality measure.",
+        "zh": "ACDE。 页数、题材、借阅次数和封面颜色分别描述图书的不同方\n面。编号通常用于区分图书，不直接表示内容难度；封面颜色相同，也不能\n推出内容相同。把信息变成特征时，需要说明这个特征究竟表示什么。复习 \n4.1。"
+      },
+      "lessonIds": [
+        "4.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 257,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-17",
+      "paper": "E",
+      "number": 17,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "A device plays a prerecorded bell every ten minutes. That function alone is insufficient to establish that it uses AI.",
+        "zh": "一台设备每隔 10 分钟播放一次预先录好的铃声。仅凭这一功能，不能\n认定它使用了人工智能。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "A fixed timer rule is sufficient for this behavior; more evidence is needed to identify AI processing.",
+        "zh": "√。 固定间隔触发固定声音，可以由简单计时规则完成。要判断是\n否有 AI 功能，还需要了解系统是否进行了识别、学习或推理等处理。复习 \n1.1。"
+      },
+      "lessonIds": [
+        "1.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 257,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-18",
+      "paper": "E",
+      "number": 18,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "n=2 followed by n=n+1 is legal Python; n then equals 3.",
+        "zh": "Python 中先执行 n = 2，再执行 n = n + 1，是合法操作；第二句执行\n后，n 的值为 3。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Assignment evaluates the right side and updates the name; it is not an algebraic equality.",
+        "zh": "√。 赋值语句先计算右边，再更新左边的变量。这里不是数学中的\n等式 n =n +1，不存在“一个数等于自己加 1”的要求。复习 2.1。"
+      },
+      "lessonIds": [
+        "2.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 257,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-19",
+      "paper": "E",
+      "number": 19,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "After this code, a[0] is still 1 because b=a automatically copies the list.\na = [1, 2]\nb = a\nb[0] = 7",
+        "zh": "执行下面的代码后，a[0] 仍为 1，因为 b = a 会自动复制出一个新列\n表。（　）\na = [1, 2]\nb = a\nb[0] = 7"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "a and b reference the same list; a[0] is 7.",
+        "zh": "×。 b = a 使两个名字指向同一个列表。通过 b 修改该列表，也会\n从 a 看到同一修改，因而 a[0] 为 7。复习 2.2。"
+      },
+      "lessonIds": [
+        "2.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 257,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-20",
+      "paper": "E",
+      "number": 20,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "strip() returns a new string without outer whitespace. This code prints 1.\ns = \" x \"\ns.strip()\nprint(len(s))",
+        "zh": "strip() 返回去掉字符串首尾空格等空白字符后的新字符串。执行下面\n的代码，输出结果为 1。（　）\ns = \" x \"\ns.strip()\nprint(len(s))"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "The returned string is not saved. s still contains two spaces and has length 3.",
+        "zh": "×。 strip() 返回的新字符串没有被保存，s 仍指向原来的 \" x \"，\n其中包含左右两个空格，长度为 3。若执行 s = s.strip()，才会使 s 指向\n去掉空白后的字符串。复习 2.2。"
+      },
+      "lessonIds": [
+        "2.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 257,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-21",
+      "paper": "E",
+      "number": 21,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "4 < 3 or 2 == 2 and not False evaluates to True.",
+        "zh": "表达式 4 < 3 or 2 == 2 and not False 的结果为 True。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "and binds before or: False or (True and True) is True.",
+        "zh": "√。 4 < 3 为假，2 == 2 为真，not False 也为真。先结合 and \n得到真，再与前面的假作 or 运算，结果为真。复习 2.1。"
+      },
+      "lessonIds": [
+        "3.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 258,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-22",
+      "paper": "E",
+      "number": 22,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "After a=[3,1,2] and a.sort(), a[0] is 3.",
+        "zh": "执行 a = [3, 1, 2] 和 a.sort() 后，a[0] 的值是 3。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "The list is sorted in place as [1,2,3]; a[0] is 1.",
+        "zh": "×。 a.sort() 把这个列表原地按升序排列，结果为 [1, 2, 3]，因\n此 a[0] 为 1。复习 2.2。"
+      },
+      "lessonIds": [
+        "2.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 258,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-23",
+      "paper": "E",
+      "number": 23,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "The loop is not interrupted by break and the program prints 13.\nn = 0\nwhile n < 3:\n    n = n + 1\nelse:\n    n = n + 10\nprint(n)",
+        "zh": "下面程序中的循环没有被 break 中断，最终输出 13。（　）\nn = 0\nwhile n < 3:\n    n = n + 1\nelse:\n    n = n + 10\nprint(n)"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "The loop reaches 3 and finishes normally; its else adds 10.",
+        "zh": "√。 循环把 n 依次加到 1、2、3。下一次条件检查为假，循环正常\n结束，执行对应的 else，把 3 加到 13。复习 2.1。"
+      },
+      "lessonIds": [
+        "2.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 258,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-24",
+      "paper": "E",
+      "number": 24,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "Executing pass inside a loop immediately ends the entire loop.",
+        "zh": "在循环中执行 pass，会立刻结束整个循环。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "pass does nothing. break is the loop-exit statement.",
+        "zh": "×。 pass 表示此处暂不做任何事，常用于占位。它不会结束循环；\n用于提前结束当前循环的是 break。复习 2.1。"
+      },
+      "lessonIds": [
+        "2.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 258,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-25",
+      "paper": "E",
+      "number": 25,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "Three groups average 8,10,12 borrowed books per person. Even if group sizes differ, the overall per-person mean must be 10.",
+        "zh": "三个小组每人平均借书量分别为 8、10、12 本，即使三个小组人数不同，\n也能直接认定全体成员平均每人借书 10 本。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Compute total books divided by total people. Unequal group sizes require weighted means.",
+        "zh": "×。 全体平均数应为总借书量除以总人数。三个小组人数不同，各\n组平均数在总体中的影响也不同。例如，三组分别有 1、1、2 人，总借书量\n为 8+10+24 = 42 本，全体平均为 10.5 本。复习 3.2。"
+      },
+      "lessonIds": [
+        "3.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 258,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-E-26",
+      "paper": "E",
+      "number": 26,
+      "level": "E",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "An AI-generated historical narration can contain factual errors even when labeled \"synthetic voice\" and should be checked.",
+        "zh": "一段 AI 合成的历史讲解音频，即使标明了“合成配音”，其中的历史\n叙述仍可能有误，需要核对。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "The label describes production of the voice, not verification of historical facts.",
+        "zh": "√。 标明合成配音，说明的是声音的制作方式，不等于核实了讲解\n中的历史事实。这两项检查各有作用。复习 1.5。"
+      },
+      "lessonIds": [
+        "1.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 258,
+        "section": "D"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-01",
+      "paper": "J",
+      "number": 1,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "An expert diagnostic system expresses knowledge as explicit rules and reasons from facts. Which school of thought is most directly illustrated?",
+        "zh": "一个故障诊断系统把专家经验写成“若指示灯不亮且电源插头未接好，\n则先检查供电”等规则，再依据已知事实逐条推理。这种设计最直接体现了\n人工智能的哪种研究思路（　）？"
+      },
+      "options": [
+        {
+          "en": "Connectionism: learning with connected neurons",
+          "zh": "用神经元之间的连接学习规律的联结主义"
+        },
+        {
+          "en": "Symbolism: symbols and rules for knowledge and inference",
+          "zh": "用符号和规则表达知识并推理的符号主义"
+        },
+        {
+          "en": "Behaviorism: interaction with an environment",
+          "zh": "通过与环境交互形成行为的行为主义"
+        },
+        {
+          "en": "Enough rules automatically imply general intelligence",
+          "zh": "只要规则数量足够多，就已经实现通用人工智能"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Explicit expert rules illustrate symbolism. Rule count alone does not establish general intelligence.",
+        "zh": "B。 题目强调用明确规则表示专家知识，再从事实出发推理，体现\n符号主义。规则多少与是否具有通用智能之间不能直接画等号。复习 1.4。"
+      },
+      "lessonIds": [
+        "1.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 259,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-02",
+      "paper": "J",
+      "number": 2,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "Order the events from earliest to latest: ① Turing proposes the idea later called the Turing test; ② Deep Blue beats Kasparov; ③ Dartmouth meeting; ④ AlphaGo beats Lee Sedol.",
+        "zh": "下面四个事件按发生时间从早到晚排列，正确的是（　）。\n① 图灵提出后来被称为“图灵测试”的设想\n② Deep Blue 在国际象棋对抗赛中战胜卡斯帕罗夫\n③ 达特茅斯会议召开\n④ AlphaGo 在围棋对抗赛中战胜李世石"
+      },
+      "options": [
+        {
+          "en": "①③②④",
+          "zh": "①③②④"
+        },
+        {
+          "en": "③①④②",
+          "zh": "③①④②"
+        },
+        {
+          "en": "①②③④",
+          "zh": "①②③④"
+        },
+        {
+          "en": "③②①④",
+          "zh": "③②①④"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "The years are 1950,1956,1997,2016 respectively: ①③②④.",
+        "zh": "A。 对应年份依次为：图灵的相关设想 1950 年，达特茅斯会议 1956 \n年，Deep Blue 战胜卡斯帕罗夫 1997 年，AlphaGo 战胜李世石 2016 年。排列\n为①③②④。复习 1.4。"
+      },
+      "lessonIds": [
+        "1.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 259,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-03",
+      "paper": "J",
+      "number": 3,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "A school audio archive stores a table with ID, location and duration, plus recording files. Which statement is most accurate?",
+        "zh": "一个校园声音资料库保存了两类文件：一类是按“编号、地点、时长”\n三列填写的表格；另一类是对应的录音文件。下列说法最准确的是（　）。"
+      },
+      "options": [
+        {
+          "en": "Being stored digitally gives audio exactly the same structure as the table.",
+          "zh": "录音能在电脑中保存，说明录音内容与三列表格具有完全相同的结构"
+        },
+        {
+          "en": "Location names make the whole table analog data.",
+          "zh": "表格里有地点名称，所以整张表一定属于模拟数据"
+        },
+        {
+          "en": "Renaming an audio extension creates structured records.",
+          "zh": "只要把录音文件改成表格文件的扩展名，就能得到结构化记录"
+        },
+        {
+          "en": "The table is structured; audio content is usually unstructured; both can be digitally stored.",
+          "zh": "这张表是结构化数据；录音内容通常作为 非结构化数据处理，两者都可\n以用数字形式存储"
+        }
+      ],
+      "answer": [
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Digital versus analog and structured versus unstructured are different distinctions. Renaming does not convert content.",
+        "zh": "D。 “是否数字化”与“是否有固定字段结构”是两种分类角度。\n声音可以数字化存储，但不能因此把其中的语言内容直接当成三列表格。改\n变扩展名也不会自动完成内容转换。复习 1.2。"
+      },
+      "lessonIds": [
+        "1.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 260,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-04",
+      "paper": "J",
+      "number": 4,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "A computer has 8 GB RAM and a 1 TB disk with enough free space. Loading much more than 8 GB at once causes insufficient memory. What is most reasonable?",
+        "zh": "一台电脑有 8 GB 内存和剩余空间充足的 1 TB 硬盘。程序试图一次把远\n大于 8 GB 的数据读入内存，出现内存不足。下列解释与处理思路最合理的\n是（　）。"
+      },
+      "options": [
+        {
+          "en": "Enough disk space makes insufficient RAM impossible.",
+          "zh": "硬盘剩余空间大于数据大小，程序就不可能遇到内存不足"
+        },
+        {
+          "en": "Shorter filenames substantially reduce loaded-data RAM.",
+          "zh": "把所有文件改成较短的名字，就能显著减少已加载数据占用的内存"
+        },
+        {
+          "en": "Disk and working RAM differ; consider batch processing.",
+          "zh": "硬盘空间与运行时内存不是同一资源，可以考虑分批读取和处理数据"
+        },
+        {
+          "en": "A higher-resolution monitor supplies more RAM.",
+          "zh": "连接分辨率更高的显示器，可以为程序提供更多运行内存"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "RAM holds active data; disk stores files. Batches reduce simultaneous RAM use.",
+        "zh": "C。 硬盘负责较长期保存文件，内存承载运行中正在处理的材料。硬\n盘装得下，不代表程序可以把全部内容同时放进内存。分批处理可减少同时\n需要驻留内存的数据量。复习 1.3。"
+      },
+      "lessonIds": [
+        "1.3"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 260,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-05",
+      "paper": "J",
+      "number": 5,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "An essay assistant repeatedly marks a dialect expression as incorrect; training data barely covers the dialect. Which analysis is reasonable?",
+        "zh": "某作文辅助系统经常把同一种方言表达标成“病句”。检查发现，训练\n材料几乎没有这种方言的使用实例。下列分析最合理的是（　）。"
+      },
+      "options": [
+        {
+          "en": "Limited coverage may affect judgments; investigate context and representative examples.",
+          "zh": "材料覆盖不足可能影响系统对该表达的判断，应结合具体 语境和更多相\n关材料检查"
+        },
+        {
+          "en": "Repeated identical judgments prove every use is wrong.",
+          "zh": "系统输出了相同判断，便能证明这些表达在任何语境下都错误"
+        },
+        {
+          "en": "Renaming the interface Professional fixes language judgments.",
+          "zh": "把系统界面改为“专业版”，即可纠正它对语言的判断"
+        },
+        {
+          "en": "This proves all language models can never help any task.",
+          "zh": "这说明一切语言模型都不可能在任何任务中提供帮助"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Coverage and context need investigation. Consistency is not correctness; interface names do not change model ability.",
+        "zh": "A。 模型可能没有充分接触这一类表达，需要结合语境检查错误及\n材料覆盖。反复输出同样的判断，只说明它的输出一致，不能证明语言判断\n必然正确；界面名称也不会自动改变模型能力。复习 1.5。"
+      },
+      "lessonIds": [
+        "1.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 260,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-06",
+      "paper": "J",
+      "number": 6,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "What is printed?\nprint(int(\"101\", 2) + int(\"A\", 16))",
+        "zh": "运行下面的代码，输出结果是（　）。\nprint(int(\"101\", 2) + int(\"A\", 16))"
+      },
+      "options": [
+        {
+          "en": "111",
+          "zh": "111"
+        },
+        {
+          "en": "20",
+          "zh": "20"
+        },
+        {
+          "en": "16",
+          "zh": "16"
+        },
+        {
+          "en": "15",
+          "zh": "15"
+        }
+      ],
+      "answer": [
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Binary 101 is 5, hexadecimal A is 10; sum=15.",
+        "zh": "D。 二进制 101 表示 1× 4 +0× 2+1=5，十六进制 A 表示 10，两者相\n加为 15。int 的第二个参数指定原字符串采用的进制。复习 2.3。"
+      },
+      "lessonIds": [
+        "2.3"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 261,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-07",
+      "paper": "J",
+      "number": 7,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "What is printed?\ndef f(n):\n    if n <= 1:\n        return 2\n    return f(n - 2) + n\nprint(f(5))",
+        "zh": "运行下面的递归程序，输出结果是（　）。\ndef f(n):\n    if n <= 1:\n        return 2\n    return f(n - 2) + n\nprint(f(5))"
+      },
+      "options": [
+        {
+          "en": "8",
+          "zh": "8"
+        },
+        {
+          "en": "10",
+          "zh": "10"
+        },
+        {
+          "en": "12",
+          "zh": "12"
+        },
+        {
+          "en": "15",
+          "zh": "15"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "f(1)=2; f(3)=2+3=5; f(5)=5+5=10.",
+        "zh": "B。 调用关系是 f(5) 等待 f(3)，f(3) 又等待 f(1)。从终止条件往\n回算：f(1)=2，f(3)=2+3=5，f(5)=5+5=10。复习 2.3。"
+      },
+      "lessonIds": [
+        "2.3"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 261,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-08",
+      "paper": "J",
+      "number": 8,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "What is printed?\ngrid = [[2, 5], [7, 1]]\ngrid[0][1] = grid[1][0] - grid[0][0]\nprint(grid[0][1] + grid[1][1])",
+        "zh": "运行下面的程序，输出结果是（　）。\ngrid = [[2, 5], [7, 1]]\ngrid[0][1] = grid[1][0] - grid[0][0]\nprint(grid[0][1] + grid[1][1])"
+      },
+      "options": [
+        {
+          "en": "5",
+          "zh": "5"
+        },
+        {
+          "en": "8",
+          "zh": "8"
+        },
+        {
+          "en": "6",
+          "zh": "6"
+        },
+        {
+          "en": "12",
+          "zh": "12"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Set grid[0][1]=7-2=5, then add grid[1][1]=1 to obtain 6.",
+        "zh": "C 。  grid[1][0] 为  7 ， grid[0][0] 为  2 ， 相减得到  5 ， 写入 \ngrid[0][1]。最后再与第二行第二列的 1 相加，得到 6。二维列表应先确定\n行，再确定该行中的位置。复习 2.2。"
+      },
+      "lessonIds": [
+        "2.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 262,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-09",
+      "paper": "J",
+      "number": 9,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "A cart moves only between horizontal/vertical neighboring grid points within 0≤x,y≤4, one meter per step. Points (2,0),(2,1),(2,2),(2,3) are blocked. From S=(0,0) to T=(4,3), what are minimum steps and straight-line distance?",
+        "zh": "小车只能沿下图中的线段，每步走到一个横向或纵向相邻的格点，每步 \n1 米，不能离开图示范围。灰色叉号处是不能进入的格点。小车从 S =( 0 , 0) \n到 T =( 4 , 3)，最少需要走的步数、S 与 T 的直线距离依次为（　）。\n图示范围0≤x,y≤4；障碍格点为(2,0)、(2,1)、(2,2)、(2,3)。"
+      },
+      "options": [
+        {
+          "en": "9 steps; 5 meters",
+          "zh": "9 步，5 米"
+        },
+        {
+          "en": "7 steps; 5 meters",
+          "zh": "7 步，5 米"
+        },
+        {
+          "en": "9 steps; 7 meters",
+          "zh": "9 步，7 米"
+        },
+        {
+          "en": "8 steps; 5 meters",
+          "zh": "8 步，5 米"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Cross x=2 at y=4. At least 4 north+4 east+1 south=9 steps; the straight distance remains √(4²+3²)=5.",
+        "zh": "A。 小车必须从横坐标小于 2 的一侧到达大于 2 的一侧，只能经过\n没有障碍的 ( 2, 4 )。因此至少向北走 4 步、向东走 4 步，再向南走 1 步，共 \n9 步。先到 ( 0 , 4 )，再到 ( 4 , 4 )，最后到 T，就能实现这一步数。起终点的直\n线距离不受绕行路线影响，仍为 √ 42\n+32\n=5 米。复习 3.3—3.4、4.1。"
+      },
+      "lessonIds": [
+        "3.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 262,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "diagram": {
+        "kind": "grid",
+        "blocked": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "book-J-10",
+      "paper": "J",
+      "number": 10,
+      "level": "J",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "Black cells=1; white=0. Read row 1 left→right, row 2 right→left, row 3 left→right. The first read bit is most significant. Convert each row to decimal.\nRow 1: 1 0 1 0 →\nRow 2: 0 1 1 1 ←\nRow 3: 1 0 0 1 →",
+        "zh": "下图中的黑格记为 1，白格记为 0。编码时，第 1 行从左向右读，第 2 \n行从右向左读，第 3 行再从左向右读。每行读出的四位二进制数，最高位始\n终是最先读到的一位。三行分别转为十进制后，结果依次是（　）。\n第一行：1010 →\n第二行：0111 ←\n第三行：1001 →"
+      },
+      "options": [
+        {
+          "en": "10,7,9",
+          "zh": "10，7，9"
+        },
+        {
+          "en": "5,14,9",
+          "zh": "5，14，9"
+        },
+        {
+          "en": "10,14,6",
+          "zh": "10，14，6"
+        },
+        {
+          "en": "10,14,9",
+          "zh": "10，14，9"
+        }
+      ],
+      "answer": [
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Read 1010,1110,1001: 10,14,9. Row 2 reverses the displayed order.",
+        "zh": "D。 三行按规定方向读出 1010、1110、1001。它们分别表示  \n8+2=10、8+ 4 +2=14、8+1= 9。第二行需要反向读取，不能直接照图从左\n向右写成 0111。复习 2.3、4.1。"
+      },
+      "lessonIds": [
+        "4.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 263,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "diagram": {
+        "kind": "bits",
+        "rows": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "book-J-11",
+      "paper": "J",
+      "number": 11,
+      "level": "J",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "A recognizer uses a microphone, temporary RAM, a loaded model and a speaker. Select all correct statements.",
+        "zh": "一个声音识别系统通过麦克风采集声音，把当前录音临时放入内存，使\n用已加载的模型进行计算，再通过扬声器播报识别结果。下列说法正确的有\n（　）。"
+      },
+      "options": [
+        {
+          "en": "The microphone is an input device.",
+          "zh": "麦克风在这个过程中承担输入设备的作用"
+        },
+        {
+          "en": "The speaker is an output device.",
+          "zh": "扬声器承担输出设备的作用"
+        },
+        {
+          "en": "RAM permanently retains all data after power loss.",
+          "zh": "内存中的数据在断电后一定仍能永久保存，不需要另存文件"
+        },
+        {
+          "en": "Model computation, data transfer and playback are distinct stages, not all simply computing power.",
+          "zh": "模型计算、数据存 取和结果播放是不同环节，不能把全部工作都等同于\n“算力”"
+        },
+        {
+          "en": "Replacing only the recording disk does not guarantee improved recognition accuracy.",
+          "zh": "只更换存放录音的硬盘，不能保证模型的识别正确率就会提高"
+        }
+      ],
+      "answer": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Input and output devices differ. Ordinary RAM is volatile. Disk replacement alone does not prove better model judgments.",
+        "zh": "ABDE。 麦克风把外部声音送入系统，扬声器把结果输出到外部。\n普通运行内存在断电后不能保证保留原数据；需要长期保存的内容应写入适\n当的存储设备。换硬盘可能改变存取速度等条件，却不会仅凭这一动作保证\n模型判断更准确。复习 1.3。"
+      },
+      "lessonIds": [
+        "1.3"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 263,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-12",
+      "paper": "J",
+      "number": 12,
+      "level": "J",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Generative AI restores an unreadable sign in a damaged historical photo, but no historical record confirms it. Select all reasonable actions.",
+        "zh": "博物馆用生成式 AI 修补一张有缺损的老照片。模型补出了照片边缘一\n块原本无法辨认的招牌，文字清晰，但工作人员尚未找到历史记录加以确认。\n下列处理合理的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Treat it as a possible reconstruction and seek verification.",
+          "zh": "把修补结果视为一种可能的重建，并继续寻找材料核实招牌内容"
+        },
+        {
+          "en": "Clear letters directly prove the historical shop name.",
+          "zh": "因为招牌文字清晰，所以可以直接把它作为当年商店名称的证据"
+        },
+        {
+          "en": "Distinguish visible original evidence from generated reconstruction.",
+          "zh": "展出时区分原始照片中可见的部分与模型推测补出的部分"
+        },
+        {
+          "en": "Converting to black-and-white proves historical accuracy.",
+          "zh": "把图片改成黑白，就足以证明补出的内容符合历史事实"
+        }
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Visual plausibility is not historical evidence; separate reconstruction and verify independently.",
+        "zh": "AC。 模型能补出视觉上连贯的内容，不表示缺失处的历史事实已\n被找回。推测重建可以帮助展示和研究，但应与原始证据区分，并寻找独立\n材料核实。黑白或彩色只是呈现方式。复习 1.5。"
+      },
+      "lessonIds": [
+        "1.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 264,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-13",
+      "paper": "J",
+      "number": 13,
+      "level": "J",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "An editor asks AI to extract event name, time and registration method only from a supplied notice, marking missing fields \"not stated\". Select all reasonable actions.",
+        "zh": "学校公布了一份活动通知。编辑希望 AI 只依据这份通知，整理“活动\n名称、时间、报名方式”，通知没有写明的项目标为“未说明”。下列做法\n或判断合理的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Supply the original notice and limit the evidence to it.",
+          "zh": "把通知原文附在请求中，并明确限定依据的材料范围"
+        },
+        {
+          "en": "A 100-word limit guarantees no invented information.",
+          "zh": "只要要求回答不超过 100 字，就能保证模型不补写通知中没有的信息"
+        },
+        {
+          "en": "Specify the three fields and the missing-information policy.",
+          "zh": "明确给出需要整理的三个字段和缺失信息的处理方式"
+        },
+        {
+          "en": "Check every extracted item against the notice.",
+          "zh": "得到结果后，仍应逐项与原通知核对"
+        },
+        {
+          "en": "Calling the model an expert guarantees no errors.",
+          "zh": "只需加上“你是一位专家”，就可以确保模型不再产生任何错误"
+        }
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Evidence scope, fields and missing-value rules reduce ambiguity but do not guarantee correctness. Word limits and role labels do not replace verification.",
+        "zh": "ACD。 材料范围、目标字段和缺失值处理要求，分别回答“依据什\n么”“提取什么”“找不到怎么办”。这些约束有助于减少歧义，但不能保\n证模型绝不犯错。字数限制和角色称呼也不能代替逐项核对。复习 1.5、\n8.1。"
+      },
+      "lessonIds": [
+        "1.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 264,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-14",
+      "paper": "J",
+      "number": 14,
+      "level": "J",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Select all correct statements.\ndef adjust(values):\n    values[0] = values[0] + 1\n    return values[0] + values[-1]\nnums = [2, 4, 6]\nresult = adjust(nums)",
+        "zh": "运行下面的代码。下列说法正确的有（　）。\ndef adjust(values):\n    values[0] = values[0] + 1\n    return values[0] + values[-1]\nnums = [2, 4, 6]\nresult = adjust(nums)"
+      },
+      "options": [
+        {
+          "en": "result is 9.",
+          "zh": "result 的值为 9"
+        },
+        {
+          "en": "nums remains [2,4,6].",
+          "zh": "函数调用结束后，nums 仍为 [2, 4, 6]"
+        },
+        {
+          "en": "values is a parameter name referencing the same list as nums in this call.",
+          "zh": "values 是参数名；本次调用中，它与 nums 指向同一个列表"
+        },
+        {
+          "en": "return ends this call and hands the result to the caller.",
+          "zh": "执行 return 后，本次函数调用结束，并把计算结果交回调用处"
+        },
+        {
+          "en": "Calling adjust(nums) again leaves nums[0] at 3.",
+          "zh": "再调用一次 adjust(nums)，nums[0] 的值仍为 3"
+        }
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "The first item becomes 3 and result=3+6=9. Shared mutation affects nums; another call makes its first item 4.",
+        "zh": "ACD。 参数与实参指向同一个列表，第一项因此由 2 变为 3，返回\n值为 3+6 = 9。第二次调用还会把第一项加 1，使其变为 4。函数内使用了另\n一个名字，并不意味着自动复制了列表。复习 2.2—2.3。"
+      },
+      "lessonIds": [
+        "2.3"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 265,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-15",
+      "paper": "J",
+      "number": 15,
+      "level": "J",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Daily borrowing counts are 1,2,2,3,4,5,18. Select all correct statements.",
+        "zh": "七天中每天借出的某类图书册数分别为 1、2、2、3、4、5、18。下列\n说法正确的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Mean count is 5.",
+          "zh": "平均每天借出 5 册"
+        },
+        {
+          "en": "Median is 4.",
+          "zh": "中位数为 4"
+        },
+        {
+          "en": "Mode is 2.",
+          "zh": "众数为 2"
+        },
+        {
+          "en": "18 must be an entry error and should be deleted without investigation.",
+          "zh": "18 比其他数大得多，因此无需调查就应该把它认定为录入错误"
+        },
+        {
+          "en": "The mean of the other six days is lower than the seven-day mean.",
+          "zh": "若只计算其余六天，平均数会小于包含 18 时的平均数"
+        }
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Sum=35, mean=5, median=3, mode=2. Removing 18 gives 17/6≈2.83. The large count needs investigation.",
+        "zh": "ACE。 总数为 35，平均数为 35 / 7 =5；排好序后的第四个数是 3，\n因此中位数为 3。2 出现两次 ，是众数。去掉  18 后，平均数为 17 / 6，约 \n2.83。较大的数据值得调查， 但也可能对应读书活动等真实情况，不能直接\n删除。复习 3.2。"
+      },
+      "lessonIds": [
+        "3.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 265,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-16",
+      "paper": "J",
+      "number": 16,
+      "level": "J",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Lights 1,2,3 start off. A flips 1,2; B flips 2,3; C flips 1,3. Press A then B. Select all correct statements.",
+        "zh": "三盏灯编号为 1、2、3，最初都熄灭。按一次按钮会使指定灯的状态翻\n转：亮变灭，灭变亮。按钮 A 翻转灯 1、2；按钮 B 翻转灯 2、3；按钮 C 翻\n转灯 1、3。先按 A，再按 B。下列说法正确的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Lights 1 and 3 are on; 2 is off.",
+          "zh": "此时灯 1 和灯 3 亮，灯 2 灭"
+        },
+        {
+          "en": "Then pressing C turns all off.",
+          "zh": "在此基础上再按一次 C，三盏灯全部熄灭"
+        },
+        {
+          "en": "Pressing B then A from the original start gives the same result.",
+          "zh": "如果最初改成先按 B、再按 A，最终状态与先按 A、再按 B 相同"
+        },
+        {
+          "en": "Pressing A,B,C once each from all off turns all on.",
+          "zh": "从全灭状态开始，A、B、C 各按一次，三盏灯会全部点亮"
+        },
+        {
+          "en": "From any state, pressing the same button twice restores the state.",
+          "zh": "从任意灯光状态开始，连续按同一个按钮两次，都会恢复到按这两次之\n前的状态"
+        }
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "000→110→101→000. Each light depends on odd/even flip count. A,B,C once each flips every light twice, leaving all off.",
+        "zh": "ABCE。 用 1 表示亮、0 表示灭。状态从 000 经 A 变为 110，再经 B \n变为 101，最后若按 C 则变为 000。每盏灯最终只取决于被翻转了奇数次还\n是偶数次，所以交换 A、B 的先后不改变最终状态；同一按钮按两次也会抵\n消。A、B、C 各按一次时，每盏灯恰好被翻转两次，最终全灭。复习 3.1、\n4.1。"
+      },
+      "lessonIds": [
+        "4.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 266,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-17",
+      "paper": "J",
+      "number": 17,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "All AI systems must first train on labeled data; a rule-reasoning system without that training cannot be AI.",
+        "zh": "所有人工智能系统都必须先用带标签的数据训练；没有经过这种训练的\n规则推理系统不可能属于人工智能。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Rule-based reasoning is also an AI approach and need not learn all its knowledge from labeled samples.",
+        "zh": "×。 人工智能有多种实现思路。规则推理系统可以依靠明确表达的\n知识和规则工作，不要求所有知识都由带标签数据训练得到。复习 1.4。"
+      },
+      "lessonIds": [
+        "1.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 266,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-18",
+      "paper": "J",
+      "number": 18,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "Beating expert Go players does not alone establish human-level intelligence in every domain.",
+        "zh": "一个系统能在围棋任务中战胜高水平棋手，并不能仅凭这一表现认定它\n已经具备人类在所有领域的智能。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Evidence of performance on one task does not establish all other abilities.",
+        "zh": "√。 围棋是一个具体任务。该任务中的出色表现说明相应能力，不\n能自动推出系统具备其他领域的全部能力。复习 1.4—1.5。"
+      },
+      "lessonIds": [
+        "1.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 266,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-19",
+      "paper": "J",
+      "number": 19,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "AI-generated book references may have no real matching book despite plausible titles, authors and dates.",
+        "zh": "AI 生成的书目即使列出了看似合理的书名、作者和出版年份，也可能\n没有对应的真实图书。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Plausible format and details need independent verification in reliable records.",
+        "zh": "√。 格式完整、细节像真的，都不等于事实已经核实。应通过可靠\n的图书记录等材料确认书目是否存在。复习 1.5。"
+      },
+      "lessonIds": [
+        "1.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 266,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-20",
+      "paper": "J",
+      "number": 20,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "Combining voice audio and lip-motion images to recognize speech is a multimodal application.",
+        "zh": "一个系统同时分析说话声音和嘴唇运动图像来识别说话内容，属于利用\n多模态数据的应用。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Audio and images are distinct modalities; using both is multimodal.",
+        "zh": "√。 声音与图像是不同模态。系统把两种信息结合起来使用，正是\n多模态应用的一种形式。复习 1.2。"
+      },
+      "lessonIds": [
+        "1.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 266,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-21",
+      "paper": "J",
+      "number": 21,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "Only the first row changes; rows[2][1] remains 0.\nrows = [[0] * 2] * 3\nrows[0][1] = 8",
+        "zh": "运行下面的代码后，只有第一行的第二个元素变为 8，rows[2][1] 仍\n为 0。（　）\nrows = [[0] * 2] * 3\nrows[0][1] = 8"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "The repeated inner list is shared by all three row positions. rows[2][1] is also 8.",
+        "zh": "×。 [[0] * 2] * 3 没有建立三个互不关联的内层列表，而是重复\n引用同一个内层列表。修改其索引 1 处的元素后，三个行位置都能看到这个 \n8，rows[2][1] 也为 8。复习 2.2。"
+      },
+      "lessonIds": [
+        "2.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 266,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-22",
+      "paper": "J",
+      "number": 22,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "bin(12) returns exactly \"1100\", without any other characters.",
+        "zh": "Python 表达式 bin(12) 的返回值恰好是字符串 \"1100\"，不包含其他字\n符。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "It returns \"0b1100\"; 0b is the binary prefix.",
+        "zh": "×。 返回值是 \"0b1100\"。前缀 0b 表明采用二进制形式；只有去掉\n前两位之后，才得到 \"1100\"。复习 2.3。"
+      },
+      "lessonIds": [
+        "2.3"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 267,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-23",
+      "paper": "J",
+      "number": 23,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "This call returns 2 because return count runs after the loop.\ndef count_long(words):\n    count = 0\n    for word in words:\n        if len(word) >= 3:\n            count = count + 1\n    return count\ncount_long([\"AI\", \"data\", \"map\"])",
+        "zh": "下面的函数调用返回 2，因为 return count 在 for 循环结束后才执行。\n（　）\ndef count_long(words):\n    count = 0\n    for word in words:\n        if len(word) >= 3:\n            count = count + 1\n    return count\ncount_long([\"AI\", \"data\", \"map\"])"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "data and map meet the length requirement, so count is 2. The return is outside the loop.",
+        "zh": "√。 三个词中，\"data\" 和 \"map\" 的长度至少为 3，因此计数两次。\nreturn 与 for 的缩进相同，属于循环后的步骤，不会在检查第一个词之后\n就返回。复习 2.3。"
+      },
+      "lessonIds": [
+        "2.3"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 267,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-24",
+      "paper": "J",
+      "number": 24,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "Points (-2,3) and (4,3) are six units apart in a Cartesian plane.",
+        "zh": "在平面直角坐标系中，点 (− 2, 3) 与点 ( 4 , 3) 的直线距离为 6 个单位。\n（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "The y-coordinates match; horizontal distance is |4-(-2)|=6.",
+        "zh": "√。 两点纵坐标相同，连线平行于横轴，距离为横坐标差的绝对值，\n即 | 4 −(− 2)|=6。复习 3.3—3.4。"
+      },
+      "lessonIds": [
+        "3.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 267,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-25",
+      "paper": "J",
+      "number": 25,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "All approved articles are registered. An article is registered, so it must be approved.",
+        "zh": "已知所有审核通过的文章都已经登记。某篇文章已经登记，由此就能确\n定它已经审核通过。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "This reverses an implication: registration could occur before approval.",
+        "zh": "×。 已知条件只保证“审核通过就已登记”，没有保证“已登记就\n审核通过”。尚在审核中的文章也可能已经登记，因此结论不能由条件推出。\n复习 3.1。"
+      },
+      "lessonIds": [
+        "3.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 267,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-J-26",
+      "paper": "J",
+      "number": 26,
+      "level": "J",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "Height, weight and age form a three-dimensional feature vector. Increasing sample count from 10 to 100 does not alone make each vector 100-dimensional.",
+        "zh": "用“身高、体重、年龄”三个数表示每个样本时，每个样本可表示为一\n个三维特征向量；样本从 10 个增加到 100 个，并不会单凭数量增加就把每\n个向量变成一百维。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Dimension counts the features in each sample, not the number of samples.",
+        "zh": "√。 每个向量的维度由每个样本采用的特征数决定。增加样本数量\n是增加记录条数，不是给每条记录自动增加特征。复习 3.4。"
+      },
+      "lessonIds": [
+        "3.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 267,
+        "section": "E"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-01",
+      "paper": "S",
+      "number": 1,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "An apparatus predicts calibration error with r(t)=t²-4t+7. t is the adjustment and r a numerical error. For t=1,2,3, choose the predictions and task type.",
+        "zh": "一个实验装置用多项式模型 r ( t )=t²− 4 t +7 预测校准误差，其中 t 是调\n节量，r 是数值型误差。把 t 依次设为 1、2、3，关于三次预测及任务类型，\n正确的是（　）。"
+      },
+      "options": [
+        {
+          "en": "4,3,4; regression",
+          "zh": "误差依次为 4、3、4，属于回归任务"
+        },
+        {
+          "en": "4,3,4; three predictions mean three-class classification",
+          "zh": "误差依次为 4、3、4，因为有三个预测结果，所以属于三分类任务"
+        },
+        {
+          "en": "4,5,6; regression",
+          "zh": "误差依次为 4、5、6，属于回归任务"
+        },
+        {
+          "en": "4,3,2; clustering",
+          "zh": "误差依次为 4、3、2，属于聚类任务"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Substitute 1,2,3 to obtain 4,3,4. Numerical error is a regression target; three predictions do not define three classes.",
+        "zh": "A。 代入三个调节量，得到 1− 4 +7 = 4、4 − 8+7 =3、9− 12+7 = 4。\n模型预测的是数值量，因此属于回归；进行了三次预测，并不等于设置了三\n个类别。复习 5.1、6.1。"
+      },
+      "lessonIds": [
+        "6.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 268,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-02",
+      "paper": "S",
+      "number": 2,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "For scheme M, precision is the actual-defective proportion among predicted review pages; recall is the found proportion among actual defective pages. What are precision and recall?",
+        "zh": "精确率表示“预测需复核的书页中，实际不合格的比例”；召回率表示\n“实际不合格的书页中，被找出的比例”。方案 M 的精确率和召回率约为\n（　）。"
+      },
+      "options": [
+        {
+          "en": "80.0%; 66.7%",
+          "zh": "80.0%，66.7%"
+        },
+        {
+          "en": "88.0%; 80.0%",
+          "zh": "88.0%，80.0%"
+        },
+        {
+          "en": "66.7%; 80.0%",
+          "zh": "66.7%，80.0%"
+        },
+        {
+          "en": "66.7%; 88.0%",
+          "zh": "66.7%，88.0%"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Precision=16/(16+8)=66.7%; recall=16/(16+4)=80%. 88% is accuracy.",
+        "zh": "C。 预测需复核的共有 16 +8=24 张，其中 16 张实际不合格，精确\n率为  16 / 24 ≈ 66.7 %。 实际不合格的共有  16 + 4 =20 张 ， 召回率为 \n16 / 20=80 %。88% 是总体正确率，不能与这两个指标混用。复习 5.4。"
+      },
+      "lessonIds": [
+        "5.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 269,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "shared": {
+        "en": "Shared material for questions 2–4: actual defective pages are positive. Scheme M on 100 pages: TP=16, FN=4, FP=8, TN=72. Schemes (found defective, false alarm): L=(19,17), M=(16,8), H=(12,3). Capacity is at most 25 reviews per batch. Each missed defective page costs 5; each false alarm costs 1. Only these two losses count. Questions 2–3 use original labels; question 4 alone corrects labels.",
+        "zh": "第2–4题共用材料：实际不合格为正类。M在100张书页上的记录：TP=16，FN=4，FP=8，TN=72。方案（找出的不合格页，误报合格页）：L=(19,17)，M=(16,8)，H=(12,3)。每批最多复核25张，每漏报一张损失5，每误报一张损失1，仅计算这两项。第2、3题用原标签，第4题单独订正标签。"
+      }
+    },
+    {
+      "id": "book-S-03",
+      "paper": "S",
+      "number": 3,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "Among schemes within the review capacity, which minimizes loss and what is that loss?",
+        "zh": "在不超过人工复核能力的方案中， 总损失最小的方案及其总损失为\n（　）。"
+      },
+      "options": [
+        {
+          "en": "L; 22",
+          "zh": "L，22"
+        },
+        {
+          "en": "M; 28",
+          "zh": "M，28"
+        },
+        {
+          "en": "H; 15",
+          "zh": "H，15"
+        },
+        {
+          "en": "H; 43",
+          "zh": "H，43"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "L requires 36 reviews and is ineligible. M: 4 misses×5+8 false alarms=28. H: 8×5+3=43. M is better.",
+        "zh": "B。 L 需复核  36 张， 超过 25 张的限制。M 需复核  24 张， 漏掉 \n20− 16 = 4 张，总损失为 4 × 5+8=28。H 需复核 15 张，漏掉 8 张，总损失\n为 8× 5+3= 43。合格方案中 M 的损失更小。H 的 15 是复核张数，不是损失。\n复习 5.4。"
+      },
+      "lessonIds": [
+        "5.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 269,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "shared": {
+        "en": "Shared material for questions 2–4: actual defective pages are positive. Scheme M on 100 pages: TP=16, FN=4, FP=8, TN=72. Schemes (found defective, false alarm): L=(19,17), M=(16,8), H=(12,3). Capacity is at most 25 reviews per batch. Each missed defective page costs 5; each false alarm costs 1. Only these two losses count. Questions 2–3 use original labels; question 4 alone corrects labels.",
+        "zh": "第2–4题共用材料：实际不合格为正类。M在100张书页上的记录：TP=16，FN=4，FP=8，TN=72。方案（找出的不合格页，误报合格页）：L=(19,17)，M=(16,8)，H=(12,3)。每批最多复核25张，每漏报一张损失5，每误报一张损失1，仅计算这两项。第2、3题用原标签，第4题单独订正标签。"
+      }
+    },
+    {
+      "id": "book-S-04",
+      "paper": "S",
+      "number": 4,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "Experts discover that two of the four pages labeled defective but predicted no review were actually acceptable. Correct only those labels; model outputs do not change. Which conclusion is correct?",
+        "zh": "后来专家核对发现：原始记录中，4 张“实际不合格但预测不需复核”\n的书页，有 2 张原本就合格，只是被错误标成了不合格。其余真实标签均不\n变，模型输出也完全不变。订正这 2 张书页的真实标签后，下列说法正确的\n是（　）。"
+      },
+      "options": [
+        {
+          "en": "Accuracy stays 88% because predictions did not change.",
+          "zh": "正确率仍为 88%，因为模型输出没有变"
+        },
+        {
+          "en": "Accuracy becomes 90%, proving the model relearned those pages.",
+          "zh": "正确率变为 90%，这证明模型已经重新学会识别这 2 张书页"
+        },
+        {
+          "en": "Errors increase from 12 to 14.",
+          "zh": "错误数从 12 增为 14，因为更改标签会增加错误"
+        },
+        {
+          "en": "Accuracy becomes 90% through corrected evaluation labels, not retraining.",
+          "zh": "正确率变为 90%，但本次变化来自评价标签的订正，不能说模型经过了\n重新训练"
+        }
+      ],
+      "answer": [
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Two false negatives become true negatives. Correct predictions increase 88→90 of 100 without changing parameters.",
+        "zh": "D。 两张记录从“真实不合格、预测不需复核”移到“真实合格、\n预测不需复核 ”。正确数因此从 16 +72=88 变成 16 +74 = 90，总数仍为"
+      },
+      "lessonIds": [
+        "5.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 270,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "shared": {
+        "en": "Shared material for questions 2–4: actual defective pages are positive. Scheme M on 100 pages: TP=16, FN=4, FP=8, TN=72. Schemes (found defective, false alarm): L=(19,17), M=(16,8), H=(12,3). Capacity is at most 25 reviews per batch. Each missed defective page costs 5; each false alarm costs 1. Only these two losses count. Questions 2–3 use original labels; question 4 alone corrects labels.",
+        "zh": "第2–4题共用材料：实际不合格为正类。M在100张书页上的记录：TP=16，FN=4，FP=8，TN=72。方案（找出的不合格页，误报合格页）：L=(19,17)，M=(16,8)，H=(12,3)。每批最多复核25张，每漏报一张损失5，每误报一张损失1，仅计算这两项。第2、3题用原标签，第4题单独订正标签。"
+      }
+    },
+    {
+      "id": "book-S-05",
+      "paper": "S",
+      "number": 5,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "KNN classifies P=(2,2), K=3, Euclidean distance and majority vote. Samples: A=(2,1) red; B=(0,2) blue; C=(3,4) blue; D=(5,2) red; E=(2,6) red. Choose the nearest three and class.",
+        "zh": "使用 KNN 对点 P =( 2, 2) 分类，取 K =3，采用欧氏距离和多数表决。训\n练样本如下，各样本到 P 的距离均不相同。三个最近邻的编号及最终类别是\n（　）。\n样本坐标类别\nA ( 2, 1) 红类\nB ( 0 , 2) 蓝类\nC ( 3 , 4 ) 蓝类\nD (5 , 2) 红类\nE ( 2, 6) 红类"
+      },
+      "options": [
+        {
+          "en": "A,B,C; red",
+          "zh": "A、B、C，红类"
+        },
+        {
+          "en": "A,B,C; blue",
+          "zh": "A、B、C，蓝类"
+        },
+        {
+          "en": "A,B,D; red",
+          "zh": "A、B、D，红类"
+        },
+        {
+          "en": "A,D,E; red",
+          "zh": "A、D、E，红类"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Squared distances are 1,4,5,9,16. A,B,C are nearest; two blue votes beat one red.",
+        "zh": "B。 A、B、C、D、E 到 P 的距离平方分别为 1、4、5、9、16。平方\n大小与非负距离大小的顺序一致，所以最近的三个是 A、B、C。蓝类有两票，\n红类有一票，最终判为蓝类。KNN 的多数表决不能只看最近的一个样本。复\n习 3.4、6.2。"
+      },
+      "lessonIds": [
+        "6.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 270,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-06",
+      "paper": "S",
+      "number": 6,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "Hidden units use ReLU(z)=max(0,z). Output is linear, with no ReLU. For x₁=-1,x₂=2, find y.\nz₁=2x₁+x₂-1; h₁=ReLU(z₁)\nz₂=-x₁+x₂; h₂=ReLU(z₂)\ny=h₁-2h₂+4",
+        "zh": "图中是一个小型多层感知机的计算过程。隐藏层采用 ReLU：输入为负数\n时输出 0，否则保留输入值；输出层直接按公式计算，不再使用 ReLU。输入 \nx1=− 1、x2=2 时，最终输出 y 为（　）。\nz₁=2x₁+x₂-1，h₁=ReLU(z₁)\nz₂=-x₁+x₂，h₂=ReLU(z₂)\ny=h₁-2h₂+4"
+      },
+      "options": [
+        {
+          "en": "-3",
+          "zh": "−3"
+        },
+        {
+          "en": "1",
+          "zh": "1"
+        },
+        {
+          "en": "-2",
+          "zh": "−2"
+        },
+        {
+          "en": "6",
+          "zh": "6"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "z₁=-1→h₁=0; z₂=3→h₂=3. Linear output=0-6+4=-2. Do not add an unstated output ReLU.",
+        "zh": "C。 第一条支路为 z1=2(− 1)+2− 1=− 1，经过 ReLU 后 h1=0。第二\n条支路为 z2=−(− 1)+2=3，因此 h2=3。输出层计算 y =0− 2× 3+ 4 =− 2。题\n目明确输出层不再使用 ReLU，不能把最后的负数改成 0。复习 6.5。"
+      },
+      "lessonIds": [
+        "6.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 271,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "diagram": {
+        "kind": "network"
+      }
+    },
+    {
+      "id": "book-S-07",
+      "paper": "S",
+      "number": 7,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "reduce passes the accumulator and next item into the function, starting from the initial value. What is printed?\nfrom functools import reduce\nnums = [2, -1, 3]\nresult = reduce(lambda acc, x: acc * 2 + x, nums, 0)\nprint(result)",
+        "zh": "reduce 会从给定初值开始，按列表顺序把当前累计值和下一个元素交给\n函数，并以函数返回值作为新的累计值。 运行下面的程序， 输出结果是\n（　）。\nfrom functools import reduce\nnums = [2, -1, 3]\nresult = reduce(lambda acc, x: acc * 2 + x, nums, 0)\nprint(result)"
+      },
+      "options": [
+        {
+          "en": "9",
+          "zh": "9"
+        },
+        {
+          "en": "8",
+          "zh": "8"
+        },
+        {
+          "en": "4",
+          "zh": "4"
+        },
+        {
+          "en": "3",
+          "zh": "3"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Accumulators are 0→2→3→9. Each step uses the previous result.",
+        "zh": "A 。  累计值初始为  0 。 处理  2  后是  0× 2+2=2； 处理  − 1  后是 \n2× 2− 1=3；处理 3 后是 3× 2+3= 9。每一步都使用前一步的累计值。复习 \n2.5。"
+      },
+      "lessonIds": [
+        "2.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 271,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-08",
+      "paper": "S",
+      "number": 8,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "What is printed?\nclass Meter:\n    def __init__(self, offset):\n        self.offset = offset\n    def read(self, x):\n        return x + self.offset\nm1 = Meter(2)\nm2 = Meter(-1)\nm1.offset = m2.read(5)\nprint(m1.read(3), m2.read(3))",
+        "zh": "运行下面的程序，输出结果是（　）。\nclass Meter:\n    def __init__(self, offset):\n        self.offset = offset\n    def read(self, x):\n        return x + self.offset\nm1 = Meter(2)\nm2 = Meter(-1)\nm1.offset = m2.read(5)\nprint(m1.read(3), m2.read(3))"
+      },
+      "options": [
+        {
+          "en": "6 2",
+          "zh": "6 2"
+        },
+        {
+          "en": "7 7",
+          "zh": "7 7"
+        },
+        {
+          "en": "5 2",
+          "zh": "5 2"
+        },
+        {
+          "en": "7 2",
+          "zh": "7 2"
+        }
+      ],
+      "answer": [
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "m2.read(5)=4 becomes m1.offset. m1.read(3)=7; m2 keeps offset -1 and gives 2.",
+        "zh": "D。 m2.read(5) 使用 m2 的偏移量 −1，返回 4，这个结果被赋给 \nm1.offset。 随后  m1.read(3) 为  3+ 4 =7， 而  m2 的偏移量没有改变 ，\nm2.read(3) 仍为 3− 1=2。复习 2.5。"
+      },
+      "lessonIds": [
+        "2.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 272,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-09",
+      "paper": "S",
+      "number": 9,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "A recorder takes a photo at U seconds, uniformly distributed over [0,8]. The target is visible only in [0,2] and [5,8]. What is the probability of photographing it?",
+        "zh": "自动记录器在启动后 U  秒拍摄一次，U  在 0 至 8 秒之间服从连续均匀分\n布，即落入某个区间的概率等于该区间长度除以 8。目标物仅在第 0 至 2 秒\n和第 5 至 8 秒可见，其他时间被遮挡。拍到目标物的概率为（　）。"
+      },
+      "options": [
+        {
+          "en": "3/8",
+          "zh": "3 / 8"
+        },
+        {
+          "en": "5/8",
+          "zh": "5 / 8"
+        },
+        {
+          "en": "1/2",
+          "zh": "1 / 2"
+        },
+        {
+          "en": "3/4",
+          "zh": "3 / 4"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "The two disjoint visible intervals have total length 2+3=5. Divide by 8. Endpoints have zero probability in a continuous model.",
+        "zh": "B。 两段可见区间互不重叠，总长度为 2+3=5 秒，所以概率为 5 / 8。\n连续均匀分布中，个别端点是否计入不会改变区间概率。复习 3.5。"
+      },
+      "lessonIds": [
+        "3.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 272,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-10",
+      "paper": "S",
+      "number": 10,
+      "level": "S",
+      "round": 1,
+      "type": "single",
+      "prompt": {
+        "en": "Three model sizes score 54%,58%,62% on the same questions. A display says Pass at ≥60%, otherwise Not pass. Which analysis is most reasonable?",
+        "zh": "三个不同规模的模型在同一套题上的正确率分别为 54%、58%、62%。\n展示页面规定：达到 60% 就显示“通过”，否则显示“未通过”。于是前两\n个显示“未通过”，第三个显示“通过”。仅依据这些信息，最合理的分析\n是（　）。"
+      },
+      "options": [
+        {
+          "en": "The third necessarily acquired all reasoning abilities absent in the others.",
+          "zh": "第三个模型必定突然获得了前两个模型完全没有的全部推理能力"
+        },
+        {
+          "en": "Different display labels make gradual score improvement impossible.",
+          "zh": "既然显示结果不同，三个模型的正确率就不可能是逐步增加的"
+        },
+        {
+          "en": "The display jumps because of a threshold; this alone does not prove a sudden ability change.",
+          "zh": "显示状态发生了跳变，但这与人为设置的门槛有关，不能仅凭它证明能\n力出现突变"
+        },
+        {
+          "en": "Lowering the threshold to 50% increases the actual accuracy of all models.",
+          "zh": "把通过线改成 50%，三个模型在原试题上的实际正确率都会提高"
+        }
+      ],
+      "answer": [
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "A categorical threshold can make gradual numerical change look discontinuous. Changing the label rule does not change answers.",
+        "zh": "C。 正确率从 54% 到 58%，再到 62%，而展示系统把连续数值压缩\n成了“通过”和“未通过”两种状态。跨过门槛会造成显示跳变。若要讨论\n\n\n\n\n能力是否发生突变，还需考察任务表现和评价方式，不能只看这个标记。改\n变通过线不会改变已经答对的题数。复习 8.1。"
+      },
+      "lessonIds": [
+        "8.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 273,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-11",
+      "paper": "S",
+      "number": 11,
+      "level": "S",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "An exhibition permits volunteer recordings only for this exhibition; editors must review public content and the chief editor decides publication. The vendor supplies generation only. Select all consistent actions.",
+        "zh": "某展览团队使用 AI 生成讲解。项目约定：志愿者的录音只授权用于本\n次展览；公开内容须由编辑复核；是否发表由主编决定。工具供应商只承诺\n提供生成服务。下列处理符合这些约定，也有助于明确责任的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Uploading recordings permits training a commercial voice model for another purpose.",
+          "zh": "录音已经上传给 工具，所以团队可以把它另行用于训练对外出售的配音\n模型"
+        },
+        {
+          "en": "Keep authorization and review records to establish use and responsibility.",
+          "zh": "保留授权范围和编辑复核记录，使后续能够查明材料怎样使用、内容 由\n谁确认"
+        },
+        {
+          "en": "Naming the vendor removes the team’s publication responsibility.",
+          "zh": "只要把供应商名称写在展板上，团队就不必再对发表内容作判断"
+        },
+        {
+          "en": "Generation, editorial review and publication decisions are distinct responsibilities.",
+          "zh": "模型生成、编辑复核和主编决定是不同环节，使用工具不等于把发表责\n任全部交给工具"
+        }
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Upload is not permission for a new use. Vendor credit does not replace review or the agreed decision process.",
+        "zh": "BD。 授权范围只覆盖本次展览，不能由“已经上传”推导出新的\n用途也已获得授权。编辑复核和主编决定是项目明确分配的工作，注明供应\n商名称不能代替这些环节。保留材料使用与确认记录，有助于把责任落实到\n具体过程。复习 1.5、8.2。"
+      },
+      "lessonIds": [
+        "8.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 273,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-12",
+      "paper": "S",
+      "number": 12,
+      "level": "S",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Prediction-minus-truth errors are -3,-1,1,3 centimeters. MAE averages absolute error; MSE averages squared error. Select all correct statements.",
+        "zh": "某模型对四个样本的预测误差依次为 −3、−1、1、3 厘米。误差按“预\n测值减真实值”计算，MAE 是绝对误差的平均值，MSE 是误差平方的平均值\n下列说法正确的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Mean signed error 0 means all predictions are correct.",
+          "zh": "四个带正负号的误差平均为 0，说明四次预测都完全正确"
+        },
+        {
+          "en": "MAE=2 cm.",
+          "zh": "MAE 为 2 厘米"
+        },
+        {
+          "en": "MSE=5 cm².",
+          "zh": "MSE 为 5 平方厘米"
+        },
+        {
+          "en": "Changing units to millimeters gives MAE=20 and MSE=500.",
+          "zh": "如果改用毫米表示相同误差，MAE 的数值变为 20，MSE 的数值变为 500"
+        }
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Absolute sum=8→MAE=2; squared sum=20→MSE=5. Millimeter errors multiply by 10; squares multiply by 100. Signed cancellation is not correctness.",
+        "zh": "BCD。 正负误差相加为 0，只表示互相抵消。绝对值之和为 8，\nMAE 为 8 / 4 =2 厘米；平方和为 9+1+1+ 9=20，MSE 为 20 / 4 =5 平方厘米。\n改用毫米后，绝对误差的数值乘以 10，平方误差的数值乘以 100，因此 MAE \n为 20 毫米，MSE 为 500 平方毫米。复习 3.2、5.4。"
+      },
+      "lessonIds": [
+        "5.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 274,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-13",
+      "paper": "S",
+      "number": 13,
+      "level": "S",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Predict interests of students unseen in training. There are 150 students with three monthly records each, 450 records total, sharing stable preferences. Select all reasonable statements.",
+        "zh": "团队希望预测从未参与训练的学生的阅读兴趣。现有 150 名学生，每人\n有 3 个月的记录，共 450 条，每条都含有较稳定的个人阅读偏好。关于训练\n与评价，下列说法合理的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Splitting records independently may place one student in both train and test.",
+          "zh": "把 450 条记录逐条随机分组，可能使同一学生的 记录同时出现在训练集\n和测试集"
+        },
+        {
+          "en": "Grouping all records of a student in one split better matches the new-student goal.",
+          "zh": "先按学生分 组，使同一学生的 全部 记录 只进入其中一 组，更符合评价\n“新学生”的目标"
+        },
+        {
+          "en": "Use validation for model choice and reserve test for final evaluation.",
+          "zh": "可用验证集比较和选择模型，把测试集留作最后的独立评价"
+        },
+        {
+          "en": "Deleting names guarantees all records become unrelated.",
+          "zh": "只删除姓名，就能保证同一学生的多条记录之间不再有关联"
+        }
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Preferences can link records even without names. Split by student to evaluate the intended use and separate selection from final testing.",
+        "zh": "ABC。 同一学生的不同月份记录可能共享稳定偏好，逐条随机分组\n并不等于把学生分开。按学生划分，更贴近模型面对新学生的使用目标。删\n除姓名不能消除其他关联；选模型使用验证集、最终评价再使用测试集，可\n以把模型选择与最终检查区分开。复习 5.2—5.3。"
+      },
+      "lessonIds": [
+        "5.3"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 274,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-14",
+      "paper": "S",
+      "number": 14,
+      "level": "S",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "Start at A; process neighbors alphabetically; mark immediately on discovery and never re-add marked vertices. BFS uses a queue, DFS recursion. Directed edges: A→B,A→D,B→C,C→A,C→E,D→E,E→F,F→B. Select all correct statements.",
+        "zh": "从下图的 A 点开始搜索。箭头表示有向边，所有边等长。处理相邻顶\n点时按字母顺序；顶点首次发现时立即标记，已标记的顶点不再重复加入待\n处理集合。BFS 使用队列，DFS 使用递归。下列说法正确的有（　）。\n有向边：A→B、A→D、B→C、C→A、C→E、D→E、E→F、F→B。"
+      },
+      "options": [
+        {
+          "en": "The first four BFS discoveries are A,B,D,C.",
+          "zh": "BFS 首次发现的前四个顶点依次为 A、B、D、C"
+        },
+        {
+          "en": "DFS first discovers D before F.",
+          "zh": "DFS 首次发现 D 的时间早于首次发现 F"
+        },
+        {
+          "en": "Deleting C→A does not change the BFS discovery order.",
+          "zh": "删除有向边 C→A 后，BFS 的首次发现顺序不变"
+        },
+        {
+          "en": "The cycle forces BFS never to finish even with the stated marking.",
+          "zh": "因为图中存在环，所以即使按题意标记顶点，BFS 也一定无法结束"
+        }
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "BFS=A,B,D,C,E,F; DFS=A,B,C,E,F,D. A is already marked when C→A is considered, so it has no discovery effect.",
+        "zh": "AC。 BFS 从 A 发现 B、D，再从 B 发现 C，从 D 发现 E，从 E 发现 \nF，首次发现顺序为 A、B、D、C、E、F。递归 DFS 则依次发现 A、B、C、\nE、F、D，因此 B 错误。处理 C→A 时，A 早已标记，这条回边不会造成重复\n入队，删去它也不改变该次 BFS 顺序。有环不等于搜索不能结束，关键在于\n正确记录已发现顶点。复习 4.4。"
+      },
+      "lessonIds": [
+        "4.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 275,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "diagram": {
+        "kind": "graph"
+      }
+    },
+    {
+      "id": "book-S-15",
+      "paper": "S",
+      "number": 15,
+      "level": "S",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "From the same initial state, a robot predicts left push=5 s and right pull=7 s. It executes only the left push, records 6 s and measures the new position. Select all supported conclusions.",
+        "zh": "搬运机器人在同一初始状态下，用内部模型分别预测了“向左推”和\n“向右拉”两个动作的后果。它预测向左推耗时 5 秒，向右拉耗时 7 秒；实\n际只执行了向左推，记录耗时 6 秒，并测量了物体的新位置。下列判断由这\n些材料支持的有（　）。"
+      },
+      "options": [
+        {
+          "en": "The executed-action time prediction has absolute error 1 s.",
+          "zh": "本次执行动作的耗时预测绝对误差为 1 秒"
+        },
+        {
+          "en": "The actual right pull is proven to take exactly one second longer than the actual left push.",
+          "zh": "已经证实在该初始状态下，向右拉的实际耗时一定比向左推长 1 秒"
+        },
+        {
+          "en": "Logs of state, action and actual consequence help evaluate and improve predictions.",
+          "zh": "保留初始状态、执行动作和实际后果，有助于检查与改进动作后果预测"
+        },
+        {
+          "en": "Not executing the right pull proves the internal model has no world-model-like function.",
+          "zh": "没有在同一初始状态下实际执行向右拉，就能断定内部模型没有世界模\n型式功能"
+        }
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Left error=|5-6|=1. Right actual time is unobserved. Predicting action consequences supports world-model-like behavior without executing every candidate.",
+        "zh": "AC。 向左推的耗时绝对误差为 |5− 6|=1 秒。向右拉只有预测值，\n没有本次实际执行记录，不能把预测的 7 秒当成已经测得的事实。模型针对\n状态和候选动作预测后果，已有世界模型式功能的依据，并不要求把所有候\n选动作都实际执行一次。复习 8.1。"
+      },
+      "lessonIds": [
+        "8.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 275,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-16",
+      "paper": "S",
+      "number": 16,
+      "level": "S",
+      "round": 1,
+      "type": "multiple",
+      "prompt": {
+        "en": "AI proposes that a new coating improves cooling. Old coating is tested outdoors by day, new coating by night; temperatures and wind differ. Select all reasonable analyses.",
+        "zh": "AI 为实验小组提出假设：“一种新涂层可以提高散热速度。”小组把\n普通涂层样品放在白天的室外测试，把新涂层样品放在夜间的室外测试，发\n现后者降温更快。两次环境温度和风速不同。下列分析合理的有（　）。"
+      },
+      "options": [
+        {
+          "en": "Both coating and environment changed, so this comparison cannot isolate coating effects.",
+          "zh": "环境条件与涂层同时变化，仅凭这次比较难以确定降温差异由涂层造成"
+        },
+        {
+          "en": "AI supplies a testable hypothesis, not an established conclusion.",
+          "zh": "AI 提出了可检验的假设，体现了辅助科研探索的作用，但不能因此把假\n设直接当成结论"
+        },
+        {
+          "en": "Repeat under matched or comparable conditions with suitable sample and test order.",
+          "zh": "可在相同或可比较的环境条件下重复试验，并合理安排样品与测试顺序"
+        },
+        {
+          "en": "Keep raw temperatures, sample IDs and environment records for review and replication.",
+          "zh": "保存原始温度记录、样品编号与环境条件，有助于后来复查结果和重复\n实验"
+        }
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "points": 5,
+      "explanation": {
+        "en": "Confounding allows alternative explanations. Controlled comparisons, repetition and original records support a valid test.",
+        "zh": "ABCD。 四项均合理。涂层和环境一起改变，散热差异就可能有多\n种解释。AI 提出的假设可以为探索提供方向，但仍需要实验检验；控制或合\n理比较环境条件、重复试验，有助于分辨不同因素的作用。原始记录则使后\n续能够检查实验究竟怎样进行。复习 8.2。"
+      },
+      "lessonIds": [
+        "8.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 276,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-17",
+      "paper": "S",
+      "number": 17,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "This comprehension traverses rows then items and retains positive numbers, yielding [2,4].\nrows = [[-1, 2], [4, 0]]\n[x for row in rows for x in row if x > 0]",
+        "zh": "下面的列表推导式按行遍历，再按行内顺序保留正数， 结果为 [2, \n4]。（　）\nrows = [[-1, 2], [4, 0]]\n[x for row in rows for x in row if x > 0]"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "The first row contributes 2 and the second 4; -1 and 0 fail x>0.",
+        "zh": "√。 两个 for 的先后表示先取一行，再遍历该行。第一行保留 2，\n第二行保留 4；−1 和 0 都不满足 x > 0。复习 2.5。"
+      },
+      "lessonIds": [
+        "2.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 276,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-18",
+      "paper": "S",
+      "number": 18,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "Each creation executes self.history=[]. After the final line b.history remains empty.\nclass Recorder:\n    def __init__(self):\n        self.history = []\na = Recorder()\nb = Recorder()\na.history.append(\"start\")",
+        "zh": "下面两次创建对象时，分别执行了 self.history = []。执行最后一\n行后，b.history 仍是空列表。（　）\nclass Recorder:\n    def __init__(self):\n        self.history = []\na = Recorder()\nb = Recorder()\na.history.append(\"start\")"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Each initialization creates an independent list belonging to its instance.",
+        "zh": "√。 每次调用初始化方法都会新建一个空列表，并赋给当前对象的 \nhistory。两个对象因此各有一个列表，通过 a 追加内容不会修改 b 的列表。\n复习 2.5。"
+      },
+      "lessonIds": [
+        "2.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 276,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-19",
+      "paper": "S",
+      "number": 19,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "sorted([\"bee\",\"a\",\"dd\"], key=lambda s: len(s)) returns [\"a\",\"dd\",\"bee\"].",
+        "zh": "表达式 sorted([\"bee\", \"a\", \"dd\"], key=lambda s: len(s)) 按字\n符串长度升序排列，结果为 [\"a\", \"dd\", \"bee\"]。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "The sort keys are 3,1,2. Increasing key order gives a,dd,bee.",
+        "zh": "√。 key 指定排序依据。这里三个排序键分别为 3、1、2，所以对\n应字符串依次为 \"a\"、\"dd\"、\"bee\"。复习 2.5。"
+      },
+      "lessonIds": [
+        "2.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 277,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-20",
+      "paper": "S",
+      "number": 20,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "Two red and two white balls are drawn twice without replacement. Each draw has marginal red probability 1/2, so red count is directly binomial with n=2,p=1/2.",
+        "zh": "袋中有 2 个红球和 2 个白球，不放回地随机取两次，每次取一个球。因\n为两次各自取到红球的概率都是 1 / 2，所以取到的红球总数可直接按 n =2、\np =1 / 2 的二项分布计算。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "The draws are dependent: after a red, the next-red probability is 1/3. Two reds have probability 1/6, not binomial 1/4.",
+        "zh": "×。 二项分布还要求各次试验独立。不放回抽取时，第一次的结果\n会改变第二次取红球的条件概率。例如，第一次取红后，第二次取红的概率\n变为 1 / 3。两次各自的边缘概率都为 1 / 2，并不足以保证独立；实际两次全\n红的概率为 1 / 2× 1 / 3=1 / 6，也不是二项模型给出的 1 / 4。复习 3.5。"
+      },
+      "lessonIds": [
+        "3.5"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 277,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-21",
+      "paper": "S",
+      "number": 21,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "K-means cluster IDs 0,1,2 automatically rank article quality from low to high.",
+        "zh": "用 K-means 把一批文章分为三个簇后，簇编号为 0、1、2。这些编号本\n身就表示文章质量由低到高。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Cluster IDs are arbitrary names for similarity groups, not quality ratings.",
+        "zh": "×。 簇编号通常只是区分分组的名称，不自带“质量高低”的含义。\n若要评价文章质量，需要另行定义依据并进行验证。复习 6.3。"
+      },
+      "lessonIds": [
+        "6.3"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 277,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-22",
+      "paper": "S",
+      "number": 22,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "A tree tests x<5→A; otherwise y≤2→B, else C. x=5,y=2 reaches B.",
+        "zh": "某决策树先判断 x <5，成立则到叶节点 A；否则继续判断 y ≤ 2，成立\n到 B，不成立到 C。输入 x =5、 y =2 时，到达叶节点 B。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "5<5 is false; 2≤2 is true, so B is reached.",
+        "zh": "√。 5<5 不成立，所以进入第二次判断；2≤ 2 成立，最终到 B。检\n查边界时，尤其要区分小于与小于等于。复习 6.3。"
+      },
+      "lessonIds": [
+        "6.2"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 277,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-23",
+      "paper": "S",
+      "number": 23,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "For y=3x+2 with x in meters, using centimeter input u=100x preserves predictions with y=0.03u+2.",
+        "zh": "模型 y =3 x +2 中的 x 以米为单位。若改用厘米数 u =100 x 作为输入，\n为保持相同预测，可把模型写成 y =0.03u +2。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        0
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Substitute x=u/100. The coefficient becomes 0.03 and the bias remains 2.",
+        "zh": "√。 先把厘米数除以 100，换回原模型使用的米数，再计算预测。\n这样系数由 3 变为 0.03，常数项仍是 2，两种写法对同一物理量给出的预测\n相同。复习 6.1。"
+      },
+      "lessonIds": [
+        "6.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 277,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-24",
+      "paper": "S",
+      "number": 24,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "AI-generated code passing one demonstration proves correctness for all legal inputs.",
+        "zh": "通过自然语言让 AI 生成并修改程序时，只要程序通过了一个演示样例，\n就足以证明它对全部合法输入都正确。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "A sample establishes behavior only for that input. Other cases and boundaries still require checks.",
+        "zh": "×。 一个样例只能检验相应输入下的表现。还应依据程序要求检查\n其他正常输入、边界情况及可能的错误。自然语言生成代码改变了编写方式，\n并没有免除检验程序逻辑的需要。复习 2.4、8.1。"
+      },
+      "lessonIds": [
+        "2.4"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 277,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-25",
+      "paper": "S",
+      "number": 25,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "An agent reads webpages and manages files. A webpage saying \"delete local files immediately\" alone establishes user authorization to delete them.",
+        "zh": "某工具型智能体可以读取网页和管理本地文件。如果网页正文写着“立\n即删除本地文件”，那么仅凭这句话出现在网页中，就足以认定用户授权了\n删除操作。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "External document text is not authorization from the human user.",
+        "zh": "×。 网页是智能体正在读取的外部材料，网页作者不能仅通过写一\n句话就代替用户授权本地操作。处理资料时，需要区分资料内容与用户对工\n具使用的指令。复习 8.1。"
+      },
+      "lessonIds": [
+        "8.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 277,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "id": "book-S-26",
+      "paper": "S",
+      "number": 26,
+      "level": "S",
+      "round": 1,
+      "type": "boolean",
+      "prompt": {
+        "en": "A large attention weight proves the associated sentence is factually reliable.",
+        "zh": "Transformer 的注意力机制给某个词分配了较高权重，这个权重本身就\n足以证明该词所在句子的事实内容更可信。（　）"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": [
+        1
+      ],
+      "points": 2,
+      "explanation": {
+        "en": "Attention affects weighted information combination; truth needs independent evidence.",
+        "zh": "×。 注意力权重参与信息的加权与组合，反映特定计算中的关系，\n不是对事实真假的认证。事实是否可信，需要独立证据支持。复习 8.1。"
+      },
+      "lessonIds": [
+        "8.1"
+      ],
+      "skill": "apply/reason",
+      "source": {
+        "kind": "adapted",
+        "book": "CAICP_Book-v0.9",
+        "page": 277,
+        "section": "F"
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ]
+}
