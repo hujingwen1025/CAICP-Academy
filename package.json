@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/*.test.js && python3 tests/verify_examples.py",
+    "test": "node --test tests/*.test.js && python3 tests/verify_examples.py && python3 tests/verify_learning_examples.py",
     "serve": "python3 -m http.server 4173 --bind 127.0.0.1"
   }
 }

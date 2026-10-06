@@ -2709,6 +2709,798 @@
         "zh": "max(0,z)。"
       },
       "lessonId": "6.5"
+    },
+    {
+      "term": {
+        "en": "Modality",
+        "zh": "模态"
+      },
+      "definition": {
+        "en": "Content form such as text,image or sound.",
+        "zh": "文字、图像或声音等内容形式。"
+      },
+      "lessonId": "1.2",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          244
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Parameter / hyperparameter",
+        "zh": "参数／超参数"
+      },
+      "definition": {
+        "en": "A learned numerical setting versus a setting controlling model structure or training.",
+        "zh": "训练学得数值与规定结构训练的设置。"
+      },
+      "lessonId": "5.2",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          244
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Classification / regression / clustering",
+        "zh": "分类／回归／聚类"
+      },
+      "definition": {
+        "en": "Predict categories / meaningful numerical quantities / similarity groups without given target classes.",
+        "zh": "预测类别／有数量意义的值／无给定目标类的相似组。"
+      },
+      "lessonId": "5.1",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          244
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Semi-supervised / self-supervised",
+        "zh": "半监督／自监督"
+      },
+      "definition": {
+        "en": "Combine labeled and unlabeled material / construct learning targets from the data itself.",
+        "zh": "结合有无标签材料／从数据内部构造学习目标。"
+      },
+      "lessonId": "5.1",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          244
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Policy",
+        "zh": "策略"
+      },
+      "definition": {
+        "en": "A rule or distribution for choosing actions given the state.",
+        "zh": "给定状态时选择动作的规则或分布。"
+      },
+      "lessonId": "5.1",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          244
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Train / validation / test",
+        "zh": "训练／验证／测试集"
+      },
+      "definition": {
+        "en": "Learn parameters / choose settings / independently evaluate the finalized method.",
+        "zh": "学习参数／选择设置／独立评价定好的方法。"
+      },
+      "lessonId": "5.2",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          244
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Distribution shift",
+        "zh": "分布变化"
+      },
+      "definition": {
+        "en": "A difference between new data and the data or conditions previously studied.",
+        "zh": "新数据与先前数据或条件在构成规律上的差别。"
+      },
+      "lessonId": "5.2",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          244
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Normalization",
+        "zh": "归一化"
+      },
+      "definition": {
+        "en": "A family of scale transformations; check whether the formula means min–max scaling or unit vector length.",
+        "zh": "尺度变换的统称，需查公式是最小最大缩放还是单位向量。"
+      },
+      "lessonId": "5.3",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          244
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "TP / FP / FN / TN",
+        "zh": "TP／FP／FN／TN"
+      },
+      "definition": {
+        "en": "Correct positive / false alarm / missed positive / correct negative; name the positive class first.",
+        "zh": "真正例／误报／漏报／真负例，先规定正类。"
+      },
+      "lessonId": "5.4",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "RMSE",
+        "zh": "均方根误差"
+      },
+      "definition": {
+        "en": "Square root of MSE,with the target’s original units.",
+        "zh": "MSE平方根，恢复目标原单位。"
+      },
+      "lessonId": "5.4",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Enumeration",
+        "zh": "枚举"
+      },
+      "definition": {
+        "en": "Check all candidates in a justified finite range.",
+        "zh": "检查有依据的有限范围内全部候选。"
+      },
+      "lessonId": "4.2",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Divide and conquer",
+        "zh": "分治"
+      },
+      "definition": {
+        "en": "Solve smaller problems of the same type,then combine their results.",
+        "zh": "求解较小同类问题，再组合结果。"
+      },
+      "lessonId": "4.3",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Vertex / edge / path",
+        "zh": "顶点／边／路径"
+      },
+      "definition": {
+        "en": "Graph object / connection / sequence following connections.",
+        "zh": "图对象／连接／沿连接行进的序列。"
+      },
+      "lessonId": "4.4",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Queue / stack",
+        "zh": "队列／栈"
+      },
+      "definition": {
+        "en": "First-in first-out / last-in first-out data organizations.",
+        "zh": "先进先出／后进先出的数据组织。"
+      },
+      "lessonId": "4.4",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "State / transition",
+        "zh": "状态／状态转换"
+      },
+      "definition": {
+        "en": "Information needed for subsequent changes / update caused by an action or input.",
+        "zh": "后续变化所需的信息／动作输入引起的改变。"
+      },
+      "lessonId": "4.5",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Positive / negative feedback",
+        "zh": "正／负反馈"
+      },
+      "definition": {
+        "en": "Reinforce / counteract the original change; the signs do not mean good / bad.",
+        "zh": "加强／抵消原变化，正负不是好坏。"
+      },
+      "lessonId": "4.5",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Decision / loss function",
+        "zh": "决策／损失函数"
+      },
+      "definition": {
+        "en": "Provide a classification score / evaluate mismatch with a target.",
+        "zh": "产生分类依据／评价与目标的偏差。"
+      },
+      "lessonId": "6.2",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Least squares / maximum likelihood",
+        "zh": "最小二乘／最大似然"
+      },
+      "definition": {
+        "en": "Minimize squared errors / maximize the likelihood of the observed data over parameters.",
+        "zh": "最小化平方误差／在参数中最大化观测数据似然。"
+      },
+      "lessonId": "6.4",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Prior / posterior",
+        "zh": "先验／后验"
+      },
+      "definition": {
+        "en": "Probability before evidence / conditional probability after incorporating it.",
+        "zh": "观察证据前的概率／结合证据后的条件概率。"
+      },
+      "lessonId": "6.4",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "SVM / MLP / CNN",
+        "zh": "SVM／MLP／CNN"
+      },
+      "definition": {
+        "en": "Support vector machine / multilayer perceptron / convolutional neural network.",
+        "zh": "支持向量机／多层感知机／卷积神经网络。"
+      },
+      "lessonId": "6.2",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Activation",
+        "zh": "激活函数"
+      },
+      "definition": {
+        "en": "Convert a neuron’s weighted sum into its output.",
+        "zh": "把神经元加权结果转为输出。"
+      },
+      "lessonId": "6.5",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          245
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Forward / backpropagation",
+        "zh": "前向／反向传播"
+      },
+      "definition": {
+        "en": "Compute predictions layer by layer / compute loss gradients in reverse.",
+        "zh": "逐层计算预测／反向计算损失梯度。"
+      },
+      "lessonId": "6.5",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Partial derivative",
+        "zh": "偏导数"
+      },
+      "definition": {
+        "en": "Rate of change in one variable while the others are fixed.",
+        "zh": "固定其他变量时某一变量的变化率。"
+      },
+      "lessonId": "6.6",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Batch size / epoch",
+        "zh": "批大小／训练轮次"
+      },
+      "definition": {
+        "en": "Samples in one batch / one complete processing of the training set.",
+        "zh": "一批样本数／完整处理训练集一遍。"
+      },
+      "lessonId": "6.7",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Regularization / early stopping",
+        "zh": "正则化／早停"
+      },
+      "definition": {
+        "en": "Extra constraints or preferences / stop training using validation evidence and a predefined rule.",
+        "zh": "额外约束偏好／按验证证据和预定规则停止训练。"
+      },
+      "lessonId": "6.7",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Kernel / stride / padding",
+        "zh": "卷积核／步幅／填充"
+      },
+      "definition": {
+        "en": "Local weights / window movement / added edge values.",
+        "zh": "局部权重／窗口移动距离／边缘补值。"
+      },
+      "lessonId": "6.8",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Channel / feature map / pooling",
+        "zh": "通道／特征图／池化"
+      },
+      "definition": {
+        "en": "Information components at a position / local-operation output / window summary.",
+        "zh": "同位置的信息分量／局部运算输出／窗口汇总。"
+      },
+      "lessonId": "6.8",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "ndarray / DataFrame",
+        "zh": "ndarray／DataFrame"
+      },
+      "definition": {
+        "en": "NumPy multidimensional array / Pandas named table.",
+        "zh": "NumPy多维数组／Pandas命名表。"
+      },
+      "lessonId": "7.1",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Broadcast / view",
+        "zh": "广播／视图"
+      },
+      "definition": {
+        "en": "Shape-based compatible operations / representation sharing original storage.",
+        "zh": "按形状兼容运算／与原对象共享存储的表示。"
+      },
+      "lessonId": "7.1",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "fit / transform / predict",
+        "zh": "fit／transform／predict"
+      },
+      "definition": {
+        "en": "Learn rules / reuse learned transformation / estimate an output.",
+        "zh": "学习规则／沿用已学变换／计算预测。"
+      },
+      "lessonId": "7.4",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Token / attention / Transformer",
+        "zh": "词元／注意力／Transformer"
+      },
+      "definition": {
+        "en": "Text fragment / query-based context weighting / attention-centered architecture.",
+        "zh": "文本片段／按查询上下文加权／以注意力为核心的架构。"
+      },
+      "lessonId": "8.1",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "World model / embodiment",
+        "zh": "世界模型／具身智能"
+      },
+      "definition": {
+        "en": "Predict environment and action consequences / interact with the environment through action.",
+        "zh": "预测环境行动后果／通过行动与环境交互。"
+      },
+      "lessonId": "8.1",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "xᵢ / x²",
+        "zh": "xᵢ／x²"
+      },
+      "definition": {
+        "en": "The ith item / x squared; subscript is indexing,not exponentiation.",
+        "zh": "第i项／x的平方，下标编号不是指数。"
+      },
+      "lessonId": "3.3",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "ŷ / y",
+        "zh": "ŷ／y"
+      },
+      "definition": {
+        "en": "Prediction / observed target; error here is prediction minus truth.",
+        "zh": "预测／真实目标，此处误差为前者减后者。"
+      },
+      "lessonId": "3.3",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "x̄",
+        "zh": "x̄"
+      },
+      "definition": {
+        "en": "Mean of the indicated values,not an arbitrary individual sample.",
+        "zh": "所指数据均值，不是任意单一样本。"
+      },
+      "lessonId": "3.2",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "Σ",
+        "zh": "Σ"
+      },
+      "definition": {
+        "en": "Sum over the specified start and end indices.",
+        "zh": "在给定下标起止范围逐项相加。"
+      },
+      "lessonId": "3.3",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "P(A | B)",
+        "zh": "P(A | B)"
+      },
+      "definition": {
+        "en": "Probability of A conditional on B; condition follows the vertical bar.",
+        "zh": "已知B时A的概率，竖线右边为条件。"
+      },
+      "lessonId": "3.5",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "w / b",
+        "zh": "w／b"
+      },
+      "definition": {
+        "en": "Model weights / bias,not measured sample labels.",
+        "zh": "模型权重／偏置，不是样本测量标签。"
+      },
+      "lessonId": "6.1",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "μ / σ",
+        "zh": "μ／σ"
+      },
+      "definition": {
+        "en": "Mean / standard deviation; μ may also name a cluster center.",
+        "zh": "均值／标准差，μ也可表示簇中心。"
+      },
+      "lessonId": "3.5",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "f′(x) / ∇L",
+        "zh": "f′(x)／∇L"
+      },
+      "definition": {
+        "en": "Derivative / gradient of loss; gradients point locally uphill,updates commonly follow their negative.",
+        "zh": "导数／损失梯度，梯度局部上升，更新常沿负方向。"
+      },
+      "lessonId": "6.6",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "η / λ",
+        "zh": "η／λ"
+      },
+      "definition": {
+        "en": "Learning rate / regularization strength; names can vary by tool.",
+        "zh": "学习率／正则强度，工具可用其他名字。"
+      },
+      "lessonId": "6.7",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "O(n) / O(n²)",
+        "zh": "O(n)／O(n²)"
+      },
+      "definition": {
+        "en": "Operation-growth orders,not exact running times in seconds.",
+        "zh": "操作增长数量级，不是精确秒数。"
+      },
+      "lessonId": "4.2",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": ".shape / axis",
+        "zh": ".shape／axis"
+      },
+      "definition": {
+        "en": "Array dimensions / operation axis; axis count differs from feature count.",
+        "zh": "数组形状／操作轴，轴数不同于特征数。"
+      },
+      "lessonId": "7.1",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          247
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "term": {
+        "en": "p in context",
+        "zh": "按上下文读p"
+      },
+      "definition": {
+        "en": "A probability in one formula may be padding in a convolution formula. Always read local definitions.",
+        "zh": "概率公式的p可表示概率，卷积公式可表示填充，须读邻近定义。"
+      },
+      "lessonId": "6.8",
+      "source": {
+        "section": "Appendix B",
+        "pages": [
+          246
+        ]
+      },
+      "license": "CC-BY-NC-SA-4.0"
     }
   ],
   "questions": [

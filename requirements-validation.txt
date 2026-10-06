@@ -1,0 +1,5 @@
+# Optional: full numerical-example checks; never required to serve the site.
+numpy>=2,<3
+pandas>=2,<4
+matplotlib>=3,<4
+scikit-learn>=1.5,<2

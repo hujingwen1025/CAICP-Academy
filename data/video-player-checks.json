@@ -1,0 +1,364 @@
+{
+  "checkedAt": "2026-10-06",
+  "method": "Load each selected player through a lesson, inspect controls, choose Play, observe player playing-mode and initial media state. Immediate time0 or paused state is not proof of sustained playback. No full-video or universal regional playback claim.",
+  "checks": [
+    {
+      "id": "1GSjbWt0c9M",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "3dt4OGnU5sM",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "4b5d3muPQmA",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "589nCGeWG1w",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "5NVjIIi9fkY",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "68BZ5f7P94E",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "6iF8Xb7Z3wQ",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "8A7L0GsBiLQ",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "8hly31xKli0",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "9Os0o3wzS_I",
+      "inspectionError": "Error: Error: Browser Use encountered an error interacting with this webpage: Error: strict mode violation: locator('iframe') resolved to 2 elements:\n    1) <iframe loading=\"lazy\" allowfullscreen=\"\" referrerpolicy=\"stric"
+    },
+    {
+      "id": "9vKqVkMQHKk",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "9wCnvr7Xw4E",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "CqvZ3vGoGs0",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "DAQNHzOcO5A",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "EuBBz3bI-aA",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "FZGugFqdr60",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "GB9ByFAIAH4",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "HGwBXDKFk9I",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "HVXime0nQeI",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "IBfWDYSffUU",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "IHZwWFHWa-w",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "IWigvJcCAJ0",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "KdmPHEnPJPs",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "Kdsp6soqA7o",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "KpedmJdrTpY",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "NIWwJbo-9_8",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "PaFPbb66DxQ",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "Q1vMNyIP4Us",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "Q81RR3yKn30",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "T98PIp4omUA",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "UFJQV5Jb0pY",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "W8KRzm-HUcc",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "XepXtl9YKwc",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "Z-T0iJEXiwM",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "ZDa-Z5JzLYM",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "_IgyaD7vOOA",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "_L39rN6gz7Y",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "a0_lo_GDcFw",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "aircAruvnKk",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "daefaLgNkw0",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "eMlx5fFNoYc",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "efR1C6CvhmE",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "fNk_zzaMoSs",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "fSytzGwwBVw",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "gI-qXk7XojA",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "gV0_raKR2UQ",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "h8EYEJ32oQ8",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "hYdO9CscNes",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "k9TUPpGqYTo",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "kYB8IZa5AuE",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "khKv-8q7YmY",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "rL8X2mlNHPM",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "rfscVS0vtbw",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "rzFX5NWojp0",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "s-CYnVz-uh4",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "sDv4f4s2SB8",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "vDqOoI-4Z6M",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "wjZofJX0v4M",
+      "error": null,
+      "paused": false,
+      "time": 0
+    },
+    {
+      "id": "zmdjNSmRXF4",
+      "error": null,
+      "paused": true,
+      "time": 0
+    },
+    {
+      "id": "9Os0o3wzS_I",
+      "error": null,
+      "paused": false,
+      "time": 0
+    }
+  ]
+}

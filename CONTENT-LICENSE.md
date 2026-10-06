@@ -21,3 +21,9 @@ The Chinese paper questions and Chinese answer explanations are adapted from app
 When sharing or adapting this content, retain attribution, source and license information, identify changes, use it only for noncommercial purposes, and share adaptations under CC BY-NC-SA 4.0. Application code's MIT license does not override these educational-content conditions. Follow the linked license's legal terms.
 
 Suggested attribution: “CAICP Academy, adapted by WilliamH from 陈峥, 从零开始学人工智能：中学生 CAICP 学习指南, v0.9 (2026-09-29), https://github.com/UESTC1010/CAICP_Book; translated, condensed and made interactive; CC BY-NC-SA 4.0.”
+
+## Expanded adaptations and external videos
+
+Structured lessons, translations, recreated diagrams/tables, worked examples, glossary additions, retrieval prompts and the Academy's viewing guidance are educational adaptations under CC BY-NC-SA4.0. Credit 陈峥 and book v0.9, link the source repository and license, identify changes, restrict reuse to noncommercial purposes and share adaptations under the same license. The separate MIT code license and copyright remain unchanged.
+
+External video titles, creators, dates and original links are attribution metadata. The audiovisual works remain under their respective creators' and providers' terms; embedding does not transfer them to the Academy's educational-content license. No video media is redistributed.

@@ -1,0 +1,4433 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-06",
+  "videos": [
+    {
+      "id": "1GSjbWt0c9M",
+      "title": "Representing Numbers and Letters with Binary: Crash Course Computer Science #4",
+      "creator": "CrashCourse",
+      "creatorUrl": "https://www.youtube.com/@crashcourse",
+      "url": "https://www.youtube.com/watch?v=1GSjbWt0c9M",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=1GSjbWt0c9M",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-03-15",
+      "duration": 645
+    },
+    {
+      "id": "3dt4OGnU5sM",
+      "title": "Python Tutorial: Comprehensions - How they work and why you should be using them",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=3dt4OGnU5sM",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=3dt4OGnU5sM",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2015-08-24",
+      "duration": 1109
+    },
+    {
+      "id": "4b5d3muPQmA",
+      "title": "StatQuest: K-means clustering",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/4b5d3muPQmA",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2018-05-23",
+      "duration": 510
+    },
+    {
+      "id": "589nCGeWG1w",
+      "title": "One-Hot, Label, Target and K-Fold Target Encoding, Clearly Explained!!!",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/589nCGeWG1w",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2023-02-12",
+      "duration": 923
+    },
+    {
+      "id": "5NVjIIi9fkY",
+      "title": "Feedback Control Systems | Understanding Control Systems, Part 2",
+      "creator": "MATLAB",
+      "creatorUrl": "https://www.youtube.com/@MATLAB",
+      "url": "https://www.youtube.com/watch?v=5NVjIIi9fkY",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=5NVjIIi9fkY",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2016-11-01",
+      "duration": 357
+    },
+    {
+      "id": "68BZ5f7P94E",
+      "title": "Neural Networks Pt. 3: ReLU In Action!!!",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://www.youtube.com/watch?v=68BZ5f7P94E",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=68BZ5f7P94E",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2020-11-23",
+      "duration": 538
+    },
+    {
+      "id": "6iF8Xb7Z3wQ",
+      "title": "Python Tutorial for Beginners 7: Loops and Iterations - For/While Loops",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=6iF8Xb7Z3wQ",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=6iF8Xb7Z3wQ",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-05-17",
+      "duration": 614
+    },
+    {
+      "id": "8A7L0GsBiLQ",
+      "title": "Support Vector Machines in Python from Start to Finish.",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://www.youtube.com/watch?v=8A7L0GsBiLQ",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=8A7L0GsBiLQ",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2020-06-30",
+      "duration": 2688
+    },
+    {
+      "id": "8hly31xKli0",
+      "title": "Algorithms and Data Structures Tutorial - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "creatorUrl": "https://www.youtube.com/@freecodecamp",
+      "url": "https://www.youtube.com/watch?v=8hly31xKli0",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=8hly31xKli0",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2021-03-18",
+      "duration": 19328
+    },
+    {
+      "id": "9Os0o3wzS_I",
+      "title": "Python Tutorial for Beginners 8: Functions",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=9Os0o3wzS_I",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=9Os0o3wzS_I",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-05-17",
+      "duration": 1307
+    },
+    {
+      "id": "9vKqVkMQHKk",
+      "title": "The paradox of the derivative | Chapter 2, Essence of calculus",
+      "creator": "3Blue1Brown",
+      "creatorUrl": "https://www.youtube.com/@3blue1brown",
+      "url": "https://www.youtube.com/watch?v=9vKqVkMQHKk",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=9vKqVkMQHKk",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-04-29",
+      "duration": 1010
+    },
+    {
+      "id": "9wCnvr7Xw4E",
+      "title": "Bayes' Theorem, Clearly Explained!!!!",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/9wCnvr7Xw4E",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2021-08-15",
+      "duration": 839
+    },
+    {
+      "id": "CqvZ3vGoGs0",
+      "title": "Python Tutorial for Beginners 9: Import Modules and Exploring The Standard Library",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=CqvZ3vGoGs0",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=CqvZ3vGoGs0",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-05-17",
+      "duration": 1317
+    },
+    {
+      "id": "DAQNHzOcO5A",
+      "title": "Intro to Data Visualization in Python with Matplotlib! (line graph, bar chart, title, labels, size)",
+      "creator": "Keith Galli",
+      "creatorUrl": "https://www.youtube.com/@KeithGalli",
+      "url": "https://www.youtube.com/watch?v=DAQNHzOcO5A",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=DAQNHzOcO5A",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2019-06-01",
+      "duration": 1953
+    },
+    {
+      "id": "EuBBz3bI-aA",
+      "title": "Machine Learning Fundamentals: Bias and Variance",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/EuBBz3bI-aA",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2018-09-17",
+      "duration": 396
+    },
+    {
+      "id": "FZGugFqdr60",
+      "title": "The Central Processing Unit (CPU): Crash Course Computer Science #7",
+      "creator": "CrashCourse",
+      "creatorUrl": "https://www.youtube.com/@crashcourse",
+      "url": "https://www.youtube.com/watch?v=FZGugFqdr60",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=FZGugFqdr60",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-04-05",
+      "duration": 697
+    },
+    {
+      "id": "GB9ByFAIAH4",
+      "title": "Complete Python NumPy Tutorial (Creating Arrays, Indexing, Math, Statistics, Reshaping)",
+      "creator": "Keith Galli",
+      "creatorUrl": "https://www.youtube.com/@KeithGalli",
+      "url": "https://www.youtube.com/watch?v=GB9ByFAIAH4",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=GB9ByFAIAH4",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2019-07-10",
+      "duration": 3520
+    },
+    {
+      "id": "HGwBXDKFk9I",
+      "title": "Neural Networks Part 8: Image Classification with Convolutional Neural Networks (CNNs)",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/HGwBXDKFk9I",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2021-03-07",
+      "duration": 923
+    },
+    {
+      "id": "HVXime0nQeI",
+      "title": "StatQuest: K-nearest neighbors, Clearly Explained",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/HVXime0nQeI",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-06-26",
+      "duration": 330
+    },
+    {
+      "id": "IBfWDYSffUU",
+      "title": "10. Depth-First Search",
+      "creator": "MIT OpenCourseWare",
+      "creatorUrl": "https://www.youtube.com/@mitocw",
+      "url": "https://www.youtube.com/watch?v=IBfWDYSffUU",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=IBfWDYSffUU",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: embedded player/title/controls inspected in detail disclosure; closing unloaded it.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2021-09-13",
+      "duration": 3143
+    },
+    {
+      "id": "IHZwWFHWa-w",
+      "title": "Gradient descent, how neural networks learn | Deep Learning Chapter 2",
+      "creator": "3Blue1Brown",
+      "creatorUrl": "https://www.youtube.com/@3blue1brown",
+      "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=IHZwWFHWa-w",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-10-16",
+      "duration": 1233
+    },
+    {
+      "id": "IWigvJcCAJ0",
+      "title": "Introduction to the quadratic equation | Quadratic equations | Algebra I | Khan Academy",
+      "creator": "Khan Academy",
+      "creatorUrl": "https://www.youtube.com/@khanacademy",
+      "url": "https://www.youtube.com/watch?v=IWigvJcCAJ0",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=IWigvJcCAJ0",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2007-01-28",
+      "duration": 554
+    },
+    {
+      "id": "KdmPHEnPJPs",
+      "title": "Python Pandas Tutorial (Part 9): Cleaning Data - Casting Datatypes and Handling Missing Values",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=KdmPHEnPJPs",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=KdmPHEnPJPs",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2020-02-24",
+      "duration": 1914
+    },
+    {
+      "id": "Kdsp6soqA7o",
+      "title": "Machine Learning Fundamentals: The Confusion Matrix",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/Kdsp6soqA7o",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2018-10-29",
+      "duration": 432
+    },
+    {
+      "id": "KpedmJdrTpY",
+      "title": "Protein folding explained",
+      "creator": "Google DeepMind",
+      "creatorUrl": "https://www.youtube.com/@googledeepmind",
+      "url": "https://www.youtube.com/watch?v=KpedmJdrTpY",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=KpedmJdrTpY",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2020-11-30",
+      "duration": 112
+    },
+    {
+      "id": "NIWwJbo-9_8",
+      "title": "Python Tutorial: Using Try/Except Blocks for Error Handling",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2015-11-13",
+      "duration": 634
+    },
+    {
+      "id": "PaFPbb66DxQ",
+      "title": "The Main Ideas of Fitting a Line to Data (The Main Ideas of Least Squares and Linear Regression.)",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://www.youtube.com/watch?v=PaFPbb66DxQ",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=PaFPbb66DxQ",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-05-22",
+      "duration": 561
+    },
+    {
+      "id": "Q1vMNyIP4Us",
+      "title": "How to write expressions with variables | Introduction to algebra | Algebra I | Khan Academy",
+      "creator": "Khan Academy",
+      "creatorUrl": "https://www.youtube.com/@khanacademy",
+      "url": "https://www.youtube.com/watch?v=Q1vMNyIP4Us",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=Q1vMNyIP4Us",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2012-02-07",
+      "duration": 97
+    },
+    {
+      "id": "Q81RR3yKn30",
+      "title": "Regularization Part 1: Ridge (L2) Regression",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/Q81RR3yKn30",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2018-09-24",
+      "duration": 1226
+    },
+    {
+      "id": "T98PIp4omUA",
+      "title": "Binary Search - CS50 Shorts",
+      "creator": "CS50",
+      "creatorUrl": "https://www.youtube.com/@cs50",
+      "url": "https://www.youtube.com/watch?v=T98PIp4omUA",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=T98PIp4omUA",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-10-25",
+      "duration": 571
+    },
+    {
+      "id": "UFJQV5Jb0pY",
+      "title": "The History of AI Explained: Crash Course Futures of AI #1",
+      "creator": "CrashCourse",
+      "creatorUrl": "https://www.youtube.com/@crashcourse",
+      "url": "https://www.youtube.com/watch?v=UFJQV5Jb0pY",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=UFJQV5Jb0pY",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2025-11-19",
+      "duration": 769
+    },
+    {
+      "id": "W8KRzm-HUcc",
+      "title": "Python Tutorial for Beginners 4: Lists, Tuples, and Sets",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=W8KRzm-HUcc",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=W8KRzm-HUcc",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-05-17",
+      "duration": 1744
+    },
+    {
+      "id": "XepXtl9YKwc",
+      "title": "Maximum Likelihood, clearly explained!!!",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/XepXtl9YKwc",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-07-31",
+      "duration": 372
+    },
+    {
+      "id": "Z-T0iJEXiwM",
+      "title": "Reinforcement Learning: Essential Concepts",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/Z-T0iJEXiwM",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2025-03-30",
+      "duration": 1093
+    },
+    {
+      "id": "ZDa-Z5JzLYM",
+      "title": "Python OOP Tutorial 1: Classes and Instances",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2016-06-20",
+      "duration": 924
+    },
+    {
+      "id": "_IgyaD7vOOA",
+      "title": "Conditional Probabilities, Clearly Explained!!!",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/_IgyaD7vOOA",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2021-07-20",
+      "duration": 656
+    },
+    {
+      "id": "_L39rN6gz7Y",
+      "title": "Decision and Classification Trees, Clearly Explained!!!",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/_L39rN6gz7Y",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2021-04-25",
+      "duration": 1088
+    },
+    {
+      "id": "a0_lo_GDcFw",
+      "title": "What Is Artificial Intelligence? Crash Course AI #1",
+      "creator": "CrashCourse",
+      "creatorUrl": "https://www.youtube.com/@crashcourse",
+      "url": "https://www.youtube.com/watch?v=a0_lo_GDcFw",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=a0_lo_GDcFw",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2019-08-09",
+      "duration": 705
+    },
+    {
+      "id": "aircAruvnKk",
+      "title": "But what is a neural network? | Deep learning chapter 1",
+      "creator": "3Blue1Brown",
+      "creatorUrl": "https://www.youtube.com/@3blue1brown",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-10-05",
+      "duration": 1120
+    },
+    {
+      "id": "daefaLgNkw0",
+      "title": "Python Tutorial for Beginners 5: Dictionaries - Working with Key-Value Pairs",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=daefaLgNkw0",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=daefaLgNkw0",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-05-17",
+      "duration": 599
+    },
+    {
+      "id": "eMlx5fFNoYc",
+      "title": "Attention in transformers, step-by-step | Deep Learning Chapter 6",
+      "creator": "3Blue1Brown",
+      "creatorUrl": "https://www.youtube.com/@3blue1brown",
+      "url": "https://www.youtube.com/watch?v=eMlx5fFNoYc",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=eMlx5fFNoYc",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2024-04-07",
+      "duration": 1569
+    },
+    {
+      "id": "efR1C6CvhmE",
+      "title": "Support Vector Machines Part 1 (of 3): Main Ideas!!!",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://www.youtube.com/watch?v=efR1C6CvhmE",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=efR1C6CvhmE",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2019-09-30",
+      "duration": 1232
+    },
+    {
+      "id": "fNk_zzaMoSs",
+      "title": "Vectors | Chapter 1, Essence of linear algebra",
+      "creator": "3Blue1Brown",
+      "creatorUrl": "https://www.youtube.com/@3blue1brown",
+      "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2016-08-05",
+      "duration": 591
+    },
+    {
+      "id": "fSytzGwwBVw",
+      "title": "Machine Learning Fundamentals: Cross Validation",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/fSytzGwwBVw",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2018-04-24",
+      "duration": 364
+    },
+    {
+      "id": "gI-qXk7XojA",
+      "title": "Boolean Logic & Logic Gates: Crash Course Computer Science #3",
+      "creator": "CrashCourse",
+      "creatorUrl": "https://www.youtube.com/@crashcourse",
+      "url": "https://www.youtube.com/watch?v=gI-qXk7XojA",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=gI-qXk7XojA",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-03-08",
+      "duration": 607
+    },
+    {
+      "id": "gV0_raKR2UQ",
+      "title": "Algorithmic Bias and Fairness: Crash Course AI #18",
+      "creator": "CrashCourse",
+      "creatorUrl": "https://www.youtube.com/@crashcourse",
+      "url": "https://www.youtube.com/watch?v=gV0_raKR2UQ",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=gV0_raKR2UQ",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2019-12-13",
+      "duration": 680
+    },
+    {
+      "id": "h8EYEJ32oQ8",
+      "title": "Statistics intro: Mean, median, and mode | Data and statistics | 6th grade | Khan Academy",
+      "creator": "Khan Academy",
+      "creatorUrl": "https://www.youtube.com/@khanacademy",
+      "url": "https://www.youtube.com/watch?v=h8EYEJ32oQ8",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=h8EYEJ32oQ8",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2012-11-16",
+      "duration": 533
+    },
+    {
+      "id": "hYdO9CscNes",
+      "title": "【機器學習2021】自注意力機制 (Self-attention) (上)",
+      "creator": "Hung-yi Lee",
+      "creatorUrl": "https://www.youtube.com/@HungyiLeeNTU",
+      "url": "https://www.youtube.com/watch?v=hYdO9CscNes",
+      "platform": "YouTube",
+      "language": "zh",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=hYdO9CscNes",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2021-03-12",
+      "duration": 1698
+    },
+    {
+      "id": "k9TUPpGqYTo",
+      "title": "Python Tutorial for Beginners 2: Strings - Working with Textual Data",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=k9TUPpGqYTo",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=k9TUPpGqYTo",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-05-17",
+      "duration": 1271
+    },
+    {
+      "id": "kYB8IZa5AuE",
+      "title": "Linear transformations and matrices | Chapter 3, Essence of linear algebra",
+      "creator": "3Blue1Brown",
+      "creatorUrl": "https://www.youtube.com/@3blue1brown",
+      "url": "https://www.youtube.com/watch?v=kYB8IZa5AuE",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=kYB8IZa5AuE",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2016-08-07",
+      "duration": 658
+    },
+    {
+      "id": "khKv-8q7YmY",
+      "title": "Python Tutorial for Beginners 3: Integers and Floats - Working with Numeric Data",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=khKv-8q7YmY",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=khKv-8q7YmY",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-05-17",
+      "duration": 715
+    },
+    {
+      "id": "rL8X2mlNHPM",
+      "title": "Intro to Algorithms: Crash Course Computer Science #13",
+      "creator": "CrashCourse",
+      "creatorUrl": "https://www.youtube.com/@crashcourse",
+      "url": "https://www.youtube.com/watch?v=rL8X2mlNHPM",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=rL8X2mlNHPM",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-05-24",
+      "duration": 704
+    },
+    {
+      "id": "rfscVS0vtbw",
+      "title": "Learn Python - Full Course for Beginners [Tutorial]",
+      "creator": "freeCodeCamp.org",
+      "creatorUrl": "https://www.youtube.com/@freecodecamp",
+      "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2018-07-11",
+      "duration": 16012
+    },
+    {
+      "id": "rzFX5NWojp0",
+      "title": "The Normal Distribution, Clearly Explained!!!",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/rzFX5NWojp0",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2017-10-09",
+      "duration": 312
+    },
+    {
+      "id": "s-CYnVz-uh4",
+      "title": "Lecture 13: Breadth-First Search (BFS)",
+      "creator": "MIT OpenCourseWare",
+      "creatorUrl": "https://www.youtube.com/@mitocw",
+      "url": "https://www.youtube.com/watch?v=s-CYnVz-uh4",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=s-CYnVz-uh4",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: played in local preview; time advanced 11.509s to11.799s during language switch.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2013-01-14",
+      "duration": 3047
+    },
+    {
+      "id": "sDv4f4s2SB8",
+      "title": "Gradient Descent, Step-by-Step",
+      "creator": "StatQuest with Josh Starmer",
+      "creatorUrl": "https://www.youtube.com/@statquest",
+      "url": "https://youtu.be/sDv4f4s2SB8",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://statquest.org/video_index.html",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2019-02-05",
+      "duration": 1434
+    },
+    {
+      "id": "vDqOoI-4Z6M",
+      "title": "What are variables, expressions, and equations? | Introduction to algebra | Algebra I | Khan Academy",
+      "creator": "Khan Academy",
+      "creatorUrl": "https://www.youtube.com/@khanacademy",
+      "url": "https://www.youtube.com/watch?v=vDqOoI-4Z6M",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=vDqOoI-4Z6M",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2012-02-17",
+      "duration": 415
+    },
+    {
+      "id": "wjZofJX0v4M",
+      "title": "Transformers, the tech behind LLMs | Deep Learning Chapter 5",
+      "creator": "3Blue1Brown",
+      "creatorUrl": "https://www.youtube.com/@3blue1brown",
+      "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2024-04-01",
+      "duration": 1634
+    },
+    {
+      "id": "zmdjNSmRXF4",
+      "title": "Python Pandas Tutorial (Part 2): DataFrame and Series Basics - Selecting Rows and Columns",
+      "creator": "Corey Schafer",
+      "creatorUrl": "https://www.youtube.com/@coreyms",
+      "url": "https://www.youtube.com/watch?v=zmdjNSmRXF4",
+      "platform": "YouTube",
+      "language": "en",
+      "checkedAt": "2026-10-06",
+      "creatorSource": "https://www.youtube.com/watch?v=zmdjNSmRXF4",
+      "license": "Creator terms; external audiovisual work; not Academy CC BY-NC-SA",
+      "verification": {
+        "oembed": "available",
+        "watchStatus": "OK",
+        "embedAllowed": true,
+        "playbackInspection": "2026-10-06: individual embed/controls and Play action inspected; immediate media state recorded in video-player-checks.json. Sustained playback not established by this short check.",
+        "regionalRestrictions": "Not exhaustively tested; provider or regional access may differ."
+      },
+      "publishedAt": "2020-01-10",
+      "duration": 2015
+    }
+  ],
+  "placements": [
+    {
+      "id": "watch-1.1-tasks",
+      "conceptId": "concept-1.1-tasks",
+      "lessonId": "1.1",
+      "videoId": "a0_lo_GDcFw",
+      "kind": "major",
+      "label": {
+        "en": "Define the task before choosing a tool",
+        "zh": "先定义任务，再选择工具"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow input, task and learned behavior; pause to explain the inputs and outputs.",
+        "zh": "观察输入、任务与学习行为，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Define the task before choosing a tool” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“先定义任务，再选择工具”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.1-learning",
+      "conceptId": "concept-1.1-learning",
+      "lessonId": "1.1",
+      "videoId": "aircAruvnKk",
+      "kind": "detail",
+      "label": {
+        "en": "Rules, training, inference and generalization",
+        "zh": "规则、训练、推理与泛化"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Rules, training, inference and generalization”.",
+        "zh": "找出视频讲解的计算或区别，再联系“规则、训练、推理与泛化”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Rules, training, inference and generalization” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“规则、训练、推理与泛化”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.1-applications",
+      "conceptId": "concept-1.1-applications",
+      "lessonId": "1.1",
+      "videoId": "a0_lo_GDcFw",
+      "kind": "detail",
+      "label": {
+        "en": "Same modality, different questions",
+        "zh": "同一模态，不同任务"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow input, task and learned behavior; pause to explain the inputs and outputs.",
+        "zh": "观察输入、任务与学习行为，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Same modality, different questions” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“同一模态，不同任务”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.2-representation",
+      "conceptId": "concept-1.2-representation",
+      "lessonId": "1.2",
+      "videoId": "1GSjbWt0c9M",
+      "kind": "major",
+      "label": {
+        "en": "Sampling chooses when; quantization chooses precision",
+        "zh": "采样决定时刻，量化决定精度"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow bits, numbers and character encodings; pause to explain the inputs and outputs.",
+        "zh": "观察位、数字与字符编码，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Sampling chooses when; quantization chooses precision” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“采样决定时刻，量化决定精度”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.2-bits",
+      "conceptId": "concept-1.2-bits",
+      "lessonId": "1.2",
+      "videoId": "1GSjbWt0c9M",
+      "kind": "detail",
+      "label": {
+        "en": "Bits, bytes and raw image size",
+        "zh": "位、字节与原始图像大小"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow bits, numbers and character encodings; pause to explain the inputs and outputs.",
+        "zh": "观察位、数字与字符编码，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Bits, bytes and raw image size” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“位、字节与原始图像大小”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.2-organization",
+      "conceptId": "concept-1.2-organization",
+      "lessonId": "1.2",
+      "videoId": "1GSjbWt0c9M",
+      "kind": "detail",
+      "label": {
+        "en": "Three independent ways to classify data",
+        "zh": "描述数据的三个不同角度"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow bits, numbers and character encodings; pause to explain the inputs and outputs.",
+        "zh": "观察位、数字与字符编码，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Three independent ways to classify data” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“描述数据的三个不同角度”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.2-quality",
+      "conceptId": "concept-1.2-quality",
+      "lessonId": "1.2",
+      "videoId": "gV0_raKR2UQ",
+      "kind": "detail",
+      "label": {
+        "en": "Accuracy and representativeness are different",
+        "zh": "准确与代表性是两种要求"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Accuracy and representativeness are different”.",
+        "zh": "找出视频讲解的计算或区别，再联系“准确与代表性是两种要求”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Accuracy and representativeness are different” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“准确与代表性是两种要求”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.3-algorithm",
+      "conceptId": "concept-1.3-algorithm",
+      "lessonId": "1.3",
+      "videoId": "rL8X2mlNHPM",
+      "kind": "major",
+      "label": {
+        "en": "An algorithm is a method; a program implements it",
+        "zh": "算法是方法，程序实现方法"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “An algorithm is a method; a program implements it”.",
+        "zh": "找出视频讲解的计算或区别，再联系“算法是方法，程序实现方法”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above. Creator correction: at3:09 the swap index should be i rather than the displayed0.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。 创作者纠错：3:09交换下标应为i，而非画面中的0。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “An algorithm is a method; a program implements it” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“算法是方法，程序实现方法”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.3-hardware",
+      "conceptId": "concept-1.3-hardware",
+      "lessonId": "1.3",
+      "videoId": "FZGugFqdr60",
+      "kind": "detail",
+      "label": {
+        "en": "Follow data through the computer",
+        "zh": "沿着数据理解计算机"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow the CPU fetch–decode–execute cycle; pause to explain the inputs and outputs.",
+        "zh": "观察CPU取指、解码和执行循环，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Follow data through the computer” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“沿着数据理解计算机”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.3-bottlenecks",
+      "conceptId": "concept-1.3-bottlenecks",
+      "lessonId": "1.3",
+      "videoId": "FZGugFqdr60",
+      "kind": "detail",
+      "label": {
+        "en": "Find the limiting step, not just the fastest chip",
+        "zh": "寻找瓶颈，不只比较芯片"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow the CPU fetch–decode–execute cycle; pause to explain the inputs and outputs.",
+        "zh": "观察CPU取指、解码和执行循环，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Find the limiting step, not just the fastest chip” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“寻找瓶颈，不只比较芯片”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.4-schools",
+      "conceptId": "concept-1.4-schools",
+      "lessonId": "1.4",
+      "videoId": "a0_lo_GDcFw",
+      "kind": "major",
+      "label": {
+        "en": "Three approaches can cooperate",
+        "zh": "三种思路可以配合"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Three approaches can cooperate”.",
+        "zh": "找出视频讲解的计算或区别，再联系“三种思路可以配合”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Three approaches can cooperate” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“三种思路可以配合”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.4-timeline",
+      "conceptId": "concept-1.4-timeline",
+      "lessonId": "1.4",
+      "videoId": "UFJQV5Jb0pY",
+      "kind": "detail",
+      "label": {
+        "en": "Milestones: identify each contribution",
+        "zh": "里程碑：区分每一项的角色"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow historical changes in AI approaches; pause to explain the inputs and outputs.",
+        "zh": "观察AI方法的历史变化，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Milestones: identify each contribution” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“里程碑：区分每一项的角色”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.5-errors",
+      "conceptId": "concept-1.5-errors",
+      "lessonId": "1.5",
+      "videoId": "gV0_raKR2UQ",
+      "kind": "major",
+      "label": {
+        "en": "Locate errors and inspect subgroup performance",
+        "zh": "定位错误，检查分组表现"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow biased data and unequal outcomes; pause to explain the inputs and outputs.",
+        "zh": "观察有偏数据与不均衡结果，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Locate errors and inspect subgroup performance” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“定位错误，检查分组表现”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.5-hallucination",
+      "conceptId": "concept-1.5-hallucination",
+      "lessonId": "1.5",
+      "videoId": "gV0_raKR2UQ",
+      "kind": "detail",
+      "label": {
+        "en": "Hallucination, forgetting and missing context",
+        "zh": "幻觉、遗忘与缺少上下文"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow biased data and unequal outcomes; pause to explain the inputs and outputs.",
+        "zh": "观察有偏数据与不均衡结果，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Hallucination, forgetting and missing context” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“幻觉、遗忘与缺少上下文”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.5-rights",
+      "conceptId": "concept-1.5-rights",
+      "lessonId": "1.5",
+      "videoId": "gV0_raKR2UQ",
+      "kind": "detail",
+      "label": {
+        "en": "Consent, attribution and permission",
+        "zh": "同意、署名与许可"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow biased data and unequal outcomes; pause to explain the inputs and outputs.",
+        "zh": "观察有偏数据与不均衡结果，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Consent, attribution and permission” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“同意、署名与许可”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-1.5-responsibility",
+      "conceptId": "concept-1.5-responsibility",
+      "lessonId": "1.5",
+      "videoId": "gV0_raKR2UQ",
+      "kind": "detail",
+      "label": {
+        "en": "Use tools without abandoning judgment",
+        "zh": "使用工具，保留人的判断"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow biased data and unequal outcomes; pause to explain the inputs and outputs.",
+        "zh": "观察有偏数据与不均衡结果，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Use tools without abandoning judgment” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“使用工具，保留人的判断”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.1-execution",
+      "conceptId": "concept-2.1-execution",
+      "lessonId": "2.1",
+      "videoId": "rfscVS0vtbw",
+      "kind": "major",
+      "label": {
+        "en": "From source code to an execution trace",
+        "zh": "从代码到执行轨迹"
+      },
+      "coverage": "direct",
+      "start": 906,
+      "end": 1623,
+      "segmentEvidence": "creator-description-chapters",
+      "lookFor": {
+        "en": "Follow variables and data types; pause to explain the inputs and outputs.",
+        "zh": "观察变量与数据类型，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “From source code to an execution trace” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“从代码到执行轨迹”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.1-types-input",
+      "conceptId": "concept-2.1-types-input",
+      "lessonId": "2.1",
+      "videoId": "rfscVS0vtbw",
+      "kind": "detail",
+      "label": {
+        "en": "Type, value and input/output contracts",
+        "zh": "类型、值与输入输出约定"
+      },
+      "coverage": "direct",
+      "start": 2906,
+      "end": 3157,
+      "segmentEvidence": "creator-description-chapters",
+      "lookFor": {
+        "en": "Follow variables and data types; pause to explain the inputs and outputs.",
+        "zh": "观察变量与数据类型，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Type, value and input/output contracts” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“类型、值与输入输出约定”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.1-operators",
+      "conceptId": "concept-2.1-operators",
+      "lessonId": "2.1",
+      "videoId": "khKv-8q7YmY",
+      "kind": "detail",
+      "label": {
+        "en": "Arithmetic, comparisons and short circuits",
+        "zh": "运算、比较与短路"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Arithmetic, comparisons and short circuits”.",
+        "zh": "找出视频讲解的计算或区别，再联系“运算、比较与短路”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Arithmetic, comparisons and short circuits” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“运算、比较与短路”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.1-control",
+      "conceptId": "concept-2.1-control",
+      "lessonId": "2.1",
+      "videoId": "6iF8Xb7Z3wQ",
+      "kind": "detail",
+      "label": {
+        "en": "Trace branches and repeated steps",
+        "zh": "跟踪分支与重复步骤"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Trace branches and repeated steps”.",
+        "zh": "找出视频讲解的计算或区别，再联系“跟踪分支与重复步骤”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Trace branches and repeated steps” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“跟踪分支与重复步骤”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.1-loop-exits",
+      "conceptId": "concept-2.1-loop-exits",
+      "lessonId": "2.1",
+      "videoId": "6iF8Xb7Z3wQ",
+      "kind": "detail",
+      "label": {
+        "en": "break, continue, pass and loop else",
+        "zh": "break、continue、pass与循环else"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “break, continue, pass and loop else”.",
+        "zh": "找出视频讲解的计算或区别，再联系“break、continue、pass与循环else”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “break, continue, pass and loop else” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“break、continue、pass与循环else”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.2-slices",
+      "conceptId": "concept-2.2-slices",
+      "lessonId": "2.2",
+      "videoId": "k9TUPpGqYTo",
+      "kind": "major",
+      "label": {
+        "en": "Index one element; slice a sequence",
+        "zh": "索引取元素，切片取序列"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Index one element; slice a sequence”.",
+        "zh": "找出视频讲解的计算或区别，再联系“索引取元素，切片取序列”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Index one element; slice a sequence” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“索引取元素，切片取序列”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.2-text-methods",
+      "conceptId": "concept-2.2-text-methods",
+      "lessonId": "2.2",
+      "videoId": "k9TUPpGqYTo",
+      "kind": "detail",
+      "label": {
+        "en": "Transform text with explicit intermediate values",
+        "zh": "用明确的中间值处理文字"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Transform text with explicit intermediate values”.",
+        "zh": "找出视频讲解的计算或区别，再联系“用明确的中间值处理文字”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Transform text with explicit intermediate values” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“用明确的中间值处理文字”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.2-lists",
+      "conceptId": "concept-2.2-lists",
+      "lessonId": "2.2",
+      "videoId": "W8KRzm-HUcc",
+      "kind": "detail",
+      "label": {
+        "en": "Mutation, return values and two dimensions",
+        "zh": "修改、返回值与二维列表"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow list,tuple and set behavior; pause to explain the inputs and outputs.",
+        "zh": "观察列表、元组与集合行为，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Mutation, return values and two dimensions” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“修改、返回值与二维列表”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.2-aliases",
+      "conceptId": "concept-2.2-aliases",
+      "lessonId": "2.2",
+      "videoId": "W8KRzm-HUcc",
+      "kind": "detail",
+      "label": {
+        "en": "Draw arrows to objects before predicting changes",
+        "zh": "先画引用箭头，再预测变化"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow list,tuple and set behavior; pause to explain the inputs and outputs.",
+        "zh": "观察列表、元组与集合行为，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Draw arrows to objects before predicting changes” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“先画引用箭头，再预测变化”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.2-containers",
+      "conceptId": "concept-2.2-containers",
+      "lessonId": "2.2",
+      "videoId": "daefaLgNkw0",
+      "kind": "detail",
+      "label": {
+        "en": "Choose position, key or membership",
+        "zh": "选择位置、键或成员关系"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Choose position, key or membership”.",
+        "zh": "找出视频讲解的计算或区别，再联系“选择位置、键或成员关系”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Choose position, key or membership” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“选择位置、键或成员关系”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.3-contracts",
+      "conceptId": "concept-2.3-contracts",
+      "lessonId": "2.3",
+      "videoId": "9Os0o3wzS_I",
+      "kind": "major",
+      "label": {
+        "en": "Functions have inputs, outputs and preconditions",
+        "zh": "函数有输入、输出与前置条件"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow arguments,returns and scope; pause to explain the inputs and outputs.",
+        "zh": "观察参数、返回与作用域，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Functions have inputs, outputs and preconditions” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“函数有输入、输出与前置条件”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.3-mutation-rounding",
+      "conceptId": "concept-2.3-mutation-rounding",
+      "lessonId": "2.3",
+      "videoId": "khKv-8q7YmY",
+      "kind": "detail",
+      "label": {
+        "en": "References, built-ins and number bases",
+        "zh": "引用、内置函数与数制"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “References, built-ins and number bases”.",
+        "zh": "找出视频讲解的计算或区别，再联系“引用、内置函数与数制”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “References, built-ins and number bases” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“引用、内置函数与数制”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.3-recursion",
+      "conceptId": "concept-2.3-recursion",
+      "lessonId": "2.3",
+      "videoId": "8hly31xKli0",
+      "kind": "detail",
+      "label": {
+        "en": "Recursion descends, then returns",
+        "zh": "递归先深入，再返回"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Recursion descends, then returns”.",
+        "zh": "找出视频讲解的计算或区别，再联系“递归先深入，再返回”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Recursion descends, then returns” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“递归先深入，再返回”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.4-modules",
+      "conceptId": "concept-2.4-modules",
+      "lessonId": "2.4",
+      "videoId": "CqvZ3vGoGs0",
+      "kind": "major",
+      "label": {
+        "en": "Import tools and read their contracts",
+        "zh": "导入工具，阅读约定"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow imports and standard-library reuse; pause to explain the inputs and outputs.",
+        "zh": "观察导入与标准库复用，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Import tools and read their contracts” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“导入工具，阅读约定”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.4-random-files",
+      "conceptId": "concept-2.4-random-files",
+      "lessonId": "2.4",
+      "videoId": "rfscVS0vtbw",
+      "kind": "detail",
+      "label": {
+        "en": "Randomness and files need explicit conditions",
+        "zh": "随机与文件需说明条件"
+      },
+      "coverage": "direct",
+      "start": 11561,
+      "end": 12493,
+      "segmentEvidence": "creator-description-chapters",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Randomness and files need explicit conditions”.",
+        "zh": "找出视频讲解的计算或区别，再联系“随机与文件需说明条件”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Randomness and files need explicit conditions” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“随机与文件需说明条件”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.4-debugging",
+      "conceptId": "concept-2.4-debugging",
+      "lessonId": "2.4",
+      "videoId": "NIWwJbo-9_8",
+      "kind": "detail",
+      "label": {
+        "en": "Find the first wrong step",
+        "zh": "寻找第一处偏离预期的步骤"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Find the first wrong step”.",
+        "zh": "找出视频讲解的计算或区别，再联系“寻找第一处偏离预期的步骤”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Find the first wrong step” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“寻找第一处偏离预期的步骤”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.5-comprehensions",
+      "conceptId": "concept-2.5-comprehensions",
+      "lessonId": "2.5",
+      "videoId": "3dt4OGnU5sM",
+      "kind": "major",
+      "label": {
+        "en": "Filter records or transform every record?",
+        "zh": "筛掉记录还是逐项变换？"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow comprehensions and filtering; pause to explain the inputs and outputs.",
+        "zh": "观察推导式与筛选，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Filter records or transform every record?” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“筛掉记录还是逐项变换？”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.5-functional",
+      "conceptId": "concept-2.5-functional",
+      "lessonId": "2.5",
+      "videoId": "3dt4OGnU5sM",
+      "kind": "detail",
+      "label": {
+        "en": "Functions as objects; iterators as one-pass streams",
+        "zh": "函数是对象，迭代器是单次流"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow comprehensions and filtering; pause to explain the inputs and outputs.",
+        "zh": "观察推导式与筛选，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Functions as objects; iterators as one-pass streams” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“函数是对象，迭代器是单次流”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.5-objects",
+      "conceptId": "concept-2.5-objects",
+      "lessonId": "2.5",
+      "videoId": "ZDa-Z5JzLYM",
+      "kind": "detail",
+      "label": {
+        "en": "A class organizes data and behavior",
+        "zh": "类组织数据与行为"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “A class organizes data and behavior”.",
+        "zh": "找出视频讲解的计算或区别，再联系“类组织数据与行为”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “A class organizes data and behavior” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“类组织数据与行为”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-2.5-class-state",
+      "conceptId": "concept-2.5-class-state",
+      "lessonId": "2.5",
+      "videoId": "ZDa-Z5JzLYM",
+      "kind": "detail",
+      "label": {
+        "en": "Shared class attributes versus instance state",
+        "zh": "共享类属性与实例状态"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Shared class attributes versus instance state”.",
+        "zh": "找出视频讲解的计算或区别，再联系“共享类属性与实例状态”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Shared class attributes versus instance state” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“共享类属性与实例状态”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.1-logic",
+      "conceptId": "concept-3.1-logic",
+      "lessonId": "3.1",
+      "videoId": "gI-qXk7XojA",
+      "kind": "major",
+      "label": {
+        "en": "Claims, implications and counterexamples",
+        "zh": "命题、蕴含与反例"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow AND,OR,NOT truth conditions; pause to explain the inputs and outputs.",
+        "zh": "观察AND、OR、NOT真值条件，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above. Creator correction: the diagram at1:27 is decimal(ten states),not quinary.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。 创作者纠错：1:27图示为十进制（十状态），不是五进制。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Claims, implications and counterexamples” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“命题、蕴含与反例”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.1-sets",
+      "conceptId": "concept-3.1-sets",
+      "lessonId": "3.1",
+      "videoId": "gI-qXk7XojA",
+      "kind": "detail",
+      "label": {
+        "en": "Sets make filtering precise",
+        "zh": "集合让筛选条件明确"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow AND,OR,NOT truth conditions; pause to explain the inputs and outputs.",
+        "zh": "观察AND、OR、NOT真值条件，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail. Creator correction: the diagram at1:27 is decimal(ten states),not quinary.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。 创作者纠错：1:27图示为十进制（十状态），不是五进制。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Sets make filtering precise” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“集合让筛选条件明确”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.2-summaries",
+      "conceptId": "concept-3.2-summaries",
+      "lessonId": "3.2",
+      "videoId": "h8EYEJ32oQ8",
+      "kind": "major",
+      "label": {
+        "en": "Describe the center and spread",
+        "zh": "描述中心与分散程度"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow mean,median and mode; pause to explain the inputs and outputs.",
+        "zh": "观察均值、中位数与众数，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Describe the center and spread” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“描述中心与分散程度”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.2-charts",
+      "conceptId": "concept-3.2-charts",
+      "lessonId": "3.2",
+      "videoId": "DAQNHzOcO5A",
+      "kind": "detail",
+      "label": {
+        "en": "Choose and read a chart",
+        "zh": "选择并读懂图表"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Choose and read a chart”.",
+        "zh": "找出视频讲解的计算或区别，再联系“选择并读懂图表”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Choose and read a chart” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“选择并读懂图表”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.2-errors",
+      "conceptId": "concept-3.2-errors",
+      "lessonId": "3.2",
+      "videoId": "PaFPbb66DxQ",
+      "kind": "detail",
+      "label": {
+        "en": "Errors must not cancel",
+        "zh": "误差不应相互抵消"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Errors must not cancel”.",
+        "zh": "找出视频讲解的计算或区别，再联系“误差不应相互抵消”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Errors must not cancel” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“误差不应相互抵消”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.3-notation",
+      "conceptId": "concept-3.3-notation",
+      "lessonId": "3.3",
+      "videoId": "vDqOoI-4Z6M",
+      "kind": "major",
+      "label": {
+        "en": "Translate a situation into symbols",
+        "zh": "把情境翻译成符号"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow variables,expressions and equations; pause to explain the inputs and outputs.",
+        "zh": "观察变量、表达式与方程，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Translate a situation into symbols” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“把情境翻译成符号”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.3-powers",
+      "conceptId": "concept-3.3-powers",
+      "lessonId": "3.3",
+      "videoId": "IWigvJcCAJ0",
+      "kind": "detail",
+      "label": {
+        "en": "Powers, roots and quadratics",
+        "zh": "幂、根与二次方程"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Powers, roots and quadratics”.",
+        "zh": "找出视频讲解的计算或区别，再联系“幂、根与二次方程”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Powers, roots and quadratics” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“幂、根与二次方程”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.3-functions",
+      "conceptId": "concept-3.3-functions",
+      "lessonId": "3.3",
+      "videoId": "Q1vMNyIP4Us",
+      "kind": "detail",
+      "label": {
+        "en": "Functions and coordinate graphs",
+        "zh": "函数与坐标图像"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Functions and coordinate graphs”.",
+        "zh": "找出视频讲解的计算或区别，再联系“函数与坐标图像”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Functions and coordinate graphs” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“函数与坐标图像”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.4-vectors",
+      "conceptId": "concept-3.4-vectors",
+      "lessonId": "3.4",
+      "videoId": "fNk_zzaMoSs",
+      "kind": "major",
+      "label": {
+        "en": "Vectors describe features and movement",
+        "zh": "向量描述特征和位移"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow vector components and operations; pause to explain the inputs and outputs.",
+        "zh": "观察向量分量与运算，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Vectors describe features and movement” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“向量描述特征和位移”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.4-matrices",
+      "conceptId": "concept-3.4-matrices",
+      "lessonId": "3.4",
+      "videoId": "kYB8IZa5AuE",
+      "kind": "detail",
+      "label": {
+        "en": "Rows, columns and matrix products",
+        "zh": "行、列与矩阵乘法"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Rows, columns and matrix products”.",
+        "zh": "找出视频讲解的计算或区别，再联系“行、列与矩阵乘法”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Rows, columns and matrix products” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“行、列与矩阵乘法”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.5-events",
+      "conceptId": "concept-3.5-events",
+      "lessonId": "3.5",
+      "videoId": "_IgyaD7vOOA",
+      "kind": "major",
+      "label": {
+        "en": "Probability, frequency and event rules",
+        "zh": "概率、频率与事件规则"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Probability, frequency and event rules”.",
+        "zh": "找出视频讲解的计算或区别，再联系“概率、频率与事件规则”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Probability, frequency and event rules” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“概率、频率与事件规则”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.5-conditional",
+      "conceptId": "concept-3.5-conditional",
+      "lessonId": "3.5",
+      "videoId": "_IgyaD7vOOA",
+      "kind": "detail",
+      "label": {
+        "en": "The denominator changes the question",
+        "zh": "分母决定所问的问题"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “The denominator changes the question”.",
+        "zh": "找出视频讲解的计算或区别，再联系“分母决定所问的问题”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “The denominator changes the question” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“分母决定所问的问题”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-3.5-distributions",
+      "conceptId": "concept-3.5-distributions",
+      "lessonId": "3.5",
+      "videoId": "rzFX5NWojp0",
+      "kind": "detail",
+      "label": {
+        "en": "Random variables and distributions",
+        "zh": "随机变量与分布"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Random variables and distributions”.",
+        "zh": "找出视频讲解的计算或区别，再联系“随机变量与分布”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Random variables and distributions” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“随机变量与分布”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.1-model",
+      "conceptId": "concept-4.1-model",
+      "lessonId": "4.1",
+      "videoId": "rL8X2mlNHPM",
+      "kind": "major",
+      "label": {
+        "en": "Define inputs, outputs and constraints",
+        "zh": "规定输入、输出与约束"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Define inputs, outputs and constraints”.",
+        "zh": "找出视频讲解的计算或区别，再联系“规定输入、输出与约束”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail. Creator correction: at3:09 the swap index should be i rather than the displayed0.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。 创作者纠错：3:09交换下标应为i，而非画面中的0。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Define inputs, outputs and constraints” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“规定输入、输出与约束”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.1-encoding",
+      "conceptId": "concept-4.1-encoding",
+      "lessonId": "4.1",
+      "videoId": "1GSjbWt0c9M",
+      "kind": "major",
+      "label": {
+        "en": "Encoding needs agreed boundaries",
+        "zh": "编码需要约定边界"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow representing information with an agreed code; pause to explain the inputs and outputs.",
+        "zh": "观察按约定规则表示信息，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Encoding needs agreed boundaries” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“编码需要约定边界”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.2-enumerate",
+      "conceptId": "concept-4.2-enumerate",
+      "lessonId": "4.2",
+      "videoId": "rL8X2mlNHPM",
+      "kind": "major",
+      "label": {
+        "en": "Enumerate without missing solutions",
+        "zh": "枚举不能漏解"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow how algorithms organize repeated work; pause to explain the inputs and outputs.",
+        "zh": "观察算法如何组织重复工作，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail. Creator correction: at3:09 the swap index should be i rather than the displayed0.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。 创作者纠错：3:09交换下标应为i，而非画面中的0。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Enumerate without missing solutions” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“枚举不能漏解”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.2-search",
+      "conceptId": "concept-4.2-search",
+      "lessonId": "4.2",
+      "videoId": "T98PIp4omUA",
+      "kind": "major",
+      "label": {
+        "en": "Maintain the candidate interval",
+        "zh": "保持候选区间"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Maintain the candidate interval”.",
+        "zh": "找出视频讲解的计算或区别，再联系“保持候选区间”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Maintain the candidate interval” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“保持候选区间”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.2-efficiency",
+      "conceptId": "concept-4.2-efficiency",
+      "lessonId": "4.2",
+      "videoId": "rL8X2mlNHPM",
+      "kind": "detail",
+      "label": {
+        "en": "Compare the whole process",
+        "zh": "比较完整过程"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow how algorithms organize repeated work; pause to explain the inputs and outputs.",
+        "zh": "观察算法如何组织重复工作，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail. Creator correction: at3:09 the swap index should be i rather than the displayed0.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。 创作者纠错：3:09交换下标应为i，而非画面中的0。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Compare the whole process” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“比较完整过程”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.3-sorting",
+      "conceptId": "concept-4.3-sorting",
+      "lessonId": "4.3",
+      "videoId": "rL8X2mlNHPM",
+      "kind": "major",
+      "label": {
+        "en": "Three different sorted regions",
+        "zh": "三种不同的已排序区域"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow sorting comparisons and algorithmic efficiency; pause to explain the inputs and outputs.",
+        "zh": "观察排序比较与算法效率，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above. Creator correction: at3:09 the swap index should be i rather than the displayed0.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。 创作者纠错：3:09交换下标应为i，而非画面中的0。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Three different sorted regions” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“三种不同的已排序区域”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.3-quicksort",
+      "conceptId": "concept-4.3-quicksort",
+      "lessonId": "4.3",
+      "videoId": "rL8X2mlNHPM",
+      "kind": "detail",
+      "label": {
+        "en": "Partition and shrink recursively",
+        "zh": "分组并递归缩小"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow sorting comparisons and algorithmic efficiency; pause to explain the inputs and outputs.",
+        "zh": "观察排序比较与算法效率，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above. Creator correction: at3:09 the swap index should be i rather than the displayed0.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。 创作者纠错：3:09交换下标应为i，而非画面中的0。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Partition and shrink recursively” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“分组并递归缩小”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.3-greedy",
+      "conceptId": "concept-4.3-greedy",
+      "lessonId": "4.3",
+      "videoId": "rL8X2mlNHPM",
+      "kind": "detail",
+      "label": {
+        "en": "A local choice needs a reason",
+        "zh": "局部选择需要证明"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow sorting comparisons and algorithmic efficiency; pause to explain the inputs and outputs.",
+        "zh": "观察排序比较与算法效率，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail. Creator correction: at3:09 the swap index should be i rather than the displayed0.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。 创作者纠错：3:09交换下标应为i，而非画面中的0。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “A local choice needs a reason” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“局部选择需要证明”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.3-game",
+      "conceptId": "concept-4.3-game",
+      "lessonId": "4.3",
+      "videoId": "rL8X2mlNHPM",
+      "kind": "detail",
+      "label": {
+        "en": "Reason backward from small states",
+        "zh": "从小状态倒推博弈"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow sorting comparisons and algorithmic efficiency; pause to explain the inputs and outputs.",
+        "zh": "观察排序比较与算法效率，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail. Creator correction: at3:09 the swap index should be i rather than the displayed0.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。 创作者纠错：3:09交换下标应为i，而非画面中的0。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Reason backward from small states” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“从小状态倒推博弈”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.4-graph",
+      "conceptId": "concept-4.4-graph",
+      "lessonId": "4.4",
+      "videoId": "s-CYnVz-uh4",
+      "kind": "major",
+      "label": {
+        "en": "Connections are part of the data",
+        "zh": "连接关系也是数据"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow queues,layers and shortest edge-count paths; pause to explain the inputs and outputs.",
+        "zh": "观察队列、层次与最少边数路径，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Connections are part of the data” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“连接关系也是数据”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.4-bfs",
+      "conceptId": "concept-4.4-bfs",
+      "lessonId": "4.4",
+      "videoId": "s-CYnVz-uh4",
+      "kind": "major",
+      "label": {
+        "en": "BFS discovers the nearest layer first",
+        "zh": "BFS先发现最近一层"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow queues,layers and shortest edge-count paths; pause to explain the inputs and outputs.",
+        "zh": "观察队列、层次与最少边数路径，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “BFS discovers the nearest layer first” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“BFS先发现最近一层”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.4-dfs",
+      "conceptId": "concept-4.4-dfs",
+      "lessonId": "4.4",
+      "videoId": "IBfWDYSffUU",
+      "kind": "detail",
+      "label": {
+        "en": "DFS remembers where to return",
+        "zh": "DFS记住返回的位置"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “DFS remembers where to return”.",
+        "zh": "找出视频讲解的计算或区别，再联系“DFS记住返回的位置”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “DFS remembers where to return” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“DFS记住返回的位置”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.5-state",
+      "conceptId": "concept-4.5-state",
+      "lessonId": "4.5",
+      "videoId": "5NVjIIi9fkY",
+      "kind": "major",
+      "label": {
+        "en": "A state must predict the next transition",
+        "zh": "状态需足以推演下一步"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow measured outputs returning to the controller; pause to explain the inputs and outputs.",
+        "zh": "观察测量输出如何回到控制器，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “A state must predict the next transition” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“状态需足以推演下一步”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-4.5-feedback",
+      "conceptId": "concept-4.5-feedback",
+      "lessonId": "4.5",
+      "videoId": "5NVjIIi9fkY",
+      "kind": "major",
+      "label": {
+        "en": "Use the current error each step",
+        "zh": "每步使用当前偏差"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow measured outputs returning to the controller; pause to explain the inputs and outputs.",
+        "zh": "观察测量输出如何回到控制器，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Use the current error each step” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“每步使用当前偏差”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.1-tasks",
+      "conceptId": "concept-5.1-tasks",
+      "lessonId": "5.1",
+      "videoId": "HVXime0nQeI",
+      "kind": "major",
+      "label": {
+        "en": "The target defines the task",
+        "zh": "目标决定任务"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “The target defines the task”.",
+        "zh": "找出视频讲解的计算或区别，再联系“目标决定任务”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “The target defines the task” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“目标决定任务”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.1-supervision",
+      "conceptId": "concept-5.1-supervision",
+      "lessonId": "5.1",
+      "videoId": "a0_lo_GDcFw",
+      "kind": "detail",
+      "label": {
+        "en": "Where do learning targets come from?",
+        "zh": "学习目标从哪里来？"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Where do learning targets come from?”.",
+        "zh": "找出视频讲解的计算或区别，再联系“学习目标从哪里来？”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Where do learning targets come from?” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“学习目标从哪里来？”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.1-reinforcement",
+      "conceptId": "concept-5.1-reinforcement",
+      "lessonId": "5.1",
+      "videoId": "Z-T0iJEXiwM",
+      "kind": "major",
+      "label": {
+        "en": "Learn a policy from delayed rewards",
+        "zh": "从延迟奖励学习策略"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow states,actions,rewards and policies; pause to explain the inputs and outputs.",
+        "zh": "观察状态、动作、奖励与策略，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Learn a policy from delayed rewards” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“从延迟奖励学习策略”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.2-pipeline",
+      "conceptId": "concept-5.2-pipeline",
+      "lessonId": "5.2",
+      "videoId": "fSytzGwwBVw",
+      "kind": "major",
+      "label": {
+        "en": "Define the prediction moment first",
+        "zh": "先确定预测时刻"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow training versus validation roles; pause to explain the inputs and outputs.",
+        "zh": "观察训练与验证的角色，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Define the prediction moment first” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“先确定预测时刻”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.2-splits",
+      "conceptId": "concept-5.2-splits",
+      "lessonId": "5.2",
+      "videoId": "fSytzGwwBVw",
+      "kind": "major",
+      "label": {
+        "en": "Train, validate and test have different jobs",
+        "zh": "训练、验证与测试分工不同"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow training versus validation roles; pause to explain the inputs and outputs.",
+        "zh": "观察训练与验证的角色，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Train, validate and test have different jobs” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“训练、验证与测试分工不同”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.2-baseline",
+      "conceptId": "concept-5.2-baseline",
+      "lessonId": "5.2",
+      "videoId": "fSytzGwwBVw",
+      "kind": "detail",
+      "label": {
+        "en": "Compare with an understandable baseline",
+        "zh": "用可理解的基线比较"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow training versus validation roles; pause to explain the inputs and outputs.",
+        "zh": "观察训练与验证的角色，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Compare with an understandable baseline” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“用可理解的基线比较”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.3-missing",
+      "conceptId": "concept-5.3-missing",
+      "lessonId": "5.3",
+      "videoId": "KdmPHEnPJPs",
+      "kind": "major",
+      "label": {
+        "en": "Cleaning preserves meaning, not just filled cells",
+        "zh": "清洗要保留含义，不只是填满表格"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Cleaning preserves meaning, not just filled cells”.",
+        "zh": "找出视频讲解的计算或区别，再联系“清洗要保留含义，不只是填满表格”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Cleaning preserves meaning, not just filled cells” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“清洗要保留含义，不只是填满表格”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.3-joins",
+      "conceptId": "concept-5.3-joins",
+      "lessonId": "5.3",
+      "videoId": "zmdjNSmRXF4",
+      "kind": "detail",
+      "label": {
+        "en": "Join by identity, not row number",
+        "zh": "按身份连接，不按行号"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Join by identity, not row number”.",
+        "zh": "找出视频讲解的计算或区别，再联系“按身份连接，不按行号”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Join by identity, not row number” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“按身份连接，不按行号”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.3-scaling",
+      "conceptId": "concept-5.3-scaling",
+      "lessonId": "5.3",
+      "videoId": "HVXime0nQeI",
+      "kind": "detail",
+      "label": {
+        "en": "Fit one ruler on training data",
+        "zh": "在训练数据上确定同一把尺"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Fit one ruler on training data”.",
+        "zh": "找出视频讲解的计算或区别，再联系“在训练数据上确定同一把尺”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Fit one ruler on training data” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“在训练数据上确定同一把尺”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.3-encoding",
+      "conceptId": "concept-5.3-encoding",
+      "lessonId": "5.3",
+      "videoId": "589nCGeWG1w",
+      "kind": "major",
+      "label": {
+        "en": "Represent categories and word order deliberately",
+        "zh": "有意识地表示类别与词序"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow category encoding and its assumptions; pause to explain the inputs and outputs.",
+        "zh": "观察类别编码及其假设，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Represent categories and word order deliberately” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“有意识地表示类别与词序”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.3-augmentation",
+      "conceptId": "concept-5.3-augmentation",
+      "lessonId": "5.3",
+      "videoId": "589nCGeWG1w",
+      "kind": "detail",
+      "label": {
+        "en": "Transform the label when the task requires it",
+        "zh": "任务需要时同步变换标签"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow category encoding and its assumptions; pause to explain the inputs and outputs.",
+        "zh": "观察类别编码及其假设，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Transform the label when the task requires it” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“任务需要时同步变换标签”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.4-metrics",
+      "conceptId": "concept-5.4-metrics",
+      "lessonId": "5.4",
+      "videoId": "Kdsp6soqA7o",
+      "kind": "major",
+      "label": {
+        "en": "Name the positive class and the denominators",
+        "zh": "先说正类，再认分母"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow true and false positives and negatives; pause to explain the inputs and outputs.",
+        "zh": "观察真正例、假正例、假负例与真负例，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Name the positive class and the denominators” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“先说正类，再认分母”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.4-threshold",
+      "conceptId": "concept-5.4-threshold",
+      "lessonId": "5.4",
+      "videoId": "Kdsp6soqA7o",
+      "kind": "detail",
+      "label": {
+        "en": "The same accuracy can hide different errors",
+        "zh": "同准确率可以有不同错误"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow true and false positives and negatives; pause to explain the inputs and outputs.",
+        "zh": "观察真正例、假正例、假负例与真负例，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “The same accuracy can hide different errors” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“同准确率可以有不同错误”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-5.4-interpret",
+      "conceptId": "concept-5.4-interpret",
+      "lessonId": "5.4",
+      "videoId": "gV0_raKR2UQ",
+      "kind": "detail",
+      "label": {
+        "en": "Inspect subgroups and concrete mistakes",
+        "zh": "检查分组与具体错误"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Inspect subgroups and concrete mistakes”.",
+        "zh": "找出视频讲解的计算或区别，再联系“检查分组与具体错误”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Inspect subgroups and concrete mistakes” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“检查分组与具体错误”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.1-prediction",
+      "conceptId": "concept-6.1-prediction",
+      "lessonId": "6.1",
+      "videoId": "PaFPbb66DxQ",
+      "kind": "major",
+      "label": {
+        "en": "Weighted sums are predictions, not laws",
+        "zh": "加权和是预测，不是自然定律"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow vertical residuals and fitting a line; pause to explain the inputs and outputs.",
+        "zh": "观察纵向残差与直线拟合，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Weighted sums are predictions, not laws” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“加权和是预测，不是自然定律”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.1-fit",
+      "conceptId": "concept-6.1-fit",
+      "lessonId": "6.1",
+      "videoId": "PaFPbb66DxQ",
+      "kind": "detail",
+      "label": {
+        "en": "Fit a line by centering the data",
+        "zh": "用中心化数据拟合直线"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow vertical residuals and fitting a line; pause to explain the inputs and outputs.",
+        "zh": "观察纵向残差与直线拟合，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Fit a line by centering the data” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“用中心化数据拟合直线”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.1-polynomial",
+      "conceptId": "concept-6.1-polynomial",
+      "lessonId": "6.1",
+      "videoId": "PaFPbb66DxQ",
+      "kind": "detail",
+      "label": {
+        "en": "A curved graph can be linear in parameters",
+        "zh": "曲线也可以对参数线性"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow vertical residuals and fitting a line; pause to explain the inputs and outputs.",
+        "zh": "观察纵向残差与直线拟合，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “A curved graph can be linear in parameters” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“曲线也可以对参数线性”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.2-knn",
+      "conceptId": "concept-6.2-knn",
+      "lessonId": "6.2",
+      "videoId": "HVXime0nQeI",
+      "kind": "major",
+      "label": {
+        "en": "Neighbors vote only after distance and K are defined",
+        "zh": "先规定距离与K，再投票"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow distance-based neighbor votes; pause to explain the inputs and outputs.",
+        "zh": "观察基于距离的邻居投票，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Neighbors vote only after distance and K are defined” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“先规定距离与K，再投票”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.2-tree",
+      "conceptId": "concept-6.2-tree",
+      "lessonId": "6.2",
+      "videoId": "_L39rN6gz7Y",
+      "kind": "major",
+      "label": {
+        "en": "Compare weighted impurity, then follow one path",
+        "zh": "比较加权不纯度，再沿一条路径预测"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Compare weighted impurity, then follow one path”.",
+        "zh": "找出视频讲解的计算或区别，再联系“比较加权不纯度，再沿一条路径预测”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Compare weighted impurity, then follow one path” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“比较加权不纯度，再沿一条路径预测”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.2-svm",
+      "conceptId": "concept-6.2-svm",
+      "lessonId": "6.2",
+      "videoId": "efR1C6CvhmE",
+      "kind": "major",
+      "label": {
+        "en": "A margin is constrained by nearby samples",
+        "zh": "间隔由附近样本约束"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “A margin is constrained by nearby samples”.",
+        "zh": "找出视频讲解的计算或区别，再联系“间隔由附近样本约束”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “A margin is constrained by nearby samples” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“间隔由附近样本约束”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.3-iteration",
+      "conceptId": "concept-6.3-iteration",
+      "lessonId": "6.3",
+      "videoId": "4b5d3muPQmA",
+      "kind": "major",
+      "label": {
+        "en": "Alternate assignment and center updates",
+        "zh": "交替分配与更新中心"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow assignment and mean-center updates; pause to explain the inputs and outputs.",
+        "zh": "观察分配与均值中心更新，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Alternate assignment and center updates” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“交替分配与更新中心”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.3-initialization",
+      "conceptId": "concept-6.3-initialization",
+      "lessonId": "6.3",
+      "videoId": "4b5d3muPQmA",
+      "kind": "detail",
+      "label": {
+        "en": "A smaller clustering objective is not always more useful",
+        "zh": "聚类目标更小不一定更有用"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow assignment and mean-center updates; pause to explain the inputs and outputs.",
+        "zh": "观察分配与均值中心更新，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “A smaller clustering objective is not always more useful” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“聚类目标更小不一定更有用”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.4-likelihood",
+      "conceptId": "concept-6.4-likelihood",
+      "lessonId": "6.4",
+      "videoId": "XepXtl9YKwc",
+      "kind": "major",
+      "label": {
+        "en": "Fix the observations, vary the parameter",
+        "zh": "固定观测，改变参数"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow fixed observations compared under different parameters; pause to explain the inputs and outputs.",
+        "zh": "观察不同参数下比较固定观测，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Fix the observations, vary the parameter” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“固定观测，改变参数”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.4-bayes",
+      "conceptId": "concept-6.4-bayes",
+      "lessonId": "6.4",
+      "videoId": "9wCnvr7Xw4E",
+      "kind": "major",
+      "label": {
+        "en": "Update a prior with the evidence",
+        "zh": "用证据更新先验"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Update a prior with the evidence”.",
+        "zh": "找出视频讲解的计算或区别，再联系“用证据更新先验”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Update a prior with the evidence” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“用证据更新先验”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.5-activation",
+      "conceptId": "concept-6.5-activation",
+      "lessonId": "6.5",
+      "videoId": "68BZ5f7P94E",
+      "kind": "major",
+      "label": {
+        "en": "Weighted sum, then activation",
+        "zh": "先加权求和，再激活"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Weighted sum, then activation”.",
+        "zh": "找出视频讲解的计算或区别，再联系“先加权求和，再激活”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Weighted sum, then activation” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“先加权求和，再激活”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.5-layers",
+      "conceptId": "concept-6.5-layers",
+      "lessonId": "6.5",
+      "videoId": "aircAruvnKk",
+      "kind": "detail",
+      "label": {
+        "en": "Hidden representations make different decisions possible",
+        "zh": "隐藏表示让不同判断成为可能"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow weights,activations and layer-by-layer prediction; pause to explain the inputs and outputs.",
+        "zh": "观察权重、激活与逐层预测，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Hidden representations make different decisions possible” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“隐藏表示让不同判断成为可能”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.6-derivative",
+      "conceptId": "concept-6.6-derivative",
+      "lessonId": "6.6",
+      "videoId": "9vKqVkMQHKk",
+      "kind": "major",
+      "label": {
+        "en": "A derivative is a limit, not division by zero",
+        "zh": "导数是极限，不是除零"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “A derivative is a limit, not division by zero”.",
+        "zh": "找出视频讲解的计算或区别，再联系“导数是极限，不是除零”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “A derivative is a limit, not division by zero” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“导数是极限，不是除零”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.6-gradient",
+      "conceptId": "concept-6.6-gradient",
+      "lessonId": "6.6",
+      "videoId": "sDv4f4s2SB8",
+      "kind": "detail",
+      "label": {
+        "en": "Recompute gradients at the current parameters",
+        "zh": "在当前参数重算梯度"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow slope-based parameter updates; pause to explain the inputs and outputs.",
+        "zh": "观察基于斜率的参数更新，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Recompute gradients at the current parameters” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“在当前参数重算梯度”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.6-backprop",
+      "conceptId": "concept-6.6-backprop",
+      "lessonId": "6.6",
+      "videoId": "IHZwWFHWa-w",
+      "kind": "detail",
+      "label": {
+        "en": "Multiply along paths, add across branches",
+        "zh": "沿路径相乘，跨分支相加"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Multiply along paths, add across branches”.",
+        "zh": "找出视频讲解的计算或区别，再联系“沿路径相乘，跨分支相加”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Multiply along paths, add across branches” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“沿路径相乘，跨分支相加”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.7-batches",
+      "conceptId": "concept-6.7-batches",
+      "lessonId": "6.7",
+      "videoId": "IHZwWFHWa-w",
+      "kind": "major",
+      "label": {
+        "en": "Count epochs and updates separately",
+        "zh": "分别数轮次与更新"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Count epochs and updates separately”.",
+        "zh": "找出视频讲解的计算或区别，再联系“分别数轮次与更新”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Count epochs and updates separately” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“分别数轮次与更新”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.7-curves",
+      "conceptId": "concept-6.7-curves",
+      "lessonId": "6.7",
+      "videoId": "EuBBz3bI-aA",
+      "kind": "detail",
+      "label": {
+        "en": "Use validation curves to diagnose, not to guess",
+        "zh": "用验证曲线诊断，不靠猜测"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow fitting noise versus learning transferable structure; pause to explain the inputs and outputs.",
+        "zh": "观察拟合噪声与学习可迁移结构，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Use validation curves to diagnose, not to guess” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“用验证曲线诊断，不靠猜测”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.7-regularization",
+      "conceptId": "concept-6.7-regularization",
+      "lessonId": "6.7",
+      "videoId": "Q81RR3yKn30",
+      "kind": "detail",
+      "label": {
+        "en": "A penalty changes the objective",
+        "zh": "惩罚会改变目标"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “A penalty changes the objective”.",
+        "zh": "找出视频讲解的计算或区别，再联系“惩罚会改变目标”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “A penalty changes the objective” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“惩罚会改变目标”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.8-convolution",
+      "conceptId": "concept-6.8-convolution",
+      "lessonId": "6.8",
+      "videoId": "HGwBXDKFk9I",
+      "kind": "major",
+      "label": {
+        "en": "Local windows reuse learned weights",
+        "zh": "局部窗口复用学习到的权重"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow sliding windows and shared weights; pause to explain the inputs and outputs.",
+        "zh": "观察滑动窗口与权重共享，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Local windows reuse learned weights” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“局部窗口复用学习到的权重”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.8-pooling",
+      "conceptId": "concept-6.8-pooling",
+      "lessonId": "6.8",
+      "videoId": "HGwBXDKFk9I",
+      "kind": "detail",
+      "label": {
+        "en": "Pooling summarizes and loses detail",
+        "zh": "池化汇总也丢失细节"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow sliding windows and shared weights; pause to explain the inputs and outputs.",
+        "zh": "观察滑动窗口与权重共享，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Pooling summarizes and loses detail” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“池化汇总也丢失细节”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-6.8-architecture",
+      "conceptId": "concept-6.8-architecture",
+      "lessonId": "6.8",
+      "videoId": "HGwBXDKFk9I",
+      "kind": "detail",
+      "label": {
+        "en": "Trace shapes and parameter counts through a CNN",
+        "zh": "沿CNN追踪形状与参数"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow sliding windows and shared weights; pause to explain the inputs and outputs.",
+        "zh": "观察滑动窗口与权重共享，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Trace shapes and parameter counts through a CNN” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“沿CNN追踪形状与参数”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.1-arrays",
+      "conceptId": "concept-7.1-arrays",
+      "lessonId": "7.1",
+      "videoId": "GB9ByFAIAH4",
+      "kind": "major",
+      "label": {
+        "en": "Separate array axes from feature dimensions",
+        "zh": "区分数组轴与特征维度"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow array shapes,indexing and numerical operations; pause to explain the inputs and outputs.",
+        "zh": "观察数组形状、索引与数值运算，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Separate array axes from feature dimensions” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“区分数组轴与特征维度”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.1-shape",
+      "conceptId": "concept-7.1-shape",
+      "lessonId": "7.1",
+      "videoId": "GB9ByFAIAH4",
+      "kind": "detail",
+      "label": {
+        "en": "Indexing can remove or preserve an axis",
+        "zh": "索引可以减少或保留轴"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow array shapes,indexing and numerical operations; pause to explain the inputs and outputs.",
+        "zh": "观察数组形状、索引与数值运算，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Indexing can remove or preserve an axis” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“索引可以减少或保留轴”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.1-broadcast",
+      "conceptId": "concept-7.1-broadcast",
+      "lessonId": "7.1",
+      "videoId": "GB9ByFAIAH4",
+      "kind": "detail",
+      "label": {
+        "en": "Shape determines which values correspond",
+        "zh": "形状决定对应关系"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow array shapes,indexing and numerical operations; pause to explain the inputs and outputs.",
+        "zh": "观察数组形状、索引与数值运算，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Shape determines which values correspond” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“形状决定对应关系”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.2-tables",
+      "conceptId": "concept-7.2-tables",
+      "lessonId": "7.2",
+      "videoId": "zmdjNSmRXF4",
+      "kind": "major",
+      "label": {
+        "en": "Labels and positions are different",
+        "zh": "标签与位置不同"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow DataFrame columns and row selection; pause to explain the inputs and outputs.",
+        "zh": "观察DataFrame列与行选择，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Labels and positions are different” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“标签与位置不同”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.2-clean",
+      "conceptId": "concept-7.2-clean",
+      "lessonId": "7.2",
+      "videoId": "KdmPHEnPJPs",
+      "kind": "detail",
+      "label": {
+        "en": "Inspect missing values before choosing a treatment",
+        "zh": "处理缺失前先检查"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Inspect missing values before choosing a treatment”.",
+        "zh": "找出视频讲解的计算或区别，再联系“处理缺失前先检查”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Inspect missing values before choosing a treatment” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“处理缺失前先检查”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.2-merge",
+      "conceptId": "concept-7.2-merge",
+      "lessonId": "7.2",
+      "videoId": "zmdjNSmRXF4",
+      "kind": "detail",
+      "label": {
+        "en": "Validate the key relationship",
+        "zh": "验证连接键关系"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow DataFrame columns and row selection; pause to explain the inputs and outputs.",
+        "zh": "观察DataFrame列与行选择，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Validate the key relationship” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“验证连接键关系”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.3-plot",
+      "conceptId": "concept-7.3-plot",
+      "lessonId": "7.3",
+      "videoId": "DAQNHzOcO5A",
+      "kind": "major",
+      "label": {
+        "en": "Design a readable Figure and Axes",
+        "zh": "设计可读的Figure与Axes"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow plot types,labels and formatting; pause to explain the inputs and outputs.",
+        "zh": "观察图类型、标签与格式，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Design a readable Figure and Axes” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“设计可读的Figure与Axes”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.3-residual",
+      "conceptId": "concept-7.3-residual",
+      "lessonId": "7.3",
+      "videoId": "DAQNHzOcO5A",
+      "kind": "detail",
+      "label": {
+        "en": "Draw observed and predicted values together",
+        "zh": "把实测与预测画在一起"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow plot types,labels and formatting; pause to explain the inputs and outputs.",
+        "zh": "观察图类型、标签与格式，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Draw observed and predicted values together” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“把实测与预测画在一起”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.4-interface",
+      "conceptId": "concept-7.4-interface",
+      "lessonId": "7.4",
+      "videoId": "8A7L0GsBiLQ",
+      "kind": "major",
+      "label": {
+        "en": "Fit learns; transform reuses; predict estimates",
+        "zh": "fit学习，transform沿用，predict预测"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow preprocessing,model fitting and independent evaluation; pause to explain the inputs and outputs.",
+        "zh": "观察预处理、模型拟合与独立评价，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Fit learns; transform reuses; predict estimates” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“fit学习，transform沿用，predict预测”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.4-iris",
+      "conceptId": "concept-7.4-iris",
+      "lessonId": "7.4",
+      "videoId": "HVXime0nQeI",
+      "kind": "detail",
+      "label": {
+        "en": "Run the full Iris selection process",
+        "zh": "运行完整鸢尾花选择流程"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Run the full Iris selection process”.",
+        "zh": "找出视频讲解的计算或区别，再联系“运行完整鸢尾花选择流程”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Run the full Iris selection process” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“运行完整鸢尾花选择流程”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-7.4-tools",
+      "conceptId": "concept-7.4-tools",
+      "lessonId": "7.4",
+      "videoId": "8A7L0GsBiLQ",
+      "kind": "detail",
+      "label": {
+        "en": "Read the contract of an unfamiliar library",
+        "zh": "读陌生库的接口约定"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow preprocessing,model fitting and independent evaluation; pause to explain the inputs and outputs.",
+        "zh": "观察预处理、模型拟合与独立评价，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Read the contract of an unfamiliar library” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“读陌生库的接口约定”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-8.1-tokens",
+      "conceptId": "concept-8.1-tokens",
+      "lessonId": "8.1",
+      "videoId": "wjZofJX0v4M",
+      "kind": "major",
+      "label": {
+        "en": "Tokens, positions and context are distinct",
+        "zh": "词元、位置与上下文不同"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow tokens,embeddings and attention-based context; pause to explain the inputs and outputs.",
+        "zh": "观察词元、嵌入与注意力上下文，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Tokens, positions and context are distinct” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“词元、位置与上下文不同”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-8.1-attention",
+      "conceptId": "concept-8.1-attention",
+      "lessonId": "8.1",
+      "videoId": "eMlx5fFNoYc",
+      "kind": "detail",
+      "label": {
+        "en": "Compute one attention head by hand",
+        "zh": "手算一个注意力头"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Compute one attention head by hand”.",
+        "zh": "找出视频讲解的计算或区别，再联系“手算一个注意力头”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Compute one attention head by hand” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“手算一个注意力头”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-8.1-scale",
+      "conceptId": "concept-8.1-scale",
+      "lessonId": "8.1",
+      "videoId": "wjZofJX0v4M",
+      "kind": "detail",
+      "label": {
+        "en": "Pretraining and prompting change different things",
+        "zh": "预训练与提示改变不同对象"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow tokens,embeddings and attention-based context; pause to explain the inputs and outputs.",
+        "zh": "观察词元、嵌入与注意力上下文，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Pretraining and prompting change different things” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“预训练与提示改变不同对象”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-8.1-agents",
+      "conceptId": "concept-8.1-agents",
+      "lessonId": "8.1",
+      "videoId": "Z-T0iJEXiwM",
+      "kind": "detail",
+      "label": {
+        "en": "A plan is complete only when its tools produce evidence",
+        "zh": "工具产生可检查结果才算完成"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “A plan is complete only when its tools produce evidence”.",
+        "zh": "找出视频讲解的计算或区别，再联系“工具产生可检查结果才算完成”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “A plan is complete only when its tools produce evidence” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“工具产生可检查结果才算完成”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-8.1-world",
+      "conceptId": "concept-8.1-world",
+      "lessonId": "8.1",
+      "videoId": "Z-T0iJEXiwM",
+      "kind": "detail",
+      "label": {
+        "en": "Predict consequences, then observe real execution",
+        "zh": "预测后果，再观察真实执行"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Predict consequences, then observe real execution”.",
+        "zh": "找出视频讲解的计算或区别，再联系“预测后果，再观察真实执行”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Predict consequences, then observe real execution” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“预测后果，再观察真实执行”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-8.2-science",
+      "conceptId": "concept-8.2-science",
+      "lessonId": "8.2",
+      "videoId": "KpedmJdrTpY",
+      "kind": "major",
+      "label": {
+        "en": "Predictions guide experiments; they do not replace them",
+        "zh": "预测引导实验，不替代实验"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow how protein structure connects to biological function; pause to explain the inputs and outputs.",
+        "zh": "观察蛋白质结构如何联系生物功能，暂停并解释输入输出。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Predictions guide experiments; they do not replace them” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“预测引导实验，不替代实验”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-8.2-society",
+      "conceptId": "concept-8.2-society",
+      "lessonId": "8.2",
+      "videoId": "gV0_raKR2UQ",
+      "kind": "detail",
+      "label": {
+        "en": "Inspect who benefits and who faces barriers",
+        "zh": "检查谁获益、谁遇阻"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Inspect who benefits and who faces barriers”.",
+        "zh": "找出视频讲解的计算或区别，再联系“检查谁获益、谁遇阻”。"
+      },
+      "guidance": {
+        "en": "Direct concept support. The creator uses different examples; apply the same reasoning to the book example above.",
+        "zh": "直接概念补充。创作者使用不同例子，请把相同推理用于上方教材例子。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Inspect who benefits and who faces barriers” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“检查谁获益、谁遇阻”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-8.2-governance",
+      "conceptId": "concept-8.2-governance",
+      "lessonId": "8.2",
+      "videoId": "gV0_raKR2UQ",
+      "kind": "detail",
+      "label": {
+        "en": "Separate laws, policy and voluntary frameworks",
+        "zh": "区分法律、政策与自愿框架"
+      },
+      "coverage": "background",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Identify the calculation or distinction taught in this video,then connect it to “Separate laws, policy and voluntary frameworks”.",
+        "zh": "找出视频讲解的计算或区别，再联系“区分法律、政策与自愿框架”。"
+      },
+      "guidance": {
+        "en": "Background support: use the written book example for the specific rule and boundary cases; the video does not reproduce every detail.",
+        "zh": "背景补充：具体规则和边界以本节教材例子为准，视频不复现所有细节。"
+      },
+      "followUp": {
+        "en": "Apply what you watched: explain “Separate laws, policy and voluntary frameworks” and one limitation without replaying.",
+        "zh": "应用所看：不回放解释“区分法律、政策与自愿框架”及一个限制。"
+      }
+    },
+    {
+      "id": "watch-8.1-attention-zh",
+      "conceptId": "concept-8.1-attention",
+      "lessonId": "8.1",
+      "videoId": "hYdO9CscNes",
+      "kind": "detail",
+      "label": {
+        "en": "Chinese university alternative: self-attention",
+        "zh": "中文大学课程补充：自注意力"
+      },
+      "coverage": "direct",
+      "start": 0,
+      "end": null,
+      "segmentEvidence": "full-video",
+      "lookFor": {
+        "en": "Follow query,key,value and input-dependent attention weights.",
+        "zh": "观察查询、键、值与随输入变化的注意力权重。"
+      },
+      "guidance": {
+        "en": "Hung-yi Lee’s university lecture is a longer Mandarin alternative. It includes material beyond this book’s small worked example.",
+        "zh": "李宏毅的大学课程提供较长中文补充，含超出教材小例子的内容。"
+      },
+      "followUp": {
+        "en": "Why does changing the query change the output?",
+        "zh": "为何改变查询会改变输出？"
+      }
+    }
+  ]
+}
