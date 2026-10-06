@@ -1,5 +1,6 @@
 # Third-party notices
 
+- **Nginx**, BSD-2-Clause, used only by the optional Docker server. The Dockerfile uses the [official Nginx image](https://hub.docker.com/_/nginx); Nginx and the bundled Alpine Linux packages retain their upstream licenses and notices. See https://nginx.org/LICENSE. They do not change the Academy's code or educational-content licenses.
 - **CAICP Book v0.9**, 陈峥. Text, illustrations and practice questions: CC BY-NC-SA 4.0; independent example code: MIT. See CONTENT-LICENSE.md and https://github.com/UESTC1010/CAICP_Book.
 - **Pyodide v314.0.7**, Pyodide contributors and Mozilla, Mozilla Public License 2.0. Optional runtime loaded from https://cdn.jsdelivr.net/pyodide/v314.0.7/full/. Source: https://github.com/pyodide/pyodide. Runtime distribution includes CPython and other components under their respective licenses. License: https://github.com/pyodide/pyodide/blob/main/LICENSE.
 - **CPython**, Python Software Foundation License. https://docs.python.org/3/license.html.

@@ -1,4 +1,4 @@
-const CACHE='caicp-core-v1.1.6';
+const CACHE='caicp-core-v1.1.7';
 const CORE=['./','./index.html','./styles.css','./manifest.webmanifest','./assets/favicon.svg','./js/app.js','./js/learning.js','./js/core.js','./js/store.js','./js/labs.js','./js/python.js','./js/python-worker.js','./data/curriculum.json','./data/lesson-content.json','./data/videos.json','./data/video-player-checks.json','./data/coverage.json','./data/exams.json','./LICENSE','./CONTENT-LICENSE.md','./THIRD-PARTY-NOTICES.md','./COVERAGE.md','./VIDEO-RESEARCH.md','./VALIDATION.md','./README.md'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE))));
 self.addEventListener('activate',e=>e.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('caicp-core-')&&k!==CACHE).map(k=>caches.delete(k)))),self.clients.claim()])));

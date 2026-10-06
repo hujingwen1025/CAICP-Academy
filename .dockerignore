@@ -1,0 +1,16 @@
+.git
+.github
+.agents
+.codex
+.DS_Store
+.env
+.env.*
+node_modules
+.venv
+venv
+__pycache__
+*.pyc
+tests
+requirements-validation.txt
+*.pdf
+*.log

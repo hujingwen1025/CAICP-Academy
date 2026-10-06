@@ -1,5 +1,13 @@
 # Validation record — 2026-10-06
 
+## Docker support
+
+Built and ran the Nginx 1.30.5 Alpine image locally using Docker Compose. The container health check passed, Nginx configuration validation passed, and the server ran as the `nginx` user (UID 101) with a read-only filesystem and writable temporary directory. The published port is bound to loopback at localhost:8080.
+
+`python3 tests/verify_container.py http://localhost:8080` passed four integration checks: every service-worker core asset plus the worker script matched the checkout byte for byte; module/data/CSS/SVG MIME types were correct; missing paths, repository internals, tests and container configuration returned 404; and the embed-compatible referrer policy was present. Unversioned assets and the service worker use revalidation headers. These checks contact only the local server and do not load external videos or Python downloads.
+
+The application and saved-data format remain unchanged. Cache version 1.1.7 makes the updated run instructions and third-party notices available through the existing explicit offline-update flow. Container validation establishes static delivery; earlier browser checks below cover the learning interface. Public Docker deployment and remote HTTPS proxy configuration were not performed.
+
 ## Automated verification
 
 `npm test`: 22 JavaScript tests and 9 independent Python tests passed. Checks cover bilingual curriculum completeness, stable references and IDs, six routes, 12-question diagnostics, all 78 appendix-G answer keys and 100-point paper totals, shared visual materials, exact-set grading, saved deadlines, review intervals, backup round trips and invalid imports, unavailable storage, sorting/search/traversal, metrics, convolution, K-means and numeric input validation. The Python worker load-error path is exercised with an intentionally unavailable HTTPS import in Node.

@@ -12,6 +12,29 @@ python3 -m http.server 4173 --bind 127.0.0.1
 
 Open http://localhost:4173. Node users can also run `npm run serve`. Run automated checks with `npm test` (Node 20 or newer).
 
+## Run with Docker
+
+Install and start Docker Desktop (or Docker Engine with Compose), then run from this folder:
+
+```sh
+docker compose up --build -d
+```
+
+Open [http://localhost:8080](http://localhost:8080). Docker serves the same static site using Nginx; Python exercises execute in your browser, so no Python installation is needed in the container. GitHub Pages and other static hosting remain supported.
+
+View server logs with `docker compose logs -f`. Stop and remove the container with `docker compose down`. After editing the site, run `docker compose up --build -d` again. Use `docker compose build --pull` before restarting to refresh the base image. If port 8080 is occupied, use `CAICP_PORT=8090 docker compose up --build -d` and open localhost:8090.
+
+Without Compose:
+
+```sh
+docker build --pull -t caicp-academy .
+docker run --rm -p 127.0.0.1:8080:8080 --read-only --tmpfs /tmp caicp-academy
+```
+
+The server runs without root privileges and exposes only the site's assets and content notices. No volume or database is required: stopping or rebuilding the container does not delete browser progress. Progress is tied to the browser address, including the port; export/import a backup when moving between localhost:4173, Docker, and a hosted site. Videos and first-time Python downloads still require connectivity.
+
+The default port binding permits access from this computer only. For remote hosting, configure your own HTTPS reverse proxy and port binding; plain HTTP at a remote IP does not support the service-worker offline cache. Localhost works without HTTPS. Check a running container with `python3 tests/verify_container.py http://localhost:8080`.
+
 ## Included
 
 - 38 bilingual section lessons in eight chapters, with 126 structured concept/review blocks, stable concept navigation, source pages, accessible diagrams, comparison tables, expandable detail and 168 retrieval prompts. Objectives, prerequisites and common mistakes remain available.
