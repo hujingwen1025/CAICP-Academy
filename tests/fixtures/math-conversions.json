@@ -1,0 +1,2066 @@
+[
+  {
+    "original": "((2x+1)²)′=4(2x+1)",
+    "tex": "((2x+1)^{2})'=4(2x+1)"
+  },
+  {
+    "original": "(1+3)²=16",
+    "tex": "(1+3)^{2}=16"
+  },
+  {
+    "original": "(192+1)×144=27, 792",
+    "tex": "(192+1)\\times 144=27,792"
+  },
+  {
+    "original": "(192+1)×144=27,792",
+    "tex": "(192+1)\\times 144=27,792"
+  },
+  {
+    "original": "(2, 1)·(3, 4)=10",
+    "tex": "(2,1)\\cdot (3,4)=10"
+  },
+  {
+    "original": "(2,1)·(3,4)=10",
+    "tex": "(2,1)\\cdot (3,4)=10"
+  },
+  {
+    "original": "(2/4)×(1/3)=1/6",
+    "tex": "(\\frac{2}{4})\\times (\\frac{1}{3})=\\frac{1}{6}"
+  },
+  {
+    "original": "(2/6)×0+(4/6)×3/8=1/4",
+    "tex": "\\frac26\\times0+\\frac46\\times\\frac38=\\frac14"
+  },
+  {
+    "original": "(2/n)Σeᵢ",
+    "tex": "\\frac{2}{n}\\sum_i e_i"
+  },
+  {
+    "original": "(2/n)Σeᵢxᵢ",
+    "tex": "\\frac{2}{n}\\sum_i e_i x_i"
+  },
+  {
+    "original": "(2x+1)²",
+    "tex": "(2x+1)^{2}"
+  },
+  {
+    "original": "(2x³+x²−4x+7)′=6x²+2x−4",
+    "tex": "(2x^{3}+x^{2}-4x+7)'=6x^{2}+2x-4"
+  },
+  {
+    "original": "(36+1)×3=111",
+    "tex": "(36+1)\\times 3=111"
+  },
+  {
+    "original": "(3x²−5x+6)′=6x−5",
+    "tex": "(3x^{2}-5x+6)'=6x-5"
+  },
+  {
+    "original": "(3×3×3+1)×4=112",
+    "tex": "(3\\times 3\\times 3+1)\\times 4=112"
+  },
+  {
+    "original": "(3×4+7×8)/10=6.8",
+    "tex": "\\frac{3\\times4+7\\times8}{10}=6.8"
+  },
+  {
+    "original": "(882+60)/1000=94.2%",
+    "tex": "\\frac{882+60}{1000}=94.2\\%"
+  },
+  {
+    "original": "(TP+TN)/总数",
+    "tex": "\\frac{TP+TN}{\\text{总数}}"
+  },
+  {
+    "original": "(e³ˣ)′=3e³ˣ",
+    "tex": "(e^{3x})'=3e^{3x}"
+  },
+  {
+    "original": "(eˣ)′=eˣ",
+    "tex": "(e^{x})'=e^{x}"
+  },
+  {
+    "original": "(x-2)(x-3)=0",
+    "tex": "(x-2)(x-3)=0"
+  },
+  {
+    "original": "(xⁿ)′=nxⁿ⁻¹",
+    "tex": "(x^{n})'=nx^{n-1}"
+  },
+  {
+    "original": "(−2)²=2²=4",
+    "tex": "(-2)^{2}=2^{2}=4"
+  },
+  {
+    "original": "(−b±√(b²−4ac))/(2a)",
+    "tex": "\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}"
+  },
+  {
+    "original": "-17=(-4)×5+3",
+    "tex": "-17=(-4)\\times 5+3"
+  },
+  {
+    "original": ".375/.625=.6",
+    "tex": "\\frac{.375}{.625}=.6"
+  },
+  {
+    "original": ".45/.65=9/13",
+    "tex": "\\frac{.45}{.65}=\\frac9{13}"
+  },
+  {
+    "original": ".9×.2+.1×.8=.26",
+    "tex": ".9\\times .2+.1\\times .8=.26"
+  },
+  {
+    "original": "0!=1",
+    "tex": "0!=1"
+  },
+  {
+    "original": "0+10=10",
+    "tex": "0+10=10"
+  },
+  {
+    "original": "0×2",
+    "tex": "0\\times 2"
+  },
+  {
+    "original": "0≤x,y≤4",
+    "tex": "0\\le x,y\\le4"
+  },
+  {
+    "original": "1 / 2",
+    "tex": "\\frac{1}{2}"
+  },
+  {
+    "original": "1 / 3",
+    "tex": "\\frac{1}{3}"
+  },
+  {
+    "original": "1 / 3=1",
+    "tex": "\\frac{1}{3}=1"
+  },
+  {
+    "original": "1 / 4",
+    "tex": "\\frac{1}{4}"
+  },
+  {
+    "original": "1+2+ 4 +5=12",
+    "tex": "1+2+4+5=12"
+  },
+  {
+    "original": "1+2+4+5=12",
+    "tex": "1+2+4+5=12"
+  },
+  {
+    "original": "1/(1+e⁻ᶻ)",
+    "tex": "\\frac{1}{1+e^{-z}}"
+  },
+  {
+    "original": "1/12",
+    "tex": "\\frac{1}{12}"
+  },
+  {
+    "original": "1/2",
+    "tex": "\\frac{1}{2}"
+  },
+  {
+    "original": "1/3",
+    "tex": "\\frac{1}{3}"
+  },
+  {
+    "original": "1/4",
+    "tex": "\\frac{1}{4}"
+  },
+  {
+    "original": "1/6",
+    "tex": "\\frac{1}{6}"
+  },
+  {
+    "original": "100×100",
+    "tex": "100\\times 100"
+  },
+  {
+    "original": "1101₂=13",
+    "tex": "1101_{2}=13"
+  },
+  {
+    "original": "16 / 20=80 %",
+    "tex": "\\frac{16}{20}=80 \\%"
+  },
+  {
+    "original": "16 / 24 ≈ 66.7 %",
+    "tex": "\\frac{16}{24} \\approx  66.7 \\%"
+  },
+  {
+    "original": "16 / 4 = 4",
+    "tex": "\\frac{16}{4} = 4"
+  },
+  {
+    "original": "16/20=80%",
+    "tex": "\\frac{16}{20}=80\\%"
+  },
+  {
+    "original": "16/24≈66.7%",
+    "tex": "\\frac{16}{24}\\approx 66.7\\%"
+  },
+  {
+    "original": "16/4=4",
+    "tex": "\\frac{16}{4}=4"
+  },
+  {
+    "original": "17 / 6",
+    "tex": "\\frac{17}{6}"
+  },
+  {
+    "original": "17/5",
+    "tex": "\\frac{17}{5}"
+  },
+  {
+    "original": "17/6≈2.83",
+    "tex": "\\frac{17}{6}\\approx 2.83"
+  },
+  {
+    "original": "17=3×5+2",
+    "tex": "17=3\\times 5+2"
+  },
+  {
+    "original": "18-4.0+6=20.0",
+    "tex": "18-4.0+6=20.0"
+  },
+  {
+    "original": "18/20=90%",
+    "tex": "\\frac{18}{20}=90\\%"
+  },
+  {
+    "original": "1²+3²=10",
+    "tex": "1^{2}+3^{2}=10"
+  },
+  {
+    "original": "1×4",
+    "tex": "1\\times 4"
+  },
+  {
+    "original": "1− 4 +7 = 4",
+    "tex": "1- 4 +7 = 4"
+  },
+  {
+    "original": "1−.8³=.488",
+    "tex": "1-.8^{3}=.488"
+  },
+  {
+    "original": "1−Σpⱼ²",
+    "tex": "1-\\sum_j p_j^2"
+  },
+  {
+    "original": "2.5+2.5=5",
+    "tex": "2.5+2.5=5"
+  },
+  {
+    "original": "2/3",
+    "tex": "\\frac{2}{3}"
+  },
+  {
+    "original": "2/5=40%",
+    "tex": "\\frac{2}{5}=40\\%"
+  },
+  {
+    "original": "20 / 4 =5",
+    "tex": "\\frac{20}{4} =5"
+  },
+  {
+    "original": "20/3",
+    "tex": "\\frac{20}{3}"
+  },
+  {
+    "original": "200/200",
+    "tex": "\\frac{200}{200}"
+  },
+  {
+    "original": "200/3",
+    "tex": "\\frac{200}{3}"
+  },
+  {
+    "original": "27/30",
+    "tex": "\\frac{27}{30}"
+  },
+  {
+    "original": "28/30",
+    "tex": "\\frac{28}{30}"
+  },
+  {
+    "original": "2u=(6, 2)",
+    "tex": "2u=(6,2)"
+  },
+  {
+    "original": "2u=(6,2)",
+    "tex": "2u=(6,2)"
+  },
+  {
+    "original": "2x + 3 = 11",
+    "tex": "2x+3=11"
+  },
+  {
+    "original": "2x = 8",
+    "tex": "2x=8"
+  },
+  {
+    "original": "2x+3=11",
+    "tex": "2x+3=11"
+  },
+  {
+    "original": "2x+4y=28",
+    "tex": "2x+4y=28"
+  },
+  {
+    "original": "2x+5=21",
+    "tex": "2x+5=21"
+  },
+  {
+    "original": "2x+5≤15",
+    "tex": "2x+5\\le 15"
+  },
+  {
+    "original": "2x=8",
+    "tex": "2x=8"
+  },
+  {
+    "original": "2²=4",
+    "tex": "2^{2}=4"
+  },
+  {
+    "original": "2×1",
+    "tex": "2\\times 1"
+  },
+  {
+    "original": "2×2",
+    "tex": "2\\times 2"
+  },
+  {
+    "original": "2×3",
+    "tex": "2\\times 3"
+  },
+  {
+    "original": "2×3+3=9",
+    "tex": "2\\times 3+3=9"
+  },
+  {
+    "original": "2×3=6",
+    "tex": "2\\times 3=6"
+  },
+  {
+    "original": "2×4",
+    "tex": "2\\times 4"
+  },
+  {
+    "original": "2ˣ",
+    "tex": "2^{x}"
+  },
+  {
+    "original": "2⁰",
+    "tex": "2^{0}"
+  },
+  {
+    "original": "2⁻²=1/4",
+    "tex": "2^{-2}=\\frac{1}{4}"
+  },
+  {
+    "original": "3 / 4",
+    "tex": "\\frac{3}{4}"
+  },
+  {
+    "original": "3 / 8",
+    "tex": "\\frac{3}{8}"
+  },
+  {
+    "original": "3(b−4)²+8",
+    "tex": "3(b-4)^{2}+8"
+  },
+  {
+    "original": "3/4",
+    "tex": "\\frac{3}{4}"
+  },
+  {
+    "original": "3/6",
+    "tex": "\\frac{3}{6}"
+  },
+  {
+    "original": "3/8",
+    "tex": "\\frac{3}{8}"
+  },
+  {
+    "original": "35 / 7 =5",
+    "tex": "\\frac{35}{7} =5"
+  },
+  {
+    "original": "3×.2×.8²=.384",
+    "tex": "3\\times .2\\times .8^{2}=.384"
+  },
+  {
+    "original": "3×10",
+    "tex": "3\\times 10"
+  },
+  {
+    "original": "3×2",
+    "tex": "3\\times 2"
+  },
+  {
+    "original": "3×3",
+    "tex": "3\\times 3"
+  },
+  {
+    "original": "3×3×3",
+    "tex": "3\\times 3\\times 3"
+  },
+  {
+    "original": "3×3×4",
+    "tex": "3\\times 3\\times 4"
+  },
+  {
+    "original": "3×4",
+    "tex": "3\\times 4"
+  },
+  {
+    "original": "4 × 5+8=28",
+    "tex": "4\\times 5+8=28"
+  },
+  {
+    "original": "4 − 8+7 =3",
+    "tex": "4 - 8+7 =3"
+  },
+  {
+    "original": "4/5",
+    "tex": "\\frac{4}{5}"
+  },
+  {
+    "original": "45/(45+5)=90%",
+    "tex": "\\frac{45}{45+5}=90\\%"
+  },
+  {
+    "original": "4h²",
+    "tex": "4h^{2}"
+  },
+  {
+    "original": "4×1",
+    "tex": "4\\times 1"
+  },
+  {
+    "original": "4×28=112",
+    "tex": "4\\times 28=112"
+  },
+  {
+    "original": "4×2×2",
+    "tex": "4\\times 2\\times 2"
+  },
+  {
+    "original": "4×5+8=28",
+    "tex": "4\\times 5+8=28"
+  },
+  {
+    "original": "5 / 8",
+    "tex": "\\frac{5}{8}"
+  },
+  {
+    "original": "5/12",
+    "tex": "\\frac{5}{12}"
+  },
+  {
+    "original": "5/2",
+    "tex": "\\frac{5}{2}"
+  },
+  {
+    "original": "5/8",
+    "tex": "\\frac{5}{8}"
+  },
+  {
+    "original": "5×5",
+    "tex": "5\\times 5"
+  },
+  {
+    "original": "6/12",
+    "tex": "\\frac{6}{12}"
+  },
+  {
+    "original": "6×6×4",
+    "tex": "6\\times 6\\times 4"
+  },
+  {
+    "original": "7×2=14",
+    "tex": "7\\times 2=14"
+  },
+  {
+    "original": "8 / 2",
+    "tex": "\\frac{8}{2}"
+  },
+  {
+    "original": "8 / 4 =2",
+    "tex": "\\frac{8}{4} =2"
+  },
+  {
+    "original": "8/3",
+    "tex": "\\frac{8}{3}"
+  },
+  {
+    "original": "8× 5+3= 43",
+    "tex": "8\\times 5+3=43"
+  },
+  {
+    "original": "8×3",
+    "tex": "8\\times 3"
+  },
+  {
+    "original": "8×5+3=43",
+    "tex": "8\\times 5+3=43"
+  },
+  {
+    "original": "8×8×3",
+    "tex": "8\\times 8\\times 3"
+  },
+  {
+    "original": "9+1+1+ 9=20",
+    "tex": "9+1+1+ 9=20"
+  },
+  {
+    "original": "9/10",
+    "tex": "\\frac{9}{10}"
+  },
+  {
+    "original": "9/108≈8.3%",
+    "tex": "\\frac{9}{108}\\approx 8.3\\%"
+  },
+  {
+    "original": "9− 12+7 = 4",
+    "tex": "9- 12+7 = 4"
+  },
+  {
+    "original": "A=(2,1)",
+    "tex": "A=(2,1)"
+  },
+  {
+    "original": "A=.8",
+    "tex": "A=.8"
+  },
+  {
+    "original": "A=0",
+    "tex": "A=0"
+  },
+  {
+    "original": "A=10",
+    "tex": "A=10"
+  },
+  {
+    "original": "A=[[1,2],[3,4]]",
+    "tex": "A=\\begin{bmatrix}1 & 2\\\\3 & 4\\end{bmatrix}"
+  },
+  {
+    "original": "A=[[2, 1, 3],[0, 4, 1]]",
+    "tex": "A=\\begin{bmatrix}2 & 1 & 3\\\\0 & 4 & 1\\end{bmatrix}"
+  },
+  {
+    "original": "A=[[2,1,3],[0,4,1]]",
+    "tex": "A=\\begin{bmatrix}2 & 1 & 3\\\\0 & 4 & 1\\end{bmatrix}"
+  },
+  {
+    "original": "A={1, 2, 3, 4}",
+    "tex": "A=\\{1,2,3,4\\}"
+  },
+  {
+    "original": "A={1,2,3,4}",
+    "tex": "A=\\{1,2,3,4\\}"
+  },
+  {
+    "original": "A\\B",
+    "tex": "A\\setminus B"
+  },
+  {
+    "original": "A\\B={1, 2}",
+    "tex": "A\\setminus B=\\{1,2\\}"
+  },
+  {
+    "original": "A\\B={1,2}",
+    "tex": "A\\setminus B=\\{1,2\\}"
+  },
+  {
+    "original": "Accuracy=(TP+TN)/N; Precision=TP/(TP+FP); Recall=TP/(TP+FN); F1=2TP/(2TP+FP+FN)",
+    "tex": "\\begin{aligned}\\mathrm{Accuracy}&=\\frac{TP+TN}{N}\\\\\\mathrm{Precision}&=\\frac{TP}{TP+FP}\\\\\\mathrm{Recall}&=\\frac{TP}{TP+FN}\\\\F_1&=\\frac{2TP}{2TP+FP+FN}\\end{aligned}"
+  },
+  {
+    "original": "Accuracy=(TP+TN)/total",
+    "tex": "\\mathrm{Accuracy}=\\frac{TP+TN}{\\mathrm{total}}"
+  },
+  {
+    "original": "A∩B={3, 4}",
+    "tex": "A\\cap B=\\{3,4\\}"
+  },
+  {
+    "original": "A∩B={3,4}",
+    "tex": "A\\cap B=\\{3,4\\}"
+  },
+  {
+    "original": "A∪B={1,…, 5}",
+    "tex": "A\\cup B=\\{1,\\ldots ,5\\}"
+  },
+  {
+    "original": "A∪B={1,…,5}",
+    "tex": "A\\cup B=\\{1,\\ldots ,5\\}"
+  },
+  {
+    "original": "B=(0,2)",
+    "tex": "B=(0,2)"
+  },
+  {
+    "original": "B=01",
+    "tex": "B=01"
+  },
+  {
+    "original": "B={3, 4, 5}",
+    "tex": "B=\\{3,4,5\\}"
+  },
+  {
+    "original": "B={3,4,5}",
+    "tex": "B=\\{3,4,5\\}"
+  },
+  {
+    "original": "C(n, k)=n!/[k!(n−k)!]",
+    "tex": "\\binom{n}{k}=\\frac{n!}{k!(n-k)!}"
+  },
+  {
+    "original": "C(n,k)=n!/[k!(n−k)!]",
+    "tex": "\\binom{n}{k}=\\frac{n!}{k!(n-k)!}"
+  },
+  {
+    "original": "C=(3,4)",
+    "tex": "C=(3,4)"
+  },
+  {
+    "original": "C=1",
+    "tex": "C=1"
+  },
+  {
+    "original": "Constant′=0",
+    "tex": "Constant'=0"
+  },
+  {
+    "original": "D<0",
+    "tex": "D<0"
+  },
+  {
+    "original": "D=(5,2)",
+    "tex": "D=(5,2)"
+  },
+  {
+    "original": "D=0",
+    "tex": "D=0"
+  },
+  {
+    "original": "D=b²−4ac",
+    "tex": "D=b^{2}-4ac"
+  },
+  {
+    "original": "D>0",
+    "tex": "D>0"
+  },
+  {
+    "original": "E=(2,6)",
+    "tex": "E=(2,6)"
+  },
+  {
+    "original": "F1=2PR/(P+R)",
+    "tex": "F_1=\\frac{2PR}{P+R}"
+  },
+  {
+    "original": "F=15",
+    "tex": "F=15"
+  },
+  {
+    "original": "FN=4",
+    "tex": "FN=4"
+  },
+  {
+    "original": "FN≤3",
+    "tex": "FN\\le 3"
+  },
+  {
+    "original": "FP=8",
+    "tex": "FP=8"
+  },
+  {
+    "original": "G = Σ γⁱ⁻¹rᵢ",
+    "tex": "G=\\sum_i\\gamma^{i-1}r_i"
+  },
+  {
+    "original": "G=r₁+γr₂+γ²r₃",
+    "tex": "G=r_{1}+\\gamma r_{2}+\\gamma ^{2}r_{3}"
+  },
+  {
+    "original": "J=Σ ‖xᵢ−μcᵢ‖²",
+    "tex": "J=\\sum_i\\lVert x_i-\\mu_{c_i}\\rVert^2"
+  },
+  {
+    "original": "K =3",
+    "tex": "K =3"
+  },
+  {
+    "original": "K=3",
+    "tex": "K=3"
+  },
+  {
+    "original": "K=[[1, 0],[0,−1]]",
+    "tex": "K=\\begin{bmatrix}1 & 0\\\\0 & -1\\end{bmatrix}"
+  },
+  {
+    "original": "K=[[1,0],[0,−1]]",
+    "tex": "K=\\begin{bmatrix}1 & 0\\\\0 & -1\\end{bmatrix}"
+  },
+  {
+    "original": "L(p)=p³(1−p)",
+    "tex": "L(p)=p^{3}(1-p)"
+  },
+  {
+    "original": "L(w)=(w-3)²",
+    "tex": "L(w)=(w-3)^{2}"
+  },
+  {
+    "original": "L(w)=(w−2)²",
+    "tex": "L(w)=(w-2)^{2}"
+  },
+  {
+    "original": "L(w, b)=(w−2)²+b²",
+    "tex": "L(w,b)=(w-2)^{2}+b^{2}"
+  },
+  {
+    "original": "L(w,b)=(w−2)²+b²",
+    "tex": "L(w,b)=(w-2)^{2}+b^{2}"
+  },
+  {
+    "original": "L=Σ(wxᵢ+b−yᵢ)²/n",
+    "tex": "L=\\frac{1}{n}\\sum_i(wx_i+b-y_i)^2"
+  },
+  {
+    "original": "Ldata=2.5(w−2)²",
+    "tex": "Ldata=2.5(w-2)^{2}"
+  },
+  {
+    "original": "Ltotal=Ldata+λΣwⱼ²",
+    "tex": "L_{\\mathrm{total}}=L_{\\mathrm{data}}+\\lambda\\sum_j w_j^2"
+  },
+  {
+    "original": "L总=L数据+λΣwⱼ²",
+    "tex": "L_{\\text{总}}=L_{\\text{数据}}+\\lambda\\sum_j w_j^2"
+  },
+  {
+    "original": "M=[[1,2],[3,4]]",
+    "tex": "M=\\begin{bmatrix}1 & 2\\\\3 & 4\\end{bmatrix}"
+  },
+  {
+    "original": "MAE = Σ|ŷᵢ−yᵢ|/n; MSE = Σ(ŷᵢ−yᵢ)²/n",
+    "tex": "\\begin{aligned}\\mathrm{MAE}&=\\frac{1}{n}\\sum_{i=1}^{n}|\\hat y_i-y_i|\\\\\\mathrm{MSE}&=\\frac{1}{n}\\sum_{i=1}^{n}(\\hat y_i-y_i)^2\\end{aligned}"
+  },
+  {
+    "original": "MAE=1",
+    "tex": "\\mathrm{MAE}=1"
+  },
+  {
+    "original": "MAE=2",
+    "tex": "\\mathrm{MAE}=2"
+  },
+  {
+    "original": "MAE=20",
+    "tex": "\\mathrm{MAE}=20"
+  },
+  {
+    "original": "MAE=5/3",
+    "tex": "\\mathrm{MAE}=\\frac{5}{3}"
+  },
+  {
+    "original": "MSE=(1+0+4)/3=5/3",
+    "tex": "\\mathrm{MSE}=\\frac{1+0+4}{3}=\\frac53"
+  },
+  {
+    "original": "MSE=.5",
+    "tex": "\\mathrm{MSE}=.5"
+  },
+  {
+    "original": "MSE=16",
+    "tex": "\\mathrm{MSE}=16"
+  },
+  {
+    "original": "MSE=17/3",
+    "tex": "\\mathrm{MSE}=\\frac{17}{3}"
+  },
+  {
+    "original": "MSE=3",
+    "tex": "\\mathrm{MSE}=3"
+  },
+  {
+    "original": "MSE=4",
+    "tex": "\\mathrm{MSE}=4"
+  },
+  {
+    "original": "MSE=5",
+    "tex": "\\mathrm{MSE}=5"
+  },
+  {
+    "original": "MSE=5/3",
+    "tex": "\\mathrm{MSE}=\\frac{5}{3}"
+  },
+  {
+    "original": "MSE=500",
+    "tex": "MSE=500"
+  },
+  {
+    "original": "Mv=[3,7]",
+    "tex": "Mv=[3,7]"
+  },
+  {
+    "original": "NOT(P AND Q) = (NOT P) OR (NOT Q)",
+    "tex": "\\neg(P\\land Q)=(\\neg P)\\lor(\\neg Q)"
+  },
+  {
+    "original": "NOT(P OR Q) = (NOT P) AND (NOT Q)",
+    "tex": "\\neg(P\\lor Q)=(\\neg P)\\land(\\neg Q)"
+  },
+  {
+    "original": "O(n)",
+    "tex": "O(n)"
+  },
+  {
+    "original": "O(n²)",
+    "tex": "O(n^2)"
+  },
+  {
+    "original": "P =( 2, 2)",
+    "tex": "P=(2,2)"
+  },
+  {
+    "original": "P(2≤X≤5)=3/10",
+    "tex": "P(2\\le X\\le 5)=\\frac{3}{10}"
+  },
+  {
+    "original": "P(A and B)=P(A)P(B)",
+    "tex": "P(A\\cap B)=P(A)P(B)"
+  },
+  {
+    "original": "P(A | B)",
+    "tex": "P(A \\mid  B)"
+  },
+  {
+    "original": "P(A|B)",
+    "tex": "P(A \\mid  B)"
+  },
+  {
+    "original": "P(A|B)=P(A∩B)/P(B)",
+    "tex": "P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}"
+  },
+  {
+    "original": "P(A|B)=P(B|A)P(A)/P(B)",
+    "tex": "P(A\\mid B)=\\frac{P(B\\mid A)P(A)}{P(B)}"
+  },
+  {
+    "original": "P(A∪B)=P(A)+P(B)−P(A∩B)",
+    "tex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+  },
+  {
+    "original": "P(A且B)=P(A)P(B)",
+    "tex": "P(A\\cap B)=P(A)P(B)"
+  },
+  {
+    "original": "P(B|A)",
+    "tex": "P(B\\mid A)"
+  },
+  {
+    "original": "P(X=k)=C(n, k)pᵏ(1−p)ⁿ⁻ᵏ",
+    "tex": "P(X=k)=\\binom{n}{k}p^k(1-p)^{n-k}"
+  },
+  {
+    "original": "P(X=k)=C(n,k)p^k(1-p)^(n-k)",
+    "tex": "P(X=k)=\\binom{n}{k}p^k(1-p)^{n-k}"
+  },
+  {
+    "original": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ",
+    "tex": "P(X=k)=\\binom{n}{k}p^k(1-p)^{n-k}"
+  },
+  {
+    "original": "P(not A)=1−P(A)",
+    "tex": "P(A^{\\mathrm{c}})=1-P(A)"
+  },
+  {
+    "original": "P(非A)=1−P(A)",
+    "tex": "P(A^{\\mathrm{c}})=1-P(A)"
+  },
+  {
+    "original": "P=(2,2)",
+    "tex": "P=(2,2)"
+  },
+  {
+    "original": "P=1",
+    "tex": "P=1"
+  },
+  {
+    "original": "Precision=16/(16+8)=66.7%",
+    "tex": "\\mathrm{Precision}=\\frac{16}{16+8}=66.7\\%"
+  },
+  {
+    "original": "R=.5",
+    "tex": "R=.5"
+  },
+  {
+    "original": "RMSE=√MSE",
+    "tex": "\\mathrm{RMSE}=\\sqrt{\\mathrm{MSE}}"
+  },
+  {
+    "original": "ReLU(z)=max(0,z)",
+    "tex": "\\operatorname{ReLU}(z)=\\max(0,z)"
+  },
+  {
+    "original": "ReLU=max(0,z)",
+    "tex": "\\operatorname{ReLU}(z)=\\max(0,z)"
+  },
+  {
+    "original": "TN=72",
+    "tex": "TN=72"
+  },
+  {
+    "original": "TP/(TP+FN)",
+    "tex": "\\frac{TP}{TP+FN}"
+  },
+  {
+    "original": "TP/(TP+FP)",
+    "tex": "\\frac{TP}{TP+FP}"
+  },
+  {
+    "original": "TP=16",
+    "tex": "TP=16"
+  },
+  {
+    "original": "T₀=10",
+    "tex": "T_{0}=10"
+  },
+  {
+    "original": "Tₜ₊₁=Tₜ+a(20−Tₜ)",
+    "tex": "T_{t+1}=T_{t}+a(20-T_{t})"
+  },
+  {
+    "original": "U={1,…, 8}",
+    "tex": "U=\\{1,\\ldots ,8\\}"
+  },
+  {
+    "original": "U={1,…,8}",
+    "tex": "U=\\{1,\\ldots ,8\\}"
+  },
+  {
+    "original": "U\\(A∩B)={1, 2, 5, 6, 7, 8}",
+    "tex": "U\\setminus (A\\cap B)=\\{1,2,5,6,7,8\\}"
+  },
+  {
+    "original": "U\\(A∩B)={1,2,5,6,7,8}",
+    "tex": "U\\setminus (A\\cap B)=\\{1,2,5,6,7,8\\}"
+  },
+  {
+    "original": "U\\A={5, 6, 7, 8}",
+    "tex": "U\\setminus A=\\{5,6,7,8\\}"
+  },
+  {
+    "original": "U\\A={5,6,7,8}",
+    "tex": "U\\setminus A=\\{5,6,7,8\\}"
+  },
+  {
+    "original": "W=[[2, 1],[−1, 3]]",
+    "tex": "W=\\begin{bmatrix}2 & 1\\\\-1 & 3\\end{bmatrix}"
+  },
+  {
+    "original": "W=[[2,1],[−1,3]]",
+    "tex": "W=\\begin{bmatrix}2 & 1\\\\-1 & 3\\end{bmatrix}"
+  },
+  {
+    "original": "X=[[1, 2, 0],[0, 1, 3],[2, 1, 0]]",
+    "tex": "X=\\begin{bmatrix}1 & 2 & 0\\\\0 & 1 & 3\\\\2 & 1 & 0\\end{bmatrix}"
+  },
+  {
+    "original": "X=[[1,2,0],[0,1,3],[2,1,0]]",
+    "tex": "X=\\begin{bmatrix}1 & 2 & 0\\\\0 & 1 & 3\\\\2 & 1 & 0\\end{bmatrix}"
+  },
+  {
+    "original": "X=[[4, 1],[6, 2],[8, 3]]",
+    "tex": "X=\\begin{bmatrix}4 & 1\\\\6 & 2\\\\8 & 3\\end{bmatrix}"
+  },
+  {
+    "original": "X=[[4,1],[6,2],[8,3]]",
+    "tex": "X=\\begin{bmatrix}4 & 1\\\\6 & 2\\\\8 & 3\\end{bmatrix}"
+  },
+  {
+    "original": "XW=[[7, 7],[10, 12],[13, 17]]",
+    "tex": "XW=\\begin{bmatrix}7 & 7\\\\10 & 12\\\\13 & 17\\end{bmatrix}"
+  },
+  {
+    "original": "[(2+h)²−4]/h=4+h",
+    "tex": "\\frac{(2+h)^2-4}{h}=4+h"
+  },
+  {
+    "original": "[(9/13)×.25]/[(4/13)×.5+(9/13)×.25]=9/17≈52.9%",
+    "tex": "\\frac{(9/13)\\times.25}{(4/13)\\times.5+(9/13)\\times.25}=\\frac9{17}\\approx52.9\\%"
+  },
+  {
+    "original": "[1,2]·[3,4]=11",
+    "tex": "[1,2]\\cdot [3,4]=11"
+  },
+  {
+    "original": "[1,2]·[3,4]=3+8=11",
+    "tex": "[1,2]\\cdot [3,4]=3+8=11"
+  },
+  {
+    "original": "[[1, 2],[3, 4]] @ [[2, 0],[1, 5]] = [[4, 10],[10, 20]]",
+    "tex": "\\begin{bmatrix}1 & 2\\\\3 & 4\\end{bmatrix}\\begin{bmatrix}2 & 0\\\\1 & 5\\end{bmatrix}=\\begin{bmatrix}4 & 10\\\\10 & 20\\end{bmatrix}"
+  },
+  {
+    "original": "[[1,2],[3,4]] @ [[2,0],[1,5]] = [[4,10],[10,20]]",
+    "tex": "\\begin{bmatrix}1 & 2\\\\3 & 4\\end{bmatrix}\\begin{bmatrix}2 & 0\\\\1 & 5\\end{bmatrix}=\\begin{bmatrix}4 & 10\\\\10 & 20\\end{bmatrix}"
+  },
+  {
+    "original": "[[2, 0],[1, 4],[3, 1]]",
+    "tex": "\\begin{bmatrix}2 & 0\\\\1 & 4\\\\3 & 1\\end{bmatrix}"
+  },
+  {
+    "original": "[[2,0],[1,4],[3,1]]",
+    "tex": "\\begin{bmatrix}2 & 0\\\\1 & 4\\\\3 & 1\\end{bmatrix}"
+  },
+  {
+    "original": "a=.5",
+    "tex": "a=.5"
+  },
+  {
+    "original": "a=0",
+    "tex": "a=0"
+  },
+  {
+    "original": "a=1.5",
+    "tex": "a=1.5"
+  },
+  {
+    "original": "a=2.2",
+    "tex": "a=2.2"
+  },
+  {
+    "original": "ax+b=0",
+    "tex": "ax+b=0"
+  },
+  {
+    "original": "ax²+bx+c=0",
+    "tex": "ax^{2}+bx+c=0"
+  },
+  {
+    "original": "a⁰=1",
+    "tex": "a^{0}=1"
+  },
+  {
+    "original": "a⁻ⁿ=1/aⁿ",
+    "tex": "a^{-n}=\\frac{1}{a^n}"
+  },
+  {
+    "original": "a₁₂=1",
+    "tex": "a_{12}=1"
+  },
+  {
+    "original": "a₂₃=1",
+    "tex": "a_{23}=1"
+  },
+  {
+    "original": "a≠0",
+    "tex": "a\\ne 0"
+  },
+  {
+    "original": "b+w₁x+w₂x²",
+    "tex": "b+w_{1}x+w_{2}x^{2}"
+  },
+  {
+    "original": "b=0",
+    "tex": "b=0"
+  },
+  {
+    "original": "b=1",
+    "tex": "b=1"
+  },
+  {
+    "original": "b=16",
+    "tex": "b=16"
+  },
+  {
+    "original": "b=4",
+    "tex": "b=4"
+  },
+  {
+    "original": "b=5",
+    "tex": "b=5"
+  },
+  {
+    "original": "b=ȳ−wx̄",
+    "tex": "b=\\bar{y}-w\\bar{x}"
+  },
+  {
+    "original": "b=−1",
+    "tex": "b=-1"
+  },
+  {
+    "original": "b²",
+    "tex": "b^{2}"
+  },
+  {
+    "original": "b≤5",
+    "tex": "b\\le 5"
+  },
+  {
+    "original": "combinations = 2^b\nraw bytes = width × height × channels × bytes per channel",
+    "tex": "\\begin{aligned}\\mathrm{combinations}&=2^b\\\\\\mathrm{raw\\ bytes}&=\\mathrm{width}\\times\\mathrm{height}\\times\\mathrm{channels}\\times\\mathrm{bytes\\ per\\ channel}\\end{aligned}"
+  },
+  {
+    "original": "dL/dh=4v=12",
+    "tex": "\\frac{\\partial L}{\\partial h}=4v=12"
+  },
+  {
+    "original": "dL/dv=4h=8",
+    "tex": "\\frac{\\partial L}{\\partial v}=4h=8"
+  },
+  {
+    "original": "dL/dw=4×3×1×2=24",
+    "tex": "\\frac{\\partial L}{\\partial w}=4\\times3\\times1\\times2=24"
+  },
+  {
+    "original": "dL/dŷ=4",
+    "tex": "\\frac{\\partial L}{\\partial\\hat y}=4"
+  },
+  {
+    "original": "eˣ",
+    "tex": "e^{x}"
+  },
+  {
+    "original": "eᵢ=wxᵢ+b−yᵢ",
+    "tex": "e_{i}=wx_{i}+b-y_{i}"
+  },
+  {
+    "original": "eᶻʲ/Σeᶻᵏ",
+    "tex": "\\frac{e^{z_j}}{\\sum_k e^{z_k}}"
+  },
+  {
+    "original": "f(1) = 2",
+    "tex": "f(1)=2"
+  },
+  {
+    "original": "f(1)=2",
+    "tex": "f(1)=2"
+  },
+  {
+    "original": "f(3)=2+3=5",
+    "tex": "f(3)=2+3=5"
+  },
+  {
+    "original": "f(5)=5+5=10",
+    "tex": "f(5)=5+5=10"
+  },
+  {
+    "original": "f(x)=x³+2x",
+    "tex": "f(x)=x^{3}+2x"
+  },
+  {
+    "original": "f(x)=xⁿ",
+    "tex": "f(x)=x^n"
+  },
+  {
+    "original": "f′(x)",
+    "tex": "f'(x)"
+  },
+  {
+    "original": "f′(x)=3x²+2",
+    "tex": "f'(x)=3x^{2}+2"
+  },
+  {
+    "original": "f′(x)=nxⁿ⁻¹",
+    "tex": "f'(x)=nx^{n-1}"
+  },
+  {
+    "original": "g=0",
+    "tex": "g=0"
+  },
+  {
+    "original": "g=2x₁−x₂−1",
+    "tex": "g=2x_{1}-x_{2}-1"
+  },
+  {
+    "original": "gradient=2(w-3)",
+    "tex": "gradient=2(w-3)"
+  },
+  {
+    "original": "g≥0",
+    "tex": "g\\ge 0"
+  },
+  {
+    "original": "h1=0",
+    "tex": "h_1=0"
+  },
+  {
+    "original": "h2=3",
+    "tex": "h_2=3"
+  },
+  {
+    "original": "h=.01",
+    "tex": "h=.01"
+  },
+  {
+    "original": "h=.1",
+    "tex": "h=.1"
+  },
+  {
+    "original": "h=2x+1",
+    "tex": "h=2x+1"
+  },
+  {
+    "original": "h=ReLU(u)=2",
+    "tex": "h=ReLU(u)=2"
+  },
+  {
+    "original": "h=f(z)",
+    "tex": "h=f(z)"
+  },
+  {
+    "original": "h₁=0",
+    "tex": "h_{1}=0"
+  },
+  {
+    "original": "h₁=ReLU(x₁+x₂−1)",
+    "tex": "h_{1}=ReLU(x_{1}+x_{2}-1)"
+  },
+  {
+    "original": "h₁=ReLU(x₁−x₂)",
+    "tex": "h_{1}=ReLU(x_{1}-x_{2})"
+  },
+  {
+    "original": "h₁=ReLU(z₁)",
+    "tex": "h_{1}=ReLU(z_{1})"
+  },
+  {
+    "original": "h₂=3",
+    "tex": "h_{2}=3"
+  },
+  {
+    "original": "h₂=ReLU(x₁−x₂)",
+    "tex": "h_{2}=ReLU(x_{1}-x_{2})"
+  },
+  {
+    "original": "h₂=ReLU(x₂−x₁)",
+    "tex": "h_{2}=ReLU(x_{2}-x_{1})"
+  },
+  {
+    "original": "h₂=ReLU(z₂)",
+    "tex": "h_{2}=ReLU(z_{2})"
+  },
+  {
+    "original": "h≠0",
+    "tex": "h\\ne 0"
+  },
+  {
+    "original": "impurity=1−Σpⱼ²",
+    "tex": "\\mathrm{impurity}=1-\\sum_j p_j^2"
+  },
+  {
+    "original": "k=0",
+    "tex": "k=0"
+  },
+  {
+    "original": "length=floor((n+2p−k)/s)+1",
+    "tex": "\\mathrm{length}=\\left\\lfloor\\frac{n+2p-k}{s}\\right\\rfloor+1"
+  },
+  {
+    "original": "ln(1)=0",
+    "tex": "ln(1)=0"
+  },
+  {
+    "original": "ln(e)=1",
+    "tex": "ln(e)=1"
+  },
+  {
+    "original": "mean = 5",
+    "tex": "\\mathrm{mean}=5"
+  },
+  {
+    "original": "mean=4",
+    "tex": "\\mathrm{mean}=4"
+  },
+  {
+    "original": "mean=5",
+    "tex": "\\mathrm{mean}=5"
+  },
+  {
+    "original": "mean=6",
+    "tex": "\\mathrm{mean}=6"
+  },
+  {
+    "original": "median = 3",
+    "tex": "\\mathrm{median}=3"
+  },
+  {
+    "original": "median=3",
+    "tex": "\\mathrm{median}=3"
+  },
+  {
+    "original": "mode = 2",
+    "tex": "\\mathrm{mode}=2"
+  },
+  {
+    "original": "mode=2",
+    "tex": "\\mathrm{mode}=2"
+  },
+  {
+    "original": "mode=3",
+    "tex": "\\mathrm{mode}=3"
+  },
+  {
+    "original": "m×n",
+    "tex": "m\\times n"
+  },
+  {
+    "original": "m×p",
+    "tex": "m\\times p"
+  },
+  {
+    "original": "n < 3",
+    "tex": "n < 3"
+  },
+  {
+    "original": "n = 0",
+    "tex": "n = 0"
+  },
+  {
+    "original": "n = 2",
+    "tex": "n = 2"
+  },
+  {
+    "original": "n =2",
+    "tex": "n =2"
+  },
+  {
+    "original": "n=10",
+    "tex": "n=10"
+  },
+  {
+    "original": "n=2",
+    "tex": "n=2"
+  },
+  {
+    "original": "n=4",
+    "tex": "n=4"
+  },
+  {
+    "original": "n=5",
+    "tex": "n=5"
+  },
+  {
+    "original": "n×p",
+    "tex": "n\\times p"
+  },
+  {
+    "original": "output=0-6+4=-2",
+    "tex": "output=0-6+4=-2"
+  },
+  {
+    "original": "p=.25",
+    "tex": "p=.25"
+  },
+  {
+    "original": "p=0",
+    "tex": "p=0"
+  },
+  {
+    "original": "p=0.5",
+    "tex": "p=0.5"
+  },
+  {
+    "original": "p=1",
+    "tex": "p=1"
+  },
+  {
+    "original": "posterior ∝ likelihood × prior",
+    "tex": "\\mathrm{posterior}\\propto\\mathrm{likelihood}\\times\\mathrm{prior}"
+  },
+  {
+    "original": "precision=TP/(TP+FP)",
+    "tex": "\\mathrm{precision}=\\frac{TP}{TP+FP}"
+  },
+  {
+    "original": "p²(3−4p)",
+    "tex": "p^{2}(3-4p)"
+  },
+  {
+    "original": "p⁴",
+    "tex": "p^{4}"
+  },
+  {
+    "original": "q=(1, 0)",
+    "tex": "q=(1, 0)"
+  },
+  {
+    "original": "q=(1,0)",
+    "tex": "q=(1, 0)"
+  },
+  {
+    "original": "q=(2, 2)",
+    "tex": "q=(2, 2)"
+  },
+  {
+    "original": "q=(2,2)",
+    "tex": "q=(2, 2)"
+  },
+  {
+    "original": "q=(3, 3)",
+    "tex": "q=(3, 3)"
+  },
+  {
+    "original": "q=(3,3)",
+    "tex": "q=(3, 3)"
+  },
+  {
+    "original": "r ( t )=t²− 4 t +7",
+    "tex": "r(t)=t^2-4t+7"
+  },
+  {
+    "original": "r(2)=5",
+    "tex": "r(2)=5"
+  },
+  {
+    "original": "r(t) = t² - 4t + 7",
+    "tex": "r(t)=t^2-4t+7"
+  },
+  {
+    "original": "r(t)=t²-4t+7",
+    "tex": "r(t)=t^2-4t+7"
+  },
+  {
+    "original": "range=6",
+    "tex": "\\mathrm{range}=6"
+  },
+  {
+    "original": "recall=16/(16+4)=80%",
+    "tex": "\\mathrm{recall}=\\frac{16}{16+4}=80\\%"
+  },
+  {
+    "original": "recall=TP/(TP+FN)",
+    "tex": "\\mathrm{recall}=\\frac{TP}{TP+FN}"
+  },
+  {
+    "original": "s=h₁−2h₂",
+    "tex": "s=h_{1}-2h_{2}"
+  },
+  {
+    "original": "sigmoid=1/(1+exp(-z))",
+    "tex": "\\operatorname{sigmoid}(z)=\\frac{1}{1+\\exp(-z)}"
+  },
+  {
+    "original": "size=floor((N+2P-K)/S)+1",
+    "tex": "\\mathrm{size}=\\left\\lfloor\\frac{N+2P-K}{S}\\right\\rfloor+1"
+  },
+  {
+    "original": "slope=(7−3)/(3−1)=2",
+    "tex": "slope=(7-3)/(3-1)=2"
+  },
+  {
+    "original": "sum=20",
+    "tex": "\\mathrm{sum}=20"
+  },
+  {
+    "original": "t=1",
+    "tex": "t=1"
+  },
+  {
+    "original": "u =100 x",
+    "tex": "u=100x"
+  },
+  {
+    "original": "u+v=(4, 3)",
+    "tex": "u+v=(4,3)"
+  },
+  {
+    "original": "u+v=(4,3)",
+    "tex": "u+v=(4,3)"
+  },
+  {
+    "original": "u<0",
+    "tex": "u<0"
+  },
+  {
+    "original": "u=(3, 1)",
+    "tex": "u=(3,1)"
+  },
+  {
+    "original": "u=(3,1)",
+    "tex": "u=(3,1)"
+  },
+  {
+    "original": "u=100x",
+    "tex": "u=100x"
+  },
+  {
+    "original": "u=wx=2",
+    "tex": "u=wx=2"
+  },
+  {
+    "original": "u²−v²",
+    "tex": "u^{2}-v^{2}"
+  },
+  {
+    "original": "u·v = Σuᵢvᵢ; ‖u‖ = √Σuᵢ²; d(a,b)=‖b−a‖",
+    "tex": "\\begin{aligned}u\\cdot v&=\\sum_i u_i v_i\\\\\\lVert u\\rVert&=\\sqrt{\\sum_i u_i^2}\\\\d(a,b)&=\\lVert b-a\\rVert\\end{aligned}"
+  },
+  {
+    "original": "u−v=(2,−1)",
+    "tex": "u-v=(2,-1)"
+  },
+  {
+    "original": "v=(1, 2)",
+    "tex": "v=(1,2)"
+  },
+  {
+    "original": "v=(1,2)",
+    "tex": "v=(1,2)"
+  },
+  {
+    "original": "v=2.92",
+    "tex": "v=2.92"
+  },
+  {
+    "original": "v=3",
+    "tex": "v=3"
+  },
+  {
+    "original": "v=[1,1]",
+    "tex": "v=[1,1]"
+  },
+  {
+    "original": "w*=10/(5+2λ)",
+    "tex": "w^*=\\frac{10}{5+2\\lambda}"
+  },
+  {
+    "original": "w=(1, 2, 1)",
+    "tex": "w=(1,2,1)"
+  },
+  {
+    "original": "w=(1,2,1)",
+    "tex": "w=(1,2,1)"
+  },
+  {
+    "original": "w=.76",
+    "tex": "w=.76"
+  },
+  {
+    "original": "w=0",
+    "tex": "w=0"
+  },
+  {
+    "original": "w=0-0.1×(-6)=0.6",
+    "tex": "w=0-0.1\\times(-6)=0.6"
+  },
+  {
+    "original": "w=1",
+    "tex": "w=1"
+  },
+  {
+    "original": "w=2",
+    "tex": "w=2"
+  },
+  {
+    "original": "w=Σ(xᵢ−x̄)(yᵢ−ȳ)/Σ(xᵢ−x̄)²",
+    "tex": "w=\\frac{\\sum_i(x_i-\\bar{x})(y_i-\\bar{y})}{\\sum_i(x_i-\\bar{x})^2}"
+  },
+  {
+    "original": "wnew=wold−ηgradient",
+    "tex": "w_{\\mathrm{new}}=w_{\\mathrm{old}}-\\eta\\,\\mathrm{gradient}"
+  },
+  {
+    "original": "w²",
+    "tex": "w^{2}"
+  },
+  {
+    "original": "x < 5",
+    "tex": "x < 5"
+  },
+  {
+    "original": "x <5",
+    "tex": "x <5"
+  },
+  {
+    "original": "x = 4",
+    "tex": "x=4"
+  },
+  {
+    "original": "x =5",
+    "tex": "x =5"
+  },
+  {
+    "original": "x > 0",
+    "tex": "x > 0"
+  },
+  {
+    "original": "x > 6",
+    "tex": "x > 6"
+  },
+  {
+    "original": "x+y=10",
+    "tex": "x+y=10"
+  },
+  {
+    "original": "x1=− 1",
+    "tex": "x_1=-1"
+  },
+  {
+    "original": "x2=2",
+    "tex": "x_2=2"
+  },
+  {
+    "original": "x<5",
+    "tex": "x<5"
+  },
+  {
+    "original": "x=1",
+    "tex": "x=1"
+  },
+  {
+    "original": "x=14",
+    "tex": "x=14"
+  },
+  {
+    "original": "x=2",
+    "tex": "x=2"
+  },
+  {
+    "original": "x=3",
+    "tex": "x=3"
+  },
+  {
+    "original": "x=4",
+    "tex": "x=4"
+  },
+  {
+    "original": "x=5",
+    "tex": "x=5"
+  },
+  {
+    "original": "x=6",
+    "tex": "x=6"
+  },
+  {
+    "original": "x=8",
+    "tex": "x=8"
+  },
+  {
+    "original": "x=u/100",
+    "tex": "x=u/100"
+  },
+  {
+    "original": "x=−b/a",
+    "tex": "x=-\\frac{b}{a}"
+  },
+  {
+    "original": "x>0",
+    "tex": "x>0"
+  },
+  {
+    "original": "x>2",
+    "tex": "x>2"
+  },
+  {
+    "original": "x>−3",
+    "tex": "x>-3"
+  },
+  {
+    "original": "x²",
+    "tex": "x^{2}"
+  },
+  {
+    "original": "x²-5x+6=0",
+    "tex": "x^{2}-5x+6=0"
+  },
+  {
+    "original": "x²=4",
+    "tex": "x^{2}=4"
+  },
+  {
+    "original": "x²=9",
+    "tex": "x^{2}=9"
+  },
+  {
+    "original": "x²=−1",
+    "tex": "x^{2}=-1"
+  },
+  {
+    "original": "x²−4",
+    "tex": "x^{2}-4"
+  },
+  {
+    "original": "x²−5x+6=(x−2)(x−3)",
+    "tex": "x^{2}-5x+6=(x-2)(x-3)"
+  },
+  {
+    "original": "x̄",
+    "tex": "\\bar{x}"
+  },
+  {
+    "original": "xᵢ",
+    "tex": "x_{i}"
+  },
+  {
+    "original": "x′=(x−min)/(max−min)",
+    "tex": "x'=\\frac{x-\\min}{\\max-\\min}"
+  },
+  {
+    "original": "x′=(x−xmin)/(xmax−xmin); z=(x−μ)/σ",
+    "tex": "\\begin{aligned}x'&=\\frac{x-x_{\\min}}{x_{\\max}-x_{\\min}}\\\\z&=\\frac{x-\\mu}{\\sigma}\\end{aligned}"
+  },
+  {
+    "original": "x′=1",
+    "tex": "x'=1"
+  },
+  {
+    "original": "xⁿ",
+    "tex": "x^{n}"
+  },
+  {
+    "original": "x₁=-1,x₂=2",
+    "tex": "x_{1}=-1,x_{2}=2"
+  },
+  {
+    "original": "x₁=1.5",
+    "tex": "x_{1}=1.5"
+  },
+  {
+    "original": "x₁=2",
+    "tex": "x_{1}=2"
+  },
+  {
+    "original": "x₁x₂",
+    "tex": "x_{1}x_{2}"
+  },
+  {
+    "original": "x₁²x₂",
+    "tex": "x_{1}^{2}x_{2}"
+  },
+  {
+    "original": "x≤5",
+    "tex": "x\\le 5"
+  },
+  {
+    "original": "y =0.03u +2",
+    "tex": "y=0.03u+2"
+  },
+  {
+    "original": "y =0− 2× 3+ 4 =− 2",
+    "tex": "y=0-2\\times3+4=-2"
+  },
+  {
+    "original": "y =2",
+    "tex": "y =2"
+  },
+  {
+    "original": "y =3 x +2",
+    "tex": "y=3x+2"
+  },
+  {
+    "original": "y ≤ 2",
+    "tex": "y \\le  2"
+  },
+  {
+    "original": "y=0.03u+2",
+    "tex": "y=0.03u+2"
+  },
+  {
+    "original": "y=2",
+    "tex": "y=2"
+  },
+  {
+    "original": "y=2x+1",
+    "tex": "y=2x+1"
+  },
+  {
+    "original": "y=2x+5",
+    "tex": "y=2x+5"
+  },
+  {
+    "original": "y=3h−4",
+    "tex": "y=3h-4"
+  },
+  {
+    "original": "y=3x+2",
+    "tex": "y=3x+2"
+  },
+  {
+    "original": "y=4",
+    "tex": "y=4"
+  },
+  {
+    "original": "y=h₁-2h₂+4",
+    "tex": "y=h_{1}-2h_{2}+4"
+  },
+  {
+    "original": "y=kx+b",
+    "tex": "y=kx+b"
+  },
+  {
+    "original": "y=x²",
+    "tex": "y=x^{2}"
+  },
+  {
+    "original": "ŷ=w·x+b",
+    "tex": "\\hat{y}=w\\cdot x+b"
+  },
+  {
+    "original": "y≤2",
+    "tex": "y\\le 2"
+  },
+  {
+    "original": "z1=2(− 1)+2− 1=− 1",
+    "tex": "z_1=2(-1)+2-1=-1"
+  },
+  {
+    "original": "z2=−(− 1)+2=3",
+    "tex": "z_2=-(-1)+2=3"
+  },
+  {
+    "original": "z=(x-μ_train)/σ_train",
+    "tex": "z=\\frac{x-\\mu_{\\mathrm{train}}}{\\sigma_{\\mathrm{train}}}"
+  },
+  {
+    "original": "z=(x-训练均值)/训练标准差",
+    "tex": "z=\\frac{x-\\text{训练均值}}{\\text{训练标准差}}"
+  },
+  {
+    "original": "z=(x−μ)/σ",
+    "tex": "z=\\frac{x-\\mu}{\\sigma}"
+  },
+  {
+    "original": "z=2",
+    "tex": "z=2"
+  },
+  {
+    "original": "z=Σwᵢxᵢ+b",
+    "tex": "z=\\sum_i w_i x_i+b"
+  },
+  {
+    "original": "z=−2",
+    "tex": "z=-2"
+  },
+  {
+    "original": "z₁=-1→h₁=0",
+    "tex": "z_{1}=-1\\to h_{1}=0"
+  },
+  {
+    "original": "z₁=2x₁+x₂-1",
+    "tex": "z_{1}=2x_{1}+x_{2}-1"
+  },
+  {
+    "original": "z₁=2x₁+x₂-1=-1",
+    "tex": "z_{1}=2x_{1}+x_{2}-1=-1"
+  },
+  {
+    "original": "z₂=-x₁+x₂",
+    "tex": "z_{2}=-x_{1}+x_{2}"
+  },
+  {
+    "original": "z₂=-x₁+x₂=3",
+    "tex": "z_{2}=-x_{1}+x_{2}=3"
+  },
+  {
+    "original": "z₂=3→h₂=3",
+    "tex": "z_{2}=3\\to h_{2}=3"
+  },
+  {
+    "original": "z≥0",
+    "tex": "z\\ge 0"
+  },
+  {
+    "original": "{1,2} ∩ {2,3} = {2}",
+    "tex": "{1,2}\\cap {2,3}={2}"
+  },
+  {
+    "original": "{1,2}∩{2,3}={2}",
+    "tex": "{1,2}\\cap {2,3}={2}"
+  },
+  {
+    "original": "| 4 −(− 2)|=6",
+    "tex": "|4-(-2)|=6"
+  },
+  {
+    "original": "|4-(-2)|=6",
+    "tex": "|4-(-2)|=6"
+  },
+  {
+    "original": "|5-6|=1",
+    "tex": "|5-6|=1"
+  },
+  {
+    "original": "|5− 6|=1",
+    "tex": "|5-6|=1"
+  },
+  {
+    "original": "|A|+|B|−|A∩B|=4+3−2=5",
+    "tex": "|A|+|B|-|A\\cap B|=4+3-2=5"
+  },
+  {
+    "original": "ŷ",
+    "tex": "\\hat{y}"
+  },
+  {
+    "original": "ŷ=a₂x²+a₁x+b",
+    "tex": "\\hat{y}=a_{2}x^{2}+a_{1}x+b"
+  },
+  {
+    "original": "ŷ=vh=6",
+    "tex": "\\hat{y}=vh=6"
+  },
+  {
+    "original": "ŷ=wx+b",
+    "tex": "\\hat{y}=wx+b"
+  },
+  {
+    "original": "Σ",
+    "tex": "\\sum "
+  },
+  {
+    "original": "Σ(ŷ-y)²",
+    "tex": "\\sum (\\hat{y}-y)^{2}"
+  },
+  {
+    "original": "Ω",
+    "tex": "\\Omega "
+  },
+  {
+    "original": "γ=.5",
+    "tex": "\\gamma =.5"
+  },
+  {
+    "original": "γ=.9",
+    "tex": "\\gamma =.9"
+  },
+  {
+    "original": "η",
+    "tex": "\\eta "
+  },
+  {
+    "original": "η=.01",
+    "tex": "\\eta =.01"
+  },
+  {
+    "original": "η=.1",
+    "tex": "\\eta =.1"
+  },
+  {
+    "original": "η=0.1",
+    "tex": "\\eta =0.1"
+  },
+  {
+    "original": "η=1.1",
+    "tex": "\\eta =1.1"
+  },
+  {
+    "original": "θ←θ-η∇L",
+    "tex": "\\theta \\leftarrow \\theta -\\eta \\nabla L"
+  },
+  {
+    "original": "λ",
+    "tex": "\\lambda "
+  },
+  {
+    "original": "λ=2.5",
+    "tex": "\\lambda =2.5"
+  },
+  {
+    "original": "μ",
+    "tex": "\\mu "
+  },
+  {
+    "original": "μ=0",
+    "tex": "\\mu =0"
+  },
+  {
+    "original": "μ=10",
+    "tex": "\\mu =10"
+  },
+  {
+    "original": "σ",
+    "tex": "\\sigma "
+  },
+  {
+    "original": "σ=1",
+    "tex": "\\sigma =1"
+  },
+  {
+    "original": "σ=2",
+    "tex": "\\sigma =2"
+  },
+  {
+    "original": "‖(3, 4)‖=5",
+    "tex": "\\Vert (3,4)\\Vert =5"
+  },
+  {
+    "original": "‖(3,4)‖=5",
+    "tex": "\\Vert (3,4)\\Vert =5"
+  },
+  {
+    "original": "∅",
+    "tex": "\\varnothing "
+  },
+  {
+    "original": "∇L",
+    "tex": "\\nabla L"
+  },
+  {
+    "original": "∈",
+    "tex": "\\in "
+  },
+  {
+    "original": "−2x<6",
+    "tex": "-2x<6"
+  },
+  {
+    "original": "√ 42\n+32\n=5",
+    "tex": "\\sqrt{4^2+3^2}=5"
+  },
+  {
+    "original": "√(200/3)≈8.165",
+    "tex": "\\sqrt{\\frac{200}{3}}\\approx 8.165"
+  },
+  {
+    "original": "√(2²+1²+2²)=3",
+    "tex": "\\sqrt{2^{2}+1^{2}+2^{2}}=3"
+  },
+  {
+    "original": "√(3²+4²)=5",
+    "tex": "\\sqrt{3^{2}+4^{2}}=5"
+  },
+  {
+    "original": "√(4²+3²)=5",
+    "tex": "\\sqrt{4^{2}+3^{2}}=5"
+  },
+  {
+    "original": "√(8/3)≈1.633",
+    "tex": "\\sqrt{\\frac{8}{3}}\\approx 1.633"
+  },
+  {
+    "original": "√2",
+    "tex": "\\sqrt{2}"
+  },
+  {
+    "original": "√8",
+    "tex": "\\sqrt{8}"
+  },
+  {
+    "original": "√9",
+    "tex": "\\sqrt{9}"
+  },
+  {
+    "original": "⊆",
+    "tex": "\\subseteq "
+  },
+  {
+    "original": "单轴输出大小=floor((N+2P-K)/S)+1",
+    "tex": "\\text{单轴输出大小}=\\left\\lfloor\\frac{N+2P-K}{S}\\right\\rfloor+1"
+  },
+  {
+    "original": "后验∝似然×先验",
+    "tex": "\\text{后验}\\propto\\text{似然}\\times\\text{先验}"
+  }
+]

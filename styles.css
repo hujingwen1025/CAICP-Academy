@@ -7,3 +7,7 @@
 .mobile-contents .concept-nav>h3{display:none}
 
 @media(min-width:851px){.reading-aside{position:sticky;top:20px;align-self:start;max-height:calc(100vh - 40px);overflow:auto}}
+
+/* Math stays inside its reading column, including long display equations. */
+.math-inline{display:inline}.math-display{display:block;overflow-x:auto;max-width:100%;padding:5px 2px;white-space:normal;overscroll-behavior-x:contain}.math-display .katex-display{margin:.45em 0;text-align:left}.katex-display>.katex{text-align:left}.katex{font-size:1.08em;color:inherit}.formula{font-family:inherit;white-space:normal;overflow-wrap:normal}.math-fallback{font-family:ui-monospace,monospace;white-space:pre-wrap;overflow-wrap:anywhere}.lab-math{min-width:0;margin:18px 0}.lab-math .math-display{margin:12px 0}.question-prompt .math-inline{white-space:normal}.option>span:last-child{min-width:0}.table-scroll .math-display{max-width:none}.reading-layout>*{min-width:0}
+.math-display:focus-visible{outline:2px solid var(--teal);outline-offset:2px}

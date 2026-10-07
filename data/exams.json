@@ -202,7 +202,7 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "Assignment first computes the right side. count becomes 7, then total uses 7×2=14.",
+        "en": "Assignment first computes the right side. count becomes 7, then total uses \\(7\\times 2=14\\).",
         "zh": "C。 第一行使 count 为 4，第二行先计算右边的 4 +3，再使 count \n为 7。计算 total 时用的是更新后的 7，所以得到 14。复习 2.1。"
       },
       "lessonIds": [
@@ -274,8 +274,8 @@
       "round": 1,
       "type": "single",
       "prompt": {
-        "en": "What is the value of 18 - 8 / 2 + 3 * 2?",
-        "zh": "表达式 18 - 8 / 2 + 3 * 2 的计算结果是（　）。"
+        "en": "What is the value of 18 - \\(\\frac{8}{2}\\) + 3 * 2?",
+        "zh": "表达式 18 - \\(\\frac{8}{2}\\) + 3 * 2 的计算结果是（　）。"
       },
       "options": [
         {
@@ -300,7 +300,7 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "Multiplication and division precede addition and subtraction: 18-4.0+6=20.0.",
+        "en": "Multiplication and division precede addition and subtraction: \\(18-4.0+6=20.0\\).",
         "zh": "D。 先算除法和乘法，得到 18− 4.0+6，再计算为 20.0。乘除的优\n先级高于加减；同级运算通常按从左到右的顺序处理。复习 2.1。"
       },
       "lessonIds": [
@@ -448,7 +448,7 @@
       "points": 5,
       "explanation": {
         "en": "The first if changes 4 to 7. The second if independently tests 7>6 and changes x to 5. Its else is skipped.",
-        "zh": "B。 第一个条件成立，x 从 4 变为 7。第二个 if 是新的判断， 此时\n条件 x > 6 也成立，x 又变为 5。else 与第二个 if 配对，这次不会执行。\n复习 2.1。"
+        "zh": "B。 第一个条件成立，x 从 4 变为 7。第二个 if 是新的判断， 此时\n条件 \\(x > 6\\) 也成立，x 又变为 5。else 与第二个 if 配对，这次不会执行。\n复习 2.1。"
       },
       "lessonIds": [
         "2.1"
@@ -496,8 +496,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "The values are 1..6. Skip 3 and 6; sum 1+2+4+5=12.",
-        "zh": "D。 range(1, 7) 依次给出 1 至 6。3 和 6 满足整除条件， 被 \ncontinue 跳过；其余数相加得到 1+2+ 4 +5=12。复习 2.1。"
+        "en": "The values are 1..6. Skip 3 and 6; sum \\(1+2+4+5=12\\).",
+        "zh": "D。 range(1, 7) 依次给出 1 至 6。3 和 6 满足整除条件， 被 \ncontinue 跳过；其余数相加得到 \\(1+2+4+5=12\\)。复习 2.1。"
       },
       "lessonIds": [
         "2.1"
@@ -594,8 +594,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "16 correct in total. Mean per batch=16/4=4; accuracy=16/20=80%.",
-        "zh": "A。 共正确识别 4 +3+5+ 4 =16 张，平均每批 16 / 4 = 4 张；总体正\n确率的分母是全部 20 张图片，所以是 16 / 20=80 %。复习 3.2。"
+        "en": "16 correct in total. Mean per batch=\\(\\frac{16}{4}=4\\); accuracy=\\(\\frac{16}{20}=80\\%\\).",
+        "zh": "A。 共正确识别 4 +3+5+ 4 =16 张，平均每批 \\(\\frac{16}{4} = 4\\) 张；总体正\n确率的分母是全部 20 张图片，所以是 \\(\\frac{16}{20}=80 \\%\\)。复习 3.2。"
       },
       "lessonIds": [
         "3.2"
@@ -869,7 +869,7 @@
       "points": 5,
       "explanation": {
         "en": "The six pairs exclude (0,0) and (1,1). Output is (0,1),(0,2),(1,0),(1,2). continue affects only the current inner iteration.",
-        "zh": "ADE。共有2×3=6对行列值，跳过(0,0)与(1,1)，实际输出依次为(0,1)、(0,2)、(1,0)、(1,2)。continue仅跳过内层循环本次剩余步骤，row仍依次取0、1。复习2.1。"
+        "zh": "ADE。共有\\(2\\times 3=6\\)对行列值，跳过(0,0)与(1,1)，实际输出依次为(0,1)、(0,2)、(1,0)、(1,2)。continue仅跳过内层循环本次剩余步骤，row仍依次取0、1。复习2.1。"
       },
       "lessonIds": [
         "2.1"
@@ -988,8 +988,8 @@
       "round": 1,
       "type": "boolean",
       "prompt": {
-        "en": "n=2 followed by n=n+1 is legal Python; n then equals 3.",
-        "zh": "Python 中先执行 n = 2，再执行 n = n + 1，是合法操作；第二句执行\n后，n 的值为 3。（　）"
+        "en": "\\(n=2\\) followed by n=n+1 is legal Python; n then equals 3.",
+        "zh": "Python 中先执行 \\(n = 2\\)，再执行 n = n + 1，是合法操作；第二句执行\n后，n 的值为 3。（　）"
       },
       "options": [
         {
@@ -1677,8 +1677,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "f(1)=2; f(3)=2+3=5; f(5)=5+5=10.",
-        "zh": "B。 调用关系是 f(5) 等待 f(3)，f(3) 又等待 f(1)。从终止条件往\n回算：f(1)=2，f(3)=2+3=5，f(5)=5+5=10。复习 2.3。"
+        "en": "\\(f(1)=2\\); \\(f(3)=2+3=5\\); \\(f(5)=5+5=10\\).",
+        "zh": "B。 调用关系是 f(5) 等待 f(3)，f(3) 又等待 f(1)。从终止条件往\n回算：\\(f(1)=2\\)，\\(f(3)=2+3=5\\)，\\(f(5)=5+5=10\\)。复习 2.3。"
       },
       "lessonIds": [
         "2.3"
@@ -1749,8 +1749,8 @@
       "round": 1,
       "type": "single",
       "prompt": {
-        "en": "A cart moves only between horizontal/vertical neighboring grid points within 0≤x,y≤4, one meter per step. Points (2,0),(2,1),(2,2),(2,3) are blocked. From S=(0,0) to T=(4,3), what are minimum steps and straight-line distance?",
-        "zh": "小车只能沿下图中的线段，每步走到一个横向或纵向相邻的格点，每步 \n1 米，不能离开图示范围。灰色叉号处是不能进入的格点。小车从 S =( 0 , 0) \n到 T =( 4 , 3)，最少需要走的步数、S 与 T 的直线距离依次为（　）。\n图示范围0≤x,y≤4；障碍格点为(2,0)、(2,1)、(2,2)、(2,3)。"
+        "en": "A cart moves only between horizontal/vertical neighboring grid points within \\(0\\le x,y\\le4\\), one meter per step. Points (2,0),(2,1),(2,2),(2,3) are blocked. From S=(0,0) to T=(4,3), what are minimum steps and straight-line distance?",
+        "zh": "小车只能沿下图中的线段，每步走到一个横向或纵向相邻的格点，每步 \n1 米，不能离开图示范围。灰色叉号处是不能进入的格点。小车从 S =( 0 , 0) \n到 T =( 4 , 3)，最少需要走的步数、S 与 T 的直线距离依次为（　）。\n图示范围\\(0\\le x,y\\le4\\)；障碍格点为(2,0)、(2,1)、(2,2)、(2,3)。"
       },
       "options": [
         {
@@ -1775,8 +1775,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "Cross x=2 at y=4. At least 4 north+4 east+1 south=9 steps; the straight distance remains √(4²+3²)=5.",
-        "zh": "A。 小车必须从横坐标小于 2 的一侧到达大于 2 的一侧，只能经过\n没有障碍的 ( 2, 4 )。因此至少向北走 4 步、向东走 4 步，再向南走 1 步，共 \n9 步。先到 ( 0 , 4 )，再到 ( 4 , 4 )，最后到 T，就能实现这一步数。起终点的直\n线距离不受绕行路线影响，仍为 √ 42\n+32\n=5 米。复习 3.3—3.4、4.1。"
+        "en": "Cross \\(x=2\\) at \\(y=4\\). At least 4 north+4 east+1 south=9 steps; the straight distance remains \\(\\sqrt{4^{2}+3^{2}}=5\\).",
+        "zh": "A。 小车必须从横坐标小于 2 的一侧到达大于 2 的一侧，只能经过\n没有障碍的 ( 2, 4 )。因此至少向北走 4 步、向东走 4 步，再向南走 1 步，共 \n9 步。先到 ( 0 , 4 )，再到 ( 4 , 4 )，最后到 T，就能实现这一步数。起终点的直\n线距离不受绕行路线影响，仍为 \\(\\sqrt{4^2+3^2}=5\\) 米。复习 3.3—3.4、4.1。"
       },
       "lessonIds": [
         "3.4"
@@ -2139,8 +2139,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "Sum=35, mean=5, median=3, mode=2. Removing 18 gives 17/6≈2.83. The large count needs investigation.",
-        "zh": "ACE。 总数为 35，平均数为 35 / 7 =5；排好序后的第四个数是 3，\n因此中位数为 3。2 出现两次 ，是众数。去掉  18 后，平均数为 17 / 6，约 \n2.83。较大的数据值得调查， 但也可能对应读书活动等真实情况，不能直接\n删除。复习 3.2。"
+        "en": "Sum=35, \\(\\mathrm{mean}=5\\), \\(\\mathrm{median}=3\\), \\(\\mathrm{mode}=2\\). Removing 18 gives \\(\\frac{17}{6}\\approx 2.83\\). The large count needs investigation.",
+        "zh": "ACE。 总数为 35，平均数为 \\(\\frac{35}{7} =5\\)；排好序后的第四个数是 3，\n因此中位数为 3。2 出现两次 ，是众数。去掉  18 后，平均数为 \\(\\frac{17}{6}\\)，约 \n2.83。较大的数据值得调查， 但也可能对应读书活动等真实情况，不能直接\n删除。复习 3.2。"
       },
       "lessonIds": [
         "3.2"
@@ -2523,8 +2523,8 @@
       ],
       "points": 2,
       "explanation": {
-        "en": "The y-coordinates match; horizontal distance is |4-(-2)|=6.",
-        "zh": "√。 两点纵坐标相同，连线平行于横轴，距离为横坐标差的绝对值，\n即 | 4 −(− 2)|=6。复习 3.3—3.4。"
+        "en": "The y-coordinates match; horizontal distance is \\(|4-(-2)|=6\\).",
+        "zh": "√。 两点纵坐标相同，连线平行于横轴，距离为横坐标差的绝对值，\n即 \\(|4-(-2)|=6\\)。复习 3.3—3.4。"
       },
       "lessonIds": [
         "3.4"
@@ -2628,8 +2628,8 @@
       "round": 1,
       "type": "single",
       "prompt": {
-        "en": "An apparatus predicts calibration error with r(t)=t²-4t+7. t is the adjustment and r a numerical error. For t=1,2,3, choose the predictions and task type.",
-        "zh": "一个实验装置用多项式模型 r ( t )=t²− 4 t +7 预测校准误差，其中 t 是调\n节量，r 是数值型误差。把 t 依次设为 1、2、3，关于三次预测及任务类型，\n正确的是（　）。"
+        "en": "An apparatus predicts calibration error with \\(r(t)=t^2-4t+7\\). t is the adjustment and r a numerical error. For \\(t=1\\),2,3, choose the predictions and task type.",
+        "zh": "一个实验装置用多项式模型 \\(r(t)=t^2-4t+7\\) 预测校准误差，其中 t 是调\n节量，r 是数值型误差。把 t 依次设为 1、2、3，关于三次预测及任务类型，\n正确的是（　）。"
       },
       "options": [
         {
@@ -2655,7 +2655,7 @@
       "points": 5,
       "explanation": {
         "en": "Substitute 1,2,3 to obtain 4,3,4. Numerical error is a regression target; three predictions do not define three classes.",
-        "zh": "A。 代入三个调节量，得到 1− 4 +7 = 4、4 − 8+7 =3、9− 12+7 = 4。\n模型预测的是数值量，因此属于回归；进行了三次预测，并不等于设置了三\n个类别。复习 5.1、6.1。"
+        "zh": "A。 代入三个调节量，得到 \\(1- 4 +7 = 4\\)、\\(4 - 8+7 =3\\)、\\(9- 12+7 = 4\\)。\n模型预测的是数值量，因此属于回归；进行了三次预测，并不等于设置了三\n个类别。复习 5.1、6.1。"
       },
       "lessonIds": [
         "6.1"
@@ -2703,8 +2703,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "Precision=16/(16+8)=66.7%; recall=16/(16+4)=80%. 88% is accuracy.",
-        "zh": "C。 预测需复核的共有 16 +8=24 张，其中 16 张实际不合格，精确\n率为  16 / 24 ≈ 66.7 %。 实际不合格的共有  16 + 4 =20 张 ， 召回率为 \n16 / 20=80 %。88% 是总体正确率，不能与这两个指标混用。复习 5.4。"
+        "en": "\\(\\mathrm{Precision}=\\frac{16}{16+8}=66.7\\%\\); \\(\\mathrm{recall}=\\frac{16}{16+4}=80\\%\\). 88% is accuracy.",
+        "zh": "C。 预测需复核的共有 16 +8=24 张，其中 16 张实际不合格，精确\n率为  \\(\\frac{16}{24} \\approx  66.7 \\%\\)。 实际不合格的共有  16 + 4 =20 张 ， 召回率为 \n\\(\\frac{16}{20}=80 \\%\\)。88% 是总体正确率，不能与这两个指标混用。复习 5.4。"
       },
       "lessonIds": [
         "5.4"
@@ -2718,8 +2718,8 @@
       },
       "license": "CC-BY-NC-SA-4.0",
       "shared": {
-        "en": "Shared material for questions 2–4: actual defective pages are positive. Scheme M on 100 pages: TP=16, FN=4, FP=8, TN=72. Schemes (found defective, false alarm): L=(19,17), M=(16,8), H=(12,3). Capacity is at most 25 reviews per batch. Each missed defective page costs 5; each false alarm costs 1. Only these two losses count. Questions 2–3 use original labels; question 4 alone corrects labels.",
-        "zh": "第2–4题共用材料：实际不合格为正类。M在100张书页上的记录：TP=16，FN=4，FP=8，TN=72。方案（找出的不合格页，误报合格页）：L=(19,17)，M=(16,8)，H=(12,3)。每批最多复核25张，每漏报一张损失5，每误报一张损失1，仅计算这两项。第2、3题用原标签，第4题单独订正标签。"
+        "en": "Shared material for questions 2–4: actual defective pages are positive. Scheme M on 100 pages: \\(TP=16\\), \\(FN=4\\), \\(FP=8\\), \\(TN=72\\). Schemes (found defective, false alarm): L=(19,17), M=(16,8), H=(12,3). Capacity is at most 25 reviews per batch. Each missed defective page costs 5; each false alarm costs 1. Only these two losses count. Questions 2–3 use original labels; question 4 alone corrects labels.",
+        "zh": "第2–4题共用材料：实际不合格为正类。M在100张书页上的记录：\\(TP=16\\)，\\(FN=4\\)，\\(FP=8\\)，\\(TN=72\\)。方案（找出的不合格页，误报合格页）：L=(19,17)，M=(16,8)，H=(12,3)。每批最多复核25张，每漏报一张损失5，每误报一张损失1，仅计算这两项。第2、3题用原标签，第4题单独订正标签。"
       }
     },
     {
@@ -2756,8 +2756,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "L requires 36 reviews and is ineligible. M: 4 misses×5+8 false alarms=28. H: 8×5+3=43. M is better.",
-        "zh": "B。 L 需复核  36 张， 超过 25 张的限制。M 需复核  24 张， 漏掉 \n20− 16 = 4 张，总损失为 4 × 5+8=28。H 需复核 15 张，漏掉 8 张，总损失\n为 8× 5+3= 43。合格方案中 M 的损失更小。H 的 15 是复核张数，不是损失。\n复习 5.4。"
+        "en": "L requires 36 reviews and is ineligible. M: 4 misses×5+8 false alarms=28. H: \\(8\\times 5+3=43\\). M is better.",
+        "zh": "B。 L 需复核  36 张， 超过 25 张的限制。M 需复核  24 张， 漏掉 \n20− 16 = 4 张，总损失为 \\(4\\times 5+8=28\\)。H 需复核 15 张，漏掉 8 张，总损失\n为 \\(8\\times 5+3=43\\)。合格方案中 M 的损失更小。H 的 15 是复核张数，不是损失。\n复习 5.4。"
       },
       "lessonIds": [
         "5.4"
@@ -2771,8 +2771,8 @@
       },
       "license": "CC-BY-NC-SA-4.0",
       "shared": {
-        "en": "Shared material for questions 2–4: actual defective pages are positive. Scheme M on 100 pages: TP=16, FN=4, FP=8, TN=72. Schemes (found defective, false alarm): L=(19,17), M=(16,8), H=(12,3). Capacity is at most 25 reviews per batch. Each missed defective page costs 5; each false alarm costs 1. Only these two losses count. Questions 2–3 use original labels; question 4 alone corrects labels.",
-        "zh": "第2–4题共用材料：实际不合格为正类。M在100张书页上的记录：TP=16，FN=4，FP=8，TN=72。方案（找出的不合格页，误报合格页）：L=(19,17)，M=(16,8)，H=(12,3)。每批最多复核25张，每漏报一张损失5，每误报一张损失1，仅计算这两项。第2、3题用原标签，第4题单独订正标签。"
+        "en": "Shared material for questions 2–4: actual defective pages are positive. Scheme M on 100 pages: \\(TP=16\\), \\(FN=4\\), \\(FP=8\\), \\(TN=72\\). Schemes (found defective, false alarm): L=(19,17), M=(16,8), H=(12,3). Capacity is at most 25 reviews per batch. Each missed defective page costs 5; each false alarm costs 1. Only these two losses count. Questions 2–3 use original labels; question 4 alone corrects labels.",
+        "zh": "第2–4题共用材料：实际不合格为正类。M在100张书页上的记录：\\(TP=16\\)，\\(FN=4\\)，\\(FP=8\\)，\\(TN=72\\)。方案（找出的不合格页，误报合格页）：L=(19,17)，M=(16,8)，H=(12,3)。每批最多复核25张，每漏报一张损失5，每误报一张损失1，仅计算这两项。第2、3题用原标签，第4题单独订正标签。"
       }
     },
     {
@@ -2824,8 +2824,8 @@
       },
       "license": "CC-BY-NC-SA-4.0",
       "shared": {
-        "en": "Shared material for questions 2–4: actual defective pages are positive. Scheme M on 100 pages: TP=16, FN=4, FP=8, TN=72. Schemes (found defective, false alarm): L=(19,17), M=(16,8), H=(12,3). Capacity is at most 25 reviews per batch. Each missed defective page costs 5; each false alarm costs 1. Only these two losses count. Questions 2–3 use original labels; question 4 alone corrects labels.",
-        "zh": "第2–4题共用材料：实际不合格为正类。M在100张书页上的记录：TP=16，FN=4，FP=8，TN=72。方案（找出的不合格页，误报合格页）：L=(19,17)，M=(16,8)，H=(12,3)。每批最多复核25张，每漏报一张损失5，每误报一张损失1，仅计算这两项。第2、3题用原标签，第4题单独订正标签。"
+        "en": "Shared material for questions 2–4: actual defective pages are positive. Scheme M on 100 pages: \\(TP=16\\), \\(FN=4\\), \\(FP=8\\), \\(TN=72\\). Schemes (found defective, false alarm): L=(19,17), M=(16,8), H=(12,3). Capacity is at most 25 reviews per batch. Each missed defective page costs 5; each false alarm costs 1. Only these two losses count. Questions 2–3 use original labels; question 4 alone corrects labels.",
+        "zh": "第2–4题共用材料：实际不合格为正类。M在100张书页上的记录：\\(TP=16\\)，\\(FN=4\\)，\\(FP=8\\)，\\(TN=72\\)。方案（找出的不合格页，误报合格页）：L=(19,17)，M=(16,8)，H=(12,3)。每批最多复核25张，每漏报一张损失5，每误报一张损失1，仅计算这两项。第2、3题用原标签，第4题单独订正标签。"
       }
     },
     {
@@ -2836,8 +2836,8 @@
       "round": 1,
       "type": "single",
       "prompt": {
-        "en": "KNN classifies P=(2,2), K=3, Euclidean distance and majority vote. Samples: A=(2,1) red; B=(0,2) blue; C=(3,4) blue; D=(5,2) red; E=(2,6) red. Choose the nearest three and class.",
-        "zh": "使用 KNN 对点 P =( 2, 2) 分类，取 K =3，采用欧氏距离和多数表决。训\n练样本如下，各样本到 P 的距离均不相同。三个最近邻的编号及最终类别是\n（　）。\n样本坐标类别\nA ( 2, 1) 红类\nB ( 0 , 2) 蓝类\nC ( 3 , 4 ) 蓝类\nD (5 , 2) 红类\nE ( 2, 6) 红类"
+        "en": "KNN classifies \\(P=(2,2)\\), \\(K=3\\), Euclidean distance and majority vote. Samples: \\(A=(2,1)\\) red; \\(B=(0,2)\\) blue; \\(C=(3,4)\\) blue; \\(D=(5,2)\\) red; \\(E=(2,6)\\) red. Choose the nearest three and class.",
+        "zh": "使用 KNN 对点 \\(P=(2,2)\\) 分类，取 \\(K =3\\)，采用欧氏距离和多数表决。训\n练样本如下，各样本到 P 的距离均不相同。三个最近邻的编号及最终类别是\n（　）。\n样本坐标类别\nA ( 2, 1) 红类\nB ( 0 , 2) 蓝类\nC ( 3 , 4 ) 蓝类\nD (5 , 2) 红类\nE ( 2, 6) 红类"
       },
       "options": [
         {
@@ -2885,8 +2885,8 @@
       "round": 1,
       "type": "single",
       "prompt": {
-        "en": "Hidden units use ReLU(z)=max(0,z). Output is linear, with no ReLU. For x₁=-1,x₂=2, find y.\nz₁=2x₁+x₂-1; h₁=ReLU(z₁)\nz₂=-x₁+x₂; h₂=ReLU(z₂)\ny=h₁-2h₂+4",
-        "zh": "图中是一个小型多层感知机的计算过程。隐藏层采用 ReLU：输入为负数\n时输出 0，否则保留输入值；输出层直接按公式计算，不再使用 ReLU。输入 \nx1=− 1、x2=2 时，最终输出 y 为（　）。\nz₁=2x₁+x₂-1，h₁=ReLU(z₁)\nz₂=-x₁+x₂，h₂=ReLU(z₂)\ny=h₁-2h₂+4"
+        "en": "Hidden units use \\(\\operatorname{ReLU}(z)=\\max(0,z)\\). Output is linear, with no ReLU. For \\(x_{1}=-1,x_{2}=2\\), find y.\n\\(z_{1}=2x_{1}+x_{2}-1\\); \\(h_{1}=ReLU(z_{1})\\)\n\\(z_{2}=-x_{1}+x_{2}\\); \\(h_{2}=ReLU(z_{2})\\)\n\\(y=h_{1}-2h_{2}+4\\)",
+        "zh": "图中是一个小型多层感知机的计算过程。隐藏层采用 ReLU：输入为负数\n时输出 0，否则保留输入值；输出层直接按公式计算，不再使用 ReLU。输入 \n\\(x_1=-1\\)、\\(x_2=2\\) 时，最终输出 y 为（　）。\n\\(z_{1}=2x_{1}+x_{2}-1\\)，\\(h_{1}=ReLU(z_{1})\\)\n\\(z_{2}=-x_{1}+x_{2}\\)，\\(h_{2}=ReLU(z_{2})\\)\n\\(y=h_{1}-2h_{2}+4\\)"
       },
       "options": [
         {
@@ -2911,8 +2911,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "z₁=-1→h₁=0; z₂=3→h₂=3. Linear output=0-6+4=-2. Do not add an unstated output ReLU.",
-        "zh": "C。 第一条支路为 z1=2(− 1)+2− 1=− 1，经过 ReLU 后 h1=0。第二\n条支路为 z2=−(− 1)+2=3，因此 h2=3。输出层计算 y =0− 2× 3+ 4 =− 2。题\n目明确输出层不再使用 ReLU，不能把最后的负数改成 0。复习 6.5。"
+        "en": "\\(z_{1}=-1\\to h_{1}=0\\); \\(z_{2}=3\\to h_{2}=3\\). Linear \\(output=0-6+4=-2\\). Do not add an unstated output ReLU.",
+        "zh": "C。 第一条支路为 \\(z_1=2(-1)+2-1=-1\\)，经过 ReLU 后 \\(h_1=0\\)。第二\n条支路为 \\(z_2=-(-1)+2=3\\)，因此 \\(h_2=3\\)。输出层计算 \\(y=0-2\\times3+4=-2\\)。题\n目明确输出层不再使用 ReLU，不能把最后的负数改成 0。复习 6.5。"
       },
       "lessonIds": [
         "6.5"
@@ -3040,20 +3040,20 @@
       },
       "options": [
         {
-          "en": "3/8",
-          "zh": "3 / 8"
+          "en": "\\(\\frac{3}{8}\\)",
+          "zh": "\\(\\frac{3}{8}\\)"
         },
         {
-          "en": "5/8",
-          "zh": "5 / 8"
+          "en": "\\(\\frac{5}{8}\\)",
+          "zh": "\\(\\frac{5}{8}\\)"
         },
         {
-          "en": "1/2",
-          "zh": "1 / 2"
+          "en": "\\(\\frac{1}{2}\\)",
+          "zh": "\\(\\frac{1}{2}\\)"
         },
         {
-          "en": "3/4",
-          "zh": "3 / 4"
+          "en": "\\(\\frac{3}{4}\\)",
+          "zh": "\\(\\frac{3}{4}\\)"
         }
       ],
       "answer": [
@@ -3062,7 +3062,7 @@
       "points": 5,
       "explanation": {
         "en": "The two disjoint visible intervals have total length 2+3=5. Divide by 8. Endpoints have zero probability in a continuous model.",
-        "zh": "B。 两段可见区间互不重叠，总长度为 2+3=5 秒，所以概率为 5 / 8。\n连续均匀分布中，个别端点是否计入不会改变区间概率。复习 3.5。"
+        "zh": "B。 两段可见区间互不重叠，总长度为 2+3=5 秒，所以概率为 \\(\\frac{5}{8}\\)。\n连续均匀分布中，个别端点是否计入不会改变区间概率。复习 3.5。"
       },
       "lessonIds": [
         "3.5"
@@ -3192,15 +3192,15 @@
           "zh": "四个带正负号的误差平均为 0，说明四次预测都完全正确"
         },
         {
-          "en": "MAE=2 cm.",
+          "en": "\\(\\mathrm{MAE}=2\\) cm.",
           "zh": "MAE 为 2 厘米"
         },
         {
-          "en": "MSE=5 cm².",
+          "en": "\\(\\mathrm{MSE}=5\\) cm².",
           "zh": "MSE 为 5 平方厘米"
         },
         {
-          "en": "Changing units to millimeters gives MAE=20 and MSE=500.",
+          "en": "Changing units to millimeters gives \\(\\mathrm{MAE}=20\\) and \\(MSE=500\\).",
           "zh": "如果改用毫米表示相同误差，MAE 的数值变为 20，MSE 的数值变为 500"
         }
       ],
@@ -3211,8 +3211,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "Absolute sum=8→MAE=2; squared sum=20→MSE=5. Millimeter errors multiply by 10; squares multiply by 100. Signed cancellation is not correctness.",
-        "zh": "BCD。 正负误差相加为 0，只表示互相抵消。绝对值之和为 8，\nMAE 为 8 / 4 =2 厘米；平方和为 9+1+1+ 9=20，MSE 为 20 / 4 =5 平方厘米。\n改用毫米后，绝对误差的数值乘以 10，平方误差的数值乘以 100，因此 MAE \n为 20 毫米，MSE 为 500 平方毫米。复习 3.2、5.4。"
+        "en": "Absolute sum=8→\\(\\mathrm{MAE}=2\\); squared \\(\\mathrm{sum}=20\\)→\\(\\mathrm{MSE}=5\\). Millimeter errors multiply by 10; squares multiply by 100. Signed cancellation is not correctness.",
+        "zh": "BCD。 正负误差相加为 0，只表示互相抵消。绝对值之和为 8，\nMAE 为 \\(\\frac{8}{4} =2\\) 厘米；平方和为 \\(9+1+1+ 9=20\\)，MSE 为 \\(\\frac{20}{4} =5\\) 平方厘米。\n改用毫米后，绝对误差的数值乘以 10，平方误差的数值乘以 100，因此 MAE \n为 20 毫米，MSE 为 500 平方毫米。复习 3.2、5.4。"
       },
       "lessonIds": [
         "5.4"
@@ -3365,8 +3365,8 @@
       ],
       "points": 5,
       "explanation": {
-        "en": "Left error=|5-6|=1. Right actual time is unobserved. Predicting action consequences supports world-model-like behavior without executing every candidate.",
-        "zh": "AC。 向左推的耗时绝对误差为 |5− 6|=1 秒。向右拉只有预测值，\n没有本次实际执行记录，不能把预测的 7 秒当成已经测得的事实。模型针对\n状态和候选动作预测后果，已有世界模型式功能的依据，并不要求把所有候\n选动作都实际执行一次。复习 8.1。"
+        "en": "Left error=\\(|5-6|=1\\). Right actual time is unobserved. Predicting action consequences supports world-model-like behavior without executing every candidate.",
+        "zh": "AC。 向左推的耗时绝对误差为 \\(|5-6|=1\\) 秒。向右拉只有预测值，\n没有本次实际执行记录，不能把预测的 7 秒当成已经测得的事实。模型针对\n状态和候选动作预测后果，已有世界模型式功能的依据，并不要求把所有候\n选动作都实际执行一次。复习 8.1。"
       },
       "lessonIds": [
         "8.1"
@@ -3458,8 +3458,8 @@
       ],
       "points": 2,
       "explanation": {
-        "en": "The first row contributes 2 and the second 4; -1 and 0 fail x>0.",
-        "zh": "√。 两个 for 的先后表示先取一行，再遍历该行。第一行保留 2，\n第二行保留 4；−1 和 0 都不满足 x > 0。复习 2.5。"
+        "en": "The first row contributes 2 and the second 4; -1 and 0 fail \\(x>0\\).",
+        "zh": "√。 两个 for 的先后表示先取一行，再遍历该行。第一行保留 2，\n第二行保留 4；−1 和 0 都不满足 \\(x > 0\\)。复习 2.5。"
       },
       "lessonIds": [
         "2.5"
@@ -3563,8 +3563,8 @@
       "round": 1,
       "type": "boolean",
       "prompt": {
-        "en": "Two red and two white balls are drawn twice without replacement. Each draw has marginal red probability 1/2, so red count is directly binomial with n=2,p=1/2.",
-        "zh": "袋中有 2 个红球和 2 个白球，不放回地随机取两次，每次取一个球。因\n为两次各自取到红球的概率都是 1 / 2，所以取到的红球总数可直接按 n =2、\np =1 / 2 的二项分布计算。（　）"
+        "en": "Two red and two white balls are drawn twice without replacement. Each draw has marginal red probability \\(\\frac{1}{2}\\), so red count is directly binomial with \\(n=2\\),p=\\(\\frac{1}{2}\\).",
+        "zh": "袋中有 2 个红球和 2 个白球，不放回地随机取两次，每次取一个球。因\n为两次各自取到红球的概率都是 \\(\\frac{1}{2}\\)，所以取到的红球总数可直接按 \\(n =2\\)、\np =\\(\\frac{1}{2}\\) 的二项分布计算。（　）"
       },
       "options": [
         {
@@ -3581,8 +3581,8 @@
       ],
       "points": 2,
       "explanation": {
-        "en": "The draws are dependent: after a red, the next-red probability is 1/3. Two reds have probability 1/6, not binomial 1/4.",
-        "zh": "×。 二项分布还要求各次试验独立。不放回抽取时，第一次的结果\n会改变第二次取红球的条件概率。例如，第一次取红后，第二次取红的概率\n变为 1 / 3。两次各自的边缘概率都为 1 / 2，并不足以保证独立；实际两次全\n红的概率为 1 / 2× 1 / 3=1 / 6，也不是二项模型给出的 1 / 4。复习 3.5。"
+        "en": "The draws are dependent: after a red, the next-red probability is \\(\\frac{1}{3}\\). Two reds have probability \\(\\frac{1}{6}\\), not binomial \\(\\frac{1}{4}\\).",
+        "zh": "×。 二项分布还要求各次试验独立。不放回抽取时，第一次的结果\n会改变第二次取红球的条件概率。例如，第一次取红后，第二次取红的概率\n变为 \\(\\frac{1}{3}\\)。两次各自的边缘概率都为 \\(\\frac{1}{2}\\)，并不足以保证独立；实际两次全\n红的概率为 \\(\\frac{1}{2}\\)× \\(\\frac{1}{3}=1\\) / 6，也不是二项模型给出的 \\(\\frac{1}{4}\\)。复习 3.5。"
       },
       "lessonIds": [
         "3.5"
@@ -3645,8 +3645,8 @@
       "round": 1,
       "type": "boolean",
       "prompt": {
-        "en": "A tree tests x<5→A; otherwise y≤2→B, else C. x=5,y=2 reaches B.",
-        "zh": "某决策树先判断 x <5，成立则到叶节点 A；否则继续判断 y ≤ 2，成立\n到 B，不成立到 C。输入 x =5、 y =2 时，到达叶节点 B。（　）"
+        "en": "A tree tests \\(x<5\\)→A; otherwise \\(y\\le 2\\)→B, else C. \\(x=5\\),\\(y=2\\) reaches B.",
+        "zh": "某决策树先判断 \\(x <5\\)，成立则到叶节点 A；否则继续判断 \\(y \\le  2\\)，成立\n到 B，不成立到 C。输入 \\(x =5\\)、 \\(y =2\\) 时，到达叶节点 B。（　）"
       },
       "options": [
         {
@@ -3686,8 +3686,8 @@
       "round": 1,
       "type": "boolean",
       "prompt": {
-        "en": "For y=3x+2 with x in meters, using centimeter input u=100x preserves predictions with y=0.03u+2.",
-        "zh": "模型 y =3 x +2 中的 x 以米为单位。若改用厘米数 u =100 x 作为输入，\n为保持相同预测，可把模型写成 y =0.03u +2。（　）"
+        "en": "For \\(y=3x+2\\) with x in meters, using centimeter input \\(u=100x\\) preserves predictions with \\(y=0.03u+2\\).",
+        "zh": "模型 \\(y=3x+2\\) 中的 x 以米为单位。若改用厘米数 \\(u=100x\\) 作为输入，\n为保持相同预测，可把模型写成 \\(y=0.03u+2\\)。（　）"
       },
       "options": [
         {
@@ -3704,7 +3704,7 @@
       ],
       "points": 2,
       "explanation": {
-        "en": "Substitute x=u/100. The coefficient becomes 0.03 and the bias remains 2.",
+        "en": "Substitute \\(x=u/100\\). The coefficient becomes 0.03 and the bias remains 2.",
         "zh": "√。 先把厘米数除以 100，换回原模型使用的米数，再计算预测。\n这样系数由 3 变为 0.03，常数项仍是 2，两种写法对同一物理量给出的预测\n相同。复习 6.1。"
       },
       "lessonIds": [

@@ -262,15 +262,21 @@
           ],
           "paragraphs": [
             {
-              "en": "One bit has two values. b bits distinguish 2ᵇ combinations; 8 bits give 256 values, often 0–255, and form one byte (B). A 100×100 eight-bit grayscale image has 10, 000 pixel bytes. RGB with one byte per channel uses 30, 000 pixel bytes. Doubling width and height multiplies area and raw pixel data by four, not two.",
-              "zh": "一位有两种值，b位有2ᵇ种组合。8位有256种值，常为0–255，并组成一字节B。100×100的8位灰度图有10,000字节像素数据；RGB每通道一字节时为30,000字节。宽高都加倍，面积与原始像素数据变成四倍，不是两倍。"
+              "en": "One bit has two values. b bits distinguish 2ᵇ combinations; 8 bits give 256 values, often 0–255, and form one byte (B). A \\(100\\times 100\\) eight-bit grayscale image has 10, 000 pixel bytes. RGB with one byte per channel uses 30, 000 pixel bytes. Doubling width and height multiplies area and raw pixel data by four, not two.",
+              "zh": "一位有两种值，b位有2ᵇ种组合。8位有256种值，常为0–255，并组成一字节B。\\(100\\times 100\\)的8位灰度图有10,000字节像素数据；RGB每通道一字节时为30,000字节。宽高都加倍，面积与原始像素数据变成四倍，不是两倍。"
             },
             {
               "en": "This is raw pixel data, not necessarily the actual file size: metadata, compression and channel precision also matter. Changing the filename extension does not change the encoded content.",
               "zh": "这算的是原始像素，不一定是文件大小；元数据、压缩和通道精度还会影响结果。改变文件扩展名不会改变编码内容。"
             }
           ],
-          "formula": "combinations = 2^b\nraw bytes = width × height × channels × bytes per channel",
+          "formula": {
+            "tex": "\\begin{aligned}\\mathrm{combinations}&=2^b\\\\\\mathrm{raw\\ bytes}&=\\mathrm{width}\\times\\mathrm{height}\\times\\mathrm{channels}\\times\\mathrm{bytes\\ per\\ channel}\\end{aligned}",
+            "fallback": {
+              "en": "combinations = 2^b\nraw bytes = width × height × channels × bytes per channel",
+              "zh": "组合数 = 2^b；原始字节数 = 宽度 × 高度 × 通道数 × 每通道字节数"
+            }
+          },
           "expanded": true,
           "checks": [
             {
@@ -632,8 +638,8 @@
               "zh": "错误可来自输入差、错标签、训练不具代表性、使用条件变化或不合理任务。提交时间不能可靠替代学习认真程度。应针对原因修正标签、覆盖或目标，更多算力不能修复无效评价目标。"
             },
             {
-              "en": "For accent A, 882 of 900 recordings are correct (98%); for B, 60 of 100 (60%). Overall accuracy is (882+60)/1000=94.2%, hiding B’s difficulty. Systematic disadvantage does not require a machine’s subjective prejudice. Inspect groups, error conditions and consequences, not only a combined average.",
-              "zh": "甲口音900条正确882(98%)，乙100条正确60(60%)。总体(882+60)/1000=94.2%掩盖乙的困难。系统性不利不需要机器有主观偏好。要看分组、出错条件和影响，不能只看总平均。"
+              "en": "For accent A, 882 of 900 recordings are correct (98%); for B, 60 of 100 (60%). Overall accuracy is \\(\\frac{882+60}{1000}=94.2\\%\\), hiding B’s difficulty. Systematic disadvantage does not require a machine’s subjective prejudice. Inspect groups, error conditions and consequences, not only a combined average.",
+              "zh": "甲口音900条正确882(98%)，乙100条正确60(60%)。总体\\(\\frac{882+60}{1000}=94.2\\%\\)掩盖乙的困难。系统性不利不需要机器有主观偏好。要看分组、出错条件和影响，不能只看总平均。"
             }
           ],
           "checks": [
@@ -644,8 +650,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For accent A, 882 of 900 recordings are correct (98%); for B, 60 of 100 (60%). Overall accuracy is (882+60)/1000=94.2%, hiding B’s difficulty. Systematic disadvantage does not require a machine’s subjective prejudice. Inspect groups, error conditions and consequences, not only a combined average.",
-                "zh": "甲口音900条正确882(98%)，乙100条正确60(60%)。总体(882+60)/1000=94.2%掩盖乙的困难。系统性不利不需要机器有主观偏好。要看分组、出错条件和影响，不能只看总平均。"
+                "en": "For accent A, 882 of 900 recordings are correct (98%); for B, 60 of 100 (60%). Overall accuracy is \\(\\frac{882+60}{1000}=94.2\\%\\), hiding B’s difficulty. Systematic disadvantage does not require a machine’s subjective prejudice. Inspect groups, error conditions and consequences, not only a combined average.",
+                "zh": "甲口音900条正确882(98%)，乙100条正确60(60%)。总体\\(\\frac{882+60}{1000}=94.2\\%\\)掩盖乙的困难。系统性不利不需要机器有主观偏好。要看分组、出错条件和影响，不能只看总平均。"
               }
             }
           ]
@@ -936,8 +942,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Python uses ** for powers, / for true division, // for floor division and % for remainder. 17=3×5+2; -17=(-4)×5+3, so -17//5 is -4 rather than int(-17/5), which is -3. += updates a numeric value. Comparisons ==,!=,<,>,<=,>= yield booleans; = assigns. Inclusive ages 10–15 need and (or the chained comparison), not or.",
-              "zh": "**乘方，/普通除法，//向下取整，%取余。17=3×5+2，-17=(-4)×5+3，所以-17//5=-4，不同于int(-17/5)=-3。+=更新数值。==、!=、<、>、<=、>=比较，=赋值。10–15岁闭区间需要and或连续比较，不能用or。"
+              "en": "Python uses ** for powers, / for true division, // for floor division and % for remainder. \\(17=3\\times 5+2\\); \\(-17=(-4)\\times 5+3\\), so -17//5 is -4 rather than int(-17/5), which is -3. += updates a numeric value. Comparisons ==,!=,<,>,<=,>= yield booleans; = assigns. Inclusive ages 10–15 need and (or the chained comparison), not or.",
+              "zh": "**乘方，/普通除法，//向下取整，%取余。\\(17=3\\times 5+2\\)，\\(-17=(-4)\\times 5+3\\)，所以-17//5=-4，不同于int(-\\(\\frac{17}{5}\\))=-3。+=更新数值。==、!=、<、>、<=、>=比较，=赋值。10–15岁闭区间需要and或连续比较，不能用or。"
             },
             {
               "en": "Parentheses clarify precedence: power, multiplicative, additive, comparison, not, and, or. -2**2 is -4; (-2)**2 is 4; 2**3**2 is 512. Zero, empty containers/text and None are false-like. and/or short-circuit and return an operand, not necessarily bool: count!=0 and total/count>10 safely skips zero division; \"\" or \"Unnamed\" returns the fallback string.",
@@ -979,8 +985,8 @@
               "zh": "if/elif/else最多选一个分支，独立if各自判断。冒号引出缩进块，通常每级四空格，只有进入外层才执行内层。print在块内或块外决定执行时机。"
             },
             {
-              "en": "for traverses an iterable such as a list or string. Summing [18, 20, 25] gives running totals 18, 38, 63; initialize total outside the loop. range excludes the stop, needs a nonzero step and can be empty when direction is wrong: range(5, 0,-1) gives 5…1, range(5, 0) nothing. Reassigning the for variable does not change the next supplied element. while tests before every round: summing 1–3 ends with total=6 and n=4. Missing the update can loop forever.",
-              "zh": "for遍历列表、字符串等可迭代对象。[18,20,25]累加轨迹18、38、63，total需在循环外初始化。range不含终点、步长非零，方向错可为空：range(5,0,-1)给5到1，range(5,0)不给数。改for变量不会改变下一项。while每轮前判断，累加1–3后total=6、n=4，缺更新可能无限循环。"
+              "en": "for traverses an iterable such as a list or string. Summing [18, 20, 25] gives running totals 18, 38, 63; initialize total outside the loop. range excludes the stop, needs a nonzero step and can be empty when direction is wrong: range(5, 0,-1) gives 5…1, range(5, 0) nothing. Reassigning the for variable does not change the next supplied element. while tests before every round: summing 1–3 ends with total=6 and \\(n=4\\). Missing the update can loop forever.",
+              "zh": "for遍历列表、字符串等可迭代对象。[18,20,25]累加轨迹18、38、63，total需在循环外初始化。range不含终点、步长非零，方向错可为空：range(5,0,-1)给5到1，range(5,0)不给数。改for变量不会改变下一项。while每轮前判断，累加1–3后total=6、\\(n=4\\)，缺更新可能无限循环。"
             }
           ],
           "table": {
@@ -1055,8 +1061,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "for traverses an iterable such as a list or string. Summing [18, 20, 25] gives running totals 18, 38, 63; initialize total outside the loop. range excludes the stop, needs a nonzero step and can be empty when direction is wrong: range(5, 0,-1) gives 5…1, range(5, 0) nothing. Reassigning the for variable does not change the next supplied element. while tests before every round: summing 1–3 ends with total=6 and n=4. Missing the update can loop forever.",
-                "zh": "for遍历列表、字符串等可迭代对象。[18,20,25]累加轨迹18、38、63，total需在循环外初始化。range不含终点、步长非零，方向错可为空：range(5,0,-1)给5到1，range(5,0)不给数。改for变量不会改变下一项。while每轮前判断，累加1–3后total=6、n=4，缺更新可能无限循环。"
+                "en": "for traverses an iterable such as a list or string. Summing [18, 20, 25] gives running totals 18, 38, 63; initialize total outside the loop. range excludes the stop, needs a nonzero step and can be empty when direction is wrong: range(5, 0,-1) gives 5…1, range(5, 0) nothing. Reassigning the for variable does not change the next supplied element. while tests before every round: summing 1–3 ends with total=6 and \\(n=4\\). Missing the update can loop forever.",
+                "zh": "for遍历列表、字符串等可迭代对象。[18,20,25]累加轨迹18、38、63，total需在循环外初始化。range不含终点、步长非零，方向错可为空：range(5,0,-1)给5到1，range(5,0)不给数。改for变量不会改变下一项。while每轮前判断，累加1–3后total=6、\\(n=4\\)，缺更新可能无限循环。"
               }
             }
           ]
@@ -1073,8 +1079,8 @@
           ],
           "paragraphs": [
             {
-              "en": "break exits only the current loop; continue skips the remainder of this round; pass is a no-operation placeholder and does not skip later statements. In while loops, make required progress before a continue. Nested 2×3 loops execute the innermost body six times; breaking the inner loop leaves the outer one active.",
-              "zh": "break只退出当前层循环，continue跳过本轮剩余语句，pass什么也不做且不会跳过后续。在while的continue前确保必要进度。两层2×3循环最内层执行六次，内层break不结束外层。"
+              "en": "break exits only the current loop; continue skips the remainder of this round; pass is a no-operation placeholder and does not skip later statements. In while loops, make required progress before a continue. Nested \\(2\\times 3\\) loops execute the innermost body six times; breaking the inner loop leaves the outer one active.",
+              "zh": "break只退出当前层循环，continue跳过本轮剩余语句，pass什么也不做且不会跳过后续。在while的continue前确保必要进度。两层\\(2\\times 3\\)循环最内层执行六次，内层break不结束外层。"
             },
             {
               "en": "A for/while else runs after normal exhaustion or a false condition, even for zero rounds, but not after break, function return or an unhandled error. Searching [4, 7, 10] for 7 stops at index 1; searching for 8 reaches “not found.” Align else with the loop, not its inner if. Never reset an accumulator in every round unless that is the intended task.",
@@ -1348,8 +1354,8 @@
               "zh": "传列表不复制，values.append(0)改调用者数据，values=[0]只换局部名字。要保留输入先复制，并考虑内层共享。sum/len/min/max/abs/pow/sorted表达常见任务。精确中点round靠近偶数(2.5→2、3.5→4)，浮点近似会影响看似中点的情况。"
             },
             {
-              "en": "Binary place values are powers of 2 and hexadecimal powers of 16 (A=10…F=15). 1101₂=13. bin(26)=\"0b11010\", hex(26)=\"0x1a\"; int(\"11010\", 2) and int(\"1A\", 16) both give 26. format(26,\"b\") omits the prefix. Representation changes, not the number; invalid digits for the base raise an error.",
-              "zh": "二进制位权是2幂，十六进制是16幂(A=10至F=15)。1101₂=13。bin(26)=\"0b11010\"，hex(26)=\"0x1a\"；int(\"11010\",2)、int(\"1A\",16)均26，format(26,\"b\")不带前缀。变的是写法而非数值，进制不允许的数码会报错。"
+              "en": "Binary place values are powers of 2 and hexadecimal powers of 16 (\\(A=10\\)…\\(F=15\\)). \\(1101_{2}=13\\). bin(26)=\"0b11010\", hex(26)=\"0x1a\"; int(\"11010\", 2) and int(\"1A\", 16) both give 26. format(26,\"b\") omits the prefix. Representation changes, not the number; invalid digits for the base raise an error.",
+              "zh": "二进制位权是2幂，十六进制是16幂(\\(A=10\\)至\\(F=15\\))。\\(1101_{2}=13\\)。bin(26)=\"0b11010\"，hex(26)=\"0x1a\"；int(\"11010\",2)、int(\"1A\",16)均26，format(26,\"b\")不带前缀。变的是写法而非数值，进制不允许的数码会报错。"
             }
           ],
           "expanded": true,
@@ -1361,8 +1367,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Binary place values are powers of 2 and hexadecimal powers of 16 (A=10…F=15). 1101₂=13. bin(26)=\"0b11010\", hex(26)=\"0x1a\"; int(\"11010\", 2) and int(\"1A\", 16) both give 26. format(26,\"b\") omits the prefix. Representation changes, not the number; invalid digits for the base raise an error.",
-                "zh": "二进制位权是2幂，十六进制是16幂(A=10至F=15)。1101₂=13。bin(26)=\"0b11010\"，hex(26)=\"0x1a\"；int(\"11010\",2)、int(\"1A\",16)均26，format(26,\"b\")不带前缀。变的是写法而非数值，进制不允许的数码会报错。"
+                "en": "Binary place values are powers of 2 and hexadecimal powers of 16 (\\(A=10\\)…\\(F=15\\)). \\(1101_{2}=13\\). bin(26)=\"0b11010\", hex(26)=\"0x1a\"; int(\"11010\", 2) and int(\"1A\", 16) both give 26. format(26,\"b\") omits the prefix. Representation changes, not the number; invalid digits for the base raise an error.",
+                "zh": "二进制位权是2幂，十六进制是16幂(\\(A=10\\)至\\(F=15\\))。\\(1101_{2}=13\\)。bin(26)=\"0b11010\"，hex(26)=\"0x1a\"；int(\"11010\",2)、int(\"1A\",16)均26，format(26,\"b\")不带前缀。变的是写法而非数值，进制不允许的数码会报错。"
               }
             }
           ]
@@ -1503,8 +1509,8 @@
               "zh": "语法缩进错误阻止正确解析，运行异常中断，逻辑错误可不报错却结果错。先读回溯末尾，再查自己相关行。NameError缺名字，TypeError类型不合，ValueError值不合，IndexError位置越界，KeyError键缺失。只捕获有明确恢复方式的异常，如转换失败的ValueError。"
             },
             {
-              "en": "Use tiny inputs and print intermediate values to locate the first mismatch. Test empty, one-item and exact-threshold cases. For A: 4×1, B:-2×1.5, C: 8×3, retain records with both measurements positive: sum=12, count=2, mean=6. Dividing by all three rows incorrectly gives 4. Do not silently turn unreadable values into zero; decide whether to reject or skip and record a reason.",
-              "zh": "用小输入与中间输出定位首个偏差，测试空、单项、恰等阈值。A长宽4×1，B -2×1.5，C 8×3，只留长宽都正：和12、数量2、均值6；除全部三行错误得到4。不能擅把读不懂值当0，应按约定拒绝或跳过并记录原因。"
+              "en": "Use tiny inputs and print intermediate values to locate the first mismatch. Test empty, one-item and exact-threshold cases. For A: \\(4\\times 1\\), B:-\\(2\\times 1\\).5, C: \\(8\\times 3\\), retain records with both measurements positive: sum=12, count=2, \\(\\mathrm{mean}=6\\). Dividing by all three rows incorrectly gives 4. Do not silently turn unreadable values into zero; decide whether to reject or skip and record a reason.",
+              "zh": "用小输入与中间输出定位首个偏差，测试空、单项、恰等阈值。A长宽\\(4\\times 1\\)，B -\\(2\\times 1\\).5，C \\(8\\times 3\\)，只留长宽都正：和12、数量2、均值6；除全部三行错误得到4。不能擅把读不懂值当0，应按约定拒绝或跳过并记录原因。"
             }
           ],
           "expanded": true,
@@ -1519,8 +1525,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Use tiny inputs and print intermediate values to locate the first mismatch. Test empty, one-item and exact-threshold cases. For A: 4×1, B:-2×1.5, C: 8×3, retain records with both measurements positive: sum=12, count=2, mean=6. Dividing by all three rows incorrectly gives 4. Do not silently turn unreadable values into zero; decide whether to reject or skip and record a reason.",
-                "zh": "用小输入与中间输出定位首个偏差，测试空、单项、恰等阈值。A长宽4×1，B -2×1.5，C 8×3，只留长宽都正：和12、数量2、均值6；除全部三行错误得到4。不能擅把读不懂值当0，应按约定拒绝或跳过并记录原因。"
+                "en": "Use tiny inputs and print intermediate values to locate the first mismatch. Test empty, one-item and exact-threshold cases. For A: \\(4\\times 1\\), B:-\\(2\\times 1\\).5, C: \\(8\\times 3\\), retain records with both measurements positive: sum=12, count=2, \\(\\mathrm{mean}=6\\). Dividing by all three rows incorrectly gives 4. Do not silently turn unreadable values into zero; decide whether to reject or skip and record a reason.",
+                "zh": "用小输入与中间输出定位首个偏差，测试空、单项、恰等阈值。A长宽\\(4\\times 1\\)，B -\\(2\\times 1\\).5，C \\(8\\times 3\\)，只留长宽都正：和12、数量2、均值6；除全部三行错误得到4。不能擅把读不懂值当0，应按约定拒绝或跳过并记录原因。"
               }
             }
           ]
@@ -1542,8 +1548,8 @@
           ],
           "paragraphs": [
             {
-              "en": "[x*2 for x in values if x>0] filters then transforms: [-2, 0, 3, 5,-1]→[6, 10]. [x if x>0 else 0 for x in values] transforms every item and retains length: [0, 0, 3, 5, 0]. Read a comprehension from for, then any filter, then the leading expression. Dictionary comprehensions create key/value pairs and later repeated keys replace earlier ones.",
-              "zh": "[x*2 for x in values if x>0]先筛后变，[-2,0,3,5,-1]→[6,10]。[x if x>0 else 0 for x in values]每项变换且保留长度，得[0,0,3,5,0]。先读for，再条件，再前方表达式。字典推导式生成键值，重复键后值覆盖前值。"
+              "en": "[x*2 for x in values if \\(x>0\\)] filters then transforms: [-2, 0, 3, 5,-1]→[6, 10]. [x if \\(x>0\\) else 0 for x in values] transforms every item and retains length: [0, 0, 3, 5, 0]. Read a comprehension from for, then any filter, then the leading expression. Dictionary comprehensions create key/value pairs and later repeated keys replace earlier ones.",
+              "zh": "[x*2 for x in values if \\(x>0\\)]先筛后变，[-2,0,3,5,-1]→[6,10]。[x if \\(x>0\\) else 0 for x in values]每项变换且保留长度，得[0,0,3,5,0]。先读for，再条件，再前方表达式。字典推导式生成键值，重复键后值覆盖前值。"
             },
             {
               "en": "Nested [[0, 0] for _ in range(3)] creates independent rows. Prefer an ordinary loop when a compressed expression obscures execution. Concise syntax does not change the need to explain the result.",
@@ -1779,7 +1785,7 @@
           ],
           "paragraphs": [
             {
-              "en": "Treat a proposition as a statement with a definite truth value. AND requires both claims; OR permits either or both; NOT reverses the truth value. Negation applies to the whole bracket: NOT(P AND Q) = (NOT P) OR (NOT Q); NOT(P OR Q) = (NOT P) AND (NOT Q).",
+              "en": "Treat a proposition as a statement with a definite truth value. AND requires both claims; OR permits either or both; NOT reverses the truth value. Negation applies to the whole bracket: \\(\\neg(P\\land Q)=(\\neg P)\\lor(\\neg Q)\\); \\(\\neg(P\\lor Q)=(\\neg P)\\land(\\neg Q)\\).",
               "zh": "命题是具有确定真值的陈述。AND 要求两者都真；OR 允许至少一个为真，包括两者都真；NOT 反转真值。否定作用于整个括号：非(P 且 Q)＝非P 或 非Q；非(P 或 Q)＝非P 且 非Q。"
             },
             {
@@ -1908,12 +1914,12 @@
           ],
           "paragraphs": [
             {
-              "en": "A set ignores order and repetitions. Membership (∈) differs from inclusion (⊆); the empty set ∅ differs from {0}. Define the universe before taking complements. With U={1,…, 8}, clear A={1, 2, 3, 4} and labeled B={3, 4, 5}, A∩B={3, 4}, A∪B={1,…, 5}, U\\A={5, 6, 7, 8}, and A\\B={1, 2}. Count a union with |A|+|B|−|A∩B|=4+3−2=5; drawn Venn areas do not necessarily represent counts.",
-              "zh": "集合忽略顺序和重复。属于(∈)不同于包含(⊆)；空集∅不同于{0}。求补集前必须规定全集。令U={1,…,8}，清晰A={1,2,3,4}，有标签B={3,4,5}，则交集A∩B={3,4}，并集A∪B={1,…,5}，补集U\\A={5,6,7,8}，差集A\\B={1,2}。并集计数为|A|+|B|−|A∩B|=4+3−2=5；维恩图面积不一定代表数量。"
+              "en": "A set ignores order and repetitions. Membership (\\(\\in \\)) differs from inclusion (\\(\\subseteq \\)); the empty set \\(\\varnothing \\) differs from {0}. Define the universe before taking complements. With \\(U=\\{1,\\ldots ,8\\}\\), clear \\(A=\\{1,2,3,4\\}\\) and labeled \\(B=\\{3,4,5\\}\\), \\(A\\cap B=\\{3,4\\}\\), \\(A\\cup B=\\{1,\\ldots ,5\\}\\), \\(U\\setminus A=\\{5,6,7,8\\}\\), and \\(A\\setminus B=\\{1,2\\}\\). Count a union with \\(|A|+|B|-|A\\cap B|=4+3-2=5\\); drawn Venn areas do not necessarily represent counts.",
+              "zh": "集合忽略顺序和重复。属于(\\(\\in \\))不同于包含(\\(\\subseteq \\))；空集\\(\\varnothing \\)不同于{0}。求补集前必须规定全集。令\\(U=\\{1,\\ldots ,8\\}\\)，清晰\\(A=\\{1,2,3,4\\}\\)，有标签\\(B=\\{3,4,5\\}\\)，则交集\\(A\\cap B=\\{3,4\\}\\)，并集\\(A\\cup B=\\{1,\\ldots ,5\\}\\)，补集\\(U\\setminus A=\\{5,6,7,8\\}\\)，差集\\(A\\setminus B=\\{1,2\\}\\)。并集计数为\\(|A|+|B|-|A\\cap B|=4+3-2=5\\)；维恩图面积不一定代表数量。"
             },
             {
-              "en": "“Clear and unlabeled” is A\\B; “not both clear and labeled” is U\\(A∩B)={1, 2, 5, 6, 7, 8}. Test record 5 to distinguish them: it meets the second condition but not the first. In Python write clear and not labeled versus not (clear and labeled).",
-              "zh": "“清晰且未标注”为A\\B；“不同时清晰且已标注”为U\\(A∩B)={1,2,5,6,7,8}。用记录5检验：满足后者但不满足前者。Python分别写 clear and not labeled 与 not (clear and labeled)。"
+              "en": "“Clear and unlabeled” is \\(A\\setminus B\\); “not both clear and labeled” is \\(U\\setminus (A\\cap B)=\\{1,2,5,6,7,8\\}\\). Test record 5 to distinguish them: it meets the second condition but not the first. In Python write clear and not labeled versus not (clear and labeled).",
+              "zh": "“清晰且未标注”为\\(A\\setminus B\\)；“不同时清晰且已标注”为\\(U\\setminus (A\\cap B)=\\{1,2,5,6,7,8\\}\\)。用记录5检验：满足后者但不满足前者。Python分别写 clear and not labeled 与 not (clear and labeled)。"
             }
           ],
           "checks": [
@@ -1924,8 +1930,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "“Clear and unlabeled” is A\\B; “not both clear and labeled” is U\\(A∩B)={1, 2, 5, 6, 7, 8}. Test record 5 to distinguish them: it meets the second condition but not the first. In Python write clear and not labeled versus not (clear and labeled).",
-                "zh": "“清晰且未标注”为A\\B；“不同时清晰且已标注”为U\\(A∩B)={1,2,5,6,7,8}。用记录5检验：满足后者但不满足前者。Python分别写 clear and not labeled 与 not (clear and labeled)。"
+                "en": "“Clear and unlabeled” is \\(A\\setminus B\\); “not both clear and labeled” is \\(U\\setminus (A\\cap B)=\\{1,2,5,6,7,8\\}\\). Test record 5 to distinguish them: it meets the second condition but not the first. In Python write clear and not labeled versus not (clear and labeled).",
+                "zh": "“清晰且未标注”为\\(A\\setminus B\\)；“不同时清晰且已标注”为\\(U\\setminus (A\\cap B)=\\{1,2,5,6,7,8\\}\\)。用记录5检验：满足后者但不满足前者。Python分别写 clear and not labeled 与 not (clear and labeled)。"
               }
             }
           ],
@@ -1955,12 +1961,12 @@
           ],
           "paragraphs": [
             {
-              "en": "For [2, 3, 3, 4, 8], n=5, sum=20, mean=4, median=3, mode=3 and range=6. At least 4 occurs in 2/5=40% of records. Changing 8 to 18 moves the mean to 6 but leaves median and mode at 3. Sort before finding the median; for [2, 3, 4, 8], average the two middle values to get 3.5. A dataset can have several modes; under the book’s convention, all distinct values have no mode. Modes also describe categories.",
+              "en": "For [2, 3, 3, 4, 8], \\(n=5\\), \\(\\mathrm{sum}=20\\), \\(\\mathrm{mean}=4\\), \\(\\mathrm{median}=3\\), \\(\\mathrm{mode}=3\\) and \\(\\mathrm{range}=6\\). At least 4 occurs in \\(\\frac{2}{5}=40\\%\\) of records. Changing 8 to 18 moves the mean to 6 but leaves median and mode at 3. Sort before finding the median; for [2, 3, 4, 8], average the two middle values to get 3.5. A dataset can have several modes; under the book’s convention, all distinct values have no mode. Modes also describe categories.",
               "zh": "[2,3,3,4,8]的条数5、和20、均值4、中位数3、众数3、极差6。至少为4的记录占2/5=40%。把8改成18，均值变6，中位数和众数仍为3。求中位数前先排序；[2,3,4,8]取中间两数均值得3.5。数据可以有多个众数；按本书约定，全不重复时没有众数。众数也可描述类别。"
             },
             {
-              "en": "[4, 4, 4] and [1, 4, 7] share mean 4 but ranges 0 and 6. Range only uses extremes. To combine groups, weight by size: 3 samples with mean 4 and 7 with mean 8 give (3×4+7×8)/10=6.8, not the unweighted mean 6. A rare value may be a real event rather than an error.",
-              "zh": "[4,4,4]与[1,4,7]均值同为4，极差却为0与6。极差只使用端点。合并组均值时按样本量加权：3条均值4、7条均值8，合并为(3×4+7×8)/10=6.8，而非不加权的6。少见值可能是真实事件，不应自动删除。"
+              "en": "[4, 4, 4] and [1, 4, 7] share mean 4 but ranges 0 and 6. Range only uses extremes. To combine groups, weight by size: 3 samples with mean 4 and 7 with mean 8 give \\(\\frac{3\\times4+7\\times8}{10}=6.8\\), not the unweighted mean 6. A rare value may be a real event rather than an error.",
+              "zh": "[4,4,4]与[1,4,7]均值同为4，极差却为0与6。极差只使用端点。合并组均值时按样本量加权：3条均值4、7条均值8，合并为\\(\\frac{3\\times4+7\\times8}{10}=6.8\\)，而非不加权的6。少见值可能是真实事件，不应自动删除。"
             }
           ],
           "checks": [
@@ -1971,8 +1977,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "[4, 4, 4] and [1, 4, 7] share mean 4 but ranges 0 and 6. Range only uses extremes. To combine groups, weight by size: 3 samples with mean 4 and 7 with mean 8 give (3×4+7×8)/10=6.8, not the unweighted mean 6. A rare value may be a real event rather than an error.",
-                "zh": "[4,4,4]与[1,4,7]均值同为4，极差却为0与6。极差只使用端点。合并组均值时按样本量加权：3条均值4、7条均值8，合并为(3×4+7×8)/10=6.8，而非不加权的6。少见值可能是真实事件，不应自动删除。"
+                "en": "[4, 4, 4] and [1, 4, 7] share mean 4 but ranges 0 and 6. Range only uses extremes. To combine groups, weight by size: 3 samples with mean 4 and 7 with mean 8 give \\(\\frac{3\\times4+7\\times8}{10}=6.8\\), not the unweighted mean 6. A rare value may be a real event rather than an error.",
+                "zh": "[4,4,4]与[1,4,7]均值同为4，极差却为0与6。极差只使用端点。合并组均值时按样本量加权：3条均值4、7条均值8，合并为\\(\\frac{3\\times4+7\\times8}{10}=6.8\\)，而非不加权的6。少见值可能是真实事件，不应自动删除。"
               }
             }
           ]
@@ -1994,8 +2000,8 @@
               "zh": "柱状图比较类别数量；折线图呈现有序变化；饼图要求同一总体中互不重叠的部分；散点图比较成对数值。先读坐标、单位、尺度、图例与总体，再下结论。折线终点高不代表一直上升；相关不证明因果，例如炎热可同时增加游泳和饮料销售。柱状图通常需零基线；折线图放大坐标范围应明确标出。"
             },
             {
-              "en": "For bins [0, 2), [2, 4), [4, 6), the 12 values 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5 give frequencies 1, 5, 6 and proportions 1/12, 5/12, 6/12. Left-inclusive, right-exclusive boundaries assign each value once. Histograms describe numerical intervals; bin width changes the picture and exact values are lost. With unequal widths, use frequency density so areas represent frequencies.",
-              "zh": "区间[0,2)、[2,4)、[4,6)中，12个值1,2,2,3,3,3,4,4,4,4,5,5的频数为1,5,6，频率为1/12,5/12,6/12。左闭右开保证每值只分配一次。直方图描述数值区间，组距会改变外观，精确值会丢失。不等宽时应使用频数密度，使面积代表频数。"
+              "en": "For bins [0, 2), [2, 4), [4, 6), the 12 values 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5 give frequencies 1, 5, 6 and proportions \\(\\frac{1}{12}\\), \\(\\frac{5}{12}\\), \\(\\frac{6}{12}\\). Left-inclusive, right-exclusive boundaries assign each value once. Histograms describe numerical intervals; bin width changes the picture and exact values are lost. With unequal widths, use frequency density so areas represent frequencies.",
+              "zh": "区间[0,2)、[2,4)、[4,6)中，12个值1,2,2,3,3,3,4,4,4,4,5,5的频数为1,5,6，频率为1/12,\\(\\frac{5}{12}\\),\\(\\frac{6}{12}\\)。左闭右开保证每值只分配一次。直方图描述数值区间，组距会改变外观，精确值会丢失。不等宽时应使用频数密度，使面积代表频数。"
             }
           ],
           "expanded": true,
@@ -2007,8 +2013,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For bins [0, 2), [2, 4), [4, 6), the 12 values 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5 give frequencies 1, 5, 6 and proportions 1/12, 5/12, 6/12. Left-inclusive, right-exclusive boundaries assign each value once. Histograms describe numerical intervals; bin width changes the picture and exact values are lost. With unequal widths, use frequency density so areas represent frequencies.",
-                "zh": "区间[0,2)、[2,4)、[4,6)中，12个值1,2,2,3,3,3,4,4,4,4,5,5的频数为1,5,6，频率为1/12,5/12,6/12。左闭右开保证每值只分配一次。直方图描述数值区间，组距会改变外观，精确值会丢失。不等宽时应使用频数密度，使面积代表频数。"
+                "en": "For bins [0, 2), [2, 4), [4, 6), the 12 values 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5 give frequencies 1, 5, 6 and proportions \\(\\frac{1}{12}\\), \\(\\frac{5}{12}\\), \\(\\frac{6}{12}\\). Left-inclusive, right-exclusive boundaries assign each value once. Histograms describe numerical intervals; bin width changes the picture and exact values are lost. With unequal widths, use frequency density so areas represent frequencies.",
+                "zh": "区间[0,2)、[2,4)、[4,6)中，12个值1,2,2,3,3,3,4,4,4,4,5,5的频数为1,5,6，频率为1/12,\\(\\frac{5}{12}\\),\\(\\frac{6}{12}\\)。左闭右开保证每值只分配一次。直方图描述数值区间，组距会改变外观，精确值会丢失。不等宽时应使用频数密度，使面积代表频数。"
               }
             }
           ],
@@ -2032,11 +2038,17 @@
           ],
           "paragraphs": [
             {
-              "en": "Define error as prediction minus truth. MAE averages absolute errors; MSE averages squared errors. Four true values of 10 with predictions [8, 8, 12, 12] give MAE=2 and MSE=4; [10, 10, 10, 18] gives the same MAE=2 but MSE=16. Squaring penalizes a large individual error more strongly. If the allowed maximum error is 4, the first model satisfies it and the second does not. MAE has the target’s units, while MSE has squared units; comparing their numerical magnitudes directly is meaningless.",
-              "zh": "误差定义为预测减真实值。MAE平均绝对误差；MSE平均平方误差。四个真实值都为10，预测[8,8,12,12]得MAE=2、MSE=4；预测[10,10,10,18]同样MAE=2，却MSE=16。平方更重惩罚单个大误差。若允许的最大误差为4，前者满足，后者不满足。MAE单位与目标相同，MSE单位平方，不能直接比较两者数值大小。"
+              "en": "Define error as prediction minus truth. MAE averages absolute errors; MSE averages squared errors. Four true values of 10 with predictions [8, 8, 12, 12] give \\(\\mathrm{MAE}=2\\) and \\(\\mathrm{MSE}=4\\); [10, 10, 10, 18] gives the same \\(\\mathrm{MAE}=2\\) but \\(\\mathrm{MSE}=16\\). Squaring penalizes a large individual error more strongly. If the allowed maximum error is 4, the first model satisfies it and the second does not. MAE has the target’s units, while MSE has squared units; comparing their numerical magnitudes directly is meaningless.",
+              "zh": "误差定义为预测减真实值。MAE平均绝对误差；MSE平均平方误差。四个真实值都为10，预测[8,8,12,12]得\\(\\mathrm{MAE}=2\\)、\\(\\mathrm{MSE}=4\\)；预测[10,10,10,18]同样\\(\\mathrm{MAE}=2\\)，却\\(\\mathrm{MSE}=16\\)。平方更重惩罚单个大误差。若允许的最大误差为4，前者满足，后者不满足。MAE单位与目标相同，MSE单位平方，不能直接比较两者数值大小。"
             }
           ],
-          "formula": "MAE = Σ|ŷᵢ−yᵢ|/n; MSE = Σ(ŷᵢ−yᵢ)²/n",
+          "formula": {
+            "tex": "\\begin{aligned}\\mathrm{MAE}&=\\frac{1}{n}\\sum_{i=1}^{n}|\\hat y_i-y_i|\\\\\\mathrm{MSE}&=\\frac{1}{n}\\sum_{i=1}^{n}(\\hat y_i-y_i)^2\\end{aligned}",
+            "fallback": {
+              "en": "MAE = Σ|ŷᵢ−yᵢ|/n; MSE = Σ(ŷᵢ−yᵢ)²/n",
+              "zh": "MAE = 绝对误差之和 / n；MSE = 误差平方之和 / n"
+            }
+          },
           "lab": "metrics",
           "checks": [
             {
@@ -2046,8 +2058,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Define error as prediction minus truth. MAE averages absolute errors; MSE averages squared errors. Four true values of 10 with predictions [8, 8, 12, 12] give MAE=2 and MSE=4; [10, 10, 10, 18] gives the same MAE=2 but MSE=16. Squaring penalizes a large individual error more strongly. If the allowed maximum error is 4, the first model satisfies it and the second does not. MAE has the target’s units, while MSE has squared units; comparing their numerical magnitudes directly is meaningless.",
-                "zh": "误差定义为预测减真实值。MAE平均绝对误差；MSE平均平方误差。四个真实值都为10，预测[8,8,12,12]得MAE=2、MSE=4；预测[10,10,10,18]同样MAE=2，却MSE=16。平方更重惩罚单个大误差。若允许的最大误差为4，前者满足，后者不满足。MAE单位与目标相同，MSE单位平方，不能直接比较两者数值大小。"
+                "en": "Define error as prediction minus truth. MAE averages absolute errors; MSE averages squared errors. Four true values of 10 with predictions [8, 8, 12, 12] give \\(\\mathrm{MAE}=2\\) and \\(\\mathrm{MSE}=4\\); [10, 10, 10, 18] gives the same \\(\\mathrm{MAE}=2\\) but \\(\\mathrm{MSE}=16\\). Squaring penalizes a large individual error more strongly. If the allowed maximum error is 4, the first model satisfies it and the second does not. MAE has the target’s units, while MSE has squared units; comparing their numerical magnitudes directly is meaningless.",
+                "zh": "误差定义为预测减真实值。MAE平均绝对误差；MSE平均平方误差。四个真实值都为10，预测[8,8,12,12]得\\(\\mathrm{MAE}=2\\)、\\(\\mathrm{MSE}=4\\)；预测[10,10,10,18]同样\\(\\mathrm{MAE}=2\\)，却\\(\\mathrm{MSE}=16\\)。平方更重惩罚单个大误差。若允许的最大误差为4，前者满足，后者不满足。MAE单位与目标相同，MSE单位平方，不能直接比较两者数值大小。"
               }
             }
           ]
@@ -2070,12 +2082,12 @@
           ],
           "paragraphs": [
             {
-              "en": "A 2 MB file plus 5 MB fixed overhead gives y=2x+5, where file count x is a nonnegative integer. Separate variables, constants, coefficients and parameters: a trained model’s coefficient is fixed while predicting but can change during training. A subscript xᵢ identifies a sample; x² is a square. Σ means sum; x̄ is a mean; ŷ marks a prediction. Sum of squares 1²+3²=10 differs from (1+3)²=16. For truths [2, 4, 6] and predictions [3, 4, 4], MSE=(1+0+4)/3=5/3, retaining even the zero-error sample in n.",
-              "zh": "每份文件2 MB加固定5 MB，得y=2x+5，其中文件数x为非负整数。区分变量、常数、系数和参数：模型预测时系数固定，训练时可改变。下标xᵢ标识样本，x²表示平方。Σ表示求和，x̄表示均值，ŷ表示预测值。平方和1²+3²=10不同于和的平方(1+3)²=16。真实值[2,4,6]、预测[3,4,4]的MSE=(1+0+4)/3=5/3，零误差样本也计入条数。"
+              "en": "A 2 MB file plus 5 MB fixed overhead gives \\(y=2x+5\\), where file count x is a nonnegative integer. Separate variables, constants, coefficients and parameters: a trained model’s coefficient is fixed while predicting but can change during training. A subscript \\(x_{i}\\) identifies a sample; \\(x^{2}\\) is a square. \\(\\sum \\) means sum; \\(\\bar{x}\\) is a mean; \\(\\hat{y}\\) marks a prediction. Sum of squares \\(1^{2}+3^{2}=10\\) differs from \\((1+3)^{2}=16\\). For truths [2, 4, 6] and predictions [3, 4, 4], \\(\\mathrm{MSE}=\\frac{1+0+4}{3}=\\frac53\\), retaining even the zero-error sample in n.",
+              "zh": "每份文件2 MB加固定5 MB，得\\(y=2x+5\\)，其中文件数x为非负整数。区分变量、常数、系数和参数：模型预测时系数固定，训练时可改变。下标\\(x_{i}\\)标识样本，\\(x^{2}\\)表示平方。\\(\\sum \\)表示求和，\\(\\bar{x}\\)表示均值，\\(\\hat{y}\\)表示预测值。平方和\\(1^{2}+3^{2}=10\\)不同于和的平方\\((1+3)^{2}=16\\)。真实值[2,4,6]、预测[3,4,4]的\\(\\mathrm{MSE}=\\frac{1+0+4}{3}=\\frac53\\)，零误差样本也计入条数。"
             },
             {
-              "en": "Solve 2x+5=21 by subtracting 5 then dividing by 2: x=8, checked by substitution. ax+b=0 only gives x=−b/a when a≠0. The system x+y=10, 2x+4y=28 yields y=4, x=6 by elimination. For 2x+5≤15, x≤5; dividing −2x<6 by a negative number reverses the sign, giving x>−3. Always intersect the solution with the problem’s domain.",
-              "zh": "解2x+5=21，先减5再除2，得x=8，代回检查。ax+b=0只有a≠0时可写x=−b/a。方程组x+y=10、2x+4y=28消元得y=4、x=6。2x+5≤15得x≤5；−2x<6除以负数需反向，得x>−3。最终必须结合题目的定义域。"
+              "en": "Solve \\(2x+5=21\\) by subtracting 5 then dividing by 2: \\(x=8\\), checked by substitution. \\(ax+b=0\\) only gives \\(x=-\\frac{b}{a}\\) when \\(a\\ne 0\\). The system \\(x+y=10\\), \\(2x+4y=28\\) yields \\(y=4\\), \\(x=6\\) by elimination. For \\(2x+5\\le 15\\), \\(x\\le 5\\); dividing \\(-2x<6\\) by a negative number reverses the sign, giving \\(x>-3\\). Always intersect the solution with the problem’s domain.",
+              "zh": "解\\(2x+5=21\\)，先减5再除2，得\\(x=8\\)，代回检查。\\(ax+b=0\\)只有\\(a\\ne 0\\)时可写\\(x=-\\frac{b}{a}\\)。方程组\\(x+y=10\\)、\\(2x+4y=28\\)消元得\\(y=4\\)、\\(x=6\\)。\\(2x+5\\le 15\\)得\\(x\\le 5\\)；\\(-2x<6\\)除以负数需反向，得\\(x>-3\\)。最终必须结合题目的定义域。"
             }
           ],
           "checks": [
@@ -2086,8 +2098,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Solve 2x+5=21 by subtracting 5 then dividing by 2: x=8, checked by substitution. ax+b=0 only gives x=−b/a when a≠0. The system x+y=10, 2x+4y=28 yields y=4, x=6 by elimination. For 2x+5≤15, x≤5; dividing −2x<6 by a negative number reverses the sign, giving x>−3. Always intersect the solution with the problem’s domain.",
-                "zh": "解2x+5=21，先减5再除2，得x=8，代回检查。ax+b=0只有a≠0时可写x=−b/a。方程组x+y=10、2x+4y=28消元得y=4、x=6。2x+5≤15得x≤5；−2x<6除以负数需反向，得x>−3。最终必须结合题目的定义域。"
+                "en": "Solve \\(2x+5=21\\) by subtracting 5 then dividing by 2: \\(x=8\\), checked by substitution. \\(ax+b=0\\) only gives \\(x=-\\frac{b}{a}\\) when \\(a\\ne 0\\). The system \\(x+y=10\\), \\(2x+4y=28\\) yields \\(y=4\\), \\(x=6\\) by elimination. For \\(2x+5\\le 15\\), \\(x\\le 5\\); dividing \\(-2x<6\\) by a negative number reverses the sign, giving \\(x>-3\\). Always intersect the solution with the problem’s domain.",
+                "zh": "解\\(2x+5=21\\)，先减5再除2，得\\(x=8\\)，代回检查。\\(ax+b=0\\)只有\\(a\\ne 0\\)时可写\\(x=-\\frac{b}{a}\\)。方程组\\(x+y=10\\)、\\(2x+4y=28\\)消元得\\(y=4\\)、\\(x=6\\)。\\(2x+5\\le 15\\)得\\(x\\le 5\\)；\\(-2x<6\\)除以负数需反向，得\\(x>-3\\)。最终必须结合题目的定义域。"
               }
             }
           ]
@@ -2104,12 +2116,12 @@
           ],
           "paragraphs": [
             {
-              "en": "Use exponent rules only with their domain conditions; nonzero a has a⁰=1 and a⁻ⁿ=1/aⁿ. Combine like polynomial terms and use the highest nonzero degree. x²=9 has solutions ±3, but √9 is the principal root 3; √2 is an irrational real number, approximately 1.414. x²=−1 has no real solution.",
-              "zh": "指数法则需满足定义域条件；a非零时a⁰=1、a⁻ⁿ=1/aⁿ。多项式合并同类项，以最高非零项确定次数。x²=9有±3两个解，√9却是算术平方根3；√2是约1.414的无理实数。x²=−1没有实数解。"
+              "en": "Use exponent rules only with their domain conditions; nonzero a has \\(a^{0}=1\\) and \\(a^{-n}=\\frac{1}{a^n}\\). Combine like polynomial terms and use the highest nonzero degree. \\(x^{2}=9\\) has solutions ±3, but \\(\\sqrt{9}\\) is the principal root 3; \\(\\sqrt{2}\\) is an irrational real number, approximately 1.414. \\(x^{2}=-1\\) has no real solution.",
+              "zh": "指数法则需满足定义域条件；a非零时\\(a^{0}=1\\)、\\(a^{-n}=\\frac{1}{a^n}\\)。多项式合并同类项，以最高非零项确定次数。\\(x^{2}=9\\)有±3两个解，\\(\\sqrt{9}\\)却是算术平方根3；\\(\\sqrt{2}\\)是约1.414的无理实数。\\(x^{2}=-1\\)没有实数解。"
             },
             {
-              "en": "For ax²+bx+c=0 with a≠0, the roots are (−b±√(b²−4ac))/(2a). The discriminant D=b²−4ac gives two real roots for D>0, one repeated root for D=0 and none for D<0. Factor x²−5x+6=(x−2)(x−3) to find 2 and 3. A domain restriction x>2 retains only 3. Do not cancel an expression that might be zero without treating that case.",
-              "zh": "ax²+bx+c=0且a≠0时，根为(−b±√(b²−4ac))/(2a)。判别式D=b²−4ac：正时两个实根，零时一个重根，负时无实根。x²−5x+6=(x−2)(x−3)得到2、3；若规定x>2只留3。约去可能为零的表达式前，要另行处理零的情况。"
+              "en": "For \\(ax^{2}+bx+c=0\\) with \\(a\\ne 0\\), the roots are \\(\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\). The discriminant \\(D=b^{2}-4ac\\) gives two real roots for \\(D>0\\), one repeated root for \\(D=0\\) and none for \\(D<0\\). Factor \\(x^{2}-5x+6=(x-2)(x-3)\\) to find 2 and 3. A domain restriction \\(x>2\\) retains only 3. Do not cancel an expression that might be zero without treating that case.",
+              "zh": "\\(ax^{2}+bx+c=0\\)且\\(a\\ne 0\\)时，根为\\(\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\)。判别式\\(D=b^{2}-4ac\\)：正时两个实根，零时一个重根，负时无实根。\\(x^{2}-5x+6=(x-2)(x-3)\\)得到2、3；若规定\\(x>2\\)只留3。约去可能为零的表达式前，要另行处理零的情况。"
             }
           ],
           "expanded": true,
@@ -2121,8 +2133,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For ax²+bx+c=0 with a≠0, the roots are (−b±√(b²−4ac))/(2a). The discriminant D=b²−4ac gives two real roots for D>0, one repeated root for D=0 and none for D<0. Factor x²−5x+6=(x−2)(x−3) to find 2 and 3. A domain restriction x>2 retains only 3. Do not cancel an expression that might be zero without treating that case.",
-                "zh": "ax²+bx+c=0且a≠0时，根为(−b±√(b²−4ac))/(2a)。判别式D=b²−4ac：正时两个实根，零时一个重根，负时无实根。x²−5x+6=(x−2)(x−3)得到2、3；若规定x>2只留3。约去可能为零的表达式前，要另行处理零的情况。"
+                "en": "For \\(ax^{2}+bx+c=0\\) with \\(a\\ne 0\\), the roots are \\(\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\). The discriminant \\(D=b^{2}-4ac\\) gives two real roots for \\(D>0\\), one repeated root for \\(D=0\\) and none for \\(D<0\\). Factor \\(x^{2}-5x+6=(x-2)(x-3)\\) to find 2 and 3. A domain restriction \\(x>2\\) retains only 3. Do not cancel an expression that might be zero without treating that case.",
+                "zh": "\\(ax^{2}+bx+c=0\\)且\\(a\\ne 0\\)时，根为\\(\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\)。判别式\\(D=b^{2}-4ac\\)：正时两个实根，零时一个重根，负时无实根。\\(x^{2}-5x+6=(x-2)(x-3)\\)得到2、3；若规定\\(x>2\\)只留3。约去可能为零的表达式前，要另行处理零的情况。"
               }
             }
           ]
@@ -2141,12 +2153,12 @@
           ],
           "paragraphs": [
             {
-              "en": "A mathematical function assigns one output to each allowed input; different inputs can share an output, as (−2)²=2²=4. This is different from a Python function, which may print or change data. For y=kx+b, equal input increases give output increases k times as large; k=0 is constant. Quadratic increments are not constant. For 2ˣ at x=1, 2, 3, 4 the values are 2, 4, 8, 16; 2⁰=1 and 2⁻²=1/4. e≈2.71828; ln is the inverse of eˣ on positive inputs, with ln(1)=0 and ln(e)=1.",
-              "zh": "数学函数给每个允许输入唯一输出；不同输入可同输出，如(−2)²=2²=4。这不同于可能打印或修改数据的Python函数。y=kx+b中，相同输入增量带来k倍输出增量；k=0为常函数。二次函数增量不固定。2ˣ在x=1,2,3,4时为2,4,8,16；2⁰=1、2⁻²=1/4。e约2.71828；ln在正数上是eˣ的反函数，ln(1)=0、ln(e)=1。"
+              "en": "A mathematical function assigns one output to each allowed input; different inputs can share an output, as \\((-2)^{2}=2^{2}=4\\). This is different from a Python function, which may print or change data. For \\(y=kx+b\\), equal input increases give output increases k times as large; \\(k=0\\) is constant. Quadratic increments are not constant. For \\(2^{x}\\) at \\(x=1\\), 2, 3, 4 the values are 2, 4, 8, 16; \\(2^{0}\\)=1 and \\(2^{-2}=\\frac{1}{4}\\). e≈2.71828; ln is the inverse of \\(e^{x}\\) on positive inputs, with \\(ln(1)=0\\) and \\(ln(e)=1\\).",
+              "zh": "数学函数给每个允许输入唯一输出；不同输入可同输出，如\\((-2)^{2}=2^{2}=4\\)。这不同于可能打印或修改数据的Python函数。\\(y=kx+b\\)中，相同输入增量带来k倍输出增量；\\(k=0\\)为常函数。二次函数增量不固定。\\(2^{x}\\)在\\(x=1\\),2,3,4时为2,4,8,16；\\(2^{0}\\)=1、\\(2^{-2}=\\frac{1}{4}\\)。e约2.71828；ln在正数上是\\(e^{x}\\)的反函数，\\(ln(1)=0\\)、\\(ln(e)=1\\)。"
             },
             {
-              "en": "Coordinates are ordered (x, y); the origin, positive directions and units matter. Quadrants start upper right and go counterclockwise; axis points lie in no quadrant. Points (−2, 4),(−1, 1),(0, 0),(1, 1),(2, 4) sample y=x², not its entire continuous graph. Positive quadratic coefficient opens upward. Intersections with y=4 solve x²=4; intersections of x²−4 with the x-axis solve the same equation. For a line through (1, 3),(3, 7), slope=(7−3)/(3−1)=2. Changing b from 1 to −2 shifts a line down 3; changing k changes slope while retaining the intercept. Plot scaling changes visual steepness, not coordinate slope.",
-              "zh": "坐标是有序(x,y)，需确定原点、正方向和单位。象限从右上逆时针编号，轴上点不属任何象限。(−2,4)、(−1,1)、(0,0)、(1,1)、(2,4)只是y=x²上的样本点，不是整个连续图像。二次项系数为正则开口向上。与y=4交点解x²=4；x²−4与x轴交点解同一方程。过(1,3)、(3,7)的直线斜率=(7−3)/(3−1)=2。b从1改−2整线下移3；改变k会改变斜率而保留截距。绘图比例改变视觉陡峭程度，不改变坐标斜率。"
+              "en": "Coordinates are ordered (x, y); the origin, positive directions and units matter. Quadrants start upper right and go counterclockwise; axis points lie in no quadrant. Points (−2, 4),(−1, 1),(0, 0),(1, 1),(2, 4) sample \\(y=x^{2}\\), not its entire continuous graph. Positive quadratic coefficient opens upward. Intersections with \\(y=4\\) solve \\(x^{2}=4\\); intersections of \\(x^{2}-4\\) with the x-axis solve the same equation. For a line through (1, 3),(3, 7), \\(slope=(7-3)/(3-1)=2\\). Changing b from 1 to −2 shifts a line down 3; changing k changes slope while retaining the intercept. Plot scaling changes visual steepness, not coordinate slope.",
+              "zh": "坐标是有序(x,y)，需确定原点、正方向和单位。象限从右上逆时针编号，轴上点不属任何象限。(−2,4)、(−1,1)、(0,0)、(1,1)、(2,4)只是\\(y=x^{2}\\)上的样本点，不是整个连续图像。二次项系数为正则开口向上。与\\(y=4\\)交点解\\(x^{2}=4\\)；\\(x^{2}-4\\)与x轴交点解同一方程。过(1,3)、(3,7)的直线斜率=(7−3)/(3−1)=2。b从1改−2整线下移3；改变k会改变斜率而保留截距。绘图比例改变视觉陡峭程度，不改变坐标斜率。"
             }
           ],
           "checks": [
@@ -2157,8 +2169,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Coordinates are ordered (x, y); the origin, positive directions and units matter. Quadrants start upper right and go counterclockwise; axis points lie in no quadrant. Points (−2, 4),(−1, 1),(0, 0),(1, 1),(2, 4) sample y=x², not its entire continuous graph. Positive quadratic coefficient opens upward. Intersections with y=4 solve x²=4; intersections of x²−4 with the x-axis solve the same equation. For a line through (1, 3),(3, 7), slope=(7−3)/(3−1)=2. Changing b from 1 to −2 shifts a line down 3; changing k changes slope while retaining the intercept. Plot scaling changes visual steepness, not coordinate slope.",
-                "zh": "坐标是有序(x,y)，需确定原点、正方向和单位。象限从右上逆时针编号，轴上点不属任何象限。(−2,4)、(−1,1)、(0,0)、(1,1)、(2,4)只是y=x²上的样本点，不是整个连续图像。二次项系数为正则开口向上。与y=4交点解x²=4；x²−4与x轴交点解同一方程。过(1,3)、(3,7)的直线斜率=(7−3)/(3−1)=2。b从1改−2整线下移3；改变k会改变斜率而保留截距。绘图比例改变视觉陡峭程度，不改变坐标斜率。"
+                "en": "Coordinates are ordered (x, y); the origin, positive directions and units matter. Quadrants start upper right and go counterclockwise; axis points lie in no quadrant. Points (−2, 4),(−1, 1),(0, 0),(1, 1),(2, 4) sample \\(y=x^{2}\\), not its entire continuous graph. Positive quadratic coefficient opens upward. Intersections with \\(y=4\\) solve \\(x^{2}=4\\); intersections of \\(x^{2}-4\\) with the x-axis solve the same equation. For a line through (1, 3),(3, 7), \\(slope=(7-3)/(3-1)=2\\). Changing b from 1 to −2 shifts a line down 3; changing k changes slope while retaining the intercept. Plot scaling changes visual steepness, not coordinate slope.",
+                "zh": "坐标是有序(x,y)，需确定原点、正方向和单位。象限从右上逆时针编号，轴上点不属任何象限。(−2,4)、(−1,1)、(0,0)、(1,1)、(2,4)只是\\(y=x^{2}\\)上的样本点，不是整个连续图像。二次项系数为正则开口向上。与\\(y=4\\)交点解\\(x^{2}=4\\)；\\(x^{2}-4\\)与x轴交点解同一方程。过(1,3)、(3,7)的直线斜率=(7−3)/(3−1)=2。b从1改−2整线下移3；改变k会改变斜率而保留截距。绘图比例改变视觉陡峭程度，不改变坐标斜率。"
               }
             }
           ]
@@ -2181,16 +2193,22 @@
           ],
           "paragraphs": [
             {
-              "en": "A feature space may have three or many dimensions; its axes need not be physical directions. Euclidean distance from (1, 2) to (4, 6) is √(3²+4²)=5; between (1, 2, 3) and (3, 3, 5) it is √(2²+1²+2²)=3. Match feature meanings and units before comparing distances: an arbitrary unit change can dominate a neighbor search.",
-              "zh": "特征空间可有三维或更多维，坐标轴不必对应物理方向。(1,2)到(4,6)的欧氏距离为√(3²+4²)=5；(1,2,3)到(3,3,5)为√(2²+1²+2²)=3。先统一特征含义和单位；随意换单位可能主导邻居查找。"
+              "en": "A feature space may have three or many dimensions; its axes need not be physical directions. Euclidean distance from (1, 2) to (4, 6) is \\(\\sqrt{3^{2}+4^{2}}=5\\); between (1, 2, 3) and (3, 3, 5) it is \\(\\sqrt{2^{2}+1^{2}+2^{2}}=3\\). Match feature meanings and units before comparing distances: an arbitrary unit change can dominate a neighbor search.",
+              "zh": "特征空间可有三维或更多维，坐标轴不必对应物理方向。(1,2)到(4,6)的欧氏距离为\\(\\sqrt{3^{2}+4^{2}}=5\\)；(1,2,3)到(3,3,5)为\\(\\sqrt{2^{2}+1^{2}+2^{2}}=3\\)。先统一特征含义和单位；随意换单位可能主导邻居查找。"
             },
             {
-              "en": "A vector is an ordered sequence with a dimension. As an arrow it represents displacement and can be relocated without changing direction or length; a point represents a position. For u=(3, 1), v=(1, 2), u+v=(4, 3), u−v=(2,−1), 2u=(6, 2); a negative scalar reverses direction. The dot product (2, 1)·(3, 4)=10, and ‖(3, 4)‖=5 because its self-dot-product is 25. Distance is the norm of a difference, not the dot product of the two positions. Equal dimensions alone do not guarantee meaningful feature alignment.",
-              "zh": "向量是有维数的有序序列。作为箭头表示位移，平移后方向和长度不变；点表示位置。u=(3,1)、v=(1,2)，则u+v=(4,3)、u−v=(2,−1)、2u=(6,2)；负倍数反向。点积(2,1)·(3,4)=10，‖(3,4)‖=5，因为自点积为25。距离是差向量的范数，不是两个位置的点积。维数相等不保证特征顺序有意义。"
+              "en": "A vector is an ordered sequence with a dimension. As an arrow it represents displacement and can be relocated without changing direction or length; a point represents a position. For \\(u=(3,1)\\), \\(v=(1,2)\\), \\(u+v=(4,3)\\), \\(u-v=(2,-1)\\), \\(2u=(6,2)\\); a negative scalar reverses direction. The dot product \\((2,1)\\cdot (3,4)=10\\), and \\(\\Vert (3,4)\\Vert =5\\) because its self-dot-product is 25. Distance is the norm of a difference, not the dot product of the two positions. Equal dimensions alone do not guarantee meaningful feature alignment.",
+              "zh": "向量是有维数的有序序列。作为箭头表示位移，平移后方向和长度不变；点表示位置。\\(u=(3,1)\\)、\\(v=(1,2)\\)，则\\(u+v=(4,3)\\)、\\(u-v=(2,-1)\\)、\\(2u=(6,2)\\)；负倍数反向。点积\\((2,1)\\cdot (3,4)=10\\)，\\(\\Vert (3,4)\\Vert =5\\)，因为自点积为25。距离是差向量的范数，不是两个位置的点积。维数相等不保证特征顺序有意义。"
             }
           ],
           "lab": "vectors",
-          "formula": "u·v = Σuᵢvᵢ; ‖u‖ = √Σuᵢ²; d(a,b)=‖b−a‖",
+          "formula": {
+            "tex": "\\begin{aligned}u\\cdot v&=\\sum_i u_i v_i\\\\\\lVert u\\rVert&=\\sqrt{\\sum_i u_i^2}\\\\d(a,b)&=\\lVert b-a\\rVert\\end{aligned}",
+            "fallback": {
+              "en": "u·v = Σuᵢvᵢ; ‖u‖ = √Σuᵢ²; d(a,b)=‖b−a‖",
+              "zh": "u·v = 对应分量乘积之和；‖u‖ = 分量平方和的平方根；d(a,b)=‖b−a‖"
+            }
+          },
           "checks": [
             {
               "id": "concept-3.4-vectors-recall",
@@ -2199,8 +2217,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "A vector is an ordered sequence with a dimension. As an arrow it represents displacement and can be relocated without changing direction or length; a point represents a position. For u=(3, 1), v=(1, 2), u+v=(4, 3), u−v=(2,−1), 2u=(6, 2); a negative scalar reverses direction. The dot product (2, 1)·(3, 4)=10, and ‖(3, 4)‖=5 because its self-dot-product is 25. Distance is the norm of a difference, not the dot product of the two positions. Equal dimensions alone do not guarantee meaningful feature alignment.",
-                "zh": "向量是有维数的有序序列。作为箭头表示位移，平移后方向和长度不变；点表示位置。u=(3,1)、v=(1,2)，则u+v=(4,3)、u−v=(2,−1)、2u=(6,2)；负倍数反向。点积(2,1)·(3,4)=10，‖(3,4)‖=5，因为自点积为25。距离是差向量的范数，不是两个位置的点积。维数相等不保证特征顺序有意义。"
+                "en": "A vector is an ordered sequence with a dimension. As an arrow it represents displacement and can be relocated without changing direction or length; a point represents a position. For \\(u=(3,1)\\), \\(v=(1,2)\\), \\(u+v=(4,3)\\), \\(u-v=(2,-1)\\), \\(2u=(6,2)\\); a negative scalar reverses direction. The dot product \\((2,1)\\cdot (3,4)=10\\), and \\(\\Vert (3,4)\\Vert =5\\) because its self-dot-product is 25. Distance is the norm of a difference, not the dot product of the two positions. Equal dimensions alone do not guarantee meaningful feature alignment.",
+                "zh": "向量是有维数的有序序列。作为箭头表示位移，平移后方向和长度不变；点表示位置。\\(u=(3,1)\\)、\\(v=(1,2)\\)，则\\(u+v=(4,3)\\)、\\(u-v=(2,-1)\\)、\\(2u=(6,2)\\)；负倍数反向。点积\\((2,1)\\cdot (3,4)=10\\)，\\(\\Vert (3,4)\\Vert =5\\)，因为自点积为25。距离是差向量的范数，不是两个位置的点积。维数相等不保证特征顺序有意义。"
               }
             }
           ]
@@ -2218,12 +2236,12 @@
           ],
           "paragraphs": [
             {
-              "en": "A=[[2, 1, 3],[0, 4, 1]] has shape 2×3. a₁₂=1 and a₂₃=1 use mathematical one-based indexing; Python starts at zero. Transpose exchanges rows and columns to give [[2, 0],[1, 4],[3, 1]]. Addition requires equal shapes; scalar multiplication acts on every entry. Multiplying A by w=(1, 2, 1) gives (7, 9), one dot product per row.",
-              "zh": "A=[[2,1,3],[0,4,1]]的形状为2×3。a₁₂=1、a₂₃=1使用数学从1开始的下标；Python从0开始。转置交换行列得[[2,0],[1,4],[3,1]]。加法要求同形，数乘作用于每项。A乘w=(1,2,1)得(7,9)，每行计算一个点积。"
+              "en": "\\(A=\\begin{bmatrix}2 & 1 & 3\\\\0 & 4 & 1\\end{bmatrix}\\) has shape \\(2\\times 3\\). \\(a_{12}=1\\) and \\(a_{23}=1\\) use mathematical one-based indexing; Python starts at zero. Transpose exchanges rows and columns to give \\(\\begin{bmatrix}2 & 0\\\\1 & 4\\\\3 & 1\\end{bmatrix}\\). Addition requires equal shapes; scalar multiplication acts on every entry. Multiplying A by \\(w=(1,2,1)\\) gives (7, 9), one dot product per row.",
+              "zh": "\\(A=\\begin{bmatrix}2 & 1 & 3\\\\0 & 4 & 1\\end{bmatrix}\\)的形状为\\(2\\times 3\\)。\\(a_{12}=1\\)、\\(a_{23}=1\\)使用数学从1开始的下标；Python从0开始。转置交换行列得\\(\\begin{bmatrix}2 & 0\\\\1 & 4\\\\3 & 1\\end{bmatrix}\\)。加法要求同形，数乘作用于每项。A乘\\(w=(1,2,1)\\)得(7,9)，每行计算一个点积。"
             },
             {
-              "en": "An m×n matrix times an n×p matrix produces m×p; each result uses a row of the first and column of the second. [[1, 2],[3, 4]] @ [[2, 0],[1, 5]] = [[4, 10],[10, 20]]. Order generally matters. For three sample rows X=[[4, 1],[6, 2],[8, 3]] and W=[[2, 1],[−1, 3]], XW=[[7, 7],[10, 12],[13, 17]], giving two outputs per sample. In NumPy * is elementwise, @ is matrix multiplication. Matching dimensions and feature order are both necessary.",
-              "zh": "m×n矩阵乘n×p矩阵得到m×p，每项是前者一行与后者一列的点积。[[1,2],[3,4]] @ [[2,0],[1,5]] = [[4,10],[10,20]]。交换顺序通常改变结果。三个样本行X=[[4,1],[6,2],[8,3]]与W=[[2,1],[−1,3]]相乘得[[7,7],[10,12],[13,17]]，每个样本两个输出。NumPy中*逐元素，@矩阵乘法。形状和特征顺序都需匹配。"
+              "en": "An \\(m\\times n\\) matrix times an \\(n\\times p\\) matrix produces \\(m\\times p\\); each result uses a row of the first and column of the second. \\(\\begin{bmatrix}1 & 2\\\\3 & 4\\end{bmatrix}\\begin{bmatrix}2 & 0\\\\1 & 5\\end{bmatrix}=\\begin{bmatrix}4 & 10\\\\10 & 20\\end{bmatrix}\\). Order generally matters. For three sample rows \\(X=\\begin{bmatrix}4 & 1\\\\6 & 2\\\\8 & 3\\end{bmatrix}\\) and \\(W=\\begin{bmatrix}2 & 1\\\\-1 & 3\\end{bmatrix}\\), \\(XW=\\begin{bmatrix}7 & 7\\\\10 & 12\\\\13 & 17\\end{bmatrix}\\), giving two outputs per sample. In NumPy * is elementwise, @ is matrix multiplication. Matching dimensions and feature order are both necessary.",
+              "zh": "\\(m\\times n\\)矩阵乘\\(n\\times p\\)矩阵得到\\(m\\times p\\)，每项是前者一行与后者一列的点积。\\(\\begin{bmatrix}1 & 2\\\\3 & 4\\end{bmatrix}\\begin{bmatrix}2 & 0\\\\1 & 5\\end{bmatrix}=\\begin{bmatrix}4 & 10\\\\10 & 20\\end{bmatrix}\\)。交换顺序通常改变结果。三个样本行\\(X=\\begin{bmatrix}4 & 1\\\\6 & 2\\\\8 & 3\\end{bmatrix}\\)与\\(W=\\begin{bmatrix}2 & 1\\\\-1 & 3\\end{bmatrix}\\)相乘得[[7,7],[10,12],[13,17]]，每个样本两个输出。NumPy中*逐元素，@矩阵乘法。形状和特征顺序都需匹配。"
             }
           ],
           "lab": "vectors",
@@ -2238,8 +2256,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "An m×n matrix times an n×p matrix produces m×p; each result uses a row of the first and column of the second. [[1, 2],[3, 4]] @ [[2, 0],[1, 5]] = [[4, 10],[10, 20]]. Order generally matters. For three sample rows X=[[4, 1],[6, 2],[8, 3]] and W=[[2, 1],[−1, 3]], XW=[[7, 7],[10, 12],[13, 17]], giving two outputs per sample. In NumPy * is elementwise, @ is matrix multiplication. Matching dimensions and feature order are both necessary.",
-                "zh": "m×n矩阵乘n×p矩阵得到m×p，每项是前者一行与后者一列的点积。[[1,2],[3,4]] @ [[2,0],[1,5]] = [[4,10],[10,20]]。交换顺序通常改变结果。三个样本行X=[[4,1],[6,2],[8,3]]与W=[[2,1],[−1,3]]相乘得[[7,7],[10,12],[13,17]]，每个样本两个输出。NumPy中*逐元素，@矩阵乘法。形状和特征顺序都需匹配。"
+                "en": "An \\(m\\times n\\) matrix times an \\(n\\times p\\) matrix produces \\(m\\times p\\); each result uses a row of the first and column of the second. \\(\\begin{bmatrix}1 & 2\\\\3 & 4\\end{bmatrix}\\begin{bmatrix}2 & 0\\\\1 & 5\\end{bmatrix}=\\begin{bmatrix}4 & 10\\\\10 & 20\\end{bmatrix}\\). Order generally matters. For three sample rows \\(X=\\begin{bmatrix}4 & 1\\\\6 & 2\\\\8 & 3\\end{bmatrix}\\) and \\(W=\\begin{bmatrix}2 & 1\\\\-1 & 3\\end{bmatrix}\\), \\(XW=\\begin{bmatrix}7 & 7\\\\10 & 12\\\\13 & 17\\end{bmatrix}\\), giving two outputs per sample. In NumPy * is elementwise, @ is matrix multiplication. Matching dimensions and feature order are both necessary.",
+                "zh": "\\(m\\times n\\)矩阵乘\\(n\\times p\\)矩阵得到\\(m\\times p\\)，每项是前者一行与后者一列的点积。\\(\\begin{bmatrix}1 & 2\\\\3 & 4\\end{bmatrix}\\begin{bmatrix}2 & 0\\\\1 & 5\\end{bmatrix}=\\begin{bmatrix}4 & 10\\\\10 & 20\\end{bmatrix}\\)。交换顺序通常改变结果。三个样本行\\(X=\\begin{bmatrix}4 & 1\\\\6 & 2\\\\8 & 3\\end{bmatrix}\\)与\\(W=\\begin{bmatrix}2 & 1\\\\-1 & 3\\end{bmatrix}\\)相乘得[[7,7],[10,12],[13,17]]，每个样本两个输出。NumPy中*逐元素，@矩阵乘法。形状和特征顺序都需匹配。"
               }
             }
           ]
@@ -2262,12 +2280,12 @@
           ],
           "paragraphs": [
             {
-              "en": "The sample space Ω lists outcomes; an event is a subset. Probability lies from 0 to 1. Count favorable outcomes only when basic outcomes are equally likely: a fair die has even probability 3/6, but a bag of 9 red and 1 blue balls has red probability 9/10, not 1/2 because there are two colors. Twelve heads in 20 trials is observed frequency 0.6, not proof that a fair coin’s probability changed. Large-sample stabilization is not monotonic or a promise of forced balancing.",
-              "zh": "样本空间Ω列出基本结果，事件是其子集。概率在0到1之间。只有基本结果等可能时才可数有利结果：公平骰子偶数概率3/6；9红1蓝的袋子抽红概率9/10，不能因颜色两种而写1/2。20次出现12次正面是频率0.6，不证明公平硬币概率改变。大样本趋稳不是单调过程，也不强迫次数自动平衡。"
+              "en": "The sample space \\(\\Omega \\) lists outcomes; an event is a subset. Probability lies from 0 to 1. Count favorable outcomes only when basic outcomes are equally likely: a fair die has even probability \\(\\frac{3}{6}\\), but a bag of 9 red and 1 blue balls has red probability \\(\\frac{9}{10}\\), not \\(\\frac{1}{2}\\) because there are two colors. Twelve heads in 20 trials is observed frequency 0.6, not proof that a fair coin’s probability changed. Large-sample stabilization is not monotonic or a promise of forced balancing.",
+              "zh": "样本空间\\(\\Omega \\)列出基本结果，事件是其子集。概率在0到1之间。只有基本结果等可能时才可数有利结果：公平骰子偶数概率3/6；9红1蓝的袋子抽红概率9/10，不能因颜色两种而写1/2。20次出现12次正面是频率0.6，不证明公平硬币概率改变。大样本趋稳不是单调过程，也不强迫次数自动平衡。"
             },
             {
-              "en": "P(A∪B)=P(A)+P(B)−P(A∩B), P(not A)=1−P(A). Mutually exclusive events cannot happen together; independent events do not change each other’s probability. Die results 1 and 2 are exclusive but not independent; heads on two independent flips coincide with probability 1/4. Drawing from 2 red and 1 blue without replacement makes the second red probability 1/2 after a red, compared with initial 2/3. Replacement and mixing can restore independence under the stated assumptions. Three independent chances with success probability .2 give at least one success 1−.8³=.488 and exactly one 3×.2×.8²=.384.",
-              "zh": "P(A∪B)=P(A)+P(B)−P(A∩B)，P(非A)=1−P(A)。互斥指不能同时发生，独立指不改变彼此概率。骰子点数1与2互斥却不独立；两次独立抛币都正面概率1/4。2红1蓝不放回抽取，已抽红后下一次红概率1/2，初始为2/3。放回并混匀在题设条件下可恢复独立。三次独立机会成功率.2，至少一次成功1−.8³=.488，恰一次3×.2×.8²=.384。"
+              "en": "\\(P(A\\cup B)=P(A)+P(B)-P(A\\cap B)\\), \\(P(A^{\\mathrm{c}})=1-P(A)\\). Mutually exclusive events cannot happen together; independent events do not change each other’s probability. Die results 1 and 2 are exclusive but not independent; heads on two independent flips coincide with probability \\(\\frac{1}{4}\\). Drawing from 2 red and 1 blue without replacement makes the second red probability \\(\\frac{1}{2}\\) after a red, compared with initial \\(\\frac{2}{3}\\). Replacement and mixing can restore independence under the stated assumptions. Three independent chances with success probability .2 give at least one success \\(1-.8^{3}=.488\\) and exactly one \\(3\\times .2\\times .8^{2}=.384\\).",
+              "zh": "\\(P(A\\cup B)=P(A)+P(B)-P(A\\cap B)\\)，\\(P(A^{\\mathrm{c}})=1-P(A)\\)。互斥指不能同时发生，独立指不改变彼此概率。骰子点数1与2互斥却不独立；两次独立抛币都正面概率1/4。2红1蓝不放回抽取，已抽红后下一次红概率1/2，初始为2/3。放回并混匀在题设条件下可恢复独立。三次独立机会成功率.2，至少一次成功\\(1-.8^{3}=.488\\)，恰一次\\(3\\times .2\\times .8^{2}=.384\\)。"
             }
           ],
           "lab": "probability",
@@ -2279,8 +2297,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "P(A∪B)=P(A)+P(B)−P(A∩B), P(not A)=1−P(A). Mutually exclusive events cannot happen together; independent events do not change each other’s probability. Die results 1 and 2 are exclusive but not independent; heads on two independent flips coincide with probability 1/4. Drawing from 2 red and 1 blue without replacement makes the second red probability 1/2 after a red, compared with initial 2/3. Replacement and mixing can restore independence under the stated assumptions. Three independent chances with success probability .2 give at least one success 1−.8³=.488 and exactly one 3×.2×.8²=.384.",
-                "zh": "P(A∪B)=P(A)+P(B)−P(A∩B)，P(非A)=1−P(A)。互斥指不能同时发生，独立指不改变彼此概率。骰子点数1与2互斥却不独立；两次独立抛币都正面概率1/4。2红1蓝不放回抽取，已抽红后下一次红概率1/2，初始为2/3。放回并混匀在题设条件下可恢复独立。三次独立机会成功率.2，至少一次成功1−.8³=.488，恰一次3×.2×.8²=.384。"
+                "en": "\\(P(A\\cup B)=P(A)+P(B)-P(A\\cap B)\\), \\(P(A^{\\mathrm{c}})=1-P(A)\\). Mutually exclusive events cannot happen together; independent events do not change each other’s probability. Die results 1 and 2 are exclusive but not independent; heads on two independent flips coincide with probability \\(\\frac{1}{4}\\). Drawing from 2 red and 1 blue without replacement makes the second red probability \\(\\frac{1}{2}\\) after a red, compared with initial \\(\\frac{2}{3}\\). Replacement and mixing can restore independence under the stated assumptions. Three independent chances with success probability .2 give at least one success \\(1-.8^{3}=.488\\) and exactly one \\(3\\times .2\\times .8^{2}=.384\\).",
+                "zh": "\\(P(A\\cup B)=P(A)+P(B)-P(A\\cap B)\\)，\\(P(A^{\\mathrm{c}})=1-P(A)\\)。互斥指不能同时发生，独立指不改变彼此概率。骰子点数1与2互斥却不独立；两次独立抛币都正面概率1/4。2红1蓝不放回抽取，已抽红后下一次红概率1/2，初始为2/3。放回并混匀在题设条件下可恢复独立。三次独立机会成功率.2，至少一次成功\\(1-.8^{3}=.488\\)，恰一次\\(3\\times .2\\times .8^{2}=.384\\)。"
               }
             }
           ]
@@ -2297,8 +2315,8 @@
           ],
           "paragraphs": [
             {
-              "en": "P(A|B)=P(A∩B)/P(B) requires P(B)>0. Among 20 cats and 80 noncats, a classifier finds 18 cats, misses 2 and falsely flags 8 noncats. Recognized given actual cat is 18/20=90%; actual cat given recognized is 18/(18+8)≈69.2%. Reversing the condition changes the denominator. If cats and noncats each number 50 while sensitivity stays 90% and false-positive rate stays 10%, the latter probability becomes 45/(45+5)=90%. Population base rates matter; measured counts can fluctuate around assumed probabilities.",
-              "zh": "P(A|B)=P(A∩B)/P(B)要求P(B)>0。20只猫、80个非猫中，识别18只、漏2只，误报8个非猫。已知真猫时被识别概率18/20=90%；已知被识别时是真猫概率18/(18+8)≈69.2%。反转条件会改变分母。若猫与非猫各50，识别率仍90%、误报率仍10%，后者变45/(45+5)=90%。总体基准比例很重要；实际计数也会围绕假定概率波动。"
+              "en": "\\(P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}\\) requires P(B)>0. Among 20 cats and 80 noncats, a classifier finds 18 cats, misses 2 and falsely flags 8 noncats. Recognized given actual cat is \\(\\frac{18}{20}=90\\%\\); actual cat given recognized is 18/(18+8)≈69.2%. Reversing the condition changes the denominator. If cats and noncats each number 50 while sensitivity stays 90% and false-positive rate stays 10%, the latter probability becomes \\(\\frac{45}{45+5}=90\\%\\). Population base rates matter; measured counts can fluctuate around assumed probabilities.",
+              "zh": "\\(P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}\\)要求P(B)>0。20只猫、80个非猫中，识别18只、漏2只，误报8个非猫。已知真猫时被识别概率18/20=90%；已知被识别时是真猫概率18/(18+8)≈69.2%。反转条件会改变分母。若猫与非猫各50，识别率仍90%、误报率仍10%，后者变\\(\\frac{45}{45+5}=90\\%\\)。总体基准比例很重要；实际计数也会围绕假定概率波动。"
             }
           ],
           "expanded": true,
@@ -2311,8 +2329,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "P(A|B)=P(A∩B)/P(B) requires P(B)>0. Among 20 cats and 80 noncats, a classifier finds 18 cats, misses 2 and falsely flags 8 noncats. Recognized given actual cat is 18/20=90%; actual cat given recognized is 18/(18+8)≈69.2%. Reversing the condition changes the denominator. If cats and noncats each number 50 while sensitivity stays 90% and false-positive rate stays 10%, the latter probability becomes 45/(45+5)=90%. Population base rates matter; measured counts can fluctuate around assumed probabilities.",
-                "zh": "P(A|B)=P(A∩B)/P(B)要求P(B)>0。20只猫、80个非猫中，识别18只、漏2只，误报8个非猫。已知真猫时被识别概率18/20=90%；已知被识别时是真猫概率18/(18+8)≈69.2%。反转条件会改变分母。若猫与非猫各50，识别率仍90%、误报率仍10%，后者变45/(45+5)=90%。总体基准比例很重要；实际计数也会围绕假定概率波动。"
+                "en": "\\(P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}\\) requires P(B)>0. Among 20 cats and 80 noncats, a classifier finds 18 cats, misses 2 and falsely flags 8 noncats. Recognized given actual cat is \\(\\frac{18}{20}=90\\%\\); actual cat given recognized is 18/(18+8)≈69.2%. Reversing the condition changes the denominator. If cats and noncats each number 50 while sensitivity stays 90% and false-positive rate stays 10%, the latter probability becomes \\(\\frac{45}{45+5}=90\\%\\). Population base rates matter; measured counts can fluctuate around assumed probabilities.",
+                "zh": "\\(P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}\\)要求P(B)>0。20只猫、80个非猫中，识别18只、漏2只，误报8个非猫。已知真猫时被识别概率18/20=90%；已知被识别时是真猫概率18/(18+8)≈69.2%。反转条件会改变分母。若猫与非猫各50，识别率仍90%、误报率仍10%，后者变\\(\\frac{45}{45+5}=90\\%\\)。总体基准比例很重要；实际计数也会围绕假定概率波动。"
               }
             }
           ]
@@ -2331,16 +2349,16 @@
           ],
           "paragraphs": [
             {
-              "en": "A random variable assigns a numerical value to an outcome. Discrete values are finite or countable; a fair die assigns 1/6 to each of six values. Continuous uniform time from 0 to 10 has interval probability P(2≤X≤5)=3/10; an individual point has probability zero, which does not make that observed time impossible.",
-              "zh": "随机变量给结果赋一个数值。离散取值有限或可数；公平骰子的六值各有1/6概率。0到10的连续均匀时间中P(2≤X≤5)=3/10；单点概率为零不等于观测到该时间不可能。"
+              "en": "A random variable assigns a numerical value to an outcome. Discrete values are finite or countable; a fair die assigns \\(\\frac{1}{6}\\) to each of six values. Continuous uniform time from 0 to 10 has interval probability \\(P(2\\le X\\le 5)=\\frac{3}{10}\\); an individual point has probability zero, which does not make that observed time impossible.",
+              "zh": "随机变量给结果赋一个数值。离散取值有限或可数；公平骰子的六值各有1/6概率。0到10的连续均匀时间中\\(P(2\\le X\\le 5)=\\frac{3}{10}\\)；单点概率为零不等于观测到该时间不可能。"
             },
             {
-              "en": "A binomial count needs fixed n, two outcomes per trial, independent trials and unchanged success probability p. P(X=k)=C(n, k)pᵏ(1−p)ⁿ⁻ᵏ, with C(n, k)=n!/[k!(n−k)!], 0!=1. Three fair flips have head-count probabilities [1, 3, 3, 1]/8: eight equiprobable sequences, not four equiprobable counts. For p=0 all counts are zero; p=1 all equal n. Sampling without replacement is generally not binomial.",
-              "zh": "二项计数要求固定n、每次两个结果、试验独立且成功率p不变。P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ，C(n,k)=n!/[k!(n−k)!]，0!=1。三次公平抛币的正面数概率为[1,3,3,1]/8：八种序列等可能，不是四种次数等可能。p=0次数全零，p=1次数全n。不放回抽样通常不满足二项条件。"
+              "en": "A binomial count needs fixed n, two outcomes per trial, independent trials and unchanged success probability p. \\(P(X=k)=\\binom{n}{k}p^k(1-p)^{n-k}\\), with \\(\\binom{n}{k}=\\frac{n!}{k!(n-k)!}\\), \\(0!=1\\). Three fair flips have head-count probabilities [1, 3, 3, 1]/8: eight equiprobable sequences, not four equiprobable counts. For \\(p=0\\) all counts are zero; \\(p=1\\) all equal n. Sampling without replacement is generally not binomial.",
+              "zh": "二项计数要求固定n、每次两个结果、试验独立且成功率p不变。\\(P(X=k)=\\binom{n}{k}p^k(1-p)^{n-k}\\)，\\(\\binom{n}{k}=\\frac{n!}{k!(n-k)!}\\)，\\(0!=1\\)。三次公平抛币的正面数概率为[1,3,3,1]/8：八种序列等可能，不是四种次数等可能。\\(p=0\\)次数全零，\\(p=1\\)次数全n。不放回抽样通常不满足二项条件。"
             },
             {
-              "en": "For [2, 4, 6], mean 4, squared deviations sum to 8, population variance is 8/3 and standard deviation √(8/3)≈1.633. Variance uses squared units; standard deviation restores the units. Zero spread means all values coincide. A normal distribution has mean μ at its center and positive standard deviation σ controlling width; standard normal has μ=0,σ=1. Density height is not point probability; interval area is probability and total area is 1. Not every real dataset is normal.",
-              "zh": "[2,4,6]均值4，离均差平方和8，总体方差8/3，标准差√(8/3)≈1.633。方差单位平方，标准差恢复原单位；为零说明全部相等。正态分布以均值μ为中心，正标准差σ控制宽度；标准正态μ=0、σ=1。密度高度不是单点概率，区间面积才是概率，总面积为1。真实数据不一定正态。"
+              "en": "For [2, 4, 6], mean 4, squared deviations sum to 8, population variance is \\(\\frac{8}{3}\\) and standard deviation \\(\\sqrt{\\frac{8}{3}}\\approx 1.633\\). Variance uses squared units; standard deviation restores the units. Zero spread means all values coincide. A normal distribution has mean \\(\\mu \\) at its center and positive standard deviation \\(\\sigma \\) controlling width; standard normal has \\(\\mu =0\\),\\(\\sigma =1\\). Density height is not point probability; interval area is probability and total area is 1. Not every real dataset is normal.",
+              "zh": "[2,4,6]均值4，离均差平方和8，总体方差8/3，标准差\\(\\sqrt{\\frac{8}{3}}\\approx 1.633\\)。方差单位平方，标准差恢复原单位；为零说明全部相等。正态分布以均值\\(\\mu \\)为中心，正标准差\\(\\sigma \\)控制宽度；标准正态\\(\\mu =0\\)、\\(\\sigma =1\\)。密度高度不是单点概率，区间面积才是概率，总面积为1。真实数据不一定正态。"
             }
           ],
           "expanded": true,
@@ -2353,8 +2371,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For [2, 4, 6], mean 4, squared deviations sum to 8, population variance is 8/3 and standard deviation √(8/3)≈1.633. Variance uses squared units; standard deviation restores the units. Zero spread means all values coincide. A normal distribution has mean μ at its center and positive standard deviation σ controlling width; standard normal has μ=0,σ=1. Density height is not point probability; interval area is probability and total area is 1. Not every real dataset is normal.",
-                "zh": "[2,4,6]均值4，离均差平方和8，总体方差8/3，标准差√(8/3)≈1.633。方差单位平方，标准差恢复原单位；为零说明全部相等。正态分布以均值μ为中心，正标准差σ控制宽度；标准正态μ=0、σ=1。密度高度不是单点概率，区间面积才是概率，总面积为1。真实数据不一定正态。"
+                "en": "For [2, 4, 6], mean 4, squared deviations sum to 8, population variance is \\(\\frac{8}{3}\\) and standard deviation \\(\\sqrt{\\frac{8}{3}}\\approx 1.633\\). Variance uses squared units; standard deviation restores the units. Zero spread means all values coincide. A normal distribution has mean \\(\\mu \\) at its center and positive standard deviation \\(\\sigma \\) controlling width; standard normal has \\(\\mu =0\\),\\(\\sigma =1\\). Density height is not point probability; interval area is probability and total area is 1. Not every real dataset is normal.",
+                "zh": "[2,4,6]均值4，离均差平方和8，总体方差8/3，标准差\\(\\sqrt{\\frac{8}{3}}\\approx 1.633\\)。方差单位平方，标准差恢复原单位；为零说明全部相等。正态分布以均值\\(\\mu \\)为中心，正标准差\\(\\sigma \\)控制宽度；标准正态\\(\\mu =0\\)、\\(\\sigma =1\\)。密度高度不是单点概率，区间面积才是概率，总面积为1。真实数据不一定正态。"
               }
             }
           ]
@@ -2406,8 +2424,8 @@
                 "zh": "贴纸每张2，包装固定1，写函数。"
               },
               "answer": {
-                "en": "y=2x+1 for nonnegative integer x; each extra sticker adds2; points are collinear.",
-                "zh": "非负整数x时y=2x+1，多一张加2，各点共线。"
+                "en": "\\(y=2x+1\\) for nonnegative integer x; each extra sticker adds2; points are collinear.",
+                "zh": "非负整数x时\\(y=2x+1\\)，多一张加2，各点共线。"
               }
             },
             {
@@ -2428,8 +2446,8 @@
                 "zh": "三株植物，株高和叶片数，矩阵形状？"
               },
               "answer": {
-                "en": "3×2; entry(3, 2) is third plant’s leaf count. Swap columns only with their meanings.",
-                "zh": "3×2，第三行第二列是第三株叶数，交换列须交换含义。"
+                "en": "\\(3\\times 2\\); entry(3, 2) is third plant’s leaf count. Swap columns only with their meanings.",
+                "zh": "\\(3\\times 2\\)，第三行第二列是第三株叶数，交换列须交换含义。"
               }
             },
             {
@@ -2506,12 +2524,12 @@
           ],
           "paragraphs": [
             {
-              "en": "Assign circle=00, triangle=01, square=10, star=11. Circle–square–triangle becomes 001001; split into 00, 10, 01 to decode. Two bits support 2²=4 symbols, insufficient for five. Variable-length A=0, B=01, C=1 is ambiguous: 01 could be B or AC. Fixed lengths, separators or an unambiguous code design resolve this. Encoding is not encryption.",
-              "zh": "约定圆00、三角01、方10、星11，圆—方—三角编码001001，按00、10、01解码。两位支持2²=4种符号，五种不够。变长A=0、B=01、C=1有歧义，01可为B或AC。定长、分隔符或无歧义设计可解决。编码不等于加密。"
+              "en": "Assign circle=00, triangle=01, square=10, star=11. Circle–square–triangle becomes 001001; split into 00, 10, 01 to decode. Two bits support \\(2^{2}=4\\) symbols, insufficient for five. Variable-length \\(A=0\\), \\(B=01\\), \\(C=1\\) is ambiguous: 01 could be B or AC. Fixed lengths, separators or an unambiguous code design resolve this. Encoding is not encryption.",
+              "zh": "约定圆00、三角01、方10、星11，圆—方—三角编码001001，按00、10、01解码。两位支持\\(2^{2}=4\\)种符号，五种不够。变长\\(A=0\\)、\\(B=01\\)、\\(C=1\\)有歧义，01可为B或AC。定长、分隔符或无歧义设计可解决。编码不等于加密。"
             },
             {
-              "en": "For a known repeating red–blue–blue pattern, the nth position uses (n−1)%3; n=10 selects red. Inferring a pattern from 2, 4, 6 does not prove the next value is 8. In a fixed two-bit decoder, both loop step and slice width are 2; changing either alone breaks grouping. Validate even length and binary characters if not guaranteed. Re-encoding this result is a useful round-trip check, not a proof for all inputs.",
-              "zh": "已知红—蓝—蓝循环，第n项用(n−1)%3，n=10为红。从2、4、6猜规律不能证明下一项8。两位解码器的循环步长与切片宽度都为2，单改一项破坏分组。题目未保证时需检查偶数长度和二进制字符。重新编码是本次往返检验，不是所有输入正确的证明。"
+              "en": "For a known repeating red–blue–blue pattern, the nth position uses (n−1)%3; \\(n=10\\) selects red. Inferring a pattern from 2, 4, 6 does not prove the next value is 8. In a fixed two-bit decoder, both loop step and slice width are 2; changing either alone breaks grouping. Validate even length and binary characters if not guaranteed. Re-encoding this result is a useful round-trip check, not a proof for all inputs.",
+              "zh": "已知红—蓝—蓝循环，第n项用(n−1)%3，\\(n=10\\)为红。从2、4、6猜规律不能证明下一项8。两位解码器的循环步长与切片宽度都为2，单改一项破坏分组。题目未保证时需检查偶数长度和二进制字符。重新编码是本次往返检验，不是所有输入正确的证明。"
             }
           ],
           "expanded": true,
@@ -2526,8 +2544,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For a known repeating red–blue–blue pattern, the nth position uses (n−1)%3; n=10 selects red. Inferring a pattern from 2, 4, 6 does not prove the next value is 8. In a fixed two-bit decoder, both loop step and slice width are 2; changing either alone breaks grouping. Validate even length and binary characters if not guaranteed. Re-encoding this result is a useful round-trip check, not a proof for all inputs.",
-                "zh": "已知红—蓝—蓝循环，第n项用(n−1)%3，n=10为红。从2、4、6猜规律不能证明下一项8。两位解码器的循环步长与切片宽度都为2，单改一项破坏分组。题目未保证时需检查偶数长度和二进制字符。重新编码是本次往返检验，不是所有输入正确的证明。"
+                "en": "For a known repeating red–blue–blue pattern, the nth position uses (n−1)%3; \\(n=10\\) selects red. Inferring a pattern from 2, 4, 6 does not prove the next value is 8. In a fixed two-bit decoder, both loop step and slice width are 2; changing either alone breaks grouping. Validate even length and binary characters if not guaranteed. Re-encoding this result is a useful round-trip check, not a proof for all inputs.",
+                "zh": "已知红—蓝—蓝循环，第n项用(n−1)%3，\\(n=10\\)为红。从2、4、6猜规律不能证明下一项8。两位解码器的循环步长与切片宽度都为2，单改一项破坏分组。题目未保证时需检查偶数长度和二进制字符。重新编码是本次往返检验，不是所有输入正确的证明。"
               }
             }
           ]
@@ -2550,8 +2568,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Solve 3a+5b=16 with nonnegative integer portions. Bounds are a=0…5 and b=0…3, giving 24 candidate pairs and solution (2, 2). Include both zero and the upper bound. Once a is known, b=(16−3a)/5 is determined, so test six remainders for divisibility by 5 instead. Each legal solution has an a in the range; the equation then identifies its unique b. This explains completeness rather than merely showing that one example works. If each a can admit many b values, the same shortcut needs further justification.",
-              "zh": "解非负整数份数3a+5b=16，a从0到5、b从0到3，检查24对得(2,2)。零和上界都要包含。确定a后，b=(16−3a)/5唯一，改查六个余量是否被5整除。每个合法答案的a必在范围内，方程随之唯一确定b，这才说明不漏解。若每个a对应多个b，同样简化需另行论证。"
+              "en": "Solve 3a+5\\(b=16\\) with nonnegative integer portions. Bounds are \\(a=0\\)…5 and \\(b=0\\)…3, giving 24 candidate pairs and solution (2, 2). Include both zero and the upper bound. Once a is known, b=(16−3a)/5 is determined, so test six remainders for divisibility by 5 instead. Each legal solution has an a in the range; the equation then identifies its unique b. This explains completeness rather than merely showing that one example works. If each a can admit many b values, the same shortcut needs further justification.",
+              "zh": "解非负整数份数3a+5\\(b=16\\)，a从0到5、b从0到3，检查24对得(2,2)。零和上界都要包含。确定a后，b=(16−3a)/5唯一，改查六个余量是否被5整除。每个合法答案的a必在范围内，方程随之唯一确定b，这才说明不漏解。若每个a对应多个b，同样简化需另行论证。"
             }
           ],
           "code": "print([(a, (16-3*a)//5) for a in range(16//3+1) if (16-3*a)%5 == 0])",
@@ -2565,8 +2583,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Solve 3a+5b=16 with nonnegative integer portions. Bounds are a=0…5 and b=0…3, giving 24 candidate pairs and solution (2, 2). Include both zero and the upper bound. Once a is known, b=(16−3a)/5 is determined, so test six remainders for divisibility by 5 instead. Each legal solution has an a in the range; the equation then identifies its unique b. This explains completeness rather than merely showing that one example works. If each a can admit many b values, the same shortcut needs further justification.",
-                "zh": "解非负整数份数3a+5b=16，a从0到5、b从0到3，检查24对得(2,2)。零和上界都要包含。确定a后，b=(16−3a)/5唯一，改查六个余量是否被5整除。每个合法答案的a必在范围内，方程随之唯一确定b，这才说明不漏解。若每个a对应多个b，同样简化需另行论证。"
+                "en": "Solve 3a+5\\(b=16\\) with nonnegative integer portions. Bounds are \\(a=0\\)…5 and \\(b=0\\)…3, giving 24 candidate pairs and solution (2, 2). Include both zero and the upper bound. Once a is known, b=(16−3a)/5 is determined, so test six remainders for divisibility by 5 instead. Each legal solution has an a in the range; the equation then identifies its unique b. This explains completeness rather than merely showing that one example works. If each a can admit many b values, the same shortcut needs further justification.",
+                "zh": "解非负整数份数3a+5\\(b=16\\)，a从0到5、b从0到3，检查24对得(2,2)。零和上界都要包含。确定a后，b=(16−3a)/5唯一，改查六个余量是否被5整除。每个合法答案的a必在范围内，方程随之唯一确定b，这才说明不漏解。若每个a对应多个b，同样简化需另行论证。"
               }
             }
           ]
@@ -2622,8 +2640,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Worst-case linear search grows as O(n); repeated halving grows as O(log n). Doubling 16 to 32 adds roughly one binary-search comparison. Two loops each running n times can produce O(n²) work. Big-O describes growth, not exact seconds; hardware and load affect timing. Space use also matters: a few endpoints differ from copying all records. Sorting for one query may cost more than a linear scan; repeated queries can justify preprocessing.",
-              "zh": "顺序查找最坏增长O(n)，反复减半O(log n)，16翻倍到32约多一次比较。各运行n次的两重循环可能产生O(n²)工作。大O描述增长，不是精确秒数，硬件和负载影响用时。空间也重要，几个端点不同于复制全记录。只查一次时先排序可能更费事，反复查找才可能值得预处理。"
+              "en": "Worst-case linear search grows as \\(O(n)\\); repeated halving grows as O(log n). Doubling 16 to 32 adds roughly one binary-search comparison. Two loops each running n times can produce \\(O(n^2)\\) work. Big-O describes growth, not exact seconds; hardware and load affect timing. Space use also matters: a few endpoints differ from copying all records. Sorting for one query may cost more than a linear scan; repeated queries can justify preprocessing.",
+              "zh": "顺序查找最坏增长\\(O(n)\\)，反复减半O(log n)，16翻倍到32约多一次比较。各运行n次的两重循环可能产生\\(O(n^2)\\)工作。大O描述增长，不是精确秒数，硬件和负载影响用时。空间也重要，几个端点不同于复制全记录。只查一次时先排序可能更费事，反复查找才可能值得预处理。"
             }
           ],
           "expanded": true,
@@ -2635,8 +2653,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Worst-case linear search grows as O(n); repeated halving grows as O(log n). Doubling 16 to 32 adds roughly one binary-search comparison. Two loops each running n times can produce O(n²) work. Big-O describes growth, not exact seconds; hardware and load affect timing. Space use also matters: a few endpoints differ from copying all records. Sorting for one query may cost more than a linear scan; repeated queries can justify preprocessing.",
-                "zh": "顺序查找最坏增长O(n)，反复减半O(log n)，16翻倍到32约多一次比较。各运行n次的两重循环可能产生O(n²)工作。大O描述增长，不是精确秒数，硬件和负载影响用时。空间也重要，几个端点不同于复制全记录。只查一次时先排序可能更费事，反复查找才可能值得预处理。"
+                "en": "Worst-case linear search grows as \\(O(n)\\); repeated halving grows as O(log n). Doubling 16 to 32 adds roughly one binary-search comparison. Two loops each running n times can produce \\(O(n^2)\\) work. Big-O describes growth, not exact seconds; hardware and load affect timing. Space use also matters: a few endpoints differ from copying all records. Sorting for one query may cost more than a linear scan; repeated queries can justify preprocessing.",
+                "zh": "顺序查找最坏增长\\(O(n)\\)，反复减半O(log n)，16翻倍到32约多一次比较。各运行n次的两重循环可能产生\\(O(n^2)\\)工作。大O描述增长，不是精确秒数，硬件和负载影响用时。空间也重要，几个端点不同于复制全记录。只查一次时先排序可能更费事，反复查找才可能值得预处理。"
               }
             }
           ]
@@ -2664,8 +2682,8 @@
               "zh": "[4,1,3,2]一次冒泡比较相邻项后为[1,3,2,4]，只保证末尾最大值。选择排序在剩余后缀找最小值，交换到第一个未确定位置；插入排序保持有序前缀，右移较大元素，插入下一项。[1,4,3,2]插入3时暂成[1,4,4,2]，3仍在临时变量中，最后填入j+1。"
             },
             {
-              "en": "Stability preserves the original order of equal keys. Strict > in bubble and insertion avoids moving equal items past one another. Selection swaps [2A, 2B, 1] to [1, 2B, 2A], so this implementation is unstable. Python sorted returns a new list; list.sort changes the original; both are stable. Copying at a function’s start preserves the caller’s list. Bubble’s no-swap flag permits an early stop; selection’s smallest variable stores an index, not a value. All three have O(n²) worst-case work.",
-              "zh": "稳定性保留同键记录的原先顺序。冒泡和插入使用严格>避免相等项跨越。选择交换使[2甲,2乙,1]变[1,2乙,2甲]，因此此写法不稳定。Python sorted返回新列表，list.sort修改原列表，两者都稳定。函数开头复制可保留调用者数据。冒泡无交换标志可提前结束，选择的smallest存下标而非数值。三者最坏工作量O(n²)。"
+              "en": "Stability preserves the original order of equal keys. Strict > in bubble and insertion avoids moving equal items past one another. Selection swaps [2A, 2B, 1] to [1, 2B, 2A], so this implementation is unstable. Python sorted returns a new list; list.sort changes the original; both are stable. Copying at a function’s start preserves the caller’s list. Bubble’s no-swap flag permits an early stop; selection’s smallest variable stores an index, not a value. All three have \\(O(n^2)\\) worst-case work.",
+              "zh": "稳定性保留同键记录的原先顺序。冒泡和插入使用严格>避免相等项跨越。选择交换使[2甲,2乙,1]变[1,2乙,2甲]，因此此写法不稳定。Python sorted返回新列表，list.sort修改原列表，两者都稳定。函数开头复制可保留调用者数据。冒泡无交换标志可提前结束，选择的smallest存下标而非数值。三者最坏工作量\\(O(n^2)\\)。"
             }
           ],
           "lab": "sorting",
@@ -2677,8 +2695,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Stability preserves the original order of equal keys. Strict > in bubble and insertion avoids moving equal items past one another. Selection swaps [2A, 2B, 1] to [1, 2B, 2A], so this implementation is unstable. Python sorted returns a new list; list.sort changes the original; both are stable. Copying at a function’s start preserves the caller’s list. Bubble’s no-swap flag permits an early stop; selection’s smallest variable stores an index, not a value. All three have O(n²) worst-case work.",
-                "zh": "稳定性保留同键记录的原先顺序。冒泡和插入使用严格>避免相等项跨越。选择交换使[2甲,2乙,1]变[1,2乙,2甲]，因此此写法不稳定。Python sorted返回新列表，list.sort修改原列表，两者都稳定。函数开头复制可保留调用者数据。冒泡无交换标志可提前结束，选择的smallest存下标而非数值。三者最坏工作量O(n²)。"
+                "en": "Stability preserves the original order of equal keys. Strict > in bubble and insertion avoids moving equal items past one another. Selection swaps [2A, 2B, 1] to [1, 2B, 2A], so this implementation is unstable. Python sorted returns a new list; list.sort changes the original; both are stable. Copying at a function’s start preserves the caller’s list. Bubble’s no-swap flag permits an early stop; selection’s smallest variable stores an index, not a value. All three have \\(O(n^2)\\) worst-case work.",
+                "zh": "稳定性保留同键记录的原先顺序。冒泡和插入使用严格>避免相等项跨越。选择交换使[2甲,2乙,1]变[1,2乙,2甲]，因此此写法不稳定。Python sorted返回新列表，list.sort修改原列表，两者都稳定。函数开头复制可保留调用者数据。冒泡无交换标志可提前结束，选择的smallest存下标而非数值。三者最坏工作量\\(O(n^2)\\)。"
               }
             }
           ]
@@ -2694,8 +2712,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Choose pivot 3 in [4, 1, 3, 2]: smaller=[1, 2], equal=[3], larger=[4]. Recursively sort the smaller and larger groups, then concatenate. The equal group must stop recurring to ensure progress with duplicates. This list-building version uses extra space and differs from in-place partitioning. Balanced partitions usually give O(n log n); very unbalanced partitions can give O(n²). A middle-position pivot is not guaranteed to have the middle value.",
-              "zh": "[4,1,3,2]选基准3，分小组[1,2]、相等组[3]、大组[4]，递归排小组和大组再拼接。相等组不再递归，确保重复值时规模缩小。新列表写法占额外空间，不同于原地分区。均衡通常O(n log n)，严重失衡可O(n²)，中间位置的基准不保证数值居中。"
+              "en": "Choose pivot 3 in [4, 1, 3, 2]: smaller=[1, 2], equal=[3], larger=[4]. Recursively sort the smaller and larger groups, then concatenate. The equal group must stop recurring to ensure progress with duplicates. This list-building version uses extra space and differs from in-place partitioning. Balanced partitions usually give O(n log n); very unbalanced partitions can give \\(O(n^2)\\). A middle-position pivot is not guaranteed to have the middle value.",
+              "zh": "[4,1,3,2]选基准3，分小组[1,2]、相等组[3]、大组[4]，递归排小组和大组再拼接。相等组不再递归，确保重复值时规模缩小。新列表写法占额外空间，不同于原地分区。均衡通常O(n log n)，严重失衡可\\(O(n^2)\\)，中间位置的基准不保证数值居中。"
             }
           ],
           "expanded": true,
@@ -2710,8 +2728,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Choose pivot 3 in [4, 1, 3, 2]: smaller=[1, 2], equal=[3], larger=[4]. Recursively sort the smaller and larger groups, then concatenate. The equal group must stop recurring to ensure progress with duplicates. This list-building version uses extra space and differs from in-place partitioning. Balanced partitions usually give O(n log n); very unbalanced partitions can give O(n²). A middle-position pivot is not guaranteed to have the middle value.",
-                "zh": "[4,1,3,2]选基准3，分小组[1,2]、相等组[3]、大组[4]，递归排小组和大组再拼接。相等组不再递归，确保重复值时规模缩小。新列表写法占额外空间，不同于原地分区。均衡通常O(n log n)，严重失衡可O(n²)，中间位置的基准不保证数值居中。"
+                "en": "Choose pivot 3 in [4, 1, 3, 2]: smaller=[1, 2], equal=[3], larger=[4]. Recursively sort the smaller and larger groups, then concatenate. The equal group must stop recurring to ensure progress with duplicates. This list-building version uses extra space and differs from in-place partitioning. Balanced partitions usually give O(n log n); very unbalanced partitions can give \\(O(n^2)\\). A middle-position pivot is not guaranteed to have the middle value.",
+                "zh": "[4,1,3,2]选基准3，分小组[1,2]、相等组[3]、大组[4]，递归排小组和大组再拼接。相等组不再递归，确保重复值时规模缩小。新列表写法占额外空间，不同于原地分区。均衡通常O(n log n)，严重失衡可\\(O(n^2)\\)，中间位置的基准不保证数值居中。"
               }
             }
           ]
@@ -3003,8 +3021,8 @@
               "zh": "反馈测量输出并用于决定下一动作。温控器比较温度与目标是闭环，固定时间加热且不测量是开环。负反馈抵消变化，正反馈加强变化，如话筒扬声器啸叫。正负指方向，不是好坏。过强或延迟的负反馈也可振荡，点击更新推荐可能放大偏好。"
             },
             {
-              "en": "For Tₜ₊₁=Tₜ+a(20−Tₜ), T₀=10 and a=.5 give 15, 17.5, 18.75, 19.375, 19.6875. Recompute the current difference, not the initial 10. a=1.5 gives 25, 17.5 and shrinking oscillations; a=2.2 gives 32, 5.6 and growing oscillations. This immediate-update model omits real heat loss and delays. The direction of adjustment alone does not establish stability.",
-              "zh": "Tₜ₊₁=Tₜ+a(20−Tₜ)，初温10、a=.5依次得15、17.5、18.75、19.375、19.6875。每步重算当前差，不是始终用最初10。a=1.5得25、17.5，振幅衰减；a=2.2得32、5.6，振幅增大。即时更新模型省略真实热损失与延迟，调整方向相同不保证稳定。"
+              "en": "For \\(T_{t+1}=T_{t}+a(20-T_{t})\\), \\(T_{0}=10\\) and \\(a=.5\\) give 15, 17.5, 18.75, 19.375, 19.6875. Recompute the current difference, not the initial 10. \\(a=1.5\\) gives 25, 17.5 and shrinking oscillations; \\(a=2.2\\) gives 32, 5.6 and growing oscillations. This immediate-update model omits real heat loss and delays. The direction of adjustment alone does not establish stability.",
+              "zh": "\\(T_{t+1}=T_{t}+a(20-T_{t})\\)，初温10、\\(a=.5\\)依次得15、17.5、18.75、19.375、19.6875。每步重算当前差，不是始终用最初10。\\(a=1.5\\)得25、17.5，振幅衰减；\\(a=2.2\\)得32、5.6，振幅增大。即时更新模型省略真实热损失与延迟，调整方向相同不保证稳定。"
             }
           ],
           "expanded": true,
@@ -3019,8 +3037,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For Tₜ₊₁=Tₜ+a(20−Tₜ), T₀=10 and a=.5 give 15, 17.5, 18.75, 19.375, 19.6875. Recompute the current difference, not the initial 10. a=1.5 gives 25, 17.5 and shrinking oscillations; a=2.2 gives 32, 5.6 and growing oscillations. This immediate-update model omits real heat loss and delays. The direction of adjustment alone does not establish stability.",
-                "zh": "Tₜ₊₁=Tₜ+a(20−Tₜ)，初温10、a=.5依次得15、17.5、18.75、19.375、19.6875。每步重算当前差，不是始终用最初10。a=1.5得25、17.5，振幅衰减；a=2.2得32、5.6，振幅增大。即时更新模型省略真实热损失与延迟，调整方向相同不保证稳定。"
+                "en": "For \\(T_{t+1}=T_{t}+a(20-T_{t})\\), \\(T_{0}=10\\) and \\(a=.5\\) give 15, 17.5, 18.75, 19.375, 19.6875. Recompute the current difference, not the initial 10. \\(a=1.5\\) gives 25, 17.5 and shrinking oscillations; \\(a=2.2\\) gives 32, 5.6 and growing oscillations. This immediate-update model omits real heat loss and delays. The direction of adjustment alone does not establish stability.",
+                "zh": "\\(T_{t+1}=T_{t}+a(20-T_{t})\\)，初温10、\\(a=.5\\)依次得15、17.5、18.75、19.375、19.6875。每步重算当前差，不是始终用最初10。\\(a=1.5\\)得25、17.5，振幅衰减；\\(a=2.2\\)得32、5.6，振幅增大。即时更新模型省略真实热损失与延迟，调整方向相同不保证稳定。"
               }
             }
           ]
@@ -3261,11 +3279,17 @@
               "zh": "智能体观察状态，在环境中行动，收到奖励并学习策略。奖励可正、零、负或延迟。探索获得信息，利用使用已有经验，目标通常是长期回报而非最大眼前奖励。应用名称不能决定范式，推荐既可用点击标签监督学习，也可用连续交互强化学习。"
             },
             {
-              "en": "Route A rewards [2, 1] sum to 3; route B [0, 0, 5] sums to 5. Discounted G=r₁+γr₂+γ²r₃ gives 2.9 versus 4.05 for γ=.9, but 2.5 versus 1.25 for γ=.5. Future importance changes the objective. Random outcomes need repeated experience. Rewarding movement rather than arrival can teach looping; check whether high reward really means task success.",
-              "zh": "路线甲奖励[2,1]合计3，乙[0,0,5]合计5。折扣G=r₁+γr₂+γ²r₃，γ=.9时为2.9与4.05，γ=.5时为2.5与1.25。未来的重要性改变目标。随机结果需多次经历。奖励移动而非到达可能教会绕圈，需检查高奖励是否真代表完成任务。"
+              "en": "Route A rewards [2, 1] sum to 3; route B [0, 0, 5] sums to 5. Discounted \\(G=r_{1}+\\gamma r_{2}+\\gamma ^{2}r_{3}\\) gives 2.9 versus 4.05 for \\(\\gamma =.9\\), but 2.5 versus 1.25 for \\(\\gamma =.5\\). Future importance changes the objective. Random outcomes need repeated experience. Rewarding movement rather than arrival can teach looping; check whether high reward really means task success.",
+              "zh": "路线甲奖励[2,1]合计3，乙[0,0,5]合计5。折扣\\(G=r_{1}+\\gamma r_{2}+\\gamma ^{2}r_{3}\\)，\\(\\gamma =.9\\)时为2.9与4.05，\\(\\gamma =.5\\)时为2.5与1.25。未来的重要性改变目标。随机结果需多次经历。奖励移动而非到达可能教会绕圈，需检查高奖励是否真代表完成任务。"
             }
           ],
-          "formula": "G = Σ γⁱ⁻¹rᵢ",
+          "formula": {
+            "tex": "G=\\sum_i\\gamma^{i-1}r_i",
+            "fallback": {
+              "en": "G = Σ γⁱ⁻¹rᵢ",
+              "zh": "G = 各步 γ^(i−1) × r_i 之和"
+            }
+          },
           "checks": [
             {
               "id": "concept-5.1-reinforcement-recall",
@@ -3274,8 +3298,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Route A rewards [2, 1] sum to 3; route B [0, 0, 5] sums to 5. Discounted G=r₁+γr₂+γ²r₃ gives 2.9 versus 4.05 for γ=.9, but 2.5 versus 1.25 for γ=.5. Future importance changes the objective. Random outcomes need repeated experience. Rewarding movement rather than arrival can teach looping; check whether high reward really means task success.",
-                "zh": "路线甲奖励[2,1]合计3，乙[0,0,5]合计5。折扣G=r₁+γr₂+γ²r₃，γ=.9时为2.9与4.05，γ=.5时为2.5与1.25。未来的重要性改变目标。随机结果需多次经历。奖励移动而非到达可能教会绕圈，需检查高奖励是否真代表完成任务。"
+                "en": "Route A rewards [2, 1] sum to 3; route B [0, 0, 5] sums to 5. Discounted \\(G=r_{1}+\\gamma r_{2}+\\gamma ^{2}r_{3}\\) gives 2.9 versus 4.05 for \\(\\gamma =.9\\), but 2.5 versus 1.25 for \\(\\gamma =.5\\). Future importance changes the objective. Random outcomes need repeated experience. Rewarding movement rather than arrival can teach looping; check whether high reward really means task success.",
+                "zh": "路线甲奖励[2,1]合计3，乙[0,0,5]合计5。折扣\\(G=r_{1}+\\gamma r_{2}+\\gamma ^{2}r_{3}\\)，\\(\\gamma =.9\\)时为2.9与4.05，\\(\\gamma =.5\\)时为2.5与1.25。未来的重要性改变目标。随机结果需多次经历。奖励移动而非到达可能教会绕圈，需检查高奖励是否真代表完成任务。"
               }
             }
           ]
@@ -3337,7 +3361,7 @@
           ],
           "paragraphs": [
             {
-              "en": "Training learns parameters; validation chooses settings; testing evaluates the final choice independently. 600/200/200 from 1000 independent comparable records is an example, not a required ratio. Repeatedly tuning on test scores converts the test set into development data. Test features may be read for prediction, but must not influence fitting or selection.",
+              "en": "Training learns parameters; validation chooses settings; testing evaluates the final choice independently. 600/\\(\\frac{200}{200}\\) from 1000 independent comparable records is an example, not a required ratio. Repeatedly tuning on test scores converts the test set into development data. Test features may be read for prediction, but must not influence fitting or selection.",
               "zh": "训练学习参数，验证选择设置，测试独立评价最终选择。1000条独立同类记录分600/200/200只是示例，不是固定比例。反复根据测试成绩调参，会把测试变成开发材料。测试特征可供预测，但不可影响拟合或选择。"
             },
             {
@@ -3373,8 +3397,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Training targets [2, 4, 6] give constant-mean baseline 4. On validation truths [3, 4, 8], its MAE=5/3, MSE=17/3. Model A predictions [3, 5, 7] give 2/3 for both; B [4, 4, 6] gives MAE=1, MSE=5/3. Compare the same records, then inspect individual errors and representativeness. A 70%-majority classifier can get about 70% accuracy while finding none of the minority class.",
-              "zh": "训练目标[2,4,6]给常均值基线4。验证真实值[3,4,8]时MAE=5/3、MSE=17/3。甲预测[3,5,7]两者均2/3；乙[4,4,6]为MAE=1、MSE=5/3。同记录比较后仍需检查逐条错误与代表性。多数类70%的分类基线可约70%准确，却找不到任何少数类。"
+              "en": "Training targets [2, 4, 6] give constant-mean baseline 4. On validation truths [3, 4, 8], its \\(\\mathrm{MAE}=\\frac{5}{3}\\), \\(\\mathrm{MSE}=\\frac{17}{3}\\). Model A predictions [3, 5, 7] give \\(\\frac{2}{3}\\) for both; B [4, 4, 6] gives \\(\\mathrm{MAE}=1\\), \\(\\mathrm{MSE}=\\frac{5}{3}\\). Compare the same records, then inspect individual errors and representativeness. A 70%-majority classifier can get about 70% accuracy while finding none of the minority class.",
+              "zh": "训练目标[2,4,6]给常均值基线4。验证真实值[3,4,8]时\\(\\mathrm{MAE}=\\frac{5}{3}\\)、\\(\\mathrm{MSE}=\\frac{17}{3}\\)。甲预测[3,5,7]两者均2/3；乙[4,4,6]为\\(\\mathrm{MAE}=1\\)、\\(\\mathrm{MSE}=\\frac{5}{3}\\)。同记录比较后仍需检查逐条错误与代表性。多数类70%的分类基线可约70%准确，却找不到任何少数类。"
             },
             {
               "en": "Parameters such as fitted slope are learned; hyperparameters such as K, depth and learning rate determine structure or training. Automated search does not turn a hyperparameter into a parameter. Deploy preprocessing, units and feature order with the model, plus input checks and a policy for untested conditions. Changed cameras, lighting or users can cause distribution shift or drift, requiring monitoring and possibly retraining.",
@@ -3412,7 +3436,7 @@
           ],
           "paragraphs": [
             {
-              "en": "Unify 3.2 cm and 32 mm, verify duplicates and inspect suspicious 280°C rather than automatically deleting rare values. Missing is not zero. Remeasure, remove or impute according to the task. Train-known values [2, 4, 6] have mean 4; filling [2, 4, missing, 6] with 4 preserves mean but reduces population variance from 8/3 to 2. It does not recover a measurement, and missing-small-leaf patterns may bias the fill. A missingness flag can retain information.",
+              "en": "Unify 3.2 cm and 32 mm, verify duplicates and inspect suspicious 280°C rather than automatically deleting rare values. Missing is not zero. Remeasure, remove or impute according to the task. Train-known values [2, 4, 6] have mean 4; filling [2, 4, missing, 6] with 4 preserves mean but reduces population variance from \\(\\frac{8}{3}\\) to 2. It does not recover a measurement, and missing-small-leaf patterns may bias the fill. A missingness flag can retain information.",
               "zh": "统一3.2 cm与32 mm，核对重复，检查280°C的单位或录入，不自动删少见值。缺失不等于零。按任务补测、删除或填充。训练已知[2,4,6]均值4，填[2,4,缺失,6]得[2,4,4,6]，均值不变，总体方差却从8/3降2；未恢复测量，小叶片易缺失时还可能偏差，可加缺失标记。"
             },
             {
@@ -3478,8 +3502,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Min–max scaling x′=(x−min)/(max−min) sends training [10, 20, 30] to [0,.5, 1]; validation25→.75, test40→1.5 using the same training ruler. New values need not stay within [0, 1]; constant columns require special handling. “Normalization” can alternatively mean unit vector length, so inspect the formula. Standardization z=(x−μ)/σ sends x=14,μ=10,σ=2 to2; it changes location and scale, not distribution shape into a normal distribution.",
-              "zh": "最小最大缩放x′=(x−min)/(max−min)，训练[10,20,30]变[0,.5,1]；验证25→.75、测试40→1.5，沿用训练尺。新值不保证在[0,1]，常量列需特殊处理。“归一化”也可能指单位向量，须看公式。标准化z=(x−μ)/σ，x=14、μ=10、σ=2得2；改变位置尺度，不把分布变正态。"
+              "en": "Min–max scaling \\(x'=\\frac{x-\\min}{\\max-\\min}\\) sends training [10, 20, 30] to [0,.5, 1]; validation25→.75, test40→1.5 using the same training ruler. New values need not stay within [0, 1]; constant columns require special handling. “Normalization” can alternatively mean unit vector length, so inspect the formula. Standardization \\(z=\\frac{x-\\mu}{\\sigma}\\) sends \\(x=14\\),\\(\\mu =10\\),\\(\\sigma =2\\) to2; it changes location and scale, not distribution shape into a normal distribution.",
+              "zh": "最小最大缩放\\(x'=\\frac{x-\\min}{\\max-\\min}\\)，训练[10,20,30]变[0,.5,1]；验证25→.75、测试40→1.5，沿用训练尺。新值不保证在[0,1]，常量列需特殊处理。“归一化”也可能指单位向量，须看公式。标准化\\(z=\\frac{x-\\mu}{\\sigma}\\)，\\(x=14\\)、\\(\\mu =10\\)、\\(\\sigma =2\\)得2；改变位置尺度，不把分布变正态。"
             },
             {
               "en": "Query (5, 2), references A(6, 2), B(5, 4) give distances1, 2. Converting only length to millimeters changes them to10, 2 and reverses the closest neighbor. Squared length contribution grows from1 to100. Scale choices need a task-based reason; they do not establish physical importance. Learn imputation and scaling from each training portion, then apply unchanged elsewhere. A known unit conversion itself does not estimate statistics from evaluation data.",
@@ -3487,7 +3511,13 @@
             }
           ],
           "lab": "knn",
-          "formula": "x′=(x−xmin)/(xmax−xmin); z=(x−μ)/σ",
+          "formula": {
+            "tex": "\\begin{aligned}x'&=\\frac{x-x_{\\min}}{x_{\\max}-x_{\\min}}\\\\z&=\\frac{x-\\mu}{\\sigma}\\end{aligned}",
+            "fallback": {
+              "en": "x′=(x−xmin)/(xmax−xmin); z=(x−μ)/σ",
+              "zh": "x′=(x−最小值)/(最大值−最小值)；z=(x−均值)/标准差"
+            }
+          },
           "checks": [
             {
               "id": "concept-5.3-scaling-recall",
@@ -3552,8 +3582,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Use task-valid image rotation/cropping/brightness changes, modest speech noise/pitch changes or suitable text masking/synonyms. Rotated6 can become9; deleting “not” reverses sentiment; cropping away the target invalidates a positive label. For location prediction, shifting center(2, 3) right1 and down2 requires label(3, 5). Cropping the left column shifts x=3 to2. Classification labels may remain unchanged while coordinate labels must change.",
-              "zh": "使用符合任务的图像旋转裁切亮度、适量语音噪声音高变化或文本遮盖近义替换。6旋转可成9，删“不”反转情感，裁掉目标使正例无效。位置任务中(2,3)右移1下移2，标签需(3,5)；裁左列使x=3变2。类别标签可不变，坐标标签需变。"
+              "en": "Use task-valid image rotation/cropping/brightness changes, modest speech noise/pitch changes or suitable text masking/synonyms. Rotated6 can become9; deleting “not” reverses sentiment; cropping away the target invalidates a positive label. For location prediction, shifting center(2, 3) right1 and down2 requires label(3, 5). Cropping the left column shifts \\(x=3\\) to2. Classification labels may remain unchanged while coordinate labels must change.",
+              "zh": "使用符合任务的图像旋转裁切亮度、适量语音噪声音高变化或文本遮盖近义替换。6旋转可成9，删“不”反转情感，裁掉目标使正例无效。位置任务中(2,3)右移1下移2，标签需(3,5)；裁左列使\\(x=3\\)变2。类别标签可不变，坐标标签需变。"
             },
             {
               "en": "Split original objects first and augment only training material, keeping variants out of independent evaluation. One leaf turned into100 images is not100 different leaves. Data leakage includes unknown future information and evaluation-assisted fitting. A complete method preserves ID joins, object split, training-fitted imputation/scaling, fixed one-hot order and the predictor together.",
@@ -3597,12 +3627,18 @@
               "zh": "此处行是真实、列是预测，“需检查”为正类，不是道德好坏。TP18、FN2、FP8、TN72合计100，准确率90%、精确率18/26≈69.2%、召回18/20=90%。真假指预测是否正确，正负指预测类别。分母零需报告未定义和工具约定，多类对角线为正确数。"
             },
             {
-              "en": "With990 normal cases among1000, always-normal gets99% accuracy and zero detection of the10 positives. F1=2PR/(P+R) is a harmonic combination: P=1, R=.5 gives2/3, not .75. RMSE=√MSE restores target units. Compare models on the same records, targets and units. A missed-case limit cannot be offset by a high aggregate score; a score in[0, 1] is not automatically calibrated probability.",
-              "zh": "1000中990正常时，全报正常准确率99%，却漏全部10正类。F1=2PR/(P+R)为调和组合，P=1、R=.5得2/3而非.75。RMSE=√MSE恢复目标单位，模型需同记录、目标、单位比较。漏报上限不能用高总分抵消，分数在[0,1]也不自动为校准概率。"
+              "en": "With990 normal cases among1000, always-normal gets99% accuracy and zero detection of the10 positives. \\(F_1=\\frac{2PR}{P+R}\\) is a harmonic combination: \\(P=1\\), \\(R=.5\\) gives2/3, not .75. \\(\\mathrm{RMSE}=\\sqrt{\\mathrm{MSE}}\\) restores target units. Compare models on the same records, targets and units. A missed-case limit cannot be offset by a high aggregate score; a score in[0, 1] is not automatically calibrated probability.",
+              "zh": "1000中990正常时，全报正常准确率99%，却漏全部10正类。\\(F_1=\\frac{2PR}{P+R}\\)为调和组合，\\(P=1\\)、\\(R=.5\\)得2/3而非.75。\\(\\mathrm{RMSE}=\\sqrt{\\mathrm{MSE}}\\)恢复目标单位，模型需同记录、目标、单位比较。漏报上限不能用高总分抵消，分数在[0,1]也不自动为校准概率。"
             }
           ],
           "lab": "metrics",
-          "formula": "Accuracy=(TP+TN)/N; Precision=TP/(TP+FP); Recall=TP/(TP+FN); F1=2TP/(2TP+FP+FN)",
+          "formula": {
+            "tex": "\\begin{aligned}\\mathrm{Accuracy}&=\\frac{TP+TN}{N}\\\\\\mathrm{Precision}&=\\frac{TP}{TP+FP}\\\\\\mathrm{Recall}&=\\frac{TP}{TP+FN}\\\\F_1&=\\frac{2TP}{2TP+FP+FN}\\end{aligned}",
+            "fallback": {
+              "en": "Accuracy=(TP+TN)/N; Precision=TP/(TP+FP); Recall=TP/(TP+FN); F1=2TP/(2TP+FP+FN)",
+              "zh": "准确率=(TP+TN)/N；精确率=TP/(TP+FP)；召回率=TP/(TP+FN)；F1=2TP/(2TP+FP+FN)"
+            }
+          },
           "checks": [
             {
               "id": "concept-5.4-metrics-recall",
@@ -3611,8 +3647,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "With990 normal cases among1000, always-normal gets99% accuracy and zero detection of the10 positives. F1=2PR/(P+R) is a harmonic combination: P=1, R=.5 gives2/3, not .75. RMSE=√MSE restores target units. Compare models on the same records, targets and units. A missed-case limit cannot be offset by a high aggregate score; a score in[0, 1] is not automatically calibrated probability.",
-                "zh": "1000中990正常时，全报正常准确率99%，却漏全部10正类。F1=2PR/(P+R)为调和组合，P=1、R=.5得2/3而非.75。RMSE=√MSE恢复目标单位，模型需同记录、目标、单位比较。漏报上限不能用高总分抵消，分数在[0,1]也不自动为校准概率。"
+                "en": "With990 normal cases among1000, always-normal gets99% accuracy and zero detection of the10 positives. \\(F_1=\\frac{2PR}{P+R}\\) is a harmonic combination: \\(P=1\\), \\(R=.5\\) gives2/3, not .75. \\(\\mathrm{RMSE}=\\sqrt{\\mathrm{MSE}}\\) restores target units. Compare models on the same records, targets and units. A missed-case limit cannot be offset by a high aggregate score; a score in[0, 1] is not automatically calibrated probability.",
+                "zh": "1000中990正常时，全报正常准确率99%，却漏全部10正类。\\(F_1=\\frac{2PR}{P+R}\\)为调和组合，\\(P=1\\)、\\(R=.5\\)得2/3而非.75。\\(\\mathrm{RMSE}=\\sqrt{\\mathrm{MSE}}\\)恢复目标单位，模型需同记录、目标、单位比较。漏报上限不能用高总分抵消，分数在[0,1]也不自动为校准概率。"
               }
             }
           ]
@@ -3741,8 +3777,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Daytime882/900 and nighttime60/100 give overall94.2% but nighttime60%. Sample sizes matter: one error shifts5-sample accuracy20 percentage points but500-sample accuracy only .2. Check blur, incorrect labels, distribution shifts and intrinsically ambiguous features. If requirements are FN≤3 and night accuracy≥85%, model A(FN2, 80%) and B(FN4, 90%) both fail the joint requirement. A combination needs its own evaluation.",
-              "zh": "白天882/900、夜间60/100，总体94.2%而夜间60%。样本数重要，5张错一张变20百分点，500张只变.2。检查模糊、错标、分布变化与特征本身难区分。若要求FN≤3且夜准确≥85%，甲(FN2,80%)、乙(FN4,90%)都未同时达标，组合也需重新评价。"
+              "en": "Daytime882/900 and nighttime60/100 give overall94.2% but nighttime60%. Sample sizes matter: one error shifts5-sample accuracy20 percentage points but500-sample accuracy only .2. Check blur, incorrect labels, distribution shifts and intrinsically ambiguous features. If requirements are \\(FN\\le 3\\) and night accuracy≥85%, model A(FN2, 80%) and B(FN4, 90%) both fail the joint requirement. A combination needs its own evaluation.",
+              "zh": "白天882/900、夜间60/100，总体94.2%而夜间60%。样本数重要，5张错一张变20百分点，500张只变.2。检查模糊、错标、分布变化与特征本身难区分。若要求\\(FN\\le 3\\)且夜准确≥85%，甲(FN2,80%)、乙(FN4,90%)都未同时达标，组合也需重新评价。"
             },
             {
               "en": "Tree paths and linear contributions can explain calculations; complex-model explanations may be approximate. Model influence does not establish real-world causation. Error analysis determines whether to collect data, change features, improve annotation or revise the method.",
@@ -3867,12 +3903,12 @@
           ],
           "paragraphs": [
             {
-              "en": "ŷ=wx+b gives9 at x=4 for w=2, b=1. With two features, weights2, 3, bias 1 and input(4, 2) give15. Negative weights reduce the prediction when that feature increases, holding others fixed in this model; correlated features and data choices prevent a causal conclusion. Input units determine the weight’s meaning.",
-              "zh": "ŷ=wx+b，w=2、b=1、x=4时得9。两特征权重2、3、偏置1、输入(4,2)得15。负权重表示本模型中其他特征固定时该项增加使预测减少，相关特征和数据选择不支持因果推断。输入单位决定权重含义。"
+              "en": "\\(\\hat{y}=wx+b\\) gives9 at \\(x=4\\) for \\(w=2\\), \\(b=1\\). With two features, weights2, 3, bias 1 and input(4, 2) give15. Negative weights reduce the prediction when that feature increases, holding others fixed in this model; correlated features and data choices prevent a causal conclusion. Input units determine the weight’s meaning.",
+              "zh": "\\(\\hat{y}=wx+b\\)，\\(w=2\\)、\\(b=1\\)、\\(x=4\\)时得9。两特征权重2、3、偏置1、输入(4,2)得15。负权重表示本模型中其他特征固定时该项增加使预测减少，相关特征和数据选择不支持因果推断。输入单位决定权重含义。"
             },
             {
-              "en": "Least squares minimizes squared output errors at the same input, not shortest geometric distances to a line. MSE L=Σ(wxᵢ+b−yᵢ)²/n fixes the data and varies shared parameters. Dividing by fixed n does not change the minimizer. A constant predictor for targets2, 4, 6 minimizes3(b−4)²+8 at mean b=4, without passing through every target.",
-              "zh": "最小二乘最小化同输入处的输出平方差，不是点到线最短几何距离。MSE L=Σ(wxᵢ+b−yᵢ)²/n固定数据，改变共同参数，除固定n不改变最优参数。目标2,4,6的常数预测器最小化3(b−4)²+8，取均值b=4，不需经过每个目标。"
+              "en": "Least squares minimizes squared output errors at the same input, not shortest geometric distances to a line. MSE \\(L=\\frac{1}{n}\\sum_i(wx_i+b-y_i)^2\\) fixes the data and varies shared parameters. Dividing by fixed n does not change the minimizer. A constant predictor for targets2, 4, 6 minimizes\\(3(b-4)^{2}+8\\) at mean \\(b=4\\), without passing through every target.",
+              "zh": "最小二乘最小化同输入处的输出平方差，不是点到线最短几何距离。MSE \\(L=\\frac{1}{n}\\sum_i(wx_i+b-y_i)^2\\)固定数据，改变共同参数，除固定n不改变最优参数。目标2,4,6的常数预测器最小化\\(3(b-4)^{2}+8\\)，取均值\\(b=4\\)，不需经过每个目标。"
             }
           ],
           "lab": "regression",
@@ -3884,8 +3920,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Least squares minimizes squared output errors at the same input, not shortest geometric distances to a line. MSE L=Σ(wxᵢ+b−yᵢ)²/n fixes the data and varies shared parameters. Dividing by fixed n does not change the minimizer. A constant predictor for targets2, 4, 6 minimizes3(b−4)²+8 at mean b=4, without passing through every target.",
-                "zh": "最小二乘最小化同输入处的输出平方差，不是点到线最短几何距离。MSE L=Σ(wxᵢ+b−yᵢ)²/n固定数据，改变共同参数，除固定n不改变最优参数。目标2,4,6的常数预测器最小化3(b−4)²+8，取均值b=4，不需经过每个目标。"
+                "en": "Least squares minimizes squared output errors at the same input, not shortest geometric distances to a line. MSE \\(L=\\frac{1}{n}\\sum_i(wx_i+b-y_i)^2\\) fixes the data and varies shared parameters. Dividing by fixed n does not change the minimizer. A constant predictor for targets2, 4, 6 minimizes\\(3(b-4)^{2}+8\\) at mean \\(b=4\\), without passing through every target.",
+                "zh": "最小二乘最小化同输入处的输出平方差，不是点到线最短几何距离。MSE \\(L=\\frac{1}{n}\\sum_i(wx_i+b-y_i)^2\\)固定数据，改变共同参数，除固定n不改变最优参数。目标2,4,6的常数预测器最小化\\(3(b-4)^{2}+8\\)，取均值\\(b=4\\)，不需经过每个目标。"
               }
             }
           ]
@@ -3903,12 +3939,12 @@
           ],
           "paragraphs": [
             {
-              "en": "For one feature with an intercept and nonconstant x, w=Σ(xᵢ−x̄)(yᵢ−ȳ)/Σ(xᵢ−x̄)² and b=ȳ−wx̄. Inputs1, 2, 3 and targets2, 4, 6 give means2, 4, numerator4, denominator2, w=2, b=0. If all x are equal, the denominator is zero and slope is not uniquely determined.",
-              "zh": "单特征含截距且x不全同时，w=Σ(xᵢ−x̄)(yᵢ−ȳ)/Σ(xᵢ−x̄)²，b=ȳ−wx̄。输入1,2,3、目标2,4,6，均值2,4，分子4、分母2，w=2、b=0。x全相同时分母零，斜率不能唯一确定。"
+              "en": "For one feature with an intercept and nonconstant x, \\(w=\\frac{\\sum_i(x_i-\\bar{x})(y_i-\\bar{y})}{\\sum_i(x_i-\\bar{x})^2}\\) and \\(b=\\bar{y}-w\\bar{x}\\). Inputs1, 2, 3 and targets2, 4, 6 give means2, 4, numerator4, denominator2, \\(w=2\\), \\(b=0\\). If all x are equal, the denominator is zero and slope is not uniquely determined.",
+              "zh": "单特征含截距且x不全同时，\\(w=\\frac{\\sum_i(x_i-\\bar{x})(y_i-\\bar{y})}{\\sum_i(x_i-\\bar{x})^2}\\)，\\(b=\\bar{y}-w\\bar{x}\\)。输入1,2,3、目标2,4,6，均值2,4，分子4、分母2，\\(w=2\\)、\\(b=0\\)。x全相同时分母零，斜率不能唯一确定。"
             },
             {
-              "en": "For targets2, 3, 7, mean remains4, centered products are2, 0, 3, so w=5/2, b=−1. Predictions1.5, 4, 6.5 have errors−.5, 1,−.5 and MSE=.5. The alternative2x has MSE2/3 despite passing through the first point. Check on independent records afterward; a fitted relation is not automatically valid outside its observed range.",
-              "zh": "目标2,3,7均值仍4，中心化乘积2,0,3，w=5/2、b=−1。预测1.5,4,6.5，误差−.5,1,−.5，MSE=.5。备选2x虽经过首点，MSE却2/3。拟合后仍需独立记录评价，范围外关系不自动成立。"
+              "en": "For targets2, 3, 7, mean remains4, centered products are2, 0, 3, so w=\\(\\frac{5}{2}\\), \\(b=-1\\). Predictions1.5, 4, 6.5 have errors−.5, 1,−.5 and \\(\\mathrm{MSE}=.5\\). The alternative2x has MSE2/3 despite passing through the first point. Check on independent records afterward; a fitted relation is not automatically valid outside its observed range.",
+              "zh": "目标2,3,7均值仍4，中心化乘积2,0,3，w=\\(\\frac{5}{2}\\)、\\(b=-1\\)。预测1.5,4,6.5，误差−.5,1,−.5，\\(\\mathrm{MSE}=.5\\)。备选2x虽经过首点，MSE却2/3。拟合后仍需独立记录评价，范围外关系不自动成立。"
             }
           ],
           "expanded": true,
@@ -3923,8 +3959,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For targets2, 3, 7, mean remains4, centered products are2, 0, 3, so w=5/2, b=−1. Predictions1.5, 4, 6.5 have errors−.5, 1,−.5 and MSE=.5. The alternative2x has MSE2/3 despite passing through the first point. Check on independent records afterward; a fitted relation is not automatically valid outside its observed range.",
-                "zh": "目标2,3,7均值仍4，中心化乘积2,0,3，w=5/2、b=−1。预测1.5,4,6.5，误差−.5,1,−.5，MSE=.5。备选2x虽经过首点，MSE却2/3。拟合后仍需独立记录评价，范围外关系不自动成立。"
+                "en": "For targets2, 3, 7, mean remains4, centered products are2, 0, 3, so w=\\(\\frac{5}{2}\\), \\(b=-1\\). Predictions1.5, 4, 6.5 have errors−.5, 1,−.5 and \\(\\mathrm{MSE}=.5\\). The alternative2x has MSE2/3 despite passing through the first point. Check on independent records afterward; a fitted relation is not automatically valid outside its observed range.",
+                "zh": "目标2,3,7均值仍4，中心化乘积2,0,3，w=\\(\\frac{5}{2}\\)、\\(b=-1\\)。预测1.5,4,6.5，误差−.5,1,−.5，\\(\\mathrm{MSE}=.5\\)。备选2x虽经过首点，MSE却2/3。拟合后仍需独立记录评价，范围外关系不自动成立。"
               }
             }
           ]
@@ -3940,8 +3976,8 @@
           ],
           "paragraphs": [
             {
-              "en": "ŷ=a₂x²+a₁x+b is a weighted sum of transformed features(x, x²). x²+1 gives2, 5, 10 at1, 2, 3. Parameters are not multiplied or squared, so this is linear in parameters despite a curved input–output graph. Interaction x₁x₂ is degree2; x₁²x₂ is degree3. Adding terms increases expressiveness and parameter count. Higher degrees can lower minimum training error while following noise and extrapolating wildly; select using independent validation.",
-              "zh": "ŷ=a₂x²+a₁x+b是变换特征(x,x²)的加权和，x²+1在1,2,3得2,5,10。参数不相乘或平方，因此虽输入输出图弯曲，对参数仍线性。交互x₁x₂为二次、x₁²x₂为三次；加项增加能力和参数。提高次数可降低最小训练误差，却追随噪声并在外推时剧变，需独立验证选择。"
+              "en": "\\(\\hat{y}=a_{2}x^{2}+a_{1}x+b\\) is a weighted sum of transformed features(x, \\(x^{2}\\)). \\(x^{2}\\)+1 gives2, 5, 10 at1, 2, 3. Parameters are not multiplied or squared, so this is linear in parameters despite a curved input–output graph. Interaction \\(x_{1}x_{2}\\) is degree2; \\(x_{1}^{2}x_{2}\\) is degree3. Adding terms increases expressiveness and parameter count. Higher degrees can lower minimum training error while following noise and extrapolating wildly; select using independent validation.",
+              "zh": "\\(\\hat{y}=a_{2}x^{2}+a_{1}x+b\\)是变换特征(x,\\(x^{2}\\))的加权和，\\(x^{2}\\)+1在1,2,3得2,5,10。参数不相乘或平方，因此虽输入输出图弯曲，对参数仍线性。交互\\(x_{1}x_{2}\\)为二次、\\(x_{1}^{2}x_{2}\\)为三次；加项增加能力和参数。提高次数可降低最小训练误差，却追随噪声并在外推时剧变，需独立验证选择。"
             }
           ],
           "expanded": true,
@@ -3954,8 +3990,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "ŷ=a₂x²+a₁x+b is a weighted sum of transformed features(x, x²). x²+1 gives2, 5, 10 at1, 2, 3. Parameters are not multiplied or squared, so this is linear in parameters despite a curved input–output graph. Interaction x₁x₂ is degree2; x₁²x₂ is degree3. Adding terms increases expressiveness and parameter count. Higher degrees can lower minimum training error while following noise and extrapolating wildly; select using independent validation.",
-                "zh": "ŷ=a₂x²+a₁x+b是变换特征(x,x²)的加权和，x²+1在1,2,3得2,5,10。参数不相乘或平方，因此虽输入输出图弯曲，对参数仍线性。交互x₁x₂为二次、x₁²x₂为三次；加项增加能力和参数。提高次数可降低最小训练误差，却追随噪声并在外推时剧变，需独立验证选择。"
+                "en": "\\(\\hat{y}=a_{2}x^{2}+a_{1}x+b\\) is a weighted sum of transformed features(x, \\(x^{2}\\)). \\(x^{2}\\)+1 gives2, 5, 10 at1, 2, 3. Parameters are not multiplied or squared, so this is linear in parameters despite a curved input–output graph. Interaction \\(x_{1}x_{2}\\) is degree2; \\(x_{1}^{2}x_{2}\\) is degree3. Adding terms increases expressiveness and parameter count. Higher degrees can lower minimum training error while following noise and extrapolating wildly; select using independent validation.",
+                "zh": "\\(\\hat{y}=a_{2}x^{2}+a_{1}x+b\\)是变换特征(x,\\(x^{2}\\))的加权和，\\(x^{2}\\)+1在1,2,3得2,5,10。参数不相乘或平方，因此虽输入输出图弯曲，对参数仍线性。交互\\(x_{1}x_{2}\\)为二次、\\(x_{1}^{2}x_{2}\\)为三次；加项增加能力和参数。提高次数可降低最小训练误差，却追随噪声并在外推时剧变，需独立验证选择。"
               }
             }
           ]
@@ -3978,12 +4014,12 @@
           ],
           "paragraphs": [
             {
-              "en": "Decision score g=2x₁−x₂−1 labels A at g≥0, B otherwise; g=0 is the boundary, not a probability. A decision function predicts; a loss function evaluates mismatch during training.",
-              "zh": "分数g=2x₁−x₂−1在g≥0判甲，否则乙；g=0是边界，不是概率。决策函数给预测，损失函数在训练中评价偏差。"
+              "en": "Decision score \\(g=2x_{1}-x_{2}-1\\) labels A at \\(g\\ge 0\\), B otherwise; \\(g=0\\) is the boundary, not a probability. A decision function predicts; a loss function evaluates mismatch during training.",
+              "zh": "分数\\(g=2x_{1}-x_{2}-1\\)在\\(g\\ge 0\\)判甲，否则乙；\\(g=0\\)是边界，不是概率。决策函数给预测，损失函数在训练中评价偏差。"
             },
             {
-              "en": "KNN keeps training samples and chooses K nearest by distance. Classification votes; regression averages targets. For q=(2, 2) and A(1, 1), A(2, 1), B(4, 4), distances√2, 1,√8 give A for K1 or3. At q=(3, 3), nearby B(3.2, 3) and A(2, 3), A(3, 2) give B for K1 but A for K3. Sorting squared distances preserves order and avoids square roots. K is a hyperparameter between1 and sample count; define tied distances and votes. Small K is sensitive to unusual points, large K can drown local structure; validation, feature scales and meaningful features matter.",
-              "zh": "KNN保留训练样本，按距离选K个邻居；分类投票，回归平均目标。q=(2,2)与甲(1,1)、甲(2,1)、乙(4,4)距离√2、1、√8，K1或3都甲。q=(3,3)附近乙(3.2,3)、甲(2,3)、甲(3,2)，K1判乙、K3判甲。平方距离排序保持顺序，可省开方。K为1到样本数的超参数，需规定距离和票数并列规则。小K受异常点影响，大K可能淹没局部结构，需验证并考虑尺度与特征意义。"
+              "en": "KNN keeps training samples and chooses K nearest by distance. Classification votes; regression averages targets. For \\(q=(2, 2)\\) and A(1, 1), A(2, 1), B(4, 4), distances\\(\\sqrt{2}\\), 1,\\(\\sqrt{8}\\) give A for K1 or3. At \\(q=(3, 3)\\), nearby B(3.2, 3) and A(2, 3), A(3, 2) give B for K1 but A for K3. Sorting squared distances preserves order and avoids square roots. K is a hyperparameter between1 and sample count; define tied distances and votes. Small K is sensitive to unusual points, large K can drown local structure; validation, feature scales and meaningful features matter.",
+              "zh": "KNN保留训练样本，按距离选K个邻居；分类投票，回归平均目标。\\(q=(2, 2)\\)与甲(1,1)、甲(2,1)、乙(4,4)距离\\(\\sqrt{2}\\)、1、\\(\\sqrt{8}\\)，K1或3都甲。\\(q=(3, 3)\\)附近乙(3.2,3)、甲(2,3)、甲(3,2)，K1判乙、K3判甲。平方距离排序保持顺序，可省开方。K为1到样本数的超参数，需规定距离和票数并列规则。小K受异常点影响，大K可能淹没局部结构，需验证并考虑尺度与特征意义。"
             }
           ],
           "lab": "knn",
@@ -3995,8 +4031,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "KNN keeps training samples and chooses K nearest by distance. Classification votes; regression averages targets. For q=(2, 2) and A(1, 1), A(2, 1), B(4, 4), distances√2, 1,√8 give A for K1 or3. At q=(3, 3), nearby B(3.2, 3) and A(2, 3), A(3, 2) give B for K1 but A for K3. Sorting squared distances preserves order and avoids square roots. K is a hyperparameter between1 and sample count; define tied distances and votes. Small K is sensitive to unusual points, large K can drown local structure; validation, feature scales and meaningful features matter.",
-                "zh": "KNN保留训练样本，按距离选K个邻居；分类投票，回归平均目标。q=(2,2)与甲(1,1)、甲(2,1)、乙(4,4)距离√2、1、√8，K1或3都甲。q=(3,3)附近乙(3.2,3)、甲(2,3)、甲(3,2)，K1判乙、K3判甲。平方距离排序保持顺序，可省开方。K为1到样本数的超参数，需规定距离和票数并列规则。小K受异常点影响，大K可能淹没局部结构，需验证并考虑尺度与特征意义。"
+                "en": "KNN keeps training samples and chooses K nearest by distance. Classification votes; regression averages targets. For \\(q=(2, 2)\\) and A(1, 1), A(2, 1), B(4, 4), distances\\(\\sqrt{2}\\), 1,\\(\\sqrt{8}\\) give A for K1 or3. At \\(q=(3, 3)\\), nearby B(3.2, 3) and A(2, 3), A(3, 2) give B for K1 but A for K3. Sorting squared distances preserves order and avoids square roots. K is a hyperparameter between1 and sample count; define tied distances and votes. Small K is sensitive to unusual points, large K can drown local structure; validation, feature scales and meaningful features matter.",
+                "zh": "KNN保留训练样本，按距离选K个邻居；分类投票，回归平均目标。\\(q=(2, 2)\\)与甲(1,1)、甲(2,1)、乙(4,4)距离\\(\\sqrt{2}\\)、1、\\(\\sqrt{8}\\)，K1或3都甲。\\(q=(3, 3)\\)附近乙(3.2,3)、甲(2,3)、甲(3,2)，K1判乙、K3判甲。平方距离排序保持顺序，可省开方。K为1到样本数的超参数，需规定距离和票数并列规则。小K受异常点影响，大K可能淹没局部结构，需验证并考虑尺度与特征意义。"
               }
             }
           ]
@@ -4014,12 +4050,12 @@
           ],
           "paragraphs": [
             {
-              "en": "A decision tree’s root and internal nodes test conditions; leaves output classes or proportions. Gini impurity=1−Σpⱼ² is .5 for equal binary classes, 0 for a pure node. Entropy is another measure of mixture. Compare child impurities weighted by sample counts.",
-              "zh": "树的根和内部节点检验条件，叶子输出类别或比例。基尼不纯度1−Σpⱼ²，两类各半为.5，纯节点为0；熵也是混杂指标，子节点需按样本数加权。"
+              "en": "A decision tree’s root and internal nodes test conditions; leaves output classes or proportions. Gini \\(\\mathrm{impurity}=1-\\sum_j p_j^2\\) is .5 for equal binary classes, 0 for a pure node. Entropy is another measure of mixture. Compare child impurities weighted by sample counts.",
+              "zh": "树的根和内部节点检验条件，叶子输出类别或比例。基尼不纯度\\(1-\\sum_j p_j^2\\)，两类各半为.5，纯节点为0；熵也是混杂指标，子节点需按样本数加权。"
             },
             {
-              "en": "Lengths1…6 with labels A, A, B, B, B, A start at Gini .5. Threshold2.5 gives left2 pure A and right3B+1A, weighted impurity(2/6)×0+(4/6)×3/8=1/4. Threshold3.5 gives two mixed triples with4/9: worse than1/4. Further threshold 5.5 makes leaves A below2.5, B through5.5, A above5.5; 4.2 predicts B. Training compares candidates; prediction follows only one path. Deeper trees can memorize errors; depth and minimum leaf size limit complexity. A2B1 leaf may predict A with training proportion2/3, unstable with so few samples.",
-              "zh": "长度1到6、标签甲甲乙乙乙甲，初基尼.5。阈值2.5使左两甲纯、右三乙一甲，加权(2/6)×0+(4/6)×3/8=1/4；阈值3.5两边混合三项为4/9，差于1/4。再用5.5，形成≤2.5甲、至5.5乙、>5.5甲，4.2判乙。训练比较候选，预测只走一条路径。深树可记住错误，深度和叶最少样本控制复杂度。两甲一乙叶可输出甲和训练比例2/3，小样本不稳定。"
+              "en": "Lengths1…6 with labels A, A, B, B, B, A start at Gini .5. Threshold2.5 gives left2 pure A and right3B+1A, weighted impurity\\(\\frac26\\times0+\\frac46\\times\\frac38=\\frac14\\). Threshold3.5 gives two mixed triples with4/9: worse than1/4. Further threshold 5.5 makes leaves A below2.5, B through5.5, A above5.5; 4.2 predicts B. Training compares candidates; prediction follows only one path. Deeper trees can memorize errors; depth and minimum leaf size limit complexity. A2B1 leaf may predict A with training proportion2/3, unstable with so few samples.",
+              "zh": "长度1到6、标签甲甲乙乙乙甲，初基尼.5。阈值2.5使左两甲纯、右三乙一甲，加权\\(\\frac26\\times0+\\frac46\\times\\frac38=\\frac14\\)；阈值3.5两边混合三项为4/9，差于1/4。再用5.5，形成≤2.5甲、至5.5乙、>5.5甲，4.2判乙。训练比较候选，预测只走一条路径。深树可记住错误，深度和叶最少样本控制复杂度。两甲一乙叶可输出甲和训练比例2/3，小样本不稳定。"
             }
           ],
           "expanded": true,
@@ -4031,8 +4067,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Lengths1…6 with labels A, A, B, B, B, A start at Gini .5. Threshold2.5 gives left2 pure A and right3B+1A, weighted impurity(2/6)×0+(4/6)×3/8=1/4. Threshold3.5 gives two mixed triples with4/9: worse than1/4. Further threshold 5.5 makes leaves A below2.5, B through5.5, A above5.5; 4.2 predicts B. Training compares candidates; prediction follows only one path. Deeper trees can memorize errors; depth and minimum leaf size limit complexity. A2B1 leaf may predict A with training proportion2/3, unstable with so few samples.",
-                "zh": "长度1到6、标签甲甲乙乙乙甲，初基尼.5。阈值2.5使左两甲纯、右三乙一甲，加权(2/6)×0+(4/6)×3/8=1/4；阈值3.5两边混合三项为4/9，差于1/4。再用5.5，形成≤2.5甲、至5.5乙、>5.5甲，4.2判乙。训练比较候选，预测只走一条路径。深树可记住错误，深度和叶最少样本控制复杂度。两甲一乙叶可输出甲和训练比例2/3，小样本不稳定。"
+                "en": "Lengths1…6 with labels A, A, B, B, B, A start at Gini .5. Threshold2.5 gives left2 pure A and right3B+1A, weighted impurity\\(\\frac26\\times0+\\frac46\\times\\frac38=\\frac14\\). Threshold3.5 gives two mixed triples with4/9: worse than1/4. Further threshold 5.5 makes leaves A below2.5, B through5.5, A above5.5; 4.2 predicts B. Training compares candidates; prediction follows only one path. Deeper trees can memorize errors; depth and minimum leaf size limit complexity. A2B1 leaf may predict A with training proportion2/3, unstable with so few samples.",
+                "zh": "长度1到6、标签甲甲乙乙乙甲，初基尼.5。阈值2.5使左两甲纯、右三乙一甲，加权\\(\\frac26\\times0+\\frac46\\times\\frac38=\\frac14\\)；阈值3.5两边混合三项为4/9，差于1/4。再用5.5，形成≤2.5甲、至5.5乙、>5.5甲，4.2判乙。训练比较候选，预测只走一条路径。深树可记住错误，深度和叶最少样本控制复杂度。两甲一乙叶可输出甲和训练比例2/3，小样本不稳定。"
               }
             }
           ]
@@ -4050,8 +4086,8 @@
           ],
           "paragraphs": [
             {
-              "en": "A basic linear SVM seeks a separating line, plane or hyperplane with a large minimum margin. Nearby critical points are support vectors. A at(1, 1),(1, 3) and B at(3, 1),(3, 3): boundary x₁=1.5 leaves minimum distance .5, while x₁=2 leaves1 on each side. Extra A(0, 2), B(4, 2) are farther and do not tighten this symmetric margin.",
-              "zh": "基本线性SVM寻找最小间隔较大的分界线、平面或超平面，附近关键点是支持向量。甲(1,1),(1,3)、乙(3,1),(3,3)，边界x₁=1.5最小距.5，x₁=2两侧各1。追加甲(0,2)、乙(4,2)更远，不进一步收紧该对称间隔。"
+              "en": "A basic linear SVM seeks a separating line, plane or hyperplane with a large minimum margin. Nearby critical points are support vectors. A at(1, 1),(1, 3) and B at(3, 1),(3, 3): boundary \\(x_{1}=1.5\\) leaves minimum distance .5, while \\(x_{1}=2\\) leaves1 on each side. Extra A(0, 2), B(4, 2) are farther and do not tighten this symmetric margin.",
+              "zh": "基本线性SVM寻找最小间隔较大的分界线、平面或超平面，附近关键点是支持向量。甲(1,1),(1,3)、乙(3,1),(3,3)，边界\\(x_{1}=1.5\\)最小距.5，\\(x_{1}=2\\)两侧各1。追加甲(0,2)、乙(4,2)更远，不进一步收紧该对称间隔。"
             },
             {
               "en": "Overlapping data may need a soft margin permitting penalized violations. Larger C emphasizes avoiding violations; smaller C tolerates more, under otherwise equal settings. Neither is always better. A kernel represents richer similarities and curved original-space boundaries; it is not a label rule or convolution kernel. Choose models by data, representation, explanation needs and validation, not novelty.",
@@ -4095,12 +4131,18 @@
               "zh": "K-means的K指数簇，不是KNN邻居。分给最近中心，再按分量求均值。点[1,2,8,9]、中心1,8得到组[1,2],[8,9]和中心1.5,8.5。中心不必是原始样本。"
             },
             {
-              "en": "For [1, 2, 3, 8, 9] with centers1, 4, first groups[1, 2],[3, 8, 9] give1.5, 20/3. Point3 now switches to the first cluster; updated centers2, 8.5 yield stable groups[1, 2, 3],[8, 9] and squared-distance objective2.5. Updating once is not generally enough. Stops may use unchanged groups, small center movement or iteration limits. Specify tie and empty-cluster rules; the book example selects the lower center index on ties and retains an empty center. Each assignment/update reduces or preserves the same objective, but does not guarantee global optimum.",
-              "zh": "[1,2,3,8,9]中心1,4，初组[1,2],[3,8,9]更新1.5,20/3，点3随之换入首簇，再更新2,8.5，稳定组[1,2,3],[8,9]平方距离目标2.5。一次更新通常不够。停止可用组不变、移动小或次数上限，需规定并列和空簇；书中并列选较小编号，空簇保留旧中心。两步骤降低或保持同一目标，但不保证全局最优。"
+              "en": "For [1, 2, 3, 8, 9] with centers1, 4, first groups[1, 2],[3, 8, 9] give1.5, \\(\\frac{20}{3}\\). Point3 now switches to the first cluster; updated centers2, 8.5 yield stable groups[1, 2, 3],[8, 9] and squared-distance objective2.5. Updating once is not generally enough. Stops may use unchanged groups, small center movement or iteration limits. Specify tie and empty-cluster rules; the book example selects the lower center index on ties and retains an empty center. Each assignment/update reduces or preserves the same objective, but does not guarantee global optimum.",
+              "zh": "[1,2,3,8,9]中心1,4，初组[1,2],[3,8,9]更新1.5,\\(\\frac{20}{3}\\)，点3随之换入首簇，再更新2,8.5，稳定组[1,2,3],[8,9]平方距离目标2.5。一次更新通常不够。停止可用组不变、移动小或次数上限，需规定并列和空簇；书中并列选较小编号，空簇保留旧中心。两步骤降低或保持同一目标，但不保证全局最优。"
             }
           ],
           "lab": "kmeans",
-          "formula": "J=Σ ‖xᵢ−μcᵢ‖²",
+          "formula": {
+            "tex": "J=\\sum_i\\lVert x_i-\\mu_{c_i}\\rVert^2",
+            "fallback": {
+              "en": "J=Σ ‖xᵢ−μcᵢ‖²",
+              "zh": "J = 各样本到所属簇中心距离的平方和"
+            }
+          },
           "checks": [
             {
               "id": "concept-6.3-iteration-recall",
@@ -4109,8 +4151,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For [1, 2, 3, 8, 9] with centers1, 4, first groups[1, 2],[3, 8, 9] give1.5, 20/3. Point3 now switches to the first cluster; updated centers2, 8.5 yield stable groups[1, 2, 3],[8, 9] and squared-distance objective2.5. Updating once is not generally enough. Stops may use unchanged groups, small center movement or iteration limits. Specify tie and empty-cluster rules; the book example selects the lower center index on ties and retains an empty center. Each assignment/update reduces or preserves the same objective, but does not guarantee global optimum.",
-                "zh": "[1,2,3,8,9]中心1,4，初组[1,2],[3,8,9]更新1.5,20/3，点3随之换入首簇，再更新2,8.5，稳定组[1,2,3],[8,9]平方距离目标2.5。一次更新通常不够。停止可用组不变、移动小或次数上限，需规定并列和空簇；书中并列选较小编号，空簇保留旧中心。两步骤降低或保持同一目标，但不保证全局最优。"
+                "en": "For [1, 2, 3, 8, 9] with centers1, 4, first groups[1, 2],[3, 8, 9] give1.5, \\(\\frac{20}{3}\\). Point3 now switches to the first cluster; updated centers2, 8.5 yield stable groups[1, 2, 3],[8, 9] and squared-distance objective2.5. Updating once is not generally enough. Stops may use unchanged groups, small center movement or iteration limits. Specify tie and empty-cluster rules; the book example selects the lower center index on ties and retains an empty center. Each assignment/update reduces or preserves the same objective, but does not guarantee global optimum.",
+                "zh": "[1,2,3,8,9]中心1,4，初组[1,2],[3,8,9]更新1.5,\\(\\frac{20}{3}\\)，点3随之换入首簇，再更新2,8.5，稳定组[1,2,3],[8,9]平方距离目标2.5。一次更新通常不够。停止可用组不变、移动小或次数上限，需规定并列和空簇；书中并列选较小编号，空簇保留旧中心。两步骤降低或保持同一目标，但不保证全局最优。"
               }
             }
           ]
@@ -4165,8 +4207,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Statistical inference estimates an unknown population or process using samples and assumptions. With independent flips and fixed unknown head probability p, sequence H, H, H, T has likelihood L(p)=p³(1−p). At p=.25,.5,.75,.9 it gives .0117,.0625,.1055,.0729 approximately. It is maximized at observed proportion3/4; at0 or1 it is zero because the sequence contains both outcomes.",
-              "zh": "统计推断依靠样本与假设估计未知总体或过程。独立投掷、正面率p不变，正正正反序列似然L(p)=p³(1−p)，p=.25,.5,.75,.9时约.0117,.0625,.1055,.0729，最大在观测比例3/4；0或1都为零，因为两种结果都有。"
+              "en": "Statistical inference estimates an unknown population or process using samples and assumptions. With independent flips and fixed unknown head probability p, sequence H, H, H, T has likelihood \\(L(p)=p^{3}(1-p)\\). At \\(p=.25\\),.5,.75,.9 it gives .0117,.0625,.1055,.0729 approximately. It is maximized at observed proportion3/4; at0 or1 it is zero because the sequence contains both outcomes.",
+              "zh": "统计推断依靠样本与假设估计未知总体或过程。独立投掷、正面率p不变，正正正反序列似然\\(L(p)=p^{3}(1-p)\\)，\\(p=.25\\),.5,.75,.9时约.0117,.0625,.1055,.0729，最大在观测比例3/4；0或1都为零，因为两种结果都有。"
             },
             {
               "en": "Likelihood is a function of parameters for fixed data, not a probability distribution over parameters. Counting three heads without order adds factor4, unchanged in p, so the maximizer stays the same. Four heads give estimate1 but do not prove tails impossible. Logarithms turn positive products into sums and preserve the maximizer. Least squares matches a maximum-likelihood solution under independent, equal-variance, zero-mean normal errors; this is conditional on that error model. A grid search only proves the best tested candidate.",
@@ -4202,12 +4244,12 @@
           ],
           "paragraphs": [
             {
-              "en": "Bayes: P(A|B)=P(B|A)P(A)/P(B), with P(B)>0. Prior P(A) precedes evidence; posterior follows it; the denominator normalizes. With20% cats, sensitivity90%, false-positive rate10%, a cat report has probability .9×.2+.1×.8=.26 and actual-cat posterior .18/.26≈69.2%. Reliable inference needs probabilities valid for the new population.",
-              "zh": "贝叶斯P(A|B)=P(B|A)P(A)/P(B)，要求P(B)>0。先验在证据前，后验在证据后，分母归一化。猫20%、识别90%、误报10%，报猫概率.9×.2+.1×.8=.26，真猫后验.18/.26≈69.2%。可靠推断需概率适用于新总体。"
+              "en": "Bayes: \\(P(A\\mid B)=\\frac{P(B\\mid A)P(A)}{P(B)}\\), with P(B)>0. Prior P(A) precedes evidence; posterior follows it; the denominator normalizes. With20% cats, sensitivity90%, false-positive rate10%, a cat report has probability \\(.9\\times .2+.1\\times .8=.26\\) and actual-cat posterior .18/.26≈69.2%. Reliable inference needs probabilities valid for the new population.",
+              "zh": "贝叶斯\\(P(A\\mid B)=\\frac{P(B\\mid A)P(A)}{P(B)}\\)，要求P(B)>0。先验在证据前，后验在证据后，分母归一化。猫20%、识别90%、误报10%，报猫概率\\(.9\\times .2+.1\\times .8=.26\\)，真猫后验.18/.26≈69.2%。可靠推断需概率适用于新总体。"
             },
             {
-              "en": "Two equally likely coins have head rates .5 and .75. Observe heads: posterior biased-coin probability=.375/.625=.6. Another head updates to .45/.65=9/13. A tail then updates to[(9/13)×.25]/[(4/13)×.5+(9/13)×.25]=9/17≈52.9%. Batch and sequential updates agree under independence conditional on the chosen coin. New evidence can weaken an earlier belief. These answers depend on the two-candidate model and priors; add a possible third coin if relevant.",
-              "zh": "等可能的两硬币正面率.5和.75。观测正面后偏币后验.375/.625=.6；再正面变.45/.65=9/13；再反面变[(9/13)×.25]/[(4/13)×.5+(9/13)×.25]=9/17≈52.9%。在给定币种条件独立时，连续与批量更新一致，新证据可削弱旧判断。答案依赖双候选和先验，有第三种可能需纳入。"
+              "en": "Two equally likely coins have head rates .5 and .75. Observe heads: posterior biased-coin probability=\\(\\frac{.375}{.625}=.6\\). Another head updates to \\(\\frac{.45}{.65}=\\frac9{13}\\). A tail then updates to\\(\\frac{(9/13)\\times.25}{(4/13)\\times.5+(9/13)\\times.25}=\\frac9{17}\\approx52.9\\%\\). Batch and sequential updates agree under independence conditional on the chosen coin. New evidence can weaken an earlier belief. These answers depend on the two-candidate model and priors; add a possible third coin if relevant.",
+              "zh": "等可能的两硬币正面率.5和.75。观测正面后偏币后验\\(\\frac{.375}{.625}=.6\\)；再正面变\\(\\frac{.45}{.65}=\\frac9{13}\\)；再反面变\\(\\frac{(9/13)\\times.25}{(4/13)\\times.5+(9/13)\\times.25}=\\frac9{17}\\approx52.9\\%\\)。在给定币种条件独立时，连续与批量更新一致，新证据可削弱旧判断。答案依赖双候选和先验，有第三种可能需纳入。"
             }
           ],
           "expanded": true,
@@ -4219,8 +4261,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Two equally likely coins have head rates .5 and .75. Observe heads: posterior biased-coin probability=.375/.625=.6. Another head updates to .45/.65=9/13. A tail then updates to[(9/13)×.25]/[(4/13)×.5+(9/13)×.25]=9/17≈52.9%. Batch and sequential updates agree under independence conditional on the chosen coin. New evidence can weaken an earlier belief. These answers depend on the two-candidate model and priors; add a possible third coin if relevant.",
-                "zh": "等可能的两硬币正面率.5和.75。观测正面后偏币后验.375/.625=.6；再正面变.45/.65=9/13；再反面变[(9/13)×.25]/[(4/13)×.5+(9/13)×.25]=9/17≈52.9%。在给定币种条件独立时，连续与批量更新一致，新证据可削弱旧判断。答案依赖双候选和先验，有第三种可能需纳入。"
+                "en": "Two equally likely coins have head rates .5 and .75. Observe heads: posterior biased-coin probability=\\(\\frac{.375}{.625}=.6\\). Another head updates to \\(\\frac{.45}{.65}=\\frac9{13}\\). A tail then updates to\\(\\frac{(9/13)\\times.25}{(4/13)\\times.5+(9/13)\\times.25}=\\frac9{17}\\approx52.9\\%\\). Batch and sequential updates agree under independence conditional on the chosen coin. New evidence can weaken an earlier belief. These answers depend on the two-candidate model and priors; add a possible third coin if relevant.",
+                "zh": "等可能的两硬币正面率.5和.75。观测正面后偏币后验\\(\\frac{.375}{.625}=.6\\)；再正面变\\(\\frac{.45}{.65}=\\frac9{13}\\)；再反面变\\(\\frac{(9/13)\\times.25}{(4/13)\\times.5+(9/13)\\times.25}=\\frac9{17}\\approx52.9\\%\\)。在给定币种条件独立时，连续与批量更新一致，新证据可削弱旧判断。答案依赖双候选和先验，有第三种可能需纳入。"
               }
             }
           ]
@@ -4242,12 +4284,12 @@
           ],
           "paragraphs": [
             {
-              "en": "An artificial neuron is a mathematical model, not a copied biological cell. z=Σwᵢxᵢ+b, h=f(z): add the bias once. Weights(2,−1), bias−1 give z=2 for(2, 1), z=−2 for(0, 1); threshold z≥0 gives1 and0. Parameters differ from measured inputs.",
-              "zh": "人工神经元是数学模型，不是复制生物细胞。z=Σwᵢxᵢ+b，h=f(z)，偏置只加一次。权重(2,−1)、偏置−1，(2,1)得z=2，(0,1)得−2，阈值z≥0输出1与0。参数不同于测量输入。"
+              "en": "An artificial neuron is a mathematical model, not a copied biological cell. \\(z=\\sum_i w_i x_i+b\\), \\(h=f(z)\\): add the bias once. Weights(2,−1), bias−1 give \\(z=2\\) for(2, 1), \\(z=-2\\) for(0, 1); threshold \\(z\\ge 0\\) gives1 and0. Parameters differ from measured inputs.",
+              "zh": "人工神经元是数学模型，不是复制生物细胞。\\(z=\\sum_i w_i x_i+b\\)，\\(h=f(z)\\)，偏置只加一次。权重(2,−1)、偏置−1，(2,1)得\\(z=2\\)，(0,1)得−2，阈值\\(z\\ge 0\\)输出1与0。参数不同于测量输入。"
             },
             {
-              "en": "Sigmoid1/(1+e⁻ᶻ) maps to(0, 1): z=−2, 0, 2 gives approximately .119,.5,.881. ReLU max(0, z) gives0, 0, 2 and is unbounded above. Sigmoid2→3 changes .881→.953, while ReLU changes2→3. Outputs are not always binary; choice depends on role and task. A probability-like number still needs calibration checks.",
-              "zh": "Sigmoid1/(1+e⁻ᶻ)映到(0,1)，z=−2,0,2约得.119,.5,.881；ReLU max(0,z)得0,0,2，无上界。Sigmoid从2到3输出.881→.953，ReLU为2→3。输出不总二值，取决于角色和任务，类似概率仍需校准检查。"
+              "en": "Sigmoid\\(\\frac{1}{1+e^{-z}}\\) maps to(0, 1): \\(z=-2\\), 0, 2 gives approximately .119,.5,.881. ReLU max(0, z) gives0, 0, 2 and is unbounded above. Sigmoid2→3 changes .881→.953, while ReLU changes2→3. Outputs are not always binary; choice depends on role and task. A probability-like number still needs calibration checks.",
+              "zh": "Sigmoid\\(\\frac{1}{1+e^{-z}}\\)映到(0,1)，\\(z=-2\\),0,2约得.119,.5,.881；ReLU max(0,z)得0,0,2，无上界。Sigmoid从2到3输出.881→.953，ReLU为2→3。输出不总二值，取决于角色和任务，类似概率仍需校准检查。"
             }
           ],
           "lab": "neuron",
@@ -4259,8 +4301,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Sigmoid1/(1+e⁻ᶻ) maps to(0, 1): z=−2, 0, 2 gives approximately .119,.5,.881. ReLU max(0, z) gives0, 0, 2 and is unbounded above. Sigmoid2→3 changes .881→.953, while ReLU changes2→3. Outputs are not always binary; choice depends on role and task. A probability-like number still needs calibration checks.",
-                "zh": "Sigmoid1/(1+e⁻ᶻ)映到(0,1)，z=−2,0,2约得.119,.5,.881；ReLU max(0,z)得0,0,2，无上界。Sigmoid从2到3输出.881→.953，ReLU为2→3。输出不总二值，取决于角色和任务，类似概率仍需校准检查。"
+                "en": "Sigmoid\\(\\frac{1}{1+e^{-z}}\\) maps to(0, 1): \\(z=-2\\), 0, 2 gives approximately .119,.5,.881. ReLU max(0, z) gives0, 0, 2 and is unbounded above. Sigmoid2→3 changes .881→.953, while ReLU changes2→3. Outputs are not always binary; choice depends on role and task. A probability-like number still needs calibration checks.",
+                "zh": "Sigmoid\\(\\frac{1}{1+e^{-z}}\\)映到(0,1)，\\(z=-2\\),0,2约得.119,.5,.881；ReLU max(0,z)得0,0,2，无上界。Sigmoid从2到3输出.881→.953，ReLU为2→3。输出不总二值，取决于角色和任务，类似概率仍需校准检查。"
               }
             }
           ]
@@ -4279,16 +4321,16 @@
           ],
           "paragraphs": [
             {
-              "en": "An MLP is a feedforward network with hidden layers, commonly fully connected. Input features flow into hidden representations and final outputs. The book network h₁=ReLU(x₁+x₂−1), h₂=ReLU(x₁−x₂), s=h₁−2h₂, threshold .5 gives(2, 1)→(2, 1)→s0→class0; (1, 2)→(2, 0)→s2→class1. Equal input sums can still have different hidden differences.",
-              "zh": "MLP是有隐藏层的前馈网络，常用全连接，输入依次变隐藏表示和输出。书中h₁=ReLU(x₁+x₂−1)、h₂=ReLU(x₁−x₂)、s=h₁−2h₂、阈值.5，(2,1)→(2,1)→s0→类0；(1,2)→(2,0)→s2→类1。输入和相同，隐藏差异仍可不同。"
+              "en": "An MLP is a feedforward network with hidden layers, commonly fully connected. Input features flow into hidden representations and final outputs. The book network \\(h_{1}=ReLU(x_{1}+x_{2}-1)\\), \\(h_{2}=ReLU(x_{1}-x_{2})\\), \\(s=h_{1}-2h_{2}\\), threshold .5 gives(2, 1)→(2, 1)→s0→class0; (1, 2)→(2, 0)→s2→class1. Equal input sums can still have different hidden differences.",
+              "zh": "MLP是有隐藏层的前馈网络，常用全连接，输入依次变隐藏表示和输出。书中\\(h_{1}=ReLU(x_{1}+x_{2}-1)\\)、\\(h_{2}=ReLU(x_{1}-x_{2})\\)、\\(s=h_{1}-2h_{2}\\)、阈值.5，(2,1)→(2,1)→s0→类0；(1,2)→(2,0)→s2→类1。输入和相同，隐藏差异仍可不同。"
             },
             {
-              "en": "XOR has outputs0, 1, 1, 0 at(0, 0),(1, 0),(0, 1),(1, 1), not separable by one line. Use h₁=ReLU(x₁−x₂), h₂=ReLU(x₂−x₁), then threshold their sum at .5. Pure affine layers collapse: h=2x+1, y=3h−4 gives6x−1; depth alone cannot create nonlinearity. Width, depth and activations jointly control expression. Deep learning is within machine learning within AI, with no universal simple depth cutoff.",
-              "zh": "异或在(0,0),(1,0),(0,1),(1,1)输出0,1,1,0，一条直线不可分。令h₁=ReLU(x₁−x₂)、h₂=ReLU(x₂−x₁)，和以.5为阈值。纯仿射层可合并，h=2x+1、y=3h−4仍为6x−1，深度本身不产生非线性。宽、深、激活共同控制表达。深度学习属机器学习，机器学习属AI，没有通用简单深度界限。"
+              "en": "XOR has outputs0, 1, 1, 0 at(0, 0),(1, 0),(0, 1),(1, 1), not separable by one line. Use \\(h_{1}=ReLU(x_{1}-x_{2})\\), \\(h_{2}=ReLU(x_{2}-x_{1})\\), then threshold their sum at .5. Pure affine layers collapse: \\(h=2x+1\\), \\(y=3h-4\\) gives6x−1; depth alone cannot create nonlinearity. Width, depth and activations jointly control expression. Deep learning is within machine learning within AI, with no universal simple depth cutoff.",
+              "zh": "异或在(0,0),(1,0),(0,1),(1,1)输出0,1,1,0，一条直线不可分。令\\(h_{1}=ReLU(x_{1}-x_{2})\\)、\\(h_{2}=ReLU(x_{2}-x_{1})\\)，和以.5为阈值。纯仿射层可合并，\\(h=2x+1\\)、\\(y=3h-4\\)仍为6x−1，深度本身不产生非线性。宽、深、激活共同控制表达。深度学习属机器学习，机器学习属AI，没有通用简单深度界限。"
             },
             {
-              "en": "Forward propagation computes predictions; backpropagation computes loss gradients; an optimizer updates parameters. Regression can use unrestricted output, binary classification a sigmoid, mutually exclusive multiclass a Softmax eᶻʲ/Σeᶻᵏ summing to1. Separate sigmoids do not enforce that sum. Initialization learns weights/biases; architecture and learning rate are hyperparameters.",
-              "zh": "前向得到预测，反向计算损失梯度，优化器更新参数。回归可无范围限制，二类可Sigmoid，多互斥类可Softmax eᶻʲ/Σeᶻᵏ且和1；分别Sigmoid不保证和1。权重偏置初始化后学习，架构与学习率是超参数。"
+              "en": "Forward propagation computes predictions; backpropagation computes loss gradients; an optimizer updates parameters. Regression can use unrestricted output, binary classification a sigmoid, mutually exclusive multiclass a Softmax \\(\\frac{e^{z_j}}{\\sum_k e^{z_k}}\\) summing to1. Separate sigmoids do not enforce that sum. Initialization learns weights/biases; architecture and learning rate are hyperparameters.",
+              "zh": "前向得到预测，反向计算损失梯度，优化器更新参数。回归可无范围限制，二类可Sigmoid，多互斥类可Softmax \\(\\frac{e^{z_j}}{\\sum_k e^{z_k}}\\)且和1；分别Sigmoid不保证和1。权重偏置初始化后学习，架构与学习率是超参数。"
             }
           ],
           "expanded": true,
@@ -4303,8 +4345,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "Forward propagation computes predictions; backpropagation computes loss gradients; an optimizer updates parameters. Regression can use unrestricted output, binary classification a sigmoid, mutually exclusive multiclass a Softmax eᶻʲ/Σeᶻᵏ summing to1. Separate sigmoids do not enforce that sum. Initialization learns weights/biases; architecture and learning rate are hyperparameters.",
-                "zh": "前向得到预测，反向计算损失梯度，优化器更新参数。回归可无范围限制，二类可Sigmoid，多互斥类可Softmax eᶻʲ/Σeᶻᵏ且和1；分别Sigmoid不保证和1。权重偏置初始化后学习，架构与学习率是超参数。"
+                "en": "Forward propagation computes predictions; backpropagation computes loss gradients; an optimizer updates parameters. Regression can use unrestricted output, binary classification a sigmoid, mutually exclusive multiclass a Softmax \\(\\frac{e^{z_j}}{\\sum_k e^{z_k}}\\) summing to1. Separate sigmoids do not enforce that sum. Initialization learns weights/biases; architecture and learning rate are hyperparameters.",
+                "zh": "前向得到预测，反向计算损失梯度，优化器更新参数。回归可无范围限制，二类可Sigmoid，多互斥类可Softmax \\(\\frac{e^{z_j}}{\\sum_k e^{z_k}}\\)且和1；分别Sigmoid不保证和1。权重偏置初始化后学习，架构与学习率是超参数。"
               }
             }
           ],
@@ -4335,16 +4377,16 @@
           ],
           "paragraphs": [
             {
-              "en": "Average change of x² from1→2 is3, 2→3 is5. At2, [(2+h)²−4]/h=4+h for h≠0 approaches4 from either side as h→0. The derivative is tangent slope and local rate, not direct substitution of0 into the denominator. Positive/negative derivatives indicate local increase/decrease; zero alone could mark a maximum, minimum or neither. ReLU has no mathematical derivative at0.",
-              "zh": "x²从1到2平均变化率3，从2到3为5。在2处，h非零时[(2+h)²−4]/h=4+h，h从两侧趋零都趋4。导数为切线斜率和局部变化率，不是直接代零到分母。正负指局部升降，零可为极大、极小或其他；ReLU在0数学导数不存在。"
+              "en": "Average change of \\(x^{2}\\) from1→2 is3, 2→3 is5. At2, \\(\\frac{(2+h)^2-4}{h}=4+h\\) for \\(h\\ne 0\\) approaches4 from either side as h→0. The derivative is tangent slope and local rate, not direct substitution of0 into the denominator. Positive/negative derivatives indicate local increase/decrease; zero alone could mark a maximum, minimum or neither. ReLU has no mathematical derivative at0.",
+              "zh": "\\(x^{2}\\)从1到2平均变化率3，从2到3为5。在2处，h非零时\\(\\frac{(2+h)^2-4}{h}=4+h\\)，h从两侧趋零都趋4。导数为切线斜率和局部变化率，不是直接代零到分母。正负指局部升降，零可为极大、极小或其他；ReLU在0数学导数不存在。"
             },
             {
-              "en": "Constant′=0, x′=1, (xⁿ)′=nxⁿ⁻¹ for positive integer n. Differentiate sums termwise: (3x²−5x+6)′=6x−5; (2x³+x²−4x+7)′=6x²+2x−4. (eˣ)′=eˣ; chain rule gives(e³ˣ)′=3e³ˣ and((2x+1)²)′=4(2x+1). Likelihood derivative p²(3−4p) is positive below .75 and negative above, verifying its maximum.",
-              "zh": "常数导数0，x导数1，正整数幂导数nxⁿ⁻¹，和逐项求：(3x²−5x+6)′=6x−5，(2x³+x²−4x+7)′=6x²+2x−4。(eˣ)′=eˣ，链式给(e³ˣ)′=3e³ˣ、((2x+1)²)′=4(2x+1)。似然导数p²(3−4p)在.75前正后负，验证最大值。"
+              "en": "\\(Constant'=0\\), \\(x'=1\\), \\((x^{n})'=nx^{n-1}\\) for positive integer n. Differentiate sums termwise: \\((3x^{2}-5x+6)'=6x-5\\); \\((2x^{3}+x^{2}-4x+7)'=6x^{2}+2x-4\\). \\((e^{x})'=e^{x}\\); chain rule gives\\((e^{3x})'=3e^{3x}\\) and\\(((2x+1)^{2})'=4(2x+1)\\). Likelihood derivative \\(p^{2}(3-4p)\\) is positive below .75 and negative above, verifying its maximum.",
+              "zh": "常数导数0，x导数1，正整数幂导数nxⁿ⁻¹，和逐项求：\\((3x^{2}-5x+6)'=6x-5\\)，\\((2x^{3}+x^{2}-4x+7)'=6x^{2}+2x-4\\)。\\((e^{x})'=e^{x}\\)，链式给\\((e^{3x})'=3e^{3x}\\)、\\(((2x+1)^{2})'=4(2x+1)\\)。似然导数\\(p^{2}(3-4p)\\)在.75前正后负，验证最大值。"
             },
             {
-              "en": "At x=1 for(2x+1)², derivative12 predicts increment12h. With h=.01 the actual increment .1204 includes4h² beyond .12. Difference quotients for h=.1,.01,.001 are12.4, 12.04, 12.004. Finite differences check formulas but large steps approximate poorly, tiny steps suffer rounding and many parameters are costly. For gradient checks, fix other parameters and the same data.",
-              "zh": "(2x+1)²在x=1导数12，预测增量12h。h=.01实际.1204，比.12多4h²。h=.1,.01,.001差商12.4,12.04,12.004。有限差分可核对，但大步粗、极小步受舍入、多参数费计算。梯度检查需固定其他参数和同一批数据。"
+              "en": "At \\(x=1\\) for\\((2x+1)^{2}\\), derivative12 predicts increment12h. With \\(h=.01\\) the actual increment .1204 includes\\(4h^{2}\\) beyond .12. Difference quotients for \\(h=.1\\),.01,.001 are12.4, 12.04, 12.004. Finite differences check formulas but large steps approximate poorly, tiny steps suffer rounding and many parameters are costly. For gradient checks, fix other parameters and the same data.",
+              "zh": "\\((2x+1)^{2}\\)在\\(x=1\\)导数12，预测增量12h。\\(h=.01\\)实际.1204，比.12多\\(4h^{2}\\)。\\(h=.1\\),.01,.001差商12.4,12.04,12.004。有限差分可核对，但大步粗、极小步受舍入、多参数费计算。梯度检查需固定其他参数和同一批数据。"
             }
           ],
           "checks": [
@@ -4355,8 +4397,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "At x=1 for(2x+1)², derivative12 predicts increment12h. With h=.01 the actual increment .1204 includes4h² beyond .12. Difference quotients for h=.1,.01,.001 are12.4, 12.04, 12.004. Finite differences check formulas but large steps approximate poorly, tiny steps suffer rounding and many parameters are costly. For gradient checks, fix other parameters and the same data.",
-                "zh": "(2x+1)²在x=1导数12，预测增量12h。h=.01实际.1204，比.12多4h²。h=.1,.01,.001差商12.4,12.04,12.004。有限差分可核对，但大步粗、极小步受舍入、多参数费计算。梯度检查需固定其他参数和同一批数据。"
+                "en": "At \\(x=1\\) for\\((2x+1)^{2}\\), derivative12 predicts increment12h. With \\(h=.01\\) the actual increment .1204 includes\\(4h^{2}\\) beyond .12. Difference quotients for \\(h=.1\\),.01,.001 are12.4, 12.04, 12.004. Finite differences check formulas but large steps approximate poorly, tiny steps suffer rounding and many parameters are costly. For gradient checks, fix other parameters and the same data.",
+                "zh": "\\((2x+1)^{2}\\)在\\(x=1\\)导数12，预测增量12h。\\(h=.01\\)实际.1204，比.12多\\(4h^{2}\\)。\\(h=.1\\),.01,.001差商12.4,12.04,12.004。有限差分可核对，但大步粗、极小步受舍入、多参数费计算。梯度检查需固定其他参数和同一批数据。"
               }
             }
           ]
@@ -4375,16 +4417,16 @@
           ],
           "paragraphs": [
             {
-              "en": "For L(w)=(w−2)², gradient2(w−2); wnew=wold−ηgradient. Starting0 withη=.1 gives(w, loss)=(.4, 2.56),(.72, 1.6384),(.976, 1.048576). Recompute each time. Too-small steps are slow;η=1.1 gives4.4 then−.88 and divergence.",
-              "zh": "L(w)=(w−2)²，梯度2(w−2)，新w=旧w−η梯度。从0、η=.1，(w,损失)为(.4,2.56)、(.72,1.6384)、(.976,1.048576)，每次重算。太小慢，η=1.1得4.4再−.88而发散。"
+              "en": "For \\(L(w)=(w-2)^{2}\\), gradient2(w−2); \\(w_{\\mathrm{new}}=w_{\\mathrm{old}}-\\eta\\,\\mathrm{gradient}\\). Starting0 with\\(\\eta =.1\\) gives(w, loss)=(.4, 2.56),(.72, 1.6384),(.976, 1.048576). Recompute each time. Too-small steps are slow;\\(\\eta =1.1\\) gives4.4 then−.88 and divergence.",
+              "zh": "\\(L(w)=(w-2)^{2}\\)，梯度2(w−2)，新w=旧w−\\(\\eta \\)梯度。从0、\\(\\eta =.1\\)，(w,损失)为(.4,2.56)、(.72,1.6384)、(.976,1.048576)，每次重算。太小慢，\\(\\eta =1.1\\)得4.4再−.88而发散。"
             },
             {
-              "en": "Multiple partial derivatives form a gradient vector. L(w, b)=(w−2)²+b² has gradient(2(w−2), 2b); at(0, 1),η=.1 updates to(.4,.8). Smooth nonzero gradients are perpendicular to contours and point locally uphill; negatives locally downhill, not a guaranteed path to the global minimum. u²−v² has zero gradient at its saddle origin, rising along u and falling along v.",
-              "zh": "多个偏导组成梯度向量。L(w,b)=(w−2)²+b²梯度(2(w−2),2b)，在(0,1)、η=.1更新(.4,.8)。光滑且梯度非零处，梯度垂直等高线指局部最快上升，负梯度局部下降，不保证通向全局最低。u²−v²原点梯度零却为鞍点，沿u升、沿v降。"
+              "en": "Multiple partial derivatives form a gradient vector. \\(L(w,b)=(w-2)^{2}+b^{2}\\) has gradient(2(w−2), 2b); at(0, 1),\\(\\eta =.1\\) updates to(.4,.8). Smooth nonzero gradients are perpendicular to contours and point locally uphill; negatives locally downhill, not a guaranteed path to the global minimum. \\(u^{2}-v^{2}\\) has zero gradient at its saddle origin, rising along u and falling along v.",
+              "zh": "多个偏导组成梯度向量。\\(L(w,b)=(w-2)^{2}+b^{2}\\)梯度(2(w−2),2b)，在(0,1)、\\(\\eta =.1\\)更新(.4,.8)。光滑且梯度非零处，梯度垂直等高线指局部最快上升，负梯度局部下降，不保证通向全局最低。\\(u^{2}-v^{2}\\)原点梯度零却为鞍点，沿u升、沿v降。"
             },
             {
-              "en": "For linear-regression errors eᵢ=wxᵢ+b−yᵢ, gradients are(2/n)Σeᵢxᵢ and(2/n)Σeᵢ. Samples(1, 2),(2, 4), initial(0, 0) give loss 10, gradients(−10,−6);η=.1 updates to(1,.6), loss 1.06, then(1.32,.78), loss .1732. Accumulate both gradients using the same old parameters before updating; changing mid-accumulation is a different training rule.",
-              "zh": "线性回归误差eᵢ=wxᵢ+b−yᵢ，梯度(2/n)Σeᵢxᵢ、(2/n)Σeᵢ。样本(1,2),(2,4)、初(0,0)，损失10、梯度(−10,−6)，η=.1更新(1,.6)、损失1.06，再(1.32,.78)、损失.1732。须用同组旧参数完整累加再一起更新，中途更新是不同训练规则。"
+              "en": "For linear-regression errors \\(e_{i}=wx_{i}+b-y_{i}\\), gradients are\\(\\frac{2}{n}\\sum_i e_i x_i\\) and\\(\\frac{2}{n}\\sum_i e_i\\). Samples(1, 2),(2, 4), initial(0, 0) give loss 10, gradients(−10,−6);\\(\\eta =.1\\) updates to(1,.6), loss 1.06, then(1.32,.78), loss .1732. Accumulate both gradients using the same old parameters before updating; changing mid-accumulation is a different training rule.",
+              "zh": "线性回归误差\\(e_{i}=wx_{i}+b-y_{i}\\)，梯度\\(\\frac{2}{n}\\sum_i e_i x_i\\)、\\(\\frac{2}{n}\\sum_i e_i\\)。样本(1,2),(2,4)、初(0,0)，损失10、梯度(−10,−6)，\\(\\eta =.1\\)更新(1,.6)、损失1.06，再(1.32,.78)、损失.1732。须用同组旧参数完整累加再一起更新，中途更新是不同训练规则。"
             }
           ],
           "lab": "gradient",
@@ -4396,8 +4438,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For linear-regression errors eᵢ=wxᵢ+b−yᵢ, gradients are(2/n)Σeᵢxᵢ and(2/n)Σeᵢ. Samples(1, 2),(2, 4), initial(0, 0) give loss 10, gradients(−10,−6);η=.1 updates to(1,.6), loss 1.06, then(1.32,.78), loss .1732. Accumulate both gradients using the same old parameters before updating; changing mid-accumulation is a different training rule.",
-                "zh": "线性回归误差eᵢ=wxᵢ+b−yᵢ，梯度(2/n)Σeᵢxᵢ、(2/n)Σeᵢ。样本(1,2),(2,4)、初(0,0)，损失10、梯度(−10,−6)，η=.1更新(1,.6)、损失1.06，再(1.32,.78)、损失.1732。须用同组旧参数完整累加再一起更新，中途更新是不同训练规则。"
+                "en": "For linear-regression errors \\(e_{i}=wx_{i}+b-y_{i}\\), gradients are\\(\\frac{2}{n}\\sum_i e_i x_i\\) and\\(\\frac{2}{n}\\sum_i e_i\\). Samples(1, 2),(2, 4), initial(0, 0) give loss 10, gradients(−10,−6);\\(\\eta =.1\\) updates to(1,.6), loss 1.06, then(1.32,.78), loss .1732. Accumulate both gradients using the same old parameters before updating; changing mid-accumulation is a different training rule.",
+                "zh": "线性回归误差\\(e_{i}=wx_{i}+b-y_{i}\\)，梯度\\(\\frac{2}{n}\\sum_i e_i x_i\\)、\\(\\frac{2}{n}\\sum_i e_i\\)。样本(1,2),(2,4)、初(0,0)，损失10、梯度(−10,−6)，\\(\\eta =.1\\)更新(1,.6)、损失1.06，再(1.32,.78)、损失.1732。须用同组旧参数完整累加再一起更新，中途更新是不同训练规则。"
               }
             }
           ]
@@ -4414,12 +4456,12 @@
           ],
           "paragraphs": [
             {
-              "en": "With x=2, w=1, v=3, y=4, u=wx=2, h=ReLU(u)=2,ŷ=vh=6 and square loss 4. Backward: dL/dŷ=4; dL/dv=4h=8; dL/dh=4v=12; dL/dw=4×3×1×2=24. The1 is ReLU’s derivative at positive u. Simultaneousη=.01 updates w=.76, v=2.92; new prediction 4.4384 gives loss≈.1922.",
-              "zh": "x=2、w=1、v=3、y=4，u=wx=2、h=ReLU(u)=2、ŷ=vh=6、平方损失4。反向dL/dŷ=4，dL/dv=4h=8，dL/dh=4v=12，dL/dw=4×3×1×2=24，其中1是正u处ReLU导数。η=.01同步更新w=.76、v=2.92，预测4.4384，损失约.1922。"
+              "en": "With \\(x=2\\), \\(w=1\\), \\(v=3\\), \\(y=4\\), \\(u=wx=2\\), \\(h=ReLU(u)=2\\),\\(\\hat{y}=vh=6\\) and square loss 4. Backward: \\(\\frac{\\partial L}{\\partial\\hat y}=4\\); \\(\\frac{\\partial L}{\\partial v}=4h=8\\); \\(\\frac{\\partial L}{\\partial h}=4v=12\\); \\(\\frac{\\partial L}{\\partial w}=4\\times3\\times1\\times2=24\\). The1 is ReLU’s derivative at positive u. Simultaneous\\(\\eta =.01\\) updates \\(w=.76\\), \\(v=2.92\\); new prediction 4.4384 gives loss≈.1922.",
+              "zh": "\\(x=2\\)、\\(w=1\\)、\\(v=3\\)、\\(y=4\\)，\\(u=wx=2\\)、\\(h=ReLU(u)=2\\)、\\(\\hat{y}=vh=6\\)、平方损失4。反向\\(\\frac{\\partial L}{\\partial\\hat y}=4\\)，\\(\\frac{\\partial L}{\\partial v}=4h=8\\)，\\(\\frac{\\partial L}{\\partial h}=4v=12\\)，\\(\\frac{\\partial L}{\\partial w}=4\\times3\\times1\\times2=24\\)，其中1是正u处ReLU导数。\\(\\eta =.01\\)同步更新\\(w=.76\\)、\\(v=2.92\\)，预测4.4384，损失约.1922。"
             },
             {
-              "en": "For u<0 ReLU’s local derivative is0 and this path’s gradient vanishes; at exactly0 software uses a convention. When a value feeds several output branches, add their gradient contributions. Backpropagation derives these rates, then the optimizer uses them; unequal gradient sizes follow chain-rule factors.",
-              "zh": "u<0时ReLU局部导数0，此路径梯度消失，恰0时软件采用约定。一个量通多输出分支，梯度贡献相加。反向推导变化率，优化器随后使用，不同大小来自链式因子。"
+              "en": "For \\(u<0\\) ReLU’s local derivative is0 and this path’s gradient vanishes; at exactly0 software uses a convention. When a value feeds several output branches, add their gradient contributions. Backpropagation derives these rates, then the optimizer uses them; unequal gradient sizes follow chain-rule factors.",
+              "zh": "\\(u<0\\)时ReLU局部导数0，此路径梯度消失，恰0时软件采用约定。一个量通多输出分支，梯度贡献相加。反向推导变化率，优化器随后使用，不同大小来自链式因子。"
             }
           ],
           "expanded": true,
@@ -4435,8 +4477,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For u<0 ReLU’s local derivative is0 and this path’s gradient vanishes; at exactly0 software uses a convention. When a value feeds several output branches, add their gradient contributions. Backpropagation derives these rates, then the optimizer uses them; unequal gradient sizes follow chain-rule factors.",
-                "zh": "u<0时ReLU局部导数0，此路径梯度消失，恰0时软件采用约定。一个量通多输出分支，梯度贡献相加。反向推导变化率，优化器随后使用，不同大小来自链式因子。"
+                "en": "For \\(u<0\\) ReLU’s local derivative is0 and this path’s gradient vanishes; at exactly0 software uses a convention. When a value feeds several output branches, add their gradient contributions. Backpropagation derives these rates, then the optimizer uses them; unequal gradient sizes follow chain-rule factors.",
+                "zh": "\\(u<0\\)时ReLU局部导数0，此路径梯度消失，恰0时软件采用约定。一个量通多输出分支，梯度贡献相加。反向推导变化率，优化器随后使用，不同大小来自链式因子。"
               }
             }
           ]
@@ -4619,12 +4661,12 @@
           ],
           "paragraphs": [
             {
-              "en": "Regularization adds constraints or preferences, e.g. Ltotal=Ldata+λΣwⱼ² for nonnegative λ. Bias treatment and scaling are implementation-specific. Too much can underfit. Early stopping watches a predefined validation metric and patience, not one noisy batch; never use independent test data to choose stopping. Compare hyperparameters such as tree depths2, 4, 6 on consistent validation or cross-validation.",
-              "zh": "正则化增加约束偏好，如非负λ下L总=L数据+λΣwⱼ²，偏置是否惩罚及缩放取决实现。太强可欠拟合。早停看预定验证指标与耐心，不看一个波动批，不能用独立测试选停止。深度2,4,6等超参数需同验证或交叉验证比较。"
+              "en": "Regularization adds constraints or preferences, e.g. \\(L_{\\mathrm{total}}=L_{\\mathrm{data}}+\\lambda\\sum_j w_j^2\\) for nonnegative \\(\\lambda \\). Bias treatment and scaling are implementation-specific. Too much can underfit. Early stopping watches a predefined validation metric and patience, not one noisy batch; never use independent test data to choose stopping. Compare hyperparameters such as tree depths2, 4, 6 on consistent validation or cross-validation.",
+              "zh": "正则化增加约束偏好，如非负\\(\\lambda \\)下\\(L_{\\text{总}}=L_{\\text{数据}}+\\lambda\\sum_j w_j^2\\)，偏置是否惩罚及缩放取决实现。太强可欠拟合。早停看预定验证指标与耐心，不看一个波动批，不能用独立测试选停止。深度2,4,6等超参数需同验证或交叉验证比较。"
             },
             {
-              "en": "For samples(1, 2),(2, 4), no bias, Ldata=2.5(w−2)². λ=2.5 adds2.5w²: w0 gives total10, w1 gives2.5+2.5=5, w2 gives0+10=10. The new optimum1 worsens data error but lowers the total objective. In general w*=10/(5+2λ), shrinking toward0 as λ grows. These noiseless data actually favor2, so regularization is not guaranteed to improve prediction; choose strength by validation.",
-              "zh": "样本(1,2),(2,4)、无偏置，L数据=2.5(w−2)²。λ=2.5加2.5w²，w0总10，w1为2.5+2.5=5，w2为0+10=10。新最优1增数据误差却降总目标。一般w*=10/(5+2λ)，λ增则趋0。这组无噪数据实际支持2，正则不保证预测更准，强度须验证。"
+              "en": "For samples(1, 2),(2, 4), no bias, \\(Ldata=2.5(w-2)^{2}\\). \\(\\lambda =2.5\\) adds2.5\\(w^{2}\\): w0 gives total10, w1 gives\\(2.5+2.5=5\\), w2 gives\\(0+10=10\\). The new optimum1 worsens data error but lowers the total objective. In general \\(w^*=\\frac{10}{5+2\\lambda}\\), shrinking toward0 as \\(\\lambda \\) grows. These noiseless data actually favor2, so regularization is not guaranteed to improve prediction; choose strength by validation.",
+              "zh": "样本(1,2),(2,4)、无偏置，L数据=2.5(w−2)²。\\(\\lambda =2.5\\)加2.5\\(w^{2}\\)，w0总10，w1为\\(2.5+2.5=5\\)，w2为\\(0+10=10\\)。新最优1增数据误差却降总目标。一般\\(w^*=\\frac{10}{5+2\\lambda}\\)，\\(\\lambda \\)增则趋0。这组无噪数据实际支持2，正则不保证预测更准，强度须验证。"
             }
           ],
           "expanded": true,
@@ -4636,8 +4678,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For samples(1, 2),(2, 4), no bias, Ldata=2.5(w−2)². λ=2.5 adds2.5w²: w0 gives total10, w1 gives2.5+2.5=5, w2 gives0+10=10. The new optimum1 worsens data error but lowers the total objective. In general w*=10/(5+2λ), shrinking toward0 as λ grows. These noiseless data actually favor2, so regularization is not guaranteed to improve prediction; choose strength by validation.",
-                "zh": "样本(1,2),(2,4)、无偏置，L数据=2.5(w−2)²。λ=2.5加2.5w²，w0总10，w1为2.5+2.5=5，w2为0+10=10。新最优1增数据误差却降总目标。一般w*=10/(5+2λ)，λ增则趋0。这组无噪数据实际支持2，正则不保证预测更准，强度须验证。"
+                "en": "For samples(1, 2),(2, 4), no bias, \\(Ldata=2.5(w-2)^{2}\\). \\(\\lambda =2.5\\) adds2.5\\(w^{2}\\): w0 gives total10, w1 gives\\(2.5+2.5=5\\), w2 gives\\(0+10=10\\). The new optimum1 worsens data error but lowers the total objective. In general \\(w^*=\\frac{10}{5+2\\lambda}\\), shrinking toward0 as \\(\\lambda \\) grows. These noiseless data actually favor2, so regularization is not guaranteed to improve prediction; choose strength by validation.",
+                "zh": "样本(1,2),(2,4)、无偏置，L数据=2.5(w−2)²。\\(\\lambda =2.5\\)加2.5\\(w^{2}\\)，w0总10，w1为\\(2.5+2.5=5\\)，w2为\\(0+10=10\\)。新最优1增数据误差却降总目标。一般\\(w^*=\\frac{10}{5+2\\lambda}\\)，\\(\\lambda \\)增则趋0。这组无噪数据实际支持2，正则不保证预测更准，强度须验证。"
               }
             }
           ]
@@ -4660,12 +4702,12 @@
           ],
           "paragraphs": [
             {
-              "en": "A CNN respects local pixel structure using sliding kernels. For X=[[1, 2, 0],[0, 1, 3],[2, 1, 0]], K=[[1, 0],[0,−1]], bias 0, stride 1, no padding, windows give[[0,−1],[−1, 1]]. Multiply matching entries, sum, add bias. Reusing one kernel at each position is weight sharing; learned kernels can respond to edges or textures, without every map necessarily naming a body part.",
-              "zh": "CNN用滑动核利用局部像素结构。X=[[1,2,0],[0,1,3],[2,1,0]]、K=[[1,0],[0,−1]]、偏置0、步幅1、无填充，输出[[0,−1],[−1,1]]，对应相乘求和再加偏置。同核各位置复用是权重共享，学习核可响应边缘纹理，但不能机械给每图命名部件。"
+              "en": "A CNN respects local pixel structure using sliding kernels. For \\(X=\\begin{bmatrix}1 & 2 & 0\\\\0 & 1 & 3\\\\2 & 1 & 0\\end{bmatrix}\\), \\(K=\\begin{bmatrix}1 & 0\\\\0 & -1\\end{bmatrix}\\), bias 0, stride 1, no padding, windows give[[0,−1],[−1, 1]]. Multiply matching entries, sum, add bias. Reusing one kernel at each position is weight sharing; learned kernels can respond to edges or textures, without every map necessarily naming a body part.",
+              "zh": "CNN用滑动核利用局部像素结构。\\(X=\\begin{bmatrix}1 & 2 & 0\\\\0 & 1 & 3\\\\2 & 1 & 0\\end{bmatrix}\\)、\\(K=\\begin{bmatrix}1 & 0\\\\0 & -1\\end{bmatrix}\\)、偏置0、步幅1、无填充，输出[[0,−1],[−1,1]]，对应相乘求和再加偏置。同核各位置复用是权重共享，学习核可响应边缘纹理，但不能机械给每图命名部件。"
             },
             {
-              "en": "The book follows deep-learning cross-correlation (no kernel flip), often called convolution; strict mathematical convolution flips the kernel and can give different numbers. For ordinary contiguous kernels, output length=floor((n+2p−k)/s)+1 when at least one window fits. n3, k2, p0, s1 gives2; 5×5 with3×3, stride 1, padding 1 stays5×5. Stride moves the window; padding adds edge values. Several RGB channels are summed per kernel: 3×3×3 weights+bias=28; 4 kernels have112 parameters and4 output channels.",
-              "zh": "书中采用不翻核的深度学习互相关，常称卷积；严格数学卷积会翻核，数字可不同。普通连续核且能放至少一窗时，长度floor((n+2p−k)/s)+1。n3,k2,p0,s1得2；5×5配3×3、步1、填1仍5×5。步幅移动窗口，填充加边值。RGB跨通道相加，一个核3×3×3权重加偏置=28，四核112参数、四输出通道。"
+              "en": "The book follows deep-learning cross-correlation (no kernel flip), often called convolution; strict mathematical convolution flips the kernel and can give different numbers. For ordinary contiguous kernels, output \\(\\mathrm{length}=\\left\\lfloor\\frac{n+2p-k}{s}\\right\\rfloor+1\\) when at least one window fits. n3, k2, p0, s1 gives2; \\(5\\times 5\\) with\\(3\\times 3\\), stride 1, padding 1 stays\\(5\\times 5\\). Stride moves the window; padding adds edge values. Several RGB channels are summed per kernel: \\(3\\times 3\\times 3\\) weights+bias=28; 4 kernels have112 parameters and4 output channels.",
+              "zh": "书中采用不翻核的深度学习互相关，常称卷积；严格数学卷积会翻核，数字可不同。普通连续核且能放至少一窗时，长度floor((n+2p−k)/s)+1。n3,k2,p0,s1得2；\\(5\\times 5\\)配\\(3\\times 3\\)、步1、填1仍\\(5\\times 5\\)。步幅移动窗口，填充加边值。RGB跨通道相加，一个核\\(3\\times 3\\times 3\\)权重加偏置=28，四核112参数、四输出通道。"
             }
           ],
           "lab": "convolution",
@@ -4677,8 +4719,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "The book follows deep-learning cross-correlation (no kernel flip), often called convolution; strict mathematical convolution flips the kernel and can give different numbers. For ordinary contiguous kernels, output length=floor((n+2p−k)/s)+1 when at least one window fits. n3, k2, p0, s1 gives2; 5×5 with3×3, stride 1, padding 1 stays5×5. Stride moves the window; padding adds edge values. Several RGB channels are summed per kernel: 3×3×3 weights+bias=28; 4 kernels have112 parameters and4 output channels.",
-                "zh": "书中采用不翻核的深度学习互相关，常称卷积；严格数学卷积会翻核，数字可不同。普通连续核且能放至少一窗时，长度floor((n+2p−k)/s)+1。n3,k2,p0,s1得2；5×5配3×3、步1、填1仍5×5。步幅移动窗口，填充加边值。RGB跨通道相加，一个核3×3×3权重加偏置=28，四核112参数、四输出通道。"
+                "en": "The book follows deep-learning cross-correlation (no kernel flip), often called convolution; strict mathematical convolution flips the kernel and can give different numbers. For ordinary contiguous kernels, output \\(\\mathrm{length}=\\left\\lfloor\\frac{n+2p-k}{s}\\right\\rfloor+1\\) when at least one window fits. n3, k2, p0, s1 gives2; \\(5\\times 5\\) with\\(3\\times 3\\), stride 1, padding 1 stays\\(5\\times 5\\). Stride moves the window; padding adds edge values. Several RGB channels are summed per kernel: \\(3\\times 3\\times 3\\) weights+bias=28; 4 kernels have112 parameters and4 output channels.",
+                "zh": "书中采用不翻核的深度学习互相关，常称卷积；严格数学卷积会翻核，数字可不同。普通连续核且能放至少一窗时，长度floor((n+2p−k)/s)+1。n3,k2,p0,s1得2；\\(5\\times 5\\)配\\(3\\times 3\\)、步1、填1仍\\(5\\times 5\\)。步幅移动窗口，填充加边值。RGB跨通道相加，一个核\\(3\\times 3\\times 3\\)权重加偏置=28，四核112参数、四输出通道。"
               }
             }
           ],
@@ -4707,8 +4749,8 @@
               "zh": "窗口[[1,3],[2,0]]最大池化3、平均1.5。普通最大平均池化无可训练权重，降空间大小也丢位置细节。展平只重排为向量，不是学习新特征。"
             },
             {
-              "en": "For [[1, 3, 2, 0],[2, 0, 1, 4],[0, 1, 5, 2],[3, 2, 1, 0]], 2×2 windows, stride 2, no padding cover four nonoverlapping quadrants. Max output[[3, 4],[3, 5]]; average[[1.5, 1.75],[1.5, 2]]. Convolution multiplies by weights before summing; pooling takes a summary. Preserve the order of output rows and columns.",
-              "zh": "[[1,3,2,0],[2,0,1,4],[0,1,5,2],[3,2,1,0]]以2×2、步2、无填充覆盖四个不重叠块。最大输出[[3,4],[3,5]]，平均[[1.5,1.75],[1.5,2]]。卷积先乘权重求和，池化取汇总，输出仍需保持行列位置。"
+              "en": "For [[1, 3, 2, 0],[2, 0, 1, 4],[0, 1, 5, 2],[3, 2, 1, 0]], \\(2\\times 2\\) windows, stride 2, no padding cover four nonoverlapping quadrants. Max output[[3, 4],[3, 5]]; average[[1.5, 1.75],[1.5, 2]]. Convolution multiplies by weights before summing; pooling takes a summary. Preserve the order of output rows and columns.",
+              "zh": "[[1,3,2,0],[2,0,1,4],[0,1,5,2],[3,2,1,0]]以\\(2\\times 2\\)、步2、无填充覆盖四个不重叠块。最大输出[[3,4],[3,5]]，平均[[1.5,1.75],[1.5,2]]。卷积先乘权重求和，池化取汇总，输出仍需保持行列位置。"
             }
           ],
           "expanded": true,
@@ -4721,8 +4763,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For [[1, 3, 2, 0],[2, 0, 1, 4],[0, 1, 5, 2],[3, 2, 1, 0]], 2×2 windows, stride 2, no padding cover four nonoverlapping quadrants. Max output[[3, 4],[3, 5]]; average[[1.5, 1.75],[1.5, 2]]. Convolution multiplies by weights before summing; pooling takes a summary. Preserve the order of output rows and columns.",
-                "zh": "[[1,3,2,0],[2,0,1,4],[0,1,5,2],[3,2,1,0]]以2×2、步2、无填充覆盖四个不重叠块。最大输出[[3,4],[3,5]]，平均[[1.5,1.75],[1.5,2]]。卷积先乘权重求和，池化取汇总，输出仍需保持行列位置。"
+                "en": "For [[1, 3, 2, 0],[2, 0, 1, 4],[0, 1, 5, 2],[3, 2, 1, 0]], \\(2\\times 2\\) windows, stride 2, no padding cover four nonoverlapping quadrants. Max output[[3, 4],[3, 5]]; average[[1.5, 1.75],[1.5, 2]]. Convolution multiplies by weights before summing; pooling takes a summary. Preserve the order of output rows and columns.",
+                "zh": "[[1,3,2,0],[2,0,1,4],[0,1,5,2],[3,2,1,0]]以\\(2\\times 2\\)、步2、无填充覆盖四个不重叠块。最大输出[[3,4],[3,5]]，平均[[1.5,1.75],[1.5,2]]。卷积先乘权重求和，池化取汇总，输出仍需保持行列位置。"
               }
             }
           ]
@@ -4740,12 +4782,12 @@
           ],
           "paragraphs": [
             {
-              "en": "Input8×8×3 →4 kernels3×3, stride 1, no padding →6×6×4 →ReLU(same) →pool2×2, stride 2 →3×3×4 →flatten36 →dense3 →Softmax3. Convolution has(3×3×3+1)×4=112 parameters; dense has(36+1)×3=111; total223. ReLU, pooling, flatten and Softmax add no trainable parameters in this network.",
-              "zh": "输入8×8×3→四个3×3核步1无填充→6×6×4→ReLU同形→2×2池化步2→3×3×4→展平36→全连接3→Softmax3。卷积参数(3×3×3+1)×4=112，全连接(36+1)×3=111，总223。此网络ReLU、池化、展平、Softmax无可训练参数。"
+              "en": "Input\\(8\\times 8\\times 3\\) →4 kernels\\(3\\times 3\\), stride 1, no padding →\\(6\\times 6\\times 4\\) →ReLU(same) →pool\\(2\\times 2\\), stride 2 →\\(3\\times 3\\times 4\\) →flatten36 →dense3 →Softmax3. Convolution has\\((3\\times 3\\times 3+1)\\times 4=112\\) parameters; dense has\\((36+1)\\times 3=111\\); total223. ReLU, pooling, flatten and Softmax add no trainable parameters in this network.",
+              "zh": "输入\\(8\\times 8\\times 3\\)→四个\\(3\\times 3\\)核步1无填充→\\(6\\times 6\\times 4\\)→ReLU同形→\\(2\\times 2\\)池化步2→\\(3\\times 3\\times 4\\)→展平36→全连接3→Softmax3。卷积参数\\((3\\times 3\\times 3+1)\\times 4=112\\)，全连接\\((36+1)\\times 3=111\\)，总223。此网络ReLU、池化、展平、Softmax无可训练参数。"
             },
             {
-              "en": "The convolution produces144 values using shared112 parameters. Independently connecting144 outputs to all192 input values would need(192+1)×144=27, 792 parameters. Fewer parameters explain structural efficiency, not universal superiority. Occlusion, light and position changes still need task-specific data and evaluation. Output three scores become mutually exclusive probability estimates only with the appropriate Softmax and training.",
-              "zh": "卷积用共享112参数产144值，若144输出独立连接全部192输入需(192+1)×144=27,792参数。参数少解释结构效率，不保证任何任务更好。遮挡光照位置变化仍需任务数据评价，三分数配适当Softmax和训练才成为互斥概率估计。"
+              "en": "The convolution produces144 values using shared112 parameters. Independently connecting144 outputs to all192 input values would need\\((192+1)\\times 144=27,792\\) parameters. Fewer parameters explain structural efficiency, not universal superiority. Occlusion, light and position changes still need task-specific data and evaluation. Output three scores become mutually exclusive probability estimates only with the appropriate Softmax and training.",
+              "zh": "卷积用共享112参数产144值，若144输出独立连接全部192输入需\\((192+1)\\times 144=27,792\\)参数。参数少解释结构效率，不保证任何任务更好。遮挡光照位置变化仍需任务数据评价，三分数配适当Softmax和训练才成为互斥概率估计。"
             }
           ],
           "expanded": true,
@@ -4761,8 +4803,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "The convolution produces144 values using shared112 parameters. Independently connecting144 outputs to all192 input values would need(192+1)×144=27, 792 parameters. Fewer parameters explain structural efficiency, not universal superiority. Occlusion, light and position changes still need task-specific data and evaluation. Output three scores become mutually exclusive probability estimates only with the appropriate Softmax and training.",
-                "zh": "卷积用共享112参数产144值，若144输出独立连接全部192输入需(192+1)×144=27,792参数。参数少解释结构效率，不保证任何任务更好。遮挡光照位置变化仍需任务数据评价，三分数配适当Softmax和训练才成为互斥概率估计。"
+                "en": "The convolution produces144 values using shared112 parameters. Independently connecting144 outputs to all192 input values would need\\((192+1)\\times 144=27,792\\) parameters. Fewer parameters explain structural efficiency, not universal superiority. Occlusion, light and position changes still need task-specific data and evaluation. Output three scores become mutually exclusive probability estimates only with the appropriate Softmax and training.",
+                "zh": "卷积用共享112参数产144值，若144输出独立连接全部192输入需\\((192+1)\\times 144=27,792\\)参数。参数少解释结构效率，不保证任何任务更好。遮挡光照位置变化仍需任务数据评价，三分数配适当Softmax和训练才成为互斥概率估计。"
               }
             }
           ]
@@ -4825,7 +4867,7 @@
                 "zh": "等先验甲8红2蓝、乙2红8蓝，观测红。"
               },
               "answer": {
-                "en": "Posterior A=.8, not certainty.",
+                "en": "Posterior \\(A=.8\\), not certainty.",
                 "zh": "甲后验.8，不是确定。"
               }
             },
@@ -4865,8 +4907,8 @@
             {
               "id": "review-6-8",
               "prompt": {
-                "en": "Identical3×3 patches with the same kernel and bias give what?",
-                "zh": "相同3×3块用同核同偏置，结果？"
+                "en": "Identical\\(3\\times 3\\) patches with the same kernel and bias give what?",
+                "zh": "相同\\(3\\times 3\\)块用同核同偏置，结果？"
               },
               "answer": {
                 "en": "Identical local outputs; shared weights need not be relearned per location.",
@@ -4896,8 +4938,8 @@
               "zh": "NumPy的ndarray以明确形状组织同类型数值。安装命令在终端而非Python文件运行：python -m pip install numpy pandas matplotlib scikit-learn jieba。安装运行应同环境，本平台改为按需加载浏览器包。示例需导入和前置数据。"
             },
             {
-              "en": "leaves=[[4, 1],[6, 2],[8, 3]] has shape(3, 2), ndim2, size 6. A3×10 table still has two array axes, while each sample has10 features. dtype controls element type: assigning decimals into an integer array can truncate them. zeros((2, 3)) and ones((2, 3)) prepare arrays. arange(0, 6, 2) gives0, 2, 4 with excluded endpoint; linspace(0, 1, 5) gives0,.25,.5,.75, 1 with endpoints included by default. Floating steps can make arange’s endpoints surprising; use linspace for a fixed count.",
-              "zh": "leaves=[[4,1],[6,2],[8,3]]形状(3,2)、轴数2、元素6。3×10表仍两轴，每样本却10特征。dtype决定类型，小数赋入整数数组可能截断。zeros((2,3))、ones((2,3))准备数组。arange(0,6,2)得0,2,4不含终点；linspace(0,1,5)默认含端点得0,.25,.5,.75,1。浮点步长可能影响arange端点，固定数量用linspace。"
+              "en": "leaves=[[4, 1],[6, 2],[8, 3]] has shape(3, 2), ndim2, size 6. A\\(3\\times 10\\) table still has two array axes, while each sample has10 features. dtype controls element type: assigning decimals into an integer array can truncate them. zeros((2, 3)) and ones((2, 3)) prepare arrays. arange(0, 6, 2) gives0, 2, 4 with excluded endpoint; linspace(0, 1, 5) gives0,.25,.5,.75, 1 with endpoints included by default. Floating steps can make arange’s endpoints surprising; use linspace for a fixed count.",
+              "zh": "leaves=[[4,1],[6,2],[8,3]]形状(3,2)、轴数2、元素6。\\(3\\times 10\\)表仍两轴，每样本却10特征。dtype决定类型，小数赋入整数数组可能截断。zeros((2,3))、ones((2,3))准备数组。arange(0,6,2)得0,2,4不含终点；linspace(0,1,5)默认含端点得0,.25,.5,.75,1。浮点步长可能影响arange端点，固定数量用linspace。"
             }
           ],
           "exercise": "numpy",
@@ -4909,8 +4951,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "leaves=[[4, 1],[6, 2],[8, 3]] has shape(3, 2), ndim2, size 6. A3×10 table still has two array axes, while each sample has10 features. dtype controls element type: assigning decimals into an integer array can truncate them. zeros((2, 3)) and ones((2, 3)) prepare arrays. arange(0, 6, 2) gives0, 2, 4 with excluded endpoint; linspace(0, 1, 5) gives0,.25,.5,.75, 1 with endpoints included by default. Floating steps can make arange’s endpoints surprising; use linspace for a fixed count.",
-                "zh": "leaves=[[4,1],[6,2],[8,3]]形状(3,2)、轴数2、元素6。3×10表仍两轴，每样本却10特征。dtype决定类型，小数赋入整数数组可能截断。zeros((2,3))、ones((2,3))准备数组。arange(0,6,2)得0,2,4不含终点；linspace(0,1,5)默认含端点得0,.25,.5,.75,1。浮点步长可能影响arange端点，固定数量用linspace。"
+                "en": "leaves=[[4, 1],[6, 2],[8, 3]] has shape(3, 2), ndim2, size 6. A\\(3\\times 10\\) table still has two array axes, while each sample has10 features. dtype controls element type: assigning decimals into an integer array can truncate them. zeros((2, 3)) and ones((2, 3)) prepare arrays. arange(0, 6, 2) gives0, 2, 4 with excluded endpoint; linspace(0, 1, 5) gives0,.25,.5,.75, 1 with endpoints included by default. Floating steps can make arange’s endpoints surprising; use linspace for a fixed count.",
+                "zh": "leaves=[[4,1],[6,2],[8,3]]形状(3,2)、轴数2、元素6。\\(3\\times 10\\)表仍两轴，每样本却10特征。dtype决定类型，小数赋入整数数组可能截断。zeros((2,3))、ones((2,3))准备数组。arange(0,6,2)得0,2,4不含终点；linspace(0,1,5)默认含端点得0,.25,.5,.75,1。浮点步长可能影响arange端点，固定数量用linspace。"
               }
             }
           ]
@@ -4933,8 +4975,8 @@
               "zh": "leaves[1,0]=6；leaves[:,0]形状(3,)，[:,0:1]为(3,1)。leaves[leaves[:,0]>=6]保留6和8的行。数组条件需各自括号并用&或|，不是单布尔的and/or。reshape保持元素数，可有一个−1推算维度。"
             },
             {
-              "en": "For numbers1…6 arranged3×2, reshape(2, 3) gives[[1, 2, 3],[4, 5, 6]], while transpose gives[[1, 3, 5],[2, 4, 6]]. Equal final shapes can have different semantics. Basic slices often share storage: editing a[: 2] can modify a. Use.copy() for independence; integer-array and boolean indexing generally produce copies. Do not assume every subset is a view.",
-              "zh": "1到6排3×2，reshape(2,3)得[[1,2,3],[4,5,6]]，转置得[[1,3,5],[2,4,6]]，同形可不同义。基本切片常共享存储，编辑a[:2]可改a，独立需.copy()；整数数组和布尔索引通常复制，不能把所有子数组都当视图。"
+              "en": "For numbers1…6 arranged\\(3\\times 2\\), reshape(2, 3) gives[[1, 2, 3],[4, 5, 6]], while transpose gives[[1, 3, 5],[2, 4, 6]]. Equal final shapes can have different semantics. Basic slices often share storage: editing a[: 2] can modify a. Use.copy() for independence; integer-array and boolean indexing generally produce copies. Do not assume every subset is a view.",
+              "zh": "1到6排\\(3\\times 2\\)，reshape(2,3)得[[1,2,3],[4,5,6]]，转置得[[1,3,5],[2,4,6]]，同形可不同义。基本切片常共享存储，编辑a[:2]可改a，独立需.copy()；整数数组和布尔索引通常复制，不能把所有子数组都当视图。"
             }
           ],
           "expanded": true,
@@ -4949,8 +4991,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For numbers1…6 arranged3×2, reshape(2, 3) gives[[1, 2, 3],[4, 5, 6]], while transpose gives[[1, 3, 5],[2, 4, 6]]. Equal final shapes can have different semantics. Basic slices often share storage: editing a[: 2] can modify a. Use.copy() for independence; integer-array and boolean indexing generally produce copies. Do not assume every subset is a view.",
-                "zh": "1到6排3×2，reshape(2,3)得[[1,2,3],[4,5,6]]，转置得[[1,3,5],[2,4,6]]，同形可不同义。基本切片常共享存储，编辑a[:2]可改a，独立需.copy()；整数数组和布尔索引通常复制，不能把所有子数组都当视图。"
+                "en": "For numbers1…6 arranged\\(3\\times 2\\), reshape(2, 3) gives[[1, 2, 3],[4, 5, 6]], while transpose gives[[1, 3, 5],[2, 4, 6]]. Equal final shapes can have different semantics. Basic slices often share storage: editing a[: 2] can modify a. Use.copy() for independence; integer-array and boolean indexing generally produce copies. Do not assume every subset is a view.",
+                "zh": "1到6排\\(3\\times 2\\)，reshape(2,3)得[[1,2,3],[4,5,6]]，转置得[[1,3,5],[2,4,6]]，同形可不同义。基本切片常共享存储，编辑a[:2]可改a，独立需.copy()；整数数组和布尔索引通常复制，不能把所有子数组都当视图。"
               }
             }
           ]
@@ -4969,12 +5011,12 @@
           ],
           "paragraphs": [
             {
-              "en": "Array [1, 2]*2 gives[2, 4], but list [1, 2]*2 repeats[1, 2, 1, 2]. Arrays use * elementwise and @ for matrix products. Broadcasting aligns shapes from the last axis, requiring equal sizes or size 1 on each aligned axis. A=[[2, 1, 3],[0, 4, 1]], w=[1, 2, 1]: A*w=[[2, 2, 3],[0, 8, 1]], A@w=[7, 9].",
-              "zh": "数组[1,2]*2得[2,4]，列表则重复[1,2,1,2]。数组*逐元素，@矩阵乘。广播从末轴对齐，各轴相等或有一方为1。A=[[2,1,3],[0,4,1]]、w=[1,2,1]，A*w=[[2,2,3],[0,8,1]]，A@w=[7,9]。"
+              "en": "Array [1, 2]*2 gives[2, 4], but list [1, 2]*2 repeats[1, 2, 1, 2]. Arrays use * elementwise and @ for matrix products. Broadcasting aligns shapes from the last axis, requiring equal sizes or size 1 on each aligned axis. \\(A=\\begin{bmatrix}2 & 1 & 3\\\\0 & 4 & 1\\end{bmatrix}\\), w=[1, 2, 1]: A*w=[[2, 2, 3],[0, 8, 1]], A@w=[7, 9].",
+              "zh": "数组[1,2]*2得[2,4]，列表则重复[1,2,1,2]。数组*逐元素，@矩阵乘。广播从末轴对齐，各轴相等或有一方为1。\\(A=\\begin{bmatrix}2 & 1 & 3\\\\0 & 4 & 1\\end{bmatrix}\\)、w=[1,2,1]，A*w=[[2,2,3],[0,8,1]]，A@w=[7,9]。"
             },
             {
-              "en": "For leaves3×2, subtract [1,.5] by columns to get[[3,.5],[5, 1.5],[7, 2.5]]; add [[10],[20],[30]] by rows to get[[14, 11],[26, 22],[38, 33]]. A shape(3,) row offset fails against the final size 2. mean(axis=0) collapses rows, leaving column means[6, 2]; axis=1 leaves row means[2.5, 4, 5.5]. Overall mean mixes all six values. sum/min/max/std accept axes; NumPy std defaults to population denominator n, while other tools may default n−1. For predictions[8, 11, 12] minus truths[10, 10, 10], MAE=5/3, MSE=3.",
-              "zh": "3×2叶片表减[1,.5]按列得[[3,.5],[5,1.5],[7,2.5]]，加[[10],[20],[30]]按行得[[14,11],[26,22],[38,33]]；形状(3,)与末维2不匹配。mean(axis=0)消去行，留列均值[6,2]，axis=1留行均值[2.5,4,5.5]，全均值混合六值。sum/min/max/std可指定轴，NumPy std默认总体分母n，其他工具可默认n−1。预测[8,11,12]与真[10,10,10]得MAE=5/3、MSE=3。"
+              "en": "For leaves\\(3\\times 2\\), subtract [1,.5] by columns to get[[3,.5],[5, 1.5],[7, 2.5]]; add [[10],[20],[30]] by rows to get[[14, 11],[26, 22],[38, 33]]. A shape(3,) row offset fails against the final size 2. mean(axis=0) collapses rows, leaving column means[6, 2]; axis=1 leaves row means[2.5, 4, 5.5]. Overall mean mixes all six values. sum/min/max/std accept axes; NumPy std defaults to population denominator n, while other tools may default n−1. For predictions[8, 11, 12] minus truths[10, 10, 10], \\(\\mathrm{MAE}=\\frac{5}{3}\\), \\(\\mathrm{MSE}=3\\).",
+              "zh": "\\(3\\times 2\\)叶片表减[1,.5]按列得[[3,.5],[5,1.5],[7,2.5]]，加[[10],[20],[30]]按行得[[14,11],[26,22],[38,33]]；形状(3,)与末维2不匹配。mean(axis=0)消去行，留列均值[6,2]，axis=1留行均值[2.5,4,5.5]，全均值混合六值。sum/min/max/std可指定轴，NumPy std默认总体分母n，其他工具可默认n−1。预测[8,11,12]与真[10,10,10]得\\(\\mathrm{MAE}=\\frac{5}{3}\\)、\\(\\mathrm{MSE}=3\\)。"
             }
           ],
           "exercise": "numpy",
@@ -4988,8 +5030,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "For leaves3×2, subtract [1,.5] by columns to get[[3,.5],[5, 1.5],[7, 2.5]]; add [[10],[20],[30]] by rows to get[[14, 11],[26, 22],[38, 33]]. A shape(3,) row offset fails against the final size 2. mean(axis=0) collapses rows, leaving column means[6, 2]; axis=1 leaves row means[2.5, 4, 5.5]. Overall mean mixes all six values. sum/min/max/std accept axes; NumPy std defaults to population denominator n, while other tools may default n−1. For predictions[8, 11, 12] minus truths[10, 10, 10], MAE=5/3, MSE=3.",
-                "zh": "3×2叶片表减[1,.5]按列得[[3,.5],[5,1.5],[7,2.5]]，加[[10],[20],[30]]按行得[[14,11],[26,22],[38,33]]；形状(3,)与末维2不匹配。mean(axis=0)消去行，留列均值[6,2]，axis=1留行均值[2.5,4,5.5]，全均值混合六值。sum/min/max/std可指定轴，NumPy std默认总体分母n，其他工具可默认n−1。预测[8,11,12]与真[10,10,10]得MAE=5/3、MSE=3。"
+                "en": "For leaves\\(3\\times 2\\), subtract [1,.5] by columns to get[[3,.5],[5, 1.5],[7, 2.5]]; add [[10],[20],[30]] by rows to get[[14, 11],[26, 22],[38, 33]]. A shape(3,) row offset fails against the final size 2. mean(axis=0) collapses rows, leaving column means[6, 2]; axis=1 leaves row means[2.5, 4, 5.5]. Overall mean mixes all six values. sum/min/max/std accept axes; NumPy std defaults to population denominator n, while other tools may default n−1. For predictions[8, 11, 12] minus truths[10, 10, 10], \\(\\mathrm{MAE}=\\frac{5}{3}\\), \\(\\mathrm{MSE}=3\\).",
+                "zh": "\\(3\\times 2\\)叶片表减[1,.5]按列得[[3,.5],[5,1.5],[7,2.5]]，加[[10],[20],[30]]按行得[[14,11],[26,22],[38,33]]；形状(3,)与末维2不匹配。mean(axis=0)消去行，留列均值[6,2]，axis=1留行均值[2.5,4,5.5]，全均值混合六值。sum/min/max/std可指定轴，NumPy std默认总体分母n，其他工具可默认n−1。预测[8,11,12]与真[10,10,10]得\\(\\mathrm{MAE}=\\frac{5}{3}\\)、\\(\\mathrm{MSE}=3\\)。"
               }
             }
           ]
@@ -5207,8 +5249,8 @@
               "zh": "安装名scikit-learn，导入sklearn。以超参数创建模型，fit(X,y)学习，predict(X新)预测。X为(样本数,特征数)，单特征需[[1],[2],[3]]，新样本[[4]]，单目标y通常一维。LinearRegression拟合1,2,3→2,4,6，coef_约2、intercept_约0，4预测8，尾下划线是拟合属性。"
             },
             {
-              "en": "A degree2 PolynomialFeatures(include_bias=False) plus LinearRegression learns targets2, 5, 10 at1, 2, 3 and predicts17 at4. The regression already has an intercept, so no extra all-one feature is needed. StandardScaler fit on10, 20, 30 saves mean 20, std√(200/3)≈8.165, transforms to[−1.225, 0, 1.225], and new40 to2.449. Re-fitting on40 gives0 in a different coordinate system. ravel changes display shape, not scaling. A pipeline ensures imputation, scaling, model stay in order; do not omit or double a transform.",
-              "zh": "二次PolynomialFeatures(include_bias=False)加LinearRegression对1,2,3目标2,5,10得4预测17，回归已含截距不需全一列。StandardScaler拟合10,20,30保存均20、标准差√(200/3)约8.165，转换[−1.225,0,1.225]、40变2.449；在40重拟合得0，是另一坐标。ravel改显示形状不参与缩放。流水线保持填充缩放模型顺序，不省略也不重复处理。"
+              "en": "A degree2 PolynomialFeatures(include_bias=False) plus LinearRegression learns targets2, 5, 10 at1, 2, 3 and predicts17 at4. The regression already has an intercept, so no extra all-one feature is needed. StandardScaler fit on10, 20, 30 saves mean 20, std\\(\\sqrt{\\frac{200}{3}}\\approx 8.165\\), transforms to[−1.225, 0, 1.225], and new40 to2.449. Re-fitting on40 gives0 in a different coordinate system. ravel changes display shape, not scaling. A pipeline ensures imputation, scaling, model stay in order; do not omit or double a transform.",
+              "zh": "二次PolynomialFeatures(include_bias=False)加LinearRegression对1,2,3目标2,5,10得4预测17，回归已含截距不需全一列。StandardScaler拟合10,20,30保存均20、标准差√(\\(\\frac{200}{3}\\))约8.165，转换[−1.225,0,1.225]、40变2.449；在40重拟合得0，是另一坐标。ravel改显示形状不参与缩放。流水线保持填充缩放模型顺序，不省略也不重复处理。"
             }
           ],
           "exercise": "model",
@@ -5220,8 +5262,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "A degree2 PolynomialFeatures(include_bias=False) plus LinearRegression learns targets2, 5, 10 at1, 2, 3 and predicts17 at4. The regression already has an intercept, so no extra all-one feature is needed. StandardScaler fit on10, 20, 30 saves mean 20, std√(200/3)≈8.165, transforms to[−1.225, 0, 1.225], and new40 to2.449. Re-fitting on40 gives0 in a different coordinate system. ravel changes display shape, not scaling. A pipeline ensures imputation, scaling, model stay in order; do not omit or double a transform.",
-                "zh": "二次PolynomialFeatures(include_bias=False)加LinearRegression对1,2,3目标2,5,10得4预测17，回归已含截距不需全一列。StandardScaler拟合10,20,30保存均20、标准差√(200/3)约8.165，转换[−1.225,0,1.225]、40变2.449；在40重拟合得0，是另一坐标。ravel改显示形状不参与缩放。流水线保持填充缩放模型顺序，不省略也不重复处理。"
+                "en": "A degree2 PolynomialFeatures(include_bias=False) plus LinearRegression learns targets2, 5, 10 at1, 2, 3 and predicts17 at4. The regression already has an intercept, so no extra all-one feature is needed. StandardScaler fit on10, 20, 30 saves mean 20, std\\(\\sqrt{\\frac{200}{3}}\\approx 8.165\\), transforms to[−1.225, 0, 1.225], and new40 to2.449. Re-fitting on40 gives0 in a different coordinate system. ravel changes display shape, not scaling. A pipeline ensures imputation, scaling, model stay in order; do not omit or double a transform.",
+                "zh": "二次PolynomialFeatures(include_bias=False)加LinearRegression对1,2,3目标2,5,10得4预测17，回归已含截距不需全一列。StandardScaler拟合10,20,30保存均20、标准差√(\\(\\frac{200}{3}\\))约8.165，转换[−1.225,0,1.225]、40变2.449；在40重拟合得0，是另一坐标。ravel改显示形状不参与缩放。流水线保持填充缩放模型顺序，不省略也不重复处理。"
               }
             }
           ]
@@ -5246,12 +5288,12 @@
               "zh": "鸢尾花150样本、三类、四厘米特征：花萼长宽、花瓣长宽。种子7按标签分层，60%训练、20%验证、20%测试，形状(90,4),(30,4),(30,4)。用均值填充、StandardScaler和候选KNN3、KNN7、深度3树（种子7）。本数据无缺失，填充演示完整流水线；树阈值通常不需缩放，KNN需要。"
             },
             {
-              "en": "Validation accuracies for the book setup are29/30, 28/30, 27/30, selecting KNN3. A strict > comparison preserves the first candidate on a tie. Only then test: 27/30=.900, matrix[[10, 0, 0],[0, 8, 2],[0, 1, 9]] using labels[0, 1, 2]. The book tests the already fitted selected model, without merging validation and retraining. That alternative would require refitting the entire pipeline while still excluding test data.",
-              "zh": "书中设置验证正确29/30、28/30、27/30，选KNN3，严格>平分时保留先项。然后才测试27/30=.900，标签[0,1,2]矩阵[[10,0,0],[0,8,2],[0,1,9]]。书中直接测试已拟合所选模型，未合并验证重训，另一流程需整流水线重拟合且仍排除测试。"
+              "en": "Validation accuracies for the book setup are29/30, \\(\\frac{28}{30}\\), \\(\\frac{27}{30}\\), selecting KNN3. A strict > comparison preserves the first candidate on a tie. Only then test: \\(\\frac{27}{30}\\)=.900, matrix[[10, 0, 0],[0, 8, 2],[0, 1, 9]] using labels[0, 1, 2]. The book tests the already fitted selected model, without merging validation and retraining. That alternative would require refitting the entire pipeline while still excluding test data.",
+              "zh": "书中设置验证正确29/30、\\(\\frac{28}{30}\\)、\\(\\frac{27}{30}\\)，选KNN3，严格>平分时保留先项。然后才测试27/30=.900，标签[0,1,2]矩阵[[10,0,0],[0,8,2],[0,1,9]]。书中直接测试已拟合所选模型，未合并验证重训，另一流程需整流水线重拟合且仍排除测试。"
             },
             {
-              "en": "New measurement[[5.1, 3.5, 1.4,.2]] predicts0, setosa. Preserve column meaning even when shape remains1×4. np.flatnonzero(y_test!=predictions) finds wrong positions in the test array, not original IDs; preserve IDs for traceability. Using those test errors to improve the model begins another development round and needs a new independent final evaluation. A single error among30 shifts accuracy3.3 percentage points.",
-              "zh": "新[[5.1,3.5,1.4,.2]]预测0,setosa。同形1×4也需同列义。np.flatnonzero(y_test!=预测)找测试数组错位，不是原始编号，需保留ID追溯。若据测试错例改进，进入新开发轮，需新独立最终评价。30条错一条改3.3百分点。"
+              "en": "New measurement[[5.1, 3.5, 1.4,.2]] predicts0, setosa. Preserve column meaning even when shape remains\\(1\\times 4\\). np.flatnonzero(y_test!=predictions) finds wrong positions in the test array, not original IDs; preserve IDs for traceability. Using those test errors to improve the model begins another development round and needs a new independent final evaluation. A single error among30 shifts accuracy3.3 percentage points.",
+              "zh": "新[[5.1,3.5,1.4,.2]]预测0,setosa。同形\\(1\\times 4\\)也需同列义。np.flatnonzero(y_test!=预测)找测试数组错位，不是原始编号，需保留ID追溯。若据测试错例改进，进入新开发轮，需新独立最终评价。30条错一条改3.3百分点。"
             }
           ],
           "expanded": true,
@@ -5266,8 +5308,8 @@
                 "zh": "不看讲解解释这个概念，重做其例子，并说出会改变方法或结论的条件。"
               },
               "answer": {
-                "en": "New measurement[[5.1, 3.5, 1.4,.2]] predicts0, setosa. Preserve column meaning even when shape remains1×4. np.flatnonzero(y_test!=predictions) finds wrong positions in the test array, not original IDs; preserve IDs for traceability. Using those test errors to improve the model begins another development round and needs a new independent final evaluation. A single error among30 shifts accuracy3.3 percentage points.",
-                "zh": "新[[5.1,3.5,1.4,.2]]预测0,setosa。同形1×4也需同列义。np.flatnonzero(y_test!=预测)找测试数组错位，不是原始编号，需保留ID追溯。若据测试错例改进，进入新开发轮，需新独立最终评价。30条错一条改3.3百分点。"
+                "en": "New measurement[[5.1, 3.5, 1.4,.2]] predicts0, setosa. Preserve column meaning even when shape remains\\(1\\times 4\\). np.flatnonzero(y_test!=predictions) finds wrong positions in the test array, not original IDs; preserve IDs for traceability. Using those test errors to improve the model begins another development round and needs a new independent final evaluation. A single error among30 shifts accuracy3.3 percentage points.",
+                "zh": "新[[5.1,3.5,1.4,.2]]预测0,setosa。同形\\(1\\times 4\\)也需同列义。np.flatnonzero(y_test!=预测)找测试数组错位，不是原始编号，需保留ID追溯。若据测试错例改进，进入新开发轮，需新独立最终评价。30条错一条改3.3百分点。"
               }
             }
           ]
@@ -5285,8 +5327,8 @@
           ],
           "paragraphs": [
             {
-              "en": "MLPClassifier(hidden_layer_sizes=(8,), solver=\"lbfgs\", alpha=.01, max_iter=2000, random_state=7) uses one hidden layer of8;(8, 4) means two. L-BFGS differs from ordinary hand-coded gradient descent. Convergence warnings invite inspection of scaling, optimization and limits, not suppression. SVC(kernel=\"linear\", C=1) is another estimator with its own settings.",
-              "zh": "MLPClassifier(hidden_layer_sizes=(8,),solver=\"lbfgs\",alpha=.01,max_iter=2000,random_state=7)为一个8单元隐藏层，(8,4)为两层。L-BFGS不同于手写普通梯度下降。收敛警告需检查尺度、优化和上限，不只是隐藏。SVC(kernel=\"linear\",C=1)是有自身设置的另一模型。"
+              "en": "MLPClassifier(hidden_layer_sizes=(8,), solver=\"lbfgs\", alpha=.01, max_iter=2000, random_state=7) uses one hidden layer of8;(8, 4) means two. L-BFGS differs from ordinary hand-coded gradient descent. Convergence warnings invite inspection of scaling, optimization and limits, not suppression. SVC(kernel=\"linear\", \\(C=1\\)) is another estimator with its own settings.",
+              "zh": "MLPClassifier(hidden_layer_sizes=(8,),solver=\"lbfgs\",alpha=.01,max_iter=2000,random_state=7)为一个8单元隐藏层，(8,4)为两层。L-BFGS不同于手写普通梯度下降。收敛警告需检查尺度、优化和上限，不只是隐藏。SVC(kernel=\"linear\",\\(C=1\\))是有自身设置的另一模型。"
             },
             {
               "en": "KMeans(n_clusters=2, n_init=10, random_state=7).fit_predict([[1],[2],[8],[9]]) gives centers1.5, 8.5 in possibly reversed order. Cluster IDs are names, not natural class labels; do not compute classification accuracy by treating their numbers as matching species IDs. jieba.lcut returns a Chinese word list; jieba.cut an iterable. Segmentation depends on dictionary, algorithm and context and does not equal sentence understanding. Read input types/shapes, defaults, mutation, return values and minimal examples; record versions because interfaces change. jieba is discussed as an optional local-library example and is not among the Academy’s downloaded Python packages.",
@@ -5448,8 +5490,8 @@
           ],
           "paragraphs": [
             {
-              "en": "Fixed weights .75,.25 on values(2, 0),(0, 4) give(1.5, 1). To derive weights, use q=(1, 0), keys(2, 0),(0, 2), values(2, 0),(0, 4). Dot scores2, 0 divided by√2 become≈1.414, 0. Softmax weights≈.804,.196 give output≈(1.609,.782) when intermediate precision is retained. Rounding the weights first gives(1.608,.784), explaining the book’s hand/code difference.",
-              "zh": "固定权重.75,.25作用于值(2,0),(0,4)得(1.5,1)。若推权重，用q=(1,0)、键(2,0),(0,2)、值(2,0),(0,4)，点积分数2,0除√2约1.414,0，Softmax约.804,.196，保留中间精度得输出约(1.609,.782)。先舍入权重得(1.608,.784)，解释书中手算与代码差别。"
+              "en": "Fixed weights .75,.25 on values(2, 0),(0, 4) give(1.5, 1). To derive weights, use \\(q=(1, 0)\\), keys(2, 0),(0, 2), values(2, 0),(0, 4). Dot scores2, 0 divided by\\(\\sqrt{2}\\) become≈1.414, 0. Softmax weights≈.804,.196 give output≈(1.609,.782) when intermediate precision is retained. Rounding the weights first gives(1.608,.784), explaining the book’s hand/code difference.",
+              "zh": "固定权重.75,.25作用于值(2,0),(0,4)得(1.5,1)。若推权重，用\\(q=(1, 0)\\)、键(2,0),(0,2)、值(2,0),(0,4)，点积分数2,0除\\(\\sqrt{2}\\)约1.414,0，Softmax约.804,.196，保留中间精度得输出约(1.609,.782)。先舍入权重得(1.608,.784)，解释书中手算与代码差别。"
             },
             {
               "en": "Change q to(0, 1) and the scores swap: attention is not permanent token importance. Subtract max(score) before exponentiation for stability; ratios and weights stay unchanged. Real queries, keys, values come from learned matrices applied to representations; this example gives their values directly for one position and head.",

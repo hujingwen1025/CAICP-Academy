@@ -72,6 +72,20 @@ An unavailable or invalid browser store produces a visible warning. In-memory wo
 
 Each block can contain paragraphs, formulas, tables, diagrams, code/output, lab links and retrieval checks. Keep concept IDs stable. Video placements reference a concept ID and catalog video ID; use verified seconds for start/end, or the full video. Keep both guidance languages and a source caption. Do not add autoplay, unverified timestamps or rehost external videos.
 
+### Math notation
+
+Lessons, question text/options/explanations, glossary entries and numerical labs use locally bundled KaTeX 0.19.0. Math includes visual HTML and accessible MathML, works offline after caching, and needs no LaTeX installation or external math service. Python code, program output and personal notes remain plain text. Long equations scroll inside their own column. Invalid expressions retain an escaped text fallback.
+
+Use `\(x^2\)` for inline math and `\[\frac{1}{n}\sum_i x_i\]` for a display equation in authored text. JSON requires doubled backslashes:
+
+```json
+{"en": "The square is \\(x^2\\).", "zh": "平方为\\(x^2\\)。"}
+```
+
+Dedicated formula blocks use `{ "tex": "...", "fallback": { "en": "...", "zh": "..." } }`; omit delimiters in `tex`. Keep explanations and meaningful symbol definitions in both languages. Render through the shared math-text helper only in authored text slots; attributes, code, output and user notes use ordinary escaping. HTML/link commands in TeX are disabled. `npm test` strictly checks every expression and the reviewable conversion inventory in `tests/fixtures/math-conversions.json`.
+
+To upgrade KaTeX, replace its pinned module, CSS, complete referenced font directory and license together, record the version in third-party notices, update the service-worker asset list/cache version, and rerun the rendering/offline checks. Docker includes these files through its existing assets copy.
+
 To add content: add both en/zh strings; assign stable unique IDs; add valid prerequisite and question references; update routes and source/license metadata; run tests; bump the service worker cache version. A saved-data version change requires an explicit migration or a documented incompatibility; do not silently reinterpret IDs.
 
 ## Licensing

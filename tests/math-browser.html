@@ -1,0 +1,35 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Academy math DOM checks</title>
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<h1>Math DOM checks</h1>
+<p id="result" role="status">Running…</p>
+<div id="fixture"></div>
+<script type="module">
+import {mathText} from '../js/math.js';
+import {patchLearningDOM} from '../js/learning.js';
+const fixture=document.querySelector('#fixture');
+const markup=lang=>`<details open><summary>${lang==='en'?'Detail':'细节'}</summary><p>${mathText(lang==='en'?String.raw`Slope: \(x^2\)`:String.raw`斜率：\(x^2\)`)}</p></details><figure><div data-video-slot="local-test"></div><button class="video-close" hidden>Close</button></figure><textarea id="draft">plain notes</textarea>`;
+try {
+ fixture.innerHTML=markup('en');
+ const frame=document.createElement('iframe');frame.srcdoc='<p>Local player fixture; no external provider.</p>';
+ let loads=0;frame.addEventListener('load',()=>loads++);
+ const ready=new Promise(resolve=>frame.addEventListener('load',resolve,{once:true}));
+ fixture.querySelector('[data-video-slot]').append(frame);await ready;
+ const details=fixture.querySelector('details');details.open=true;
+ const draft=fixture.querySelector('textarea');draft.value=String.raw`Notes \(x^2\) stay plain`;draft.focus();draft.setSelectionRange(3,3);
+ patchLearningDOM(fixture,markup('zh'));
+ await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+ const checks={
+  iframeAttached:frame===fixture.querySelector('iframe')&&frame.isConnected,
+  noPlayerReload:loads===1,
+  disclosureOpen:details.open,
+  mathML:!!fixture.querySelector('math'),
+  translated:fixture.textContent.includes('斜率'),
+  focusRetained:document.activeElement===draft,
+  draftRetained:draft.value===String.raw`Notes \(x^2\) stay plain`&&draft.selectionStart===3,
+ };
+ if(Object.values(checks).some(x=>!x))throw Error(JSON.stringify(checks));
+ document.querySelector('#result').textContent='PASS: active iframe, load count, disclosure, MathML, translation, focus and plain notes.';
+} catch(error){document.querySelector('#result').textContent='FAIL: '+error.message;}
+</script>
