@@ -2,6 +2,8 @@
 
 Independent English / Simplified Chinese learning for CAICP E, J and S. Built as portable static HTML, CSS and JavaScript; no build, account, backend or API key.
 
+Hosted at [https://caicp.williamhu.tech/](https://caicp.williamhu.tech/).
+
 ## Run locally
 
 Serve this folder over HTTP (opening index.html directly with file:// cannot load the modules or offline cache):
