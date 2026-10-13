@@ -1,5 +1,11 @@
 # Validation record — 2026-10-06
 
+## Give-up attempt update — 2026-10-13
+
+Added a bilingual, confirmed Give up attempt action for unfinished practice, diagnostic, review and exam attempts. It clears the active attempt without submitting, marking remaining answers, revealing explanations or adding a result. Previously checked responses and their existing review schedules are retained. Captured attempt IDs and expiry/submission guards prevent stale confirmations from discarding another or completed attempt. State format v1 is unchanged; cache version 1.2.4 delivers the new controls offline.
+
+Automated tests exercise all four modes in both languages using the actual app module and event handlers with a minimal DOM/local-storage fixture. They cover selection/flags, cancellation, confirmation, no feedback/correctness marks/results after abandonment, already-checked response retention and absence of the control on completed attempts. Core checks cover persistence/reload, backup round trips, unchanged learning state, deadline boundaries and stale confirmations. Browser automation was unavailable for this update, so these are event-handler integration checks, not a fresh visual or assistive-technology review.
+
 ## LaTeX update — 2026-10-07
 
 KaTeX 0.19.0 is bundled locally with its stylesheet, complete referenced font directory and original MIT license. The shared renderer supports explicit inline/display delimiters, HTML-and-MathML output, escaped ordinary text, disabled trusted commands and readable error fallbacks. Seven formula blocks now have structured TeX and bilingual fallbacks. The source conversion inventory records 516 distinct original/transcribed expression pairs; 2,507 delimited expressions occur across the authored bilingual data. Numerical labs additionally generate typeset computed results while retaining plain-text results. Python code, executable exam snippets, program output and personal notes remain plain text.

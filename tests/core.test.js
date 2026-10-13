@@ -2,7 +2,7 @@ import test from 'node:test';
 import {Worker} from 'node:worker_threads';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {defaults,grade,sameAnswer,recordResponse,reviewNext,expired,mastery,validateState,decodeBackup,encodeBackup,DAY,diagnosticQuestions} from '../js/core.js';
+import {defaults,grade,sameAnswer,recordResponse,reviewNext,expired,mastery,validateState,decodeBackup,encodeBackup,DAY,diagnosticQuestions,abandonAttempt} from '../js/core.js';
 import {createStore} from '../js/store.js';
 import {metrics,sortingFrames,binaryFrames,traverse,convolution,kmeansStep,numbers} from '../js/labs.js';
 const curriculum=JSON.parse(readFileSync(new URL('../data/curriculum.json',import.meta.url))),exams=JSON.parse(readFileSync(new URL('../data/exams.json',import.meta.url)));
@@ -22,6 +22,42 @@ test('shared and image-dependent materials are retained for independent review',
 test('multiple-select grading requires the exact set regardless of order',()=>{assert.ok(sameAnswer([3,0,1],[0,1,3]));assert.ok(!sameAnswer([0,1],[0,1,3]));const q=questions.get('book-E-11');const a=attempt('practice',[q.id]);a.answers[q.id]=[0,1];assert.equal(grade(a,questions).earned,0);a.answers[q.id]=[3,1,0];assert.equal(grade(a,questions).earned,5);a.answers[q.id]=[0,1,2,3];assert.equal(grade(a,questions).earned,0);});
 test('unanswered questions score zero and perfect book answers score 100',()=>{const paper=exams.papers[0],a=attempt('exam',paper.questionIds);assert.equal(grade(a,questions).earned,0);for(const id of paper.questionIds)a.answers[id]=questions.get(id).answer;assert.equal(grade(a,questions).earned,100);});
 test('deadline survives backup and expires at the exact boundary',()=>{const state=defaults(),a=attempt('exam');state.active=a;const restored=decodeBackup(encodeBackup(state),ids);assert.equal(restored.active.deadline,a.deadline);assert.equal(expired(a,a.deadline-1),false);assert.equal(expired(a,a.deadline),true);a.submittedAt=a.deadline;assert.equal(expired(a,a.deadline+1),false);});
+test('giving up any unfinished mode discards answers and flags without marking or saving a result',()=>{
+ for(const kind of ['practice','diagnostic','review','exam']){
+  const state=defaults();state.active=attempt(kind,['drill-1.1-1','drill-1.1-2']);
+  state.active.answers['drill-1.1-1']=[0];state.active.flags['drill-1.1-2']=true;
+  state.notes['1.1']='Keep my notes';state.completed=['1.1'];
+  const expected=structuredClone({...state,active:null});
+  assert.equal(abandonAttempt(state,state.active.id,101),true);
+  assert.deepEqual(state,expected);
+  assert.deepEqual(decodeBackup(encodeBackup(state),ids),expected);
+ }
+});
+test('giving up preserves previously checked answers and their review schedules',()=>{
+ const state=defaults(),q=questions.get('drill-1.1-1');state.active=attempt('practice',[q.id,'drill-1.1-2']);
+ recordResponse(state,q,q.answer,state.active.id,101);state.active.graded[q.id]=true;
+ state.active.answers['drill-1.1-2']=[0];
+ const expected=structuredClone({...state,active:null});
+ assert.equal(abandonAttempt(state,state.active.id,102),true);assert.deepEqual(state,expected);
+ assert.equal(state.responses.length,1);assert.ok(!state.reviews['drill-1.1-2']);
+});
+test('stale confirmations cannot discard a different, submitted, or expired attempt',()=>{
+ const state=defaults();assert.equal(abandonAttempt(state,'missing',101),false);
+ state.active=attempt();const initial=structuredClone(state);
+ assert.equal(abandonAttempt(state,'old-attempt',101),false);assert.deepEqual(state,initial);
+ state.active.submittedAt=102;const submitted=structuredClone(state);
+ assert.equal(abandonAttempt(state,state.active.id,103),false);assert.deepEqual(state,submitted);
+ state.active=attempt('exam');const timed=structuredClone(state);
+ assert.equal(abandonAttempt(state,state.active.id,state.active.deadline),false);assert.deepEqual(state,timed);
+ assert.equal(abandonAttempt(state,state.active.id,state.active.deadline-1),true);
+});
+test('abandonment persists across reload without resuming or adding responses',()=>{
+ let saved;const storage={getItem(){return saved||null;},setItem(k,v){saved=v;}};
+ const store=createStore(ids,storage);store.state.active=attempt();store.state.active.answers['drill-1.1-1']=[1];store.save();
+ assert.equal(abandonAttempt(store.state,store.state.active.id,101),true);assert.equal(store.save(),true);
+ const restored=createStore(ids,storage);assert.equal(restored.state.active,null);
+ assert.deepEqual(restored.state.responses,[]);assert.deepEqual(restored.state.attempts,[]);
+});
 test('review intervals increase on correct recall and reset after a mistake',()=>{let r;for(const n of [1,3,7,14,30,30]){r=reviewNext(r,true,1000);assert.equal(r.due,1000+n*DAY);}r=reviewNext(r,false,1000);assert.equal(r.stage,0);assert.equal(r.due,1000+DAY);});
 test('checking and submission do not double-record a response',()=>{const state=defaults(),q=questions.get('drill-1.1-1');recordResponse(state,q,q.answer,'one',100);recordResponse(state,q,[],'one',200);assert.equal(state.responses.length,1);assert.equal(state.responses[0].correct,true);recordResponse(state,q,[],'two',300);assert.equal(state.responses.length,2);assert.equal(mastery(state,'1.1',questions).percent,0);assert.deepEqual(state.completed,[]);});
 test('a complete state round-trips including code, notes, flags, language and active answers',()=>{const state=defaults();state.completed=['1.1'];state.bookmarks=['2.1'];state.notes={'1.1':'<b>raw notes</b> 中文'};state.settings.lang='zh';state.python.drafts.basics='print("你好")';state.python.inputs.basics='5';state.active=attempt();state.active.answers['drill-1.1-1']=[0];state.active.flags['drill-1.1-1']=true;recordResponse(state,questions.get('drill-1.1-1'),[0],state.active.id);assert.deepEqual(decodeBackup(encodeBackup(state),ids),state);});

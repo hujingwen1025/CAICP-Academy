@@ -9,6 +9,14 @@ export function recordResponse(state,q,answer,attemptId,now=Date.now()){
  const correct=sameAnswer(answer,q.answer);state.responses.push({questionId:q.id,answer:[...answer],correct,at:now,attemptId});state.reviews[q.id]=reviewNext(state.reviews[q.id],correct,now);
 }
 export function expired(quiz,now=Date.now()){return !!(quiz?.deadline&&now>=quiz.deadline&&!quiz.submittedAt);}
+// Discard only the captured, unfinished attempt. Previously checked responses
+// are independent learning records; never submit or grade remaining answers.
+export function abandonAttempt(state,attemptId,now=Date.now()){
+ const active=state.active;
+ if(!active||active.id!==attemptId||active.submittedAt!==null||expired(active,now))return false;
+ state.active=null;
+ return true;
+}
 export function mastery(state,lessonId,questions){const latest=new Map();for(const r of state.responses)if(questions.get(r.questionId)?.lessonIds.includes(lessonId))latest.set(r.questionId,r.correct);return {correct:[...latest.values()].filter(Boolean).length,total:latest.size,percent:latest.size?Math.round(100*[...latest.values()].filter(Boolean).length/latest.size):null};}
 export function localDay(t){const d=new Date(t);return `${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;}
 export function validateState(s,ids){
